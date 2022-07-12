@@ -1,0 +1,3448 @@
+
+Trình dịch PHP nào là trình dịch bạn cho là đúng?
+A. PHP Translator
+B. PHP Interpreter
+C. PHP Communicator
+D. Không có câu nào đúng
+ANSWER: B
+
+Engine nào là nền tảng chính của PHP?
+A. ZEDAT
+B.  ZEND
+C. ZENAT
+D. ZETA
+ANSWER: B
+
+Kết quả đoạn code sau là gì? <?php $x = array(     1,     3,     2,     3,     7,     8,     9,     7,     3 ); $y = array_count_values($x); echo $y[8]; ?>
+A. 43
+B. 1
+C. 8
+D. 6
+ANSWER: B
+
+Khi thực thi PHP4 Script nó nhanh hơn PHP3 mấy lần
+A. Gấp 25
+B. Gấp 3
+C. Gấp 40
+D. Gấp 100
+ANSWER: D
+
+Cài đặt Apache xong bạn có thể kiểm tra servername của bạn qua cách gọi ulr http://localhost, ngoài cách này còn cách nào khác nữa không?
+A. http://127.0.0.1
+B. http://127.0.1.0
+C. http://127.0.0.0
+D. http://000.0.0.0  
+ANSWER: A
+
+Khi sử dụng bộ PHP & Apache bạn phải trả
+A. 1500$
+B. 150$
+C. 50$ / mỗi tháng
+D. Không tốn đồng nào
+ANSWER: D
+
+Ai là người đầu tiên phát minh ra PHP?
+A. James Gosling
+B. Tim Berners-Lee
+C. Todd Fast
+D. Rasmus Lerdorf
+ANSWER: D
+
+PHP dựa theo syntax của ngôn ngữ nào?
+A. Basic
+B. Pascal
+C. C
+D. VB Script
+ANSWER: C
+
+W tượng trưng cho cụm từ nào trong gói WAMP?
+A. Word
+B. Windows
+C. Whistler
+D. While
+ANSWER: B
+
+Truớc khi đổi thành PHP: Hypertext Preprocessor nguồn gốc của nó phát xuất từ cụm từ nào
+A. Preminum Handled Processor
+B. Personal HomePage Tools
+C. Printed Homepage Product
+D. Personal Hightec Processor
+ANSWER: B
+
+Khi thực thi biến này $Var3 = $var1 % $var2 dạng type của nó là
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: B
+
+Dạng type nào sẽ được tự động dịch khi gán biến này $var = 50.0
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: A
+
+Số 41 này tương đương với số Bit nào
+A. 10010010
+B. 00101001
+C. 00010101
+D. 00101101
+ANSWER: B
+
+Ứng dụng PHP có thể gắn ở
+A. Chỉ gắn được ở phần Header
+B. Chỉ gắn được ở phần Body
+C. Chỗ nào cũng được trong văn bản (tệp) HTML
+D. A, B, C đều đúng
+ANSWER: C
+
+Câu lệnh nào là đúng , khi bạn muốn biến đổi dang (type) thành integer?
+A. $item = (int) "100Laptop";
+B. $tem = "int""100Laptop";
+C. $item = [int] "100Laptop";
+D. $item = INT"100Laptop";
+ANSWER: A
+
+Ký hiệu nào dùng để kết thúc câu lệnh trong PHP?
+A. Dấu chấm đôi ( :: )
+B. Dấu phẩy ( , )
+C. Dấu chấm phẩy ( ; )
+D. Dấu thán ( ! )
+ANSWER: C
+
+Type boolean trả cho ta giá trị gì ?
+A. True hay false
+B. Equal hay unequal
+C. Bigger hay smaller
+D. Yes hay none
+ANSWER: A
+
+PHP không hổ trợ dạng type nào?
+A. Integer
+B. String
+C. Single
+D. Double
+ANSWER: C
+
+Dấu (biểu tượng) nào đuợc dùng để làm thành một biến
+A. !
+B. ?
+C. %
+D. $
+ANSWER: D
+
+Loại biến nào được dùng trong PHP?
+A. Typeless variable
+B. Headless variable
+C. Nameless variable
+D. Irrevelant variable
+ANSWER: A
+
+Dạng type nào dùng cho chuỗi? 
+A. Integer
+B. Double
+C. String
+D. Boolean
+ANSWER: C
+
+Câu lệnh PHP nào không tương thích trong văn bản HTML?
+A. <?php echo "Hello World"; ?>
+B. <? echo "Hello World"; ?>
+C. <% echo "Hello World"; %>
+D. <! echo "Hello Wordl"; !>
+ANSWER: D
+
+Câu lệnh nào dùng để xuất ra trình duyệt? 
+A. say
+B. write
+C. echo
+D. cout<<
+ANSWER: C
+
+PHP là từ viết tắt của? 
+A. PHP: Hypertext Preprocessor
+B. Personal Hypertext Processor
+C. Private Home Page
+D. Personal Home Page
+ANSWER: A
+
+PHP được bao bởi: 
+A. <?php…?>
+B. <script>...</script>
+C. <?php>...</?>
+D. <&>...</&>
+ANSWER: A
+
+Để in ra "Hello World" trong PHP 
+A. "Hello World";
+B. Document.Write("Hello World");
+C. echo "Hello World";
+D. Cả A, B, C đều đúng
+ANSWER: C
+
+Mọi biến trong php đều bắt đầu bởi? 
+A. !
+B. &
+C. $
+D. @
+ANSWER: C
+
+Để kết thúc 1 dòng trong php? 
+A. Chấm (.)
+B. New line
+C. Dấu chấm phẩy (;)
+D. </php>
+ANSWER: C
+
+Cú pháp php gần giống nhất với 
+A. Perl and C
+B. VBScript
+C. JavaScript
+D. Java
+ANSWER: A
+
+Làm cách nào để lấy biến truyền qua server thông qua phương thức GET trong php 
+A. Request.Form;
+B. $_GET[];
+C. Request.QueryString;
+D. Request
+ANSWER: B
+
+Trong php, có thể sử dụng cả dấu nháy đơn ‘’ và dấu nháy kép “” cho chuỗi 
+A. False
+B. True
+ANSWER: B
+
+Cách nào đúng để include 1 file "time.inc" ? 
+A. <?php require("time.inc"); ?>
+B. <?php include_file("time.inc"); ?>
+C. <% include file="time.inc" %>
+D. <!--include file="time.inc"-->
+ANSWER: A
+
+Mở file “time.txt” để đọc 
+A. fopen("time.txt","r");
+B. open("time.txt","read");
+C. open("time.txt");
+D. fopen("time.txt","r+");
+ANSWER: A
+
+PHP cho phép gửi mail trực tiếp từ script 
+A. False
+B. True
+ANSWER: B
+
+Kết nối db nào là đúng 
+A. mysql_connect("localhost");
+B. connect_mysql("localhost");
+C. mysql_open("localhost");
+D. dbopen("localhost");
+ANSWER: A
+
+Để +1 cho biến $count 
+A. $count =+1
+B. ++count
+C. count++;
+D. $count++;
+ANSWER: C
+
+Để ghi chú trong file php 
+A. <comment>…</comment>
+B. /*…*/
+C. <!--…-->
+D. *\..\*
+ANSWER: B
+
+PHP có thể chạy bằng IIS trong windows
+A. True
+B. False
+ANSWER: A
+
+Trong PHP 5, MySQL được mặc định enable
+A. True
+B. False
+ANSWER: A
+
+Biến nào có tên sai ? 
+A. $my-Var
+B. $myVar
+C. $my_Var
+ANSWER: A
+
+Trong PHP, die() và exit() là như nhau 
+A. True
+B. False
+ANSWER: A
+
+Có cách nào submit form mà không cần button submit không? 
+A. Yes
+B. No
+ANSWER: A
+
+Hàm nào sau đây dùng để lấy 1 hoặc nhiều giá trị ngẫu nhiên từ mảng php? 
+A. array_rand()
+B. array_random()
+C. Random_array()
+D. Rand_array()
+ANSWER: A
+
+Đoạn code sau đây phát sinh ra kết quả gì <?php $x = array(     "aaa",     "ttt",     "www",     "ttt",     "yyy",     "tttt" ); $y = array_count_values($x); echo $y[ttt];
+A. 2
+B. 3
+C. 1
+D. 4
+ANSWER: A
+
+Để nối 2 chuỗi trong php, sử dụng …? 
+A. dot operator (.)
+B. plus operator (+)
+ANSWER: A
+
+Để chèn nội dung 1 tập tin vào, thì sử dụng 
+A. include[]
+B. #include()
+C. include()
+D. #include{}
+ANSWER: C
+
+Hàm nào để ngưng script php chạy tiếp? 
+A. break()
+B. quit()
+C. die()
+ANSWER: C
+
+Hàm nào để in biến, chuỗi, số… ra ngoài trình duyệt trong php? 
+A. echo();
+B. printf
+C. ""
+ANSWER: A
+
+Kết quả của script là gì? <?php define("x", "5"); $x = x + 10; echo x; ?>
+A. Error 
+B. 15
+C. 10
+D. 5
+ANSWER: D
+
+Kết quả trả về của đoạn script là gì? <?php $rest = substr("abcdef", -1); $rest = substr("abcdef", 0, -1); ?>
+A. f,abcde
+B. a,fedcb
+C. b,abcdef
+D. a,abcde
+ANSWER: A
+
+<?php $str = "3dollars"; $a = 20; $a += $str; print ($a); ?>   Đoạn script sau đây cho ra kết quả gì?
+A. 23 dollars
+B. 203 dollars
+C. 320 dollars
+D. 23
+ANSWER: D
+
+<?php function zz(&$x) {     $x = $x + 5; } $x = 10; zz($x); echo $x; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. 5
+B. 0
+C. 15
+D. 10
+ANSWER: C
+
+<?php $x = array(     2 => "mouse",     7 => "keyboard" ); $y = array_keys($x); echo $y[1]; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. keyboard
+B. mouse
+C. 7
+D. 2
+ANSWER: C
+
+<?php $data = "98.8degrees"; (double)$data; (int)$data; (string)$string; echo $data; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. 98
+B. 98.8
+C. 98.8 degrees
+D. degrees
+ANSWER: C
+
+<?php $x = "101.5degrees"; (double)$x; (int)$x; echo (string)$x; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. 101.5
+B. degrees
+C. 101
+D. 101.5degrees
+ANSWER: D
+
+Để comment 1 dòng trong php, ngoài dấu // thì còn có dấu #, đúng hay sai?
+A. Đúng
+B. Sai
+ANSWER: A
+
+Tên biến nào sau đây sai? 
+A. $number-in-class
+B. $nic
+C. $NumberInClass
+D. $number_in_class
+ANSWER: A
+
+<?php $father = "mother"; $mother = "son"; echo $$father; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. son
+B. mother
+C. motherson
+D. error
+ANSWER: A
+
+<?php $arr = array(     5 => 1,     12 => 2 ); $arr[] = 56; $arr["x"] = 42; echo var_dump($arr); ?>   Đoạn code sau cho ra kết quả gì?
+A. 42
+B. array(3) { [12]=> int(2) [13]=> int(56) ["x"]=> int(42) }
+C. array(4) { [5]=>int(1) [12]=> int(2) [13]=> int(56) ["x"]=> int(42) }
+D. 1,2,56,42
+ANSWER: C
+
+<?php $date = "2009-5-19"; $time = "14:31:38"; $datetime = $date . $time; echo date("Y-m-d:H:i:s", strtotime($datetime)); ?>   Đoạn code sau cho ra kết quả gì?
+A. 2009-5-19:14:31:38 
+B. 2009-5-19:2:31:38
+C. 19-5-2009:2:31:38
+D. 19/5/2009:14:31:38
+ANSWER: A
+
+<?php $color = array(     "red",     "yellow",     "white" ); $x = in_array("black", $color); if ($x == 0) echo "good bye"; if ($x == 1) echo "Hello"; ?>   Đoạn code sau cho ra kết quả gì?
+A. Hello
+B. Error
+C. good bye
+D. None of the above
+ANSWER: C
+
+Khi thực thi biến này $Var3 = $var1 % $var2 dạng type của nó là
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: B
+
+Dạng type nào sẽ được tự động dịch khi gán biến này $var = 50.0 
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: A
+
+Để chạy code PHP, bạn cần cài đặt 
+A. PHP
+B. PHP, Apache
+C. Apache, IIS
+D. IIS
+ANSWER: B
+
+Tên biến nào sau đây là hợp lệ 
+A. $3hello
+B. $this
+C. $_hello
+D. Tất cả đều không hợp lệ
+ANSWER: C
+
+Câu nào dưới đây có kết quả bằng với $add += $add ? 
+A. $add = $add
+B. $add = $add +$add
+C. $add = $add + 1
+D. $add = $add + $add + 1
+ANSWER: B
+
+Câu lệnh nào là đúng , khi bạn muốn biến đổi dang (type) thành integer? 
+A. $item = (int) "100Laptop";
+B. $tem = "int""100Laptop";
+C. $item = [int] "100Laptop";
+D. $item = INT"100Laptop";
+ANSWER: A
+
+Type boolean trả cho ta giá trị gì ? 
+A. true hay false
+B. equal hay unequal
+C. bigger hay smaller
+D. yes hay none
+ANSWER: A
+
+PHP không hổ trợ dạng type nào? 
+A. integer
+B. string
+C. single
+D. double
+ANSWER: C
+
+Dấu (biểu tượng) nào đuợc dùng để làm thành một biến 
+A. !
+B. ?
+C. $
+D. &
+ANSWER: C
+
+Khi sử dụng bộ PHP & Apache bạn phải trả 
+A. $1500
+B. $150
+C. $50 / mỗi tháng
+D. Miễn phí
+ANSWER: D
+
+MySQL chạy trên hệ điều hành nào  
+A. Mac OS
+B. Chỉ Windows
+C. Chỉ Linux
+D. Cả ba câu trên đều đúng
+ANSWER: D
+
+Câu lệnh nào để thêm 1 dòng vào bảng trong MYSQL/MYSQLI 
+A. Add new
+B. Insert into
+C. Update new
+D. Insert new
+ANSWER: B
+
+Trong mệnh đề LIKE, cú pháp nào là đúng để tìm các giá trị nào kết thúc bằng “qpt” 
+A. LIKE %qpt
+B. LIKE *ton
+C. LIKE ton$
+D. LIKE ^.*ton$
+ANSWER: A
+
+MYSQL/MYSQLI là 
+A. Ngôn ngữ lập trình
+B. Hệ quản trị cấu trúc dữ liệu
+C. Kỹ thuật để xây dựng các chương trình có độ tin cậy cao
+D. Hệ quản trị CSDL
+ANSWER: D
+
+Mệnh đề SQL nào hạn chế số dòng trả về trong 1 câu truy vấn 
+A. AND
+B. WHERE
+C. HAVING
+D. FROM
+ANSWER: B
+
+Câu lệnh SELECT mà không có mệnh đề WHERE sẽ trả về 
+A. Mọi dòng dữ liệu từ bảng của câu lệnh WHERE trước đó
+B. Mọi dữ liệu từ bảng
+C. Câu lệnh sai vì SELECT là phải có mệnh đề WHERE
+D. Luôn trả về giá trị NULL
+ANSWER: B
+
+Trong MySQL, Câu lệnh nào vừa xóa dữ liệu của bảng, vừa xóa luôn bảng 
+A. TRUNCATE
+B. DROP
+C. EMPTY
+D. DEL
+ANSWER: B
+
+Trong PHP, hàm nào dùng để nhận dữ liệu trả về từ câu truy vấn database? 
+A. get_array() and get_row()
+B. get_array() and get_column()
+C. fetch_array() and fetch_row()
+D. fetch_array() and fetch_column()
+ANSWER: C
+
+Trong lớp mysqli của PHP, phương thức nào dùng để gửi câu truy vấn 
+A. query()
+B. send_query()
+C. sendquery()
+D. query_send()
+ANSWER: A
+
+PHP hỗ trợ hệ Quản Trị CSDL nào sớm nhất?  
+A. Oracle Database
+B. SQL
+C. SQL+
+D. MySQL
+ANSWER: B
+
+Cho bảng employees với dữ liệu sau emp_id 	emp_name 1	Brush 2	Jerrin Câu lệnh truy vấn sau đây sẽ trả về giá trị gì? Select count(*) from employees
+A. 3
+B. 2
+C. 1
+D. Tất cả đều sai
+ANSWER: B
+
+Mệnh đề SQL nào hạn chế số dòng trả về trong 1 câu truy vấn 
+A. AND
+B. WHERE
+C. HAVING
+D. FROM
+ANSWER: B
+
+Câu lệnh SELECT mà không có mệnh đề WHERE sẽ trả về 
+A. Mọi dòng dữ liệu từ bảng của câu lệnh WHERE trước đó
+B. Mọi dữ liệu từ bảng
+C. Câu lệnh sai vì SELECT là phải có mệnh đề WHERE
+D. Luôn trả về giá trị NULL
+ANSWER: B
+
+Trong MySQL, Câu lệnh nào vừa xóa dữ liệu của bảng, vừa xóa luôn bảng 
+A. TRUNCATE
+B. DROP
+C. EMPTY
+D. DEL
+ANSWER: B
+
+Các tập tin PHP có phần mở rộng mặc định là 
+A. .html
+B. .xml
+C. .php
+D. .ph
+ANSWER: C
+
+Trình thông dịch trong PHP được gọi là? 
+A. PHP Interpreter
+B. PHP Translator
+C. PHP Communicator
+D. Không có câu nào đúng
+ANSWER: A
+
+Ai là người tạo ra ngôn ngữ PHP? 
+A. James Gosling
+B. Tim Berners-Lee
+C. Todd Fast
+D. Rasmus Lerdorf
+ANSWER: D
+
+PHP dựa theo cú pháp của ngôn ngữ nào? 
+A. Basic
+B. Pascal
+C. C
+D. VB Script
+ANSWER: C
+
+Kí tự W trong WAMP tượng trưng cho từ 
+A. Word
+B. Windows
+C. Whistler
+D. While
+ANSWER: B
+
+Khi thực thi: $var3 = $var1 % $var2, dạng type của $var3 là 
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: B
+
+Dạng type nào sẽ được tự động dịch khi thực thi lệnh gán: $var = 50.0 
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: A
+
+Để viết code PHP, bạn có thể sử dụng bộ Editor 
+A. Notepad
+B. Notepad ++
+C. Adobe Dreamweaver
+D. Cả 3 câu trên đều đúng
+ANSWER: D
+
+Phiên bản …. giới thiệu tính năng Try/catch Exception? 
+A. PHP 4
+B. PHP 5
+C. PHP 5.3
+D. PHP 6
+ANSWER: B
+
+Câu lệnh nào lưu trữ giá trị 111 trong biến num? 
+A. int $num = 111;
+B. int mum = 111;
+C. $num = 111;
+D. 111 = $num;
+ANSWER: C
+
+<?php $num = 1; $num1 = 2; print $num . "+" . $num1; ?>   Kết quả của đoạn php dưới đây là?
+A. 3
+B. 1+2
+C. 1.+.2
+D. Xảy ra lỗi
+ANSWER: B
+
+<?php $num = “1”; $num1 = “2”; print $num + $num1; ?>   Kết quả của đoạn code dưới đây là?
+A. 3
+B. 1+2
+C. 12
+D. Xảy ra lỗi
+ANSWER: A
+
+Tên biến nào sau đây là hợp lệ 
+A. $3hello
+B. $this
+C. $_hello
+D. Tất cả đều không hợp lệ
+ANSWER: C
+
+<?php $color = "maroon"; $var = $color[2]; echo "$var"; ?>   Kết quả của đoạn code dưới đây là?
+A. a
+B. Error
+C. $var
+D. r
+ANSWER: D
+
+<?php $score = 1234; $scoreboard = (array)$score; echo $scoreboard[0]; ?>   Kết quả của đoạn code dưới đây là?
+A. 1
+B. Error
+C. 1234
+D. 2
+ANSWER: C
+
+<?php $total = "25 students"; $more = 10; $total = $total + $more; echo "$total"; ?>   Kết quả của đoạn code dưới đây là?
+A. Error
+B. 35 students
+C. 35
+D. 25 students
+ANSWER: C
+
+Câu nào dưới đây có kết quả bằng với $add += $add ? 
+A. $add = $add
+B. $add = $add +$add
+C. $add = $add + 1
+D. $add = $add + $add + 1
+ANSWER: B
+
+Câu lệnh nào output ra “$x” trên màn hình 
+A. echo “\$x”;
+B. echo “$$x”;
+C. ) echo “/$x”;
+D. echo “$x;”;
+ANSWER: A
+
+<?php $a = "clue"; $a .= "get"; echo "$a"; ?>   Kết quả của đoạn code dưới đây là?
+A. get
+B. true
+C. false
+D. clueget
+ANSWER: D
+
+<?php $a = 5; $b = 5; echo ($a === $b); ?>   Kết quả của đoạn code dưới đây là?
+A. 5 === 5
+B. Error
+C. 1
+D. False
+ANSWER: C
+
+Kí tự nào sau đây là kí tự xuống hàng trong PHP? 
+A. \r
+B. \n
+C. /n
+D. /r
+ANSWER: B
+
+<?php $num = 10; echo 'What is her age? \n She is $num years old'; ?>   Kết quả của đoạn code dưới đây là?
+A. What is her age? \n She is $num years old
+B. What is her age? She is $num years old
+C. What is her age? She is 10 years old
+D. What is her age?
+ANSWER: A
+
+<?php $team = "arsenal"; switch ($team) {     case "manu":         echo "I love man u";     case "arsenal":         echo "I love arsenal";     case "manc":         echo "I love manc"; } ?>   Kết quả của đoạn code dưới đây là?
+A. I love arsenal
+B. Error
+C. I love arsenalI love manc
+D. I love arsenalI love mancI love manu
+ANSWER: C
+
+Nếu $a = 12 thì câu lệnh sau: ($a == 12) ? 5 : 1 có kết quả là? 
+A. 12
+B. 1
+C. Error
+D. 5
+ANSWER: D
+
+<?php function calc($price, $tax = "") {     $total = $price + ($price * $tax);     echo "$total"; } calc(42); ?>   Kết quả của đoạn code dưới đây là?
+A. Error
+B. 0
+C. 42
+D. 84
+ANSWER: C
+
+<?php $op2 = "blabla"; function foo($op1) {     echo $op1;     echo $op2; } foo("hello"); ?>   Kết quả của đoạn code dưới đây là?
+A. helloblabla
+B. Error
+C. hello
+D. helloblablablabla
+ANSWER: C
+
+Trong PHP, hàm bắt đầu bởi __(2 dấu _) được gọi là hàm 
+A. Magic Function
+B. Inbuilt Function
+C. Default Function
+D. User Defined Function
+ANSWER: A
+
+<?php function foo($msg) {     echo "$msg"; } $var1 = "foo"; $var1("will this work"); ?>   Kết quả của đoạn code dưới đây là?
+A. Error.
+B. $msg
+C. 0
+D. will this work
+ANSWER: D
+
+Rasmus Lerdorf, người tạo ra ngôn ngữ PHP là người nước nào? 
+A. Úc
+B. Ấn Độ
+C. Greenland
+D. Anh
+ANSWER: C
+
+Trong PHP, hàm nào được sử dụng để nén 1 chuỗi? 
+A. zip_compress()
+B. zip()
+C. compress()
+D. gzcompress()
+ANSWER: D
+
+<?php echo chr(52); ?>   Kết quả của đoạn code dưới đây là?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: D
+
+<?php echo ord("hi"); ?>   Kết quả của đoạn code dưới đây là?
+A. 106
+B. 103
+C. 104
+D. 209
+ANSWER: C
+
+<?php echo ucwords("i love my country"); ?>   Kết quả của đoạn code dưới đây là?
+A. I love my country
+B. i love my Country
+C. I love my Country
+D. I Love My Country
+ANSWER: D
+
+<?php echo lcfirst("welcome to India"); ?>   Kết quả của đoạn code dưới đây là?
+A. welcome to India
+B. welcome to india
+C. Welcome to India
+D. Welcome to india
+ANSWER: A
+
+Mảng PHP bắt đầu bởi phần tử có vị trí  
+A. 1
+B. 2
+C. 0
+D. -1
+ANSWER: C
+
+Trong PHP, hàm nào dùng để kiểm tra 1 đối tượng có phải là mảng hay không? 
+A. this_array()
+B. is_array()
+C. do_array()
+D. in_array()
+ANSWER: B
+
+Trong PHP, hàm nào dùng để thêm phần tử vào cuối mảng? 
+A. array_unshift()
+B. into_array()
+C. inend_array()
+D. array_push()
+ANSWER: D
+
+<?php $fruits = array(     "apple",     "orange",     "banana" ); echo (next($fruits)); echo (next($fruits)); ?>   Kết quả của đoạn code dưới đây là?
+A. orangebanana
+B. appleorange
+C. orangeorange
+D. appleapple
+ANSWER: A
+
+Trong PHP, hàm nào dùng để truy xuất tới phần tử trước đó trong mảng? 
+A. last()
+B. before()
+C. prev()
+D. previous()
+ANSWER: C
+
+Trong PHP, hàm nào sắp xếp mảng theo thứ tự giảm dần? 
+A. sort()
+B. asort()
+C. rsort()
+D. dsort()
+ANSWER: C
+
+<?php $fruits = array(     "apple",     "mango",     "peach",     "pear",     "orange" ); $subset = array_slice($fruits, 2); print_r($subset); ?>   Kết quả của đoạn code dưới đây là?
+A. Array ( [0] => peach )
+B. Array ( [0] => apple [1] => mango [2] => peach )
+C. Array ( [0] => apple [1] => mango )
+D. Array ( [0] => peach [1] => pear [2] => orange )
+ANSWER: D
+
+<?php $number = array(     "4",     "hello",     2 ); echo (array_sum($number)); ?>   Kết quả của đoạn code dưới đây là?
+A. 4hello2
+B. 4
+C. 2
+D. 6
+ANSWER: D
+
+<?php $a = array(     12,     5,     2 ); echo (array_product($a)); ?>   Kết quả của đoạn code dưới đây là?
+A. 024
+B. 120
+C. 010
+D. 060
+ANSWER: B
+
+<?php $people = array(     "Peter",     "Susan",     "Edmund",     "Lucy" ); echo pos($people); ?>   Kết quả của đoạn code dưới đây là?
+A. Lucy
+B. Peter
+C. Susan
+D. Edmund
+ANSWER: B
+
+<?php define("GREETING", "Hello you! How are you today?"); echo constant("GREETING"); ?>   Kết quả của đoạn code dưới đây là?
+A. Hello you! How are you today?
+B. GREETING
+C. GREETING, Hello you! How are you today?
+D. “GREETING”,”Hello you! How are you today?”
+ANSWER: A
+
+<?php echo stripos("I love php, I love php too!", "PHP"); ?>   Kết quả của đoạn code dưới đây là?
+A. 3
+B. 7
+C. 8
+D. 10
+ANSWER: B
+
+<?php function mine($m) {     if ($m < 0) echo "less than 0";     if ($m >= 0) echo "Not True"; } mine(0); ?>   Kết quả của đoạn code dưới đây là?
+A. less than 0
+B. Not True
+C. Không ra kết quả
+D. Tất cả đều sai
+ANSWER: B
+
+<?php function 2myfunc() {     echo "Hello World"; } 2myfunc(); ?>   Kết quả của đoạn code dưới đây là?
+A. Hello World
+B. Không có kết quả
+C. Có lỗi xảy ra
+D. Tất cả đều sai
+ANSWER: C
+
+<?php function _func() {     echo "Hello World"; } _func(); ?>   Kết quả của đoạn code dưới đây là?
+A. Hello World
+B. Không có kết quả
+C. Có lỗi xảy ra
+D. Tất cả đều sai
+ANSWER: A
+
+<?php function mine($num) {     $num = 2 + $num;     echo $num; } mine(3); ?>   Kết quả của đoạn code dưới đây là?
+A. 3
+B. $num
+C. 5
+D. Tất cả đều sai
+ANSWER: C
+
+<?php function one($string) {     echo "I am " . $String; } one("Batman"); ?>   Kết quả của đoạn code dưới đây là?
+A. I am Batman
+B. I am
+C. Batman
+D. Có lỗi xảy ra
+ANSWER: D
+
+<?php function colour() {     $colors = array(         "red",         "green",         "blue",         "yellow"     );     foreach ($colors as $value)     {         echo "$value " . ",";     } } colour(); ?>   Kết quả của đoạn code dưới đây là?
+A. red,green,blue,yellow,
+B. green,blue,yellow,red
+C. red,blue,yellow,green
+D. red,green,yellow,blue
+ANSWER: A
+
+<?php function case () {     echo "Hello World! ";     echo "Hello World! ";     echo "Hello World! "; } case (); ?>   Kết quả của đoạn code dưới đây là?
+A. Hello World!
+B. Hello World! Hello World!
+C. Hello World! Hello World! Hello World!
+D. Tất cả đều sai
+ANSWER: C
+
+<?php function email() {     $email = ’user@yahoo . com’;     $new = strstr($email, ‘@'); 	echo $new; } email(); ?>   Kết quả của đoạn code dưới đây là?
+A. user
+B. user@yahoo.com
+C. @yahoo.com
+D. yahoo.com
+ANSWER: C
+
+<?php $x = 0; if ($x) print "hi"; else print "how are u"; ?>   Kết quả của đoạn code dưới đây là?
+A. how are u
+B. hi
+C. Error
+D. No output
+ANSWER: A
+
+<?php $x = 0; if ($x == 0) print "hi"; else print "how are u"; print "hello" ?>   Kết quả của đoạn code dưới đây là?
+A. how are uhello
+B. hihello
+C. hi
+D. No output
+ANSWER: B
+
+<?php $x = 0; if ($x == 1) if ($x >= 0) print "true"; else print "false"; ?>   Kết quả của đoạn code dưới đây là?
+A. true
+B. false
+C. error
+D. Không có kết quả in ra
+ANSWER: D
+
+<?php $a = 1; if (echo $a) print "True"; else print "False"; ?>   Kết quả của đoạn code dưới đây là?
+A. true
+B. false
+C. Xảy ra lỗi
+D. Không có kết quả trả về
+ANSWER: C
+
+<?php $a = 1; if (print $a) print "True"; else print "False"; ?>   Kết quả của đoạn code dưới đây là?
+A. 1True
+B. False
+C. Có lỗi xảy ra
+D. Màn hình trắng
+ANSWER: A
+
+Tính đóng gói trong OOP là
+A. Polymorphism
+B. Inheritance
+C. Encapsulation
+D. Abstraction
+ANSWER: C
+
+Tính đa hình trong OOP là 
+A. Abstraction
+B. Polymorphism
+C. Inheritance
+D. Differential
+ANSWER: B
+
+Tính kế thừa trong OOP là 
+A. Polymorphism
+B. Inheritance
+C. Encapsulation
+D. Abstraction
+ANSWER: B
+
+Từ khóa sau đây không được hỗ trợ bởi PHP 
+A. friendly
+B. final
+C. public
+D. static
+ANSWER: A
+
+Dòng nào để khởi tạo một đối tượng thuộc lớp có tên foo trong PHP 
+A.  $obj = new $foo;
+B. $obj = new foo;
+C. $obj = new foo ();
+D. obj = new foo ();
+ANSWER: C
+
+Dòng nào để định nghĩa hằng số PI trong PHP 
+A. constant PI = “3.1415”;
+B. const $PI = “3.1415”;
+C. constant PI = ‘3.1415’;
+D. const PI = ‘3.1415’;
+ANSWER: D
+
+Trong PHP, để gọi hằng số PI của lớp mathFunction 
+A. echo PI;
+B. echo mathFunction->PI;
+C. echo mathFunction::PI;
+D. echo mathFunction=PI;
+ANSWER: C
+
+Trong PHP, dòng nào dưới đây để gọi một phương thức 
+A. $object->methodName();
+B. object->methodName();
+C. object::methodName();
+D. $object::methodName();
+ANSWER: A
+
+PHP không hỗ trợ từ khóa tầm vực nào sau đây: 
+A. final
+B. abstract
+C. final, abstract
+D. Tất cả từ khóa đều được PHP hỗ trợ
+ANSWER: D
+
+Trong PHP, từ khóa tầm vực nào ngăn không cho một phương thức bị ghi đè bởi lớp con 
+A. Abstract
+B. Protected
+C. Final
+D. Static
+ANSWER: C
+
+Điều nào là đúng về phương thức dựng (Constructors) trong PHP: i) PHP 4 giới thiệu phương thức dựng ii) Phương thức dựng chấp nhận tham số truyền vào iii) Trong phương thức dựng có thể gọi đến các phương thức khác. iv) Trong phương thức dựng có thể gọi đến các phương thức dựng khác
+A. ii) và  iii) đúng
+B. Tất cả các câu trên đều đúng
+C. Tất cả các câu trên đều sai
+D. ii), iii) và iv) đúng
+ANSWER: B
+
+Khai báo nào là đúng cho phương thức dựng (Constructor) trong PHP 
+A. classname()
+B. _construct()
+C. function -construct()
+D. function __construct()
+ANSWER: D
+
+…. Giới thiệu từ khóa “instanceof” ? Điền vào dấu ... 
+A. PHP 4
+B. PHP 5
+C. PHP 5.3
+D. PHP 6
+ANSWER: B
+
+Trong PHP, hàm nào sau đây được dùng để xác định một lớp có tồn tại hay không? 
+A. exist()
+B. exist_class()
+C. class_exist()
+D. __exist()
+ANSWER: C
+
+Hàm nào sau đây được dùng để xác định loại của đối tượng object trong PHP 
+A. obj_type()
+B. type()
+C. is_a()
+D. is_obj()
+ANSWER: C
+
+Tính trừu tượng trong OOP là 
+A. Polymorphism
+B. Inheritance
+C. Encapsulation
+D. Abstraction
+ANSWER: D
+
+Tính trừu tượng trong OOP là 
+A. Polymorphism
+B. Inheritance
+C. Encapsulation
+D. Abstraction
+ANSWER: D
+
+Tính trừu tượng trong OOP là 
+A. Polymorphism
+B. Inheritance
+C. Encapsulation
+D. Abstraction
+ANSWER: D
+
+<?php class Example {     public $name;     function Sample()     {         echo "This is an example";     } } ?>   Trong đoạn code dưới đây, …… là một thuộc tính
+A. echo “This is an example”;
+B. public $name;
+C. class Example
+D. function sample()
+ANSWER: B
+
+Trong PHP, từ khóa nào được dùng để truy xuất đến các phương thức và thuộc tính trong chính lớp đó 
+A. private
+B. public
+C. protected
+D. $this
+ANSWER: D
+
+Trong PHP, từ khóa nào cho phép các phương thức và thuộc tính của lớp có thể được truy xuất mà không cần khởi tạo đối tượng của lớp đó
+A. protected
+B. final
+C. static
+D. private
+ANSWER: C
+
+<?php $a = 5; $b = 12; $c = 10; $d = 7; $e = ($a * $b) + $c * $d / $a; print ($e); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 74
+B. 154
+C. 26
+D. 130
+ANSWER: A
+
+<?php $b = false; if ($b = true) print ("true"); else print ("false"); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ? 
+A. False
+B. True
+C. Có lỗi xảy ra
+D. True false
+ANSWER: B
+
+<?php for ($x = 1;$x <= 2;$x++) {     for ($y = 1;$y <= 3;$y++)     {         if ($x == $y) continue;         print ("x = $x  y =  $y");     } } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A.  x = 2 y = 3
+B. x = 1 y = 1
+C. x = 2 y = 2
+D. x = 3 y = 3
+ANSWER: A
+
+<?php $x = 25; while ($x < 10) {     $x--; } print ($x); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 25
+B. 0
+C. Có xảy ra lỗi
+D. 10
+ANSWER: A
+
+<?php switch (1) {     case 1:         print ("Book Details");     case 2:         print ("Book Author");     default:         print ("Missing Book"); } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. Book Details
+B. Book Author
+C. Missing Book
+D. Book DetailsBook AuthorMissing Book
+ANSWER: D
+
+<?php function modvalue() {     $a = 20;     $b = 4;     $c = $a % $b;     print ($c); } modvalue(); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 4
+B. 0
+C. 20
+D. 5
+ANSWER: B
+
+<?php $a = 5; $b = 12; $c = 10; $d = 7; $e = ($a * $b) + $c * $d / $a; print ($e); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 154
+B. 74
+C. 130
+D. 26
+ANSWER: B
+
+<?php function b($a = 4) {     $a = $a / 2;     return $a; } $a = 10; b($a); echo $a; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 5
+B. 10
+C. 2
+D. Có lỗi xảy ra
+ANSWER: B
+
+<?php $a; for ($a = 1;$a <= 9;$a++) {     if ($a == 5) continue;     print ($a); } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 12345
+B. 56789
+C. 12346789
+D. 123456789
+ANSWER: C
+
+<? echo (int)"1235Jason"; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ? 
+A. 1235
+B. Có lỗi xảy ra
+C. 0
+D. 1235Jason
+ANSWER: A
+
+Chức năng "Loại bỏ phần tử cuối cùng của mảng và trả về phần tử cuối cùng đã được loại bỏ" là chức năng của hàm nào trong các hàm sau đây
+A. array_pop
+B. array_shift
+C. array_unique
+D. unset
+ANSWER: A
+
+Chức năng "Tính tổng các phần tử trong mảng" là chức năng của hàm nào trong các hàm sau đây
+A. sum
+B. array_sum
+C. sum_array
+D. Cả 3 đáp án trên
+ANSWER: B
+
+Chức năng " Chuyển một chuỗi thành một mảng" là chức năng của hàm nào trong các hàm sau đây
+A. str_to_array
+B. str_array
+C. implode
+D. explode
+ANSWER: D
+
+Chức năng " Chuyển một mảng thành một chuỗi" là chức năng của hàm nào trong các hàm sau đây
+A. array_to_str
+B. array_str
+C. implode
+D. explode
+ANSWER: C
+
+Chức năng "Làm tròn số" không phải là chức năng của hàm nào trong các hàm sau đây
+A. round
+B. ceil
+C. floor
+D. round_number
+ANSWER: D
+
+<?php $array = array(     "a1" => 'x',     "a2" => 'e',     "a3" => 'z' ); asort($array); foreach ($array as $keys => $values) {     print "$keys = $values"; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. a2 = e a1 = x a3 = z
+B. a1 = e a2 = x a3 = z
+C. 0 = e 1 =x 2 = z
+D. Có lỗi xảy ra
+ANSWER: A
+
+<?php $array = array(     "a1" => x,     "a2" => e,     "a3" => z ); ksort($array); foreach ($array as $keys => $values) {     print "$keys = $values "; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ? 
+A. a1 = x a2 = e a3 = z
+B. a1 = e a2 = x a3 = z
+C. 0 = e 1 = x 2 = z
+D. Có lỗi xảy ra
+ANSWER: A
+
+<?php $array1 = array(     "a",     "b",     "c",     "d",     "e",     "f" ); $array2 = array_slice($array1, -3); foreach ($array2 as $val) {     print "$val "; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. b c d
+B. a b c
+C. d e f
+D.  c d e
+ANSWER: C
+
+<?php $string1 = "ab"; $string2 = "cd"; $string1 = $string1 . $string2; $string3 = "abc"; $string1 .= $string3; echo $string1; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. cdabcab
+B. abc
+C. cdabc
+D. abcdabc
+ANSWER: D
+
+Chức năng "Kiểm tra sự tồn tại của tập tin, thư mục" là chức năng của hàm nào trong các hàm sau đây? 
+A. file_exist
+B. filetype
+C. filesize
+D. is_executable
+ANSWER: A
+
+Một tập tin được cấu hình với quyền 754, như vậy phát biểu nào sau đây là phát biểu đúng ? 
+A. Owner/User có quyền đọc và thực thi
+B. Owner/User chỉ có quyền đọc tập tin
+C. Owner/User có toàn quyền
+D. Owner/User chỉ có quyền ghi tập tin
+ANSWER: C
+
+Đoạn mã HTML nào sau đây được sử dụng cho việc upload tập tin trong form? 
+A. <form enctype="text/plain" action="index.php" method="post">
+B. <form enctype="plain" action="index.php" method="post">
+C. <form enctype="multipart/form-data" action="index.php" method="post">
+D. <form enctype="application/upload-file" action="index.php" method="post">
+ANSWER: C
+
+<?php $a = "hi,world"; $b = array_map("strtoupper", explode(",", $a)); foreach ($b as $value) {     print "$value"; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. hiworld
+B. HI,WORLD
+C. The script will throw an error.
+D. Có lỗi xảy ra
+ANSWER: A
+
+<?php if (preg_match("/[^a-z589]+/", "AB asdfg589nmGH", $array)) {     print "<pre>\n";     print_r($array[0]);     print "</pre>\n"; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 589
+B. ABGH
+C. asdfg589nm
+D. AB
+ANSWER: D
+
+Làm cách nào để lưu trữ một biến age có giá trị 25 vào trong session 
+A. $age = 25; session_regiser('age');
+B. $_SESSION['age'] = 25;
+C. session_register('age', 25);
+D. $HTTP_SESSION_VARS['age'] = 25;
+ANSWER: C
+
+Làm thế nào để bạn bắt đầu sử dụng Session trong PHP? 
+A. Luôn luôn được tự động gọi
+B. Gọi hàm start_session()
+C. Thiết lập session.auto_start trong phần cấu hình
+D. Gọi hàm session_register()
+ANSWER: D
+
+<?php session_start(); if (!array_key_exists('counter', $_SESSION)) {     $_SESSION['counter'] = 0; } else {     $_SESSION['counter']++; } session_regenerate_id(); echo $_SESSION['counter']; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì (đối với cùng một người dùng) 
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: B
+
+Trong các cách sau đây, cách nào giúp bạn nhận được dữ liệu gửi đi từ Form mà không chắc chắn cơ chế nó được gửi đi như thế nào? 
+A. $_REQUEST[]
+B. $_GET[]
+C. $_POST[]
+D. $_SEND[]
+ANSWER: A
+
+Phát biểu nào sao đây sai về XML 
+A. XML quy định người dùng phải tuân theo các thẻ riêng mà XML đã định nghĩa sẵn
+B. Các thẻ XML khá giống với HTML: tag, data, attribute
+C. XML được xây dựng theo dạng cây, phải có tối thiểu một nút gốc
+D. XML được hỗ trợ trên các trình duyệt phổ biến hiện
+ANSWER: A
+
+Phát biểu nào sao đây đúng về công dụng của XML? 
+A. Lưu trữ thông tin nhỏ
+B. Tạo phần tóm tắt nội dung cho website (RSS)
+C. Tạo sơ đồ cho website (sitemap)
+D. Là cầu nối trao đổi dữ liệu giữa các ứng dụng web (web service)
+ANSWER: C
+
+Trong Xpath để lấy ra thông tin phần tử ở vị trí cuối cùng, chúng ta sử dụng 
+A. last()
+B. last()-1
+C. end()
+D. end()-1
+ANSWER: C
+
+Phương thức nào sau đây được sử dụng để lấy các không gian tên được sử dụng trong một tài liệu XML từ một đối tượng SimpleXMLElement? 
+A. getName()
+B. getNamespaces()
+C. getElement()
+D. getDefined()
+ANSWER: B
+
+Phương thức nào sau đây được sử dụng để lấy tên của phần tử XML từ một đối tượng SimpleXMLElement? 
+A. getDefined()
+B. getNamespaces()
+C. getName()
+D. getCall()
+ANSWER: C
+
+Trong DomDocument sử dụng phương thức nào để thêm node vào một node nào đó cho trước 
+A. insertBefore
+B. insertFirst
+C. insertStart
+D. insert
+ANSWER: A
+
+Lập trình hướng đối tượng có tên vắt tắt là ? 
+A. OOP
+B. OPO
+C. PPO
+D. OPP
+ANSWER: A
+
+Phát biểu nào sao đây SAI về phương thức __construct() 
+A. __construct() được gọi tự động và được gọi đầu tiên khi một object được khởi tạo.
+B. __construct() thường dùng để khởi tạo các giá trị ban đầu, các trường hợp gọi __construct()
+C. __construct() được đặt tên trùng với tên class
+D. __construct() phải có tham số được truyền
+ANSWER: D
+
+Trong các điều khiển truy cập sau đây, điều khiển nào xác định rằng một tính năng có thể được truy cập bởi tất cả các lớp khác? 
+A. Protected
+B. Abstract
+C. Public
+D. Private
+ANSWER: C
+
+<?php class A {     static $word = "hello";     static function hello()     {         print static ::$word;     } } class B extends A {     static $word = "bye"; } B::hello(); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. bye
+B. hello
+C. byehello
+D. Có lỗi xảy ra
+ANSWER: A
+
+Làm sao để truy cập vào một thuộc tính trong class thông qua $this 
+A. $this.$varname
+B. $this.varname
+C. $this->varname
+D. $this->$varname
+ANSWER: C
+
+<?php class A { }; class B1 extends A { }; class_alias('A', 'B2'); $b1 = new B1; echo get_class($b1); $b2 = new B2; echo get_class($b2); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. B1A
+B. B2A
+C. B1B2
+D. It will throw an error.
+ANSWER: A
+
+<?php class number {     public $a = 10;     public $b = 20;     private $c = 30; } $numbers = new number(); foreach ($numbers as $var => $value) {     echo "$value "; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 10 20
+B. The script will throw an error.
+C. 10200
+D. 10 20 30
+ANSWER: A
+
+<?php interface foo { } class_alias('foo', 'bar'); echo interface_exists('bar') ? 'yes' : 'no'; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. Error
+B. No
+C. Yes
+D. NULL
+ANSWER: C
+
+Phương pháp nào sau đây được gọi để in trực tiếp thông tin của mọt đối tượng (tương tự dùng echo hoặc print để in chuỗi) 
+A. __unset()
+B. __isset()
+C. __toString()
+D. __set_state()
+ANSWER: B
+
+<?php class Object {     function Object($entity)     {         $entity->name = "John";     } } class Entity {     var $name = "Maria"; } $entity = new Entity(); $obj = new Object($entity); print $entity->name; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. Maria
+B. John
+C. The script will throw an error message.
+D. JohnMaria
+ANSWER: B
+
+Điều này sao đây mô tả đúng về thư viện PHPThumb 
+A. Thư viện xử lý các vấn đề liên quan đến hình ảnh
+B. Thư viện xử lý các vấn đề liên quan đến biểu đồ
+C. Thư viện xử lý các vấn đề liên quan đến tập tin Word và Excel
+D. Thư viện xử lý các vấn đề liên quan đến tập tin PDF
+ANSWER: A
+
+<?php $values = array(     10,     20,     '0',     '10hello',     'hello10' ); echo array_sum($values); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 20
+B. 30
+C. 40
+D. 50
+ANSWER: C
+
+<?php $a = 5; $b = 4; $c = ($a++ * ++$b); echo $c; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 20
+B. 21
+C. 27
+D. 25
+ANSWER: D
+
+<?php $str = "It's \"good\""; echo strlen(addslashes($str)); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 12
+B. 13
+C. 14
+D. 15
+ANSWER: C
+
+<?php $foo = 'bar'; echo '$foo\'' . "$foo\'"; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. bar'$foo\'
+B. bar'$foo\'
+C. $foo'bar
+D. $foobar
+ANSWER: A
+
+<?php $str = 'val1,val2,,val4,'; echo count(explode(',', $str)); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 5
+B. 6
+C. 7
+D. 8
+ANSWER: A
+
+<?php $a = 0.5; $b = 0.1; $c = 16; echo sprintf('%01.2lf %.1lf 0x%x', $a, $b, $c); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 0.50.1 0x10
+B. 0.50 0.1 0x16
+C. 0.50 0.1 0x10
+D. 0.5 0.1 0x16
+ANSWER: C
+
+SQL là chữ viết tắt của ? 
+A. Structured Query Language
+B. Super Question Language
+C. Strong Query Language
+D. Structured Question Language
+ANSWER: A
+
+Câu lệnh SQL nào sau đây để xóa bảng từ cơ sở dữ liệu cho trước 
+A. DELETE TABLE <table_name> FROM DATABASE
+B. DELETE TABLE <table_name>
+C. DROP TABLE <table_name>
+D. DROP TABLE <table_name> FROM DATABASE
+ANSWER: C
+
+Để hiển thị những dòng phân biệt (loại bỏ kết quả trùng) chúng ta sử dụng từ khóa nào sau đây? 
+A. ONLY
+B. ALL
+C. DISTINCT
+D. ANY
+ANSWER: C
+
+Khi thực thi câu lệnh SQL nếu gặp thông báo lỗi “Ambiguous column name”, điều này tương đương với phát biểu nào sao đây? 
+A. Tên cột không tìm thấy
+B. Tên bảng không tìm thấy
+C. Lỗi cú pháp
+D. Tên cột có mặt ở nhiều bảng
+ANSWER: D
+
+Thứ tự mệnh đề trong SQL được sắp xếp theo độ giảm dần thứ tự ưu tiên là phát biểu nào sau đây? 
+A. FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY
+B. SELECT , FROM, WHERE, GROUP BY, HAVING, ORDER BY
+C. SELECT , WHERE, FROM, GROUP BY, HAVING, ORDER BY
+D. FROM, SELECT, GROUP BY, HAVING, WHERE, ORDER BY
+ANSWER: A
+
+Cho bảng user gồm các cột id, firstname, lastname, email và age. Sử dụng điều kiện nào trong câu SQL để in ra những user từ 20 đến 40 tuổi 
+A. BETWEEN 25 & 40
+B. BETWEEN 25 - 40
+C. BETWEEN 25 TO 40
+D. BETWEEN 25 AND 40
+ANSWER: D
+
+Cho bảng user gồm các cột id, firstname, lastname, email và age. Sử dụng cụm nào trong câu SQL để in ra tên đầy đủ của một user (fullname = firstname + khoảng trắng + lastname 
+A. concat(firstname, “ “,lastname)
+B. concat(lastname, “ “,firstname)
+C. join(firstname, “ “,lastname)
+D. join (lastname, “ “,firstname)
+ANSWER: A
+
+Sử dụng từ khóa nào để đặt tên mới cho cột 
+A. ALIAS
+B. AS
+C. NEW_COLUMM_NAME
+D. NEW_NAME
+ANSWER: B
+
+Sử dụng từ khóa nào để cập nhật dữ liệu? 
+A. SAVE AS
+B. SAVE
+C. MODIFY
+D. UPDATE
+ANSWER: D
+
+Sử dụng từ khóa nào để them mới dữ liêu vào cơ sở dữ liệu? 
+A. INSERT NEW
+B. ADD RECORD
+C. INSERT INTO
+D. ADD NEW
+ANSWER: C
+
+Làm sao để chọn tất cả các cột trong bảng Persons? 
+A. SELECT *.Persons
+B. SELECT Persons
+C. SELECT [all] FROM Persons
+D. SELECT * FROM Persons
+ANSWER: D
+
+Làm sao để chọn tất cả các cột trong bảng Persons mà cột FirstName có giá trị là Peter 
+A. SELECT * FROM Persons WHERE FirstName<>'Peter'
+B. SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'
+C. SELECT [all] FROM Persons WHERE FirstName='Peter'
+D. SELECT * FROM Persons WHERE FirstName=='Peter'
+ANSWER: D
+
+Trong mệnh đề LIKE, cú pháp nào là đúng để tìm các giá trị nào kết thúc bằng “qpt” 
+A. LIKE %qpt
+B. LIKE *ton
+C. C
+D. LIKE ^.*ton$
+ANSWER: A
+
+Trong MySQL, câu lệnh USE 
+A. Để load code từ một file bên ngoài
+B. Được dùng thay thế câu lệnh SELECT
+C. Được dùng để chọn Database sau khi đã kết nối tới MySQL
+D. Tất cả đều sai
+ANSWER: C
+
+Hàm nào dùng để lấy thời gian hiện tại trong MySQL 
+A. getTime() 
+B. currentTime()
+C. NOW()
+D. thoigian()
+ANSWER: C
+
+Trong MySQL, Hàm nào sau đây không phải là hàm tập hợp 
+A. AVG
+B. MIN
+C. MAX
+D. Không có câu nào đúng
+ANSWER: D
+
+mysql_pconnect() dùng để 
+A. Tạo kết nối tới db
+B. Tạo kết nối tới db và liên kết SQL vẫn không đóng lại sau khi các câu lệnh được thực thi
+C. Tạo kết nối tới db và liên kết SQL tự động đóng lại sau khi các câu lệnh được thực thi
+D. Tất cả đều sai
+ANSWER: B
+
+Trong MySQL, để chọn ra cột “FirstName” từ bảng “Persons”? 
+A. SELECT FirstName FROM Persons
+B. EXTRACT FirstName FROM Persons 
+C. SELECT Persons.FirstName
+D. Cả ba câu trên đều sai
+ANSWER: A
+
+Câu lệnh nào được dùng để xóa 1 database trong MySQL 
+A. mysql_drop_database
+B. mysql_drop_entiredb
+C. mysql_drop_db
+D. mysql_drop_dbase
+ANSWER: C
+
+Tên 1 database tối đa có bao nhiêu kí tự 
+A. 55
+B. 72
+C. 64
+D. 40
+ANSWER: C
+
+Câu lệnh nào để tạo ra database “student” 
+A. CREATE ?I student
+B. CREATE DATABASE student
+C. DATABASE /student
+D. DATABSE student
+ANSWER: B
+
+Trong MySQL, Câu lệnh nào chỉ xóa dữ liệu của bảng 
+A. TRUNCATE
+B. DROP
+C. EMPTY
+D. SELECT
+ANSWER: A
+
+Trong SQL, từ khóa nào được dùng để sắp xếp kết quả trả về? 
+A. ORDER
+B. SORT BY
+C. ORDER BY
+D. SORT
+ANSWER: C
+
+PHP hỗ trợ hệ Quản Trị CSDL nào sớm nhất?  
+A. Oracle Database
+B. SQL
+C. SQL+
+D. MySQL
+ANSWER: D
+
+Câu lệnh nào được sử dụng để tạo bảng?  
+A. CREATE TABLE table_name (column_name column_type);
+B. CREATE table_name (column_type column_name);
+C. CREATE table_name (column_name column_type);
+D. CREATE TABLE table_name (column_type column_name);
+ANSWER: A
+
+Câu lệnh nào được sử dụng để chọn CSDL?  
+A. $mysqli=select_db(‘databasename’);
+B. mysqli=select_db(‘databasename’);
+C. mysqli->select_db(‘databasename’);
+D. $mysqli->select_db(‘databasename’);
+ANSWER: D
+
+Trong lớp mysqli của PHP, phương thức nào dùng để gửi câu truy vấn? 
+A. query()
+B. send_query()
+C. sendquery()
+D. query_send()
+ANSWER: A
+
+Trong PHP, hàm nào dùng để nhận dữ liệu trả về từ câu truy vấn database? 
+A. get_array() and get_row()
+B. get_array() and get_column()
+C. fetch_array() and fetch_row()
+D. fetch_array() and fetch_column()
+ANSWER: C
+
+$a = array(  null => 'a',  true => 'b',  false => 'c',  0 => 'd',  1 => 'e',  '' => 'f' ); echo count($a);   Đoạn mã sau, in ra giá trị nào sau đây
+A. 2
+B. 3
+C. 5
+D. 6
+ANSWER: B
+
+$a = 1; {  $a = 2; } echo $a;   Đoạn mã sau, in ra giá trị nào sau đây
+A. 1
+B. 2
+C. 12
+D. 6
+ANSWER: B
+
+$var = 'a'; $VAR = 'b'; echo "$var$VAR";   Đoạn mã sau, in ra giá trị nào sau đây
+A. ab
+B. aa
+C. bb
+D. AB
+ANSWER: A
+
+<?php $RESULT = 11 + 11 + 0x11; echo "$RESULT"; ?>   Đoạn mã sau, in ra giá trị nào sau đây
+A. 22
+B. 11
+C. 39
+D. 19
+ANSWER: C
+
+$a = array(); if ($a == null) {   echo 'true'; } else {  echo 'false'; }   Đoạn mã sau, in ra giá trị nào sau đây
+A. True
+B. False
+C. Không in
+D. Cả A và B
+ANSWER: A
+
+$var = 1 / 2;   Giá trị của tham số sau
+A. 0
+B. 1
+C. 0,5
+D. 1/2
+ANSWER: C
+
+JavaScript là ngôn ngữ xử lý ở: 
+A. Client
+B. Server
+C. Server/client
+D. Không có dạng nào.
+ANSWER: A
+
+Javascript là ngôn ngữ thông dịch hay biên dịch 
+A. Thông dịch
+B. Biên dịch
+C. Cả hai dạng
+D. Không có dạng nào ở trên
+ANSWER: B
+
+Phương thức viết chương trình của Javascript như thế nào? 
+A. Viết riêng một trang
+B. Viết chung với HTML
+C. Cả hai dạng A và B
+D. Không có dạng nào.
+ANSWER: C
+
+Javascript là ngôn ngữ kịch bản có dấu được mã nguồn không? 
+A. Không dấu được vì các kịch bản chạy ở client.
+B. Dấu được vì chương trình hoạt động độc lập với trình duyệt
+C. Hai phát biểu đều sai.
+D. Hai phát biểu đều đúng
+ANSWER: A
+
+JavaScript được bắt đầu bằng? 
+A. <scritp> …</script>
+B. <Javascript> …<Javascript>
+C. <java> </java>
+D. Tất cả các dạng trên.
+ANSWER: A
+
+Javascript có các dạng biến? 
+A. Number, String, Boolean
+B. Number, Integer, char
+C. Number, String, Boolean, Null
+D. Tất cả các loại trên.
+ANSWER: A
+
+Trong Javascript hàm parseInt() dùng để làm gì? 
+A. Chuyển một chuỗi thành số
+B. Chuyển một chuỗi thành số nguyên
+C. Chuyển một chuỗi thành số thực
+D. Chuyển một số nguyên thành một chuỗi
+ANSWER: B
+
+Trong Javascript hàm parseFloat() dùng để làm gì? 
+A. Chuyển một chuỗi thành số
+B. Chuyển một chuỗi thành số thực
+C. Chuyển một chuỗi thành số nguyên
+D. Chuyển một số nguyên thành một chuỗi
+ANSWER: B
+
+Lệnh prompt trong Javascript để làm gì? 
+A. Hiện một thông báo nhập thông tin
+B. Hiện một thông báo dạng yes, No
+C. Cả hai dạng trên
+D. Không có lệnh nào đúng
+ANSWER: A
+
+Trong Javascript sự kiện Onload thực hiện khi: 
+A. Khi bắt đầu chương trình chạy
+B. Khi click chuột
+C. Khi kết thúc một chương trình
+D. Khi di chuyển chuột qua.
+ANSWER: A
+
+Trong Javascript sự kiện OnUnload thực hiện khi nào? 
+A. Khi bắt đầu chương trình chạy
+B. Khi click chuột
+C. Khi kết thúc một chương trình
+D. Khi di chuyển chuột qua.
+ANSWER: C
+
+Trong Javascript sự kiện Onblur thực hiện khi nào? 
+A. Khi một đối tượng trong form mất focus.
+B. Khi một đối tượng trong form có focus
+C. Khi di chuyển con chuột qua form.
+D. Khi click chuột vào nút lệnh
+ANSWER: A
+
+Trong Javascript sự kiện OnMouseOver thực hiện khi nào? 
+A. Khi một đối tượng trong form mất focus.
+B. Khi một đối tượng trong form có focus
+C. Khi di chuyển con chuột qua một đối tượng trong form.
+D. Khi click chuột vào nút lệnh
+ANSWER: C
+
+Trong Javascript sự kiện Onclick thực hiện khi nào? 
+A. Khi một đối tượng trong form mất focus.
+B. Khi một đối tượng trong form có focus
+C. Khi click chuột vào một đối tượng trong form.
+D. Khi click chuột vào nút lệnh
+ANSWER: C
+
+< script >     function kiemtra() {         window.open("http://www.vnn.vn", "Chao");     } <     /script> < /     head > <     body onload = "kiemtra()" > < /body>   Trong Javascript đoạn mã sau cho ra kết quả gì?
+A. Khi chạy thì một trang khác (VNN) được hiện ra .
+B. Không chạy được vì sai
+C. Khi kết thúc thì một site khác hiện ra
+D. Hiện một trang vnn duy nhất.
+ANSWER: A
+
+Thẻ <input type=”text” …> dùng để làm gì? 
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một ô password
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: A
+
+Thẻ <input type=”Password” …> dùng để làm gì? 
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một ô password
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: B
+
+Thẻ <textarea rows= cols = …></texterea> dùng để làm gì? 
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một ô password
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: C
+
+Thẻ <input type=”Submit” …> dùng để làm gì? 
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nút lệnh dùng để gửi tin trong form đi
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: C
+
+Thẻ <input type=”Radio” …> dùng để làm gì? 
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nhóm đối tượng chọn nhưng chọn duy nhất
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: B
+
+Thẻ <input type=”checkbox” …> dùng để làm gì? 
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nhóm đối tượng chọn được nhiều đối tượng
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: B
+
+Thẻ <input type=”button” …> dùng để làm gì? 
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nút lệnh lên trên form
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: B
+
+Lệnh lặp for có dạng như thế nào? 
+A. For ( biến = Giá trị đầu, Điều kiện, Giá trị tăng)
+B. For ( biến = Giá trị đầu, Giá trị tăng, điều kiện)
+C. For ( biến = Điều kiện, Giá trị tăng Giá trị cuối)
+D. Tất cả các dạng trên.
+ANSWER: A
+
+Vòng lặp While là dạng vòng lặp? 
+A. Không xác định và xét điều kiện rồi mới lặp
+B. Không xác định và lặp rồi mới xét điều kiện
+C. Cả hai dạng trên
+D. Không tồn tại dạng nào ở trên.
+ANSWER: A
+
+Vòng lặp (Do.. while) là dạng vòng lặp? 
+A. Không xác định và xét điều kiện rồi mới lặp
+B. Không xác định và lặp rồi mới xét đ-iều kiện
+C. Cả hai dạng trên
+D. Không có dạng nào.
+ANSWER: B
+
+Lệnh break kết hợp với vòng for dùng để? 
+A. Ngưng vòng for nếu gặp lệnh này
+B. Không có ý nghĩa trong vòng lặp
+C. Nhảy đến một tập lệnh khác
+D. Không thể kết hợp được.
+ANSWER: A
+
+Hàm alert() dùng để làm gì? 
+A. Dùng để hiện một thông.
+B. Dùng để hiện một thông báo nhập
+C. Dùng để chuyển đổi số sang chữ
+D. Tất cả các dạng trên.
+ANSWER: A
+
+Thẻ <Frameset cols> </frameset> 
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên.
+ANSWER: A
+
+Thẻ <Frameset rows > </frameset> 
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên.
+ANSWER: B
+
+Thẻ <Frame src=” duong dan ”> 
+A. Dùng để chèn ảnh
+B. Dùng để lấy dữ liệu từ một trang khác
+C. Tất cả dạng trên
+D. Không có ý nào ở trên.
+ANSWER: C
+
+Trong JavaScript sự kiện OnMouseOver xảy ra khi nào trong các trường hợp sau. 
+A. Khi di chuyển con chuột qua một đối tượng trong form
+B. Khi một đối tượng trong form nhận focus
+C. Khi một đối tượng trong form mất focus
+D. Khi kích chuột vào nút lệnh
+ANSWER: A
+
+Cách nào để thêm một comment nhiều dòng trong JavaScript? 
+A. /*Đây là một comment trên nhiều dòng*/
+B. //Đây là một comment trên nhiều dòng//
+C. <!--Đây là một comment trên nhiều dòng-->
+D. Cả A, B, C đều đúng
+ANSWER: A
+
+Trong JavaScript sự kiện Onchange xảy ra khi nào trong các trường hợp sau. 
+A. Khi một đối tượng trong form mất focus
+B. Khi kích chuột vào nút lệnh
+C. Xảy ra khi giá trị của một trường trong form được người dùng thay đổi dữ liệu
+D. Khi một đối tượng trong form nhận focus
+ANSWER: C
+
+Làm cách nào để gọi một hàm myFunction trong JavaScript? 
+A. call function myFunction()
+B. call myFunction()
+C. myFunction()
+D. Cả A, B, C đều đúng
+ANSWER: C
+
+Nơi bạn có thể đặt code JavaScript trong trang web? 
+A. Bạn có thể đặt trong phần <head> hoặc <body>
+B. Chỉ trong phần <head>
+C. Chỉ trong phần <body>
+ANSWER: A
+
+Nơi bạn có thể đặt code JavaScript trong trang web? 
+A. var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")
+B. var colors = ["red", "green", "blue"]
+C. var colors = (1:"red", 2:"green", 3:"blue")
+D. var colors = "red", "green", "blue"
+ANSWER: B
+
+Có những cách nào viết code JavaScript để chạy trong trang web? 
+A. Viết chung với HTML
+B. Không thuộc dạng nào
+C. Cả hai dạng viết tệp riêng hoặc viết trong trang HTML
+D. Viết trên một tệp riêng
+ANSWER: C
+
+Cách nào tạo một hàm trong JavaScript? 
+A. function:myFunction()
+B. function = myFunction()
+C. function myFunction()
+D. Cả A, B, C đều đúng
+ANSWER: C
+
+Hàm prompt(…) trong JavaScript dùng để làm gì? 
+A. Hiển thị thông báo nhập thông tin
+B. Hiển thị một thông báo Yes, No
+C. Cả hai dạng trên
+D. Không phương án nào đúng
+ANSWER: A
+
+Câu lệnh nào đúng thực hiện việc gọi một script từ bên ngoài có tên là xxx.js? 
+A. <script src="xxx.js"></script>
+B. <script name="xxx.js"></script>
+C. <script href="xxx.js"></script>
+ANSWER: A
+
+JavaScript là ngôn ngữ kịch bản có che dấu được mã nguồn không? 
+A. Dấu được vì chương trình hoạt động độc lập với trình duyệt
+B. Tùy thuộc vào JavaScript được code ở client hay server
+C. Hai phát biểu trên đều sai
+D. Hai phát biểu trên đều đúng
+ANSWER: B
+
+Dùng cách nào có thể biết được trình duyệt đang được sử dụng tại máy client? 
+A. browser.name
+B. client.navName
+C. navigator.appName
+ANSWER: C
+
+Sự kiện nào xảy ra khi người dùng kích vào một phần tử HTML trên trang? 
+A. onclick
+B. onmouseover
+C. onchange
+D. onmouseclick
+ANSWER: A
+
+Trong JavaScript sự kiện Onload xảy ra khi nào? 
+A. Khi bắt đầu chạy chương trình
+B. Khi click chuột
+C. Khi di chuyển chuột qua
+D. Khi kết thúc một chương trình
+ANSWER: A
+
+Trong JavaScript sự kiện Onclick xảy ra khi nào? 
+A. Khi một đối tượng trong form mất focus
+B. Khi click chuột vào nút lệnh
+C. Khi click chuột vào một đối tượng trong form
+D. Khi một đối tượng trong form nhận focus
+ANSWER: B
+
+Trong JavaScript sự kiện OnUnload xảy ra khi nào? 
+A. Khi bắt đầu chạy chương trình
+B. Khi kết thúc một chương trình
+C. Khi kích chuột
+D. Khi di chuyển chuột qua
+ANSWER: B
+
+Câu lệnh nào khai báo một biến trong JavaScript? 
+A. v carName;
+B. var carName;
+C. variable carName;
+ANSWER: B
+
+Ngôn ngữ JavaScript có phân biệt chữ hoa, chữ thường? 
+A. Có
+B. Không
+ANSWER: A
+
+Cách viết câu lệnh IF nào sau đây là đúng? 
+A. if i = 5 then
+B. if (i == 5)
+C. if i == 5 then
+D. if i = 5
+ANSWER: B
+
+Cách nào để làm tròn 7.25 tới số nguyên gần nhất trong JavaScript? 
+A. rnd(7.25)
+B. round(7.25)
+C. Math.round(7.25)
+D. Math.rnd(7.25)
+ANSWER: C
+
+Câu lệnh lặp For trong JavaScript có dạng nào sau đây? 
+A. for (biến = Giá trị đầu; Điều kiện; Giá trị tăng)
+B. for (biến = Giá trị đầu; Giá trị tăng; điều kiện)
+C. for (biến = Điều kiện; Giá trị tăng; Giá trị cuối)
+D. Tất cả các dạng trên.
+ANSWER: A
+
+Thực hiện kiểm tra nếu biến i không bằng 5, câu lệnh nào là đúng? 
+A. if (i != 5)
+B. if i =! 5 then
+C. if i <> 5
+D. if (i <> 5)
+ANSWER: A
+
+var a = [1, 2, 3]; var b = [1, 2, 3]; var c = '1,2,3'; console.log(a == c); console.log(b == c); console.log(a == b);   Kết quả của đoạn code sau là
+A. true, true, false
+B. true, true, true
+C. true, false, false
+D. false, false false
+ANSWER: A
+
+var a = [9]; var b = [10]; console.log(a == 9); console.log(b == 10); console.log(a < b);   Kết quả đoạn code sau là:
+A. true true true
+B. false false false
+C. true true false
+D. false false true
+ANSWER: C
+
+let i = 0; const arr = new Array(5); arr.forEach(() => i++); console.log(i);   Kết quả của đoạn code sau là:
+A. 0
+B. 1
+C. 4
+D. 5
+ANSWER: A
+
+function greatestNumberInArray(arr) {   let greatest = 0;   for (let i = 0; i < arr.length; i++) {     if (greatest < arr[i]) {       greatest = arr[i];     }   }   return greatest; }   Hàm greatestNumberInArray dưới đây có get được phần tử lớn nhất cho mọi array không?
+A. Yes
+B. No
+ANSWER: B
+
+const arr = [1, 2, 3]; const a = arr.reduce(   (acc, el, i) => ({ ...acc, [el]: i }),   {} ); const b = {}; for (let i = 0; i < arr.length; i++) {   b[arr[i]] = i; }   Hai cách a và b dưới đây đều trả về một object có cùng thuộc tính và giá trị. Theo bạn thì cách nào tối ưu hơn?
+A. a
+B. b
+ANSWER: B
+
+const arr = [   x => x * 1,   x => x * 2,   x => x * 3,   x => x * 4 ]; console.log(arr.reduce((agg, el) => agg + el(agg), 1));   Kết quả là:
+A. 1
+B. 60
+C. 100
+D. 120
+ANSWER: D
+
+const ar = [5, 1, 3, 7, 25]; const ar1 = ar; console.log(ar1.sort()); ([5, 25].indexOf(ar[1]) != -1 && 	console.log(ar.reverse())) || (ar[3] == 25 && console.log(ar)); console.log(ar1);   Cho đoạn code sau. Kết quả là: 
+A. [1, 3, 5, 7, 25] [7, 5, 3, 25, 1] [1, 25, 3, 5, 7] [1, 25, 3, 5, 7]
+B. [1, 25, 3, 5, 7] [5,1,3,7,25]
+C. [1, 25, 3, 5, 7] [7, 5, 3, 25, 1] [7, 5, 3, 25, 1] [7, 5, 3, 25, 1]
+D. An error is thrown
+ANSWER: C
+
+const arr1 = ['a', 'b', 'c']; const arr2 = ['b', 'c', 'a']; console.log(   arr1.sort() === arr1,   arr2.sort() == arr2,   arr1.sort() === arr2.sort() );   Cho đoạn code sau. Kết quả là:
+A. true true true
+B. true true false
+C. false false false
+D. true false true
+ANSWER: B
+
+function ArrayBoolean() {   if ([] == true && [1] == true) return [true, true];   else if ([] == true && [1] == false) return [true, false];   else if ([] == false && [1] == true) return [false, true];   else return [false, false]; } ArrayBoolean();   Cho đoạn code sau. Kết quả là:
+A. [true, true]
+B. [true, false]
+C. [false, true]
+D. [false, false]
+ANSWER: C
+
+let dog = {   breed: 'Border Collie',   sound: 'Wooh',   getBreed: () => {     return this.breed;   },   getSound: function() {     return this.sound;   } }; console.log(dog.getBreed(), dog.getSound());   Cho đoạn code sau. Kết quả là:
+A. Border Collie, Wooh
+B. Border Collie, undefined
+C. undefined, Wooh
+D. undefined, undefined
+ANSWER: C
+
+const person = { name: 'duthaho' }; function sayHi(age) {   return `${this.name} is ${age}`; } console.log(sayHi.call(person, 69)); console.log(sayHi.bind(person, 69));   Đoạn code sau sẽ cho kết quả như thế nào?
+A. undefined is 69 duthaho is 69
+B. function function
+C. duthaho is 69 duthaho is 69
+D. duthaho is 69 function
+ANSWER: D
+
+function withVar() {   const b = () => a;   var a = 24;   return b; } function withLet() {   const b = () => a;   let a = 24;   return b; } function changingValue() {   let a = 24;   const b = () => a;   a = 42;   return b; } console.log(withVar()()); // ?? console.log(withLet()()); // ?? console.log(changingValue()()); // ??   Kết quả đoạn code sau là:
+A. undefined Error 42
+B. 24 Error 24
+C. 24 24 42
+D. undefined Error 24
+ANSWER: C
+
+let a = new Date('2019,1,1').toLocaleDateString(); let b = new Date(2019, 1, 1).toLocaleDateString(); console.log(a, b);   Kết quả đoạn code sau là?
+A. 1/1/2019 2/1/2019
+B. 1/1/2019 1/1/2019
+ANSWER: A
+
+console.log(fetch);   Kết quả của câu lệnh sau:
+A. The fetch function
+B. A reference error
+C. It depends
+ANSWER: C
+
+const a = 0.1; const b = 0.2; const c = 0.3; console.log(a + b === c);   Cho đoạn code sau, kết quả là:
+A. True
+B. False
+ANSWER: B
+
+function Person(firstName, lastName) {   this.firstName = firstName;   this.lastName = lastName; } const ti = new Person('du', 'ti'); const teo = Person('du', 'teo'); console.log(ti); console.log(teo);   Đoạn code sau sẽ có kết quả là:
+A. Person {firstName: "du", lastName: "ti"} undefined
+B. Person {firstName: "du", lastName: "ti"} Person {firstName: "du", lastName:"teo"}'
+C. Person {firstName: "du", lastName: "ti"} {}
+D. Person {firstName: "du", lastName: "ti"} ReferenceError
+ANSWER: A
+
+bar(); var bar; function bar() { 	console.log('first'); } bar = function () { 	console.log('second'); }; bar(); foo(); function foo() { 	console.log(1); } var foo = function () { 	console.log(2); }; function foo() { 	console.log(3); } foo();   Đoạn code sau sẽ cho kết quả:
+A. second first 1 3
+B. first second 3 2
+C. second first 3 3
+D. first second 3 3
+ANSWER: B
+
+function sayHi() {   return (() => 0)(); } console.log(typeof sayHi());   Cho đoạn code sau, kết quả là:
+A. object
+B. number
+C. function
+D. undefined
+ANSWER: B
+
+const a = {   stringField: 'Joe',   numberField: 123,   dateField: new Date('1995-12-17T03:24:00'),   nestedField: { field: 'Nested' } }; const b = JSON.parse(JSON.stringify(a)); console.log(   a.stringField === b.stringField,   a.numberField === b.numberField,   a.dateField === b.dateField,   a.nestedField.field === b.nestedField.field );   Đoạn code sau sẽ có kết quả:
+A. true true true true
+B. true true true false
+C. true true false true
+D. false false false false
+ANSWER: C
+
+const notifications = 1; console.log(   `You have ${notifications} notification${notifications !==     1 && 's'}` );   Đoạn code trên sẽ có kết quả là:
+A. You have 1 notification
+B. You have 1 notifications
+C. You have 1 notificationfalse
+ANSWER: C
+
+const compare = a => a === a; console.log(compare(null)); console.log(compare(undefined)); console.log(compare(NaN)); console.log(compare([NaN]));   Cho đoạn code sau, kết quả sẽ là:
+A. true true true true
+B. true false true true
+C. true true false true
+D. true true false false
+ANSWER: C
+
+const n = 5; console.log(1..n); // ?   Cho đoạn code sau, kết quả là:
+A. [1, 2, 3, 4, 5]
+B. undefined
+C. Syntax error
+ANSWER: B
+
+const a = {   stringField: 'Joe',   nestedField: { field: 'Nested' },   functionField: () => 'aReturn' }; const b = Object.assign({}, a); b.stringField = 'Bob'; b.nestedField.field = 'Changed'; b.functionField = () => 'bReturn'; console.log(   a.stringField,   a.nestedField.field,   a.functionField() );   Cho đoạn code sau, kết quả là:
+A. Joe Nested aReturn
+B. Bob Changed bReturn
+C. Joe Changed aReturn
+D. Bob Nested bReturn
+ANSWER: C
+
+const url = 'quiz.duthaho.com'; const { length: ln, [ln - 1]: domain = 'quiz' } = url   .split('.')   .filter(Boolean); console.log(domain);   Cho đoạn code sau, kết quả là:
+A. "quiz"
+B. "duthaho"
+C. "com"
+D. undefined
+ANSWER: C
+
+const obj = { a: 'one', b: 'two', a: 'three' }; console.log(obj);   Cho đoạn code, kết quả là
+A. {a: "one", b: "two" }
+B. {b: "two", a: "three" }
+C. {a: "three", b: "two" }
+D. SyntaxError
+ANSWER: C
+
+const user = {   name: 'lao Hac',   age: 69,   pet: {     type: 'cho',     name: 'vang'   } }; Object.freeze(user); user.pet.name = 'shiba'; console.log(user.pet.name);   Kết quả của đoạn code là:
+A. shiba
+B. vang
+C. An error is thrown
+ANSWER: A
+
+const obj = {   1: 1,   2: 2,   3: 3 }; console.log(Object.keys(obj), Object.values(obj));   Đoạn code sau, kết quả sẽ là:
+A. [1, 2, 3] ["1", "2", "3"]
+B. ["1", "2", "3"] [1, 2, 3]
+C. ["1", "2", "3"] ["1", "2", "3"]
+ANSWER: B
+
+const obj = { 1: 'a', 2: 'b', 3: 'c' }; const set = new Set([1, 2, 3, 4, 5]); obj.hasOwnProperty('1'); obj.hasOwnProperty(1); set.has('1'); set.has(1);   Cho đoạn code sau, kết quả sẽ là:
+A. false true false true
+B. false true true true
+C. true true false true
+D. true true true true
+ANSWER: C
+
+const a = {}; const b = { key: 'b' }; const c = { key: 'c' }; a[b] = 123; a[c] = 456; console.log(a[b]);   Đoạn code sẽ cho kết quả
+A. 123
+B. 456
+C. undefined
+D. ReferenceError
+ANSWER: B
+
+const scrambled = {   2: 'e',   5: 'o',   1: 'h',   4: 'l',   3: 'l' }; const result = Object.values(scrambled).reduce(   (agg, el) => agg + el,   '' ); console.log(result);   Đoạn code sau sẽ cho kết quả là:
+A. hello
+B. eohll
+C. Cả A, B đều đúng
+D. Cả A, B đều sai
+ANSWER: A
+
+let b = '4'; console.log(b++ + 3, b);   Đoạn code sau sẽ cho kết quả:
+A. 44 4
+B. 8 5
+C. 7 5
+D. 43 5
+ANSWER: C
+
+console.log(1 < 2 < 3); console.log(3 > 2 > 1);   Đoạn code sau sẽ cho kết quả gì?
+A. true true
+B. true false
+C. false false
+D. undefined undefined
+ANSWER: B
+
+Cấu trúc đơn giản của một trang HTML được khai báo theo thứ tự là: 
+A. HEAD, HTML, BODY
+B. HEAD, TITLE, BODY
+C. HEAD, BODY, HTML
+D. HTML, HEAD, BODY
+ANSWER: D
+
+Để trình bày một đoạn văn bản trong tài liệu HTML ta dùng thẻ: 
+A. <HR>
+B. <P>
+C. <BR>
+D. <PRE>
+ANSWER: B
+
+Để khai báo một phần bị đánh dấu trên trang web ta sử dụng thẻ <A> với thuộc tính:
+A. NAME
+B. CLASS
+C. HREF
+D. ID
+ANSWER: A
+
+Để chèn hình ảnh vào trang web ta dùng thẻ 
+A. <PIC>
+B. <IMG>
+C. <IMAGE>
+D. <PICTURE>
+ANSWER: B
+
+Để hiển thị các thông tin như tác giả, địa chỉ, chữ ký trong tài liệu HTML ta dùng thẻ:
+A. <ADDRESS>
+B. <PRE>
+C. <BLOCKQUOTE>
+D. <AUTHOR>
+ANSWER: A
+
+Để nhóm các thành phần có liên quan với nhau ta dùng thẻ: 
+A. <span>
+B. <pre>
+C. <blockquote>
+D. <div>
+ANSWER: A
+
+Để khai báo một danh sách có thứ tự ta sử dụng thẻ: 
+A. <li>
+B. <ul>
+C. <lo>
+D. <dl>
+ANSWER: A
+
+Để xác định kiểu chữ, kích thước, màu sắc... Ta dùng thẻ: 
+A. <color>
+B. <font>
+C. <fontstyle>
+D. <fontsize>
+ANSWER: C
+
+Để khai báo một bảng trên trang web ta sử dụng thẻ: 
+A. <tr>
+B. <td>
+C. <table>
+D. <th>
+ANSWER: C
+
+Để khai báo một hàng trong bảng trên trang web ta sử dụng thẻ:  
+A. <tr>
+B. <td>
+C. <table>
+D. <th>
+ANSWER: A
+
+Để tạo ra những ô mà chúng có thể kéo rộng ra hơn một dòng trên bảng ta sử dụng thuộc tính: 
+A. Colspan
+B. Align
+C. Rowspan
+D. Valign
+ANSWER: C
+
+Để canh lề dọc cho các ô trong bảng ta sử dụng thuộc tính: 
+A. Colspan
+B. Align
+C. Rowspan
+D. Valign
+ANSWER: D
+
+Để định nghĩa một tập các frame đơn ta sử dụng thẻ:  
+A. <frame>
+B. <noframe>
+C. <ifframe>
+D. <frameset>
+ANSWER: C
+
+Để khai báo một phần tử điều khiển nhập văn bản chỉ có một dòng ta sử dụng thẻ:  
+A. <input type= “text”>
+B. <input type = “hidden”
+C. <input type= “password”
+D. <textarea>
+ANSWER: A
+
+Để khai báo một phần tử điều khiển ẩn có chứa một value để phục vụ cho các mục đích khác trên trang web mà không muốn hiển thị ra ta dùng thẻ: 
+A. <input type= “text”>
+B. <input type = “hidden”
+C. <input type= “password”
+D. <textarea>
+ANSWER: B
+
+Để khai báo một phần tử điều khiển cho phép người dùng có thể chọn một hay nhiều giá trị ta sử dụng thẻ: 
+A. <input type= “text”>
+B. <input type = “radio”
+C. <input type= “checkbox”
+D. <textarea>
+ANSWER: C
+
+Để khai báo một phần tử điều khiển khi nhấn vào sẽ gửi thông tin của form đi ta sử dụng thẻ:
+A. <input type= “text”>
+B. <input type = “submit”
+C. <input type= “password”
+D. <input type = “reset”>
+ANSWER: B
+
+Để khai báo một phần tử điều khiển tạo một nút nhấn trên trang web ta sử dụng thẻ:
+A. <input type= “file”>
+B. <input type = “button”>
+C. <input type= “hidden”
+D. <input type = “image”>
+ANSWER: B
+
+Để khai báo một phần tử điều khiển để mở một hộp thoại giúp người dùng mở một file trên hệ thống thư mục của máy tính ta sử dụng thẻ:
+A. <input type= “file”>
+B. <input type = “button”>
+C. <input type= “hidden”
+D. <input type = “image”>
+ANSWER: A
+
+Để xác định trình tự nhận tiêu điểm của phần tử thông qua bàn phím ta sử dụng thuộc tính:
+A. Focus
+B. Accesskey
+C. Tabindex
+D. Id
+ANSWER: C
+
+Thứ tự xép tầng của css theo độ ưu tiên từ thấp đến cao như sau:
+A. External style sheet, internal style sheet, browser default, inline style
+B. Inline style, browser default, external style sheet, internal style sheet
+C. Browser default, internal style sheet, inline style, external style sheet
+D. Browser default, external style sheet, internal style sheet, inline style
+ANSWER: D
+
+Css định nghĩa các style khác nhau cho cùng một loại html element bằng cách sử dụng:
+A. Class selector
+B. Id selector
+C. Name selector
+D. Type selector
+ANSWER: A
+
+Để liên kết tới external style sheet ta sử dụng thẻ:
+A. <style>
+B. <a>
+C. <link>
+D. <css>
+ANSWER: C
+
+Dreamweaver sử dụng giao thức gì để tải một site cục bộ lên web server?
+A. Http
+B. Fpt
+C. Smtp
+D. Hmpt
+ANSWER: B
+
+Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu:
+A. 2
+B. 3
+C. 4
+D. 5
+ANSWER: B
+
+Tính năng nào trong dreamweaver cho phép hiển thị mã nguồn tài liệu:
+A. Code view
+B. Design view
+C. Combined view
+D. Layout view
+ANSWER: A
+
+Tính năng nào trong dreamweaver cho phép hiển thị trực quan của tài liệu:
+A. Code view
+B. Design view
+C. Combined view
+D. Layout view
+ANSWER: D
+
+Tính năng nào trong dreamweaver cho phép hiển thị code và trực quan của tài liệu:
+A. Code view
+B. Design view
+C. Combined view
+D. Layout view
+ANSWER: C
+
+Tính năng nào trong dreamweaver cho phép thiết kế trang trong chế độ design view:
+A. Code view
+B. Design view
+C. Combined view
+D. Layout view
+ANSWER: B
+
+Ở chế độ thiết kế (layout view) chúng ta có thể insert table hoặc draw layer
+A. True
+B. False
+ANSWER: A
+
+Phần mở rộng của flash movie là:
+A. Swt
+B. Gif
+C. Dwt
+D. Swf
+ANSWER: D
+
+Phương thức nào dùng để thay đổi và cập nhật định dạng ngay lập tức:
+A. Auto styles
+B. Html style
+C. Css style
+D. New style
+ANSWER: A
+
+Đường dẫn nào cung cấp địa chỉ url đầy đủ (bao gồm cả giao thức) tới tài liệu được liên kết?
+A. Root – relative
+B. Document-relative
+C. Absolute
+ANSWER: C
+
+Dùng để chỉ định các thuộc tính cho các đối tượng như văn bản, đoạn văn, hình ảnh...
+A. Property inspector
+B. Insert panel
+C. Objects panel
+D. Code inspector
+ANSWER: A
+
+Các thao tác nào dùng để hủy bỏ những thao tác đã thực hiện trong tài liệu hiện hành:
+A. Ctrl + Z
+B. Ctrl + Y
+C. Edit undo
+D. Edit repeating entries
+ANSWER: A
+
+Các templates trong dreamweaver được lưu với phần mở rộng là gì?
+A. Css
+B. Dwt
+C. Html
+D. Swf
+ANSWER: B
+
+Sau khi tạo một table, thực hiện thao tác nào sau đây để thêm một hàng mới vào table:
+A. Đưa con trỏ đến ô cuối cùng, sau đó nhấn phím tab
+B. Ctrl + m
+C. Modify insert row
+D. Insert table
+ANSWER: B
+
+Theo mặc định, dreamweaver hiển thị table tới khoảng cách cellpadding và cell spacing là:
+A. 0,0
+B. 1,2
+C. 2,1
+D. 1,1
+ANSWER: D
+
+Đâu là tag tạo ra tiêu đề web kích cỡ lớn nhất.
+A. <heading>
+B. <h1>
+C. <h6>
+D. <head>
+ANSWER: B
+
+Đâu là tag để xuống dòng trong web?
+A. <lb>
+B. <br>
+C. <break>
+D. <enter>
+ANSWER: B
+
+Đâu là tag tạo ra mầu nền của web?
+A. <body color="yellow">
+B. <body bgcolor="yellow">
+C. <background>yellow</background>
+ANSWER: B
+
+Đâu là tag tạo ra chữ in đậm
+A. <b>
+B. <bold>
+C. <bld>
+D. <bb>
+ANSWER: A
+
+Đâu là tag tạo ra chữ in nghiêng
+A. <ii>
+B. <italics>
+C. <i>
+D. <li>
+ANSWER: C
+
+Đâu là tag tạo ra liên kết (links) trong web
+A. <a url="http://www.w3schools.com">w3schools.com</a>
+B. <a>http://www.w3schools.com</a>
+C. <a href="http://www.w3schools.com">w3schools</a>
+D. <a name="http://www.w3schools.com">w3schools.com</a>
+ANSWER: C
+
+Đâu là tag tạo ra liên kết đến email?
+A. <a href="xxx@yyy">
+B. <a href="mailto:xxx@yyy">
+C. <mail>xxx@yyy</mail>
+D. <mail href="xxx@yyy">
+ANSWER: B
+
+Làm sao để khi click chuột vào link thì tạo ra cửa sổ mới?
+A. <a href="url" new>
+B. <a href="url" target="new">
+C. <a href="url" target="_blank">
+D. <a href="url" target="blank">
+ANSWER: C
+
+Đâu là những tag dành cho việc tạo bảng?
+A. <table><tr><td>
+B. <thead><body><tr>
+C. <table><head><tfoot>
+D. <table><tr><tt>
+ANSWER: A
+
+Đâu là tag căn lề trái cho nội dung 1 ô trong bảng
+A. <tdleft>
+B. <td valign="left">
+C. <td align="left">
+D. <td leftalign>
+ANSWER: C
+
+Đâu là tag tạo ra 1 danh sách đứng đầu bằng số
+A. <ul>
+B. <list>
+C. <ol>
+D. <dl>
+ANSWER: C
+
+Đâu là tag tạo ra 1 danh sách đứng đầu bởi dấu chấm?
+A. <list>
+B. <ul>
+C. <ol>
+D. <dl>
+ANSWER: B
+
+Tag nào tạo ra 1 checkbox?
+A. <check>
+B. <input type="check">
+C. <checkbox>
+D. <input type="checkbox">
+ANSWER: D
+
+Tag nào tạo ra 1 text input field?
+A. <textfield>
+B. <textinput type="text">
+C. <input type="text">
+D. <input type="textfield">
+ANSWER: C
+
+Tag nào tạo ra 1 drop-down list?
+A. <select>
+B. <list>
+C. <input type="dropdown">
+D. <input type="list">
+ANSWER: A
+
+Tag nào tạo ra 1 text area?
+A. <input type="textbox">
+B. <textarea>
+C. <input type="textarea">
+ANSWER: B
+
+Tag nào dùng để chèn 1 hình vào web?
+A. <image src="image.gif">
+B. <img>image.gif</img>
+C. <img src="image.gif">
+D. <img href="image.gif>
+ANSWER: C
+
+Tag nào dùng để tạo hình nền cho web?
+A. <body background="background.gif">
+B. <background img="background.gif">
+C. <img src="background.gif" background>
+ANSWER: A
+
+Css là viết tắt của?
+A. Creative style sheets
+B. Computer style sheets
+C. Cascading style sheets
+D. Colorful style sheets
+ANSWER: C
+
+Muốn liên kết xhtml với 1 file định nghĩa css ta dùng dòng nào sau đây?
+A. <style src=”mystyle.css”>
+B. <stylesheet>mystyle.css</stylesheet>
+C. <link rel=”stylesheet” type=”text/css” href=”mystyle.css”>
+D. Tất cả các câu trên đều sai.
+ANSWER: C
+
+Muốn liên kết xhtml với 1 file định nghĩa css ta dùng dòng nào sau đây?
+A. <style src=”mystyle.css”>
+B. <stylesheet>mystyle.css</stylesheet>
+C. <link rel=”stylesheet” type=”text/css” href=”mystyle.css”>
+D. Tất cả các câu trên đều sai.
+ANSWER: C
+
+Đặt dòng liên kết với file css ở vùng nào trong file xhtml?
+A. In the <body> section
+B. In the <head> section
+C. At the top of the document
+D. At the end of the document
+ANSWER: B
+
+Tag nào định nghĩa css ở ngay trong file xhtml?
+A. <css>
+B. <script>
+C. <style>
+D. Tất cả các câu trên đều sai.
+ANSWER: C
+
+Thuộc tính nào định nghĩa css ngay trong 1 tag?
+A. Font
+B. Class
+C. Style
+D. Styles
+ANSWER: C
+
+Dòng nào tuân theo đúng cú pháp của css?
+A. Body {color: black}
+B. {body;color:black}
+C. Body:color=black
+D. {body:color=black(body}
+ANSWER: A
+
+Dòng nào thể hiện đúng một comment (lời chú thích) trong css?
+A. /* this is a comment */
+B. // this is a comment //
+C. ‘ this is a comment
+D. // this is a comment
+ANSWER: A
+
+Dòng nào dùng để thay đổi màu nền?
+A. Color:
+B. Bgcolor:
+C. Background-color:
+D. Tất cả các câu trên đều sai.
+ANSWER: C
+
+Làm thế nào thêm màu nền cho tất cả các phần tử <h1> ?
+A. H1.all {background-color:#ffffff}
+B. H1 {background-color:#ffffff}
+C. All.h1 {background-color:#ffffff}
+D. Tất cả các câu trên đều sai.
+ANSWER: B
+
+Làm thế nào thay màu nền của chữ (text)? 
+A. Text-color=
+B. Fgcolor:
+C. Color:
+D. Text-color:
+ANSWER: C
+
+Thuộc tính nào thay đổi kích cỡ chữ? 
+A. Font-style
+B. Font-size
+C. Text-style
+D. Text-size
+ANSWER: B
+
+Thuộc tính nào làm chữ trong tag p trở thành chữ đậm? 
+A. {text-size:bold}
+B. <p style=”font-size:bold”>
+C. <p style=”text-size:bold”>
+D. P {font-weight:bold}
+ANSWER: D
+
+Làm sao để hiển thị liên kết mà ko có gạch chân bên dưới? 
+A. A {decoration:no underline}
+B. A {text-decoration:no underline}
+C. A {underline:none}
+D. A {text-decoration:none}
+ANSWER: D
+
+Làm sao để mỗi từ trong 1 dòng đều viết hoa ở đầu từ? 
+A. Text-transform:capitalize
+B. Text-transform:uppercase
+C. You can’t do that with css
+ANSWER: A
+
+Làm sao để thay đổi font của mỗi phần tử? 
+A. Font=
+B. F:
+C. Font-family:
+D. Tất cả các câu trên đều sai.
+ANSWER: C
+
+Làm sao để tạo chữ đậm? 
+A. Font-weight:bold
+B. Style:bold
+C. Font:b
+D. Tất cả các câu trên đều đúng
+ANSWER: B
+
+Làm thế nào để hiển thị viền 1 phần tử với kích thước đường viền như sau: The top border = 10 pixels the bottom border = 5 pixels the left border = 20 pixels the right border = 1pixel?
+A. Border-width:5px 20px 10px 1px
+B. Border-width:10px 5px 20px 1px
+C. Border-width:10px 1px 5px 20px
+D. Border-width:10px 20px 5px 1px
+ANSWER: C
+
+Làm sao để thay đổi lề trái của một phần tử? 
+A. Margin-left:
+B. Text-indent:
+C. Margin:
+D. Indent:
+ANSWER: A
+
+Để định nghĩa khoảng trống giữa các cạnh (viền) của phần tử và nội dung, bạn sử dụng thuộc tính padding, có thể gán giá trị âm cho thuộc tính này không? 
+A. Yes
+B. No
+ANSWER: A
+
+Làm thế nào để hình ở đầu mỗi dòng của 1 list (danh sách) có hình vuông? 
+A. Type: 2
+B. Type: square
+C. List-type: square
+D. List-style-type: square
+ANSWER: C
+
+Nút lệnh(button) nào.dưới đây cho phép gửi thông tin trên form tới server khi được click Chuột? 
+A. Reset
+B. Send
+C. Form
+D. Submit
+ANSWER: D
+
+Câu lệnh nào cho phép trả về phần tử đầu tiên trong mảng và xóa phần tử đó khỏi mảng? 
+A. Pop
+B. Push
+C. Reverse
+D. Shift
+ANSWER: D
+
+________ không phải là thưộc tính của text box. 
+A. Size
+B. Type
+C. Rows
+D. Value
+ANSWER: C
+
+Những phát biểu nào là đúng khi nói về style sheet? 
+A. Có thể đặt trong thẻ meta
+B. Có thể đặt bên trong một trang html
+C. Có thể đặt ở một file bên ngoài, và không được liên kết với trang html 
+D. Không thể chứa nhiều hơn một luật (rule)
+ANSWER: B
+
+Địa chỉ (đường dẫn) cho phép xác định một tài nguyên trên web được gọi là? 
+A. Url
+B. Protocol
+C. Webaddress
+D. Http
+ANSWER: A
+
+Ký hiệu nào dưới đây thể hiện một thẻ mở? 
+A. </>
+B. <> 
+C. <\>
+D. <!-->
+ANSWER: B
+
+Danh sách định nghĩa (definition lists) được đóng bởi thẻ nào? 
+A. </dd>
+B. </dt>
+C. </dc>
+D. </dl>
+ANSWER: D
+
+Trường hợp nào đúng? (1) Bạn có thể đặt thuộc tính font cho toàn bộ tài liệu bằng cách đặt nó vào trong thẻ body. (2) Bạn có thể đặt thuộc tính font cho từng từ(word), từng đoạn và từng phần tử trong một trang html
+A.  Câu 1 đúng, câu 2 sai
+B. Câu 2 dúng, câu 1 sai
+C. Cả hai câu đều sai 
+D. Cả hai câu đều đúng
+ANSWER: B
+
+Để liên kết đến một thẻ neo(anchor), bạn phải sử dụng ký tự nào dưới đây trong thuộc tính href  
+A. #
+B. &
+C. *
+D. @
+ANSWER: A
+
+Một ô trong bảng được định nghĩa bằng thẻ ______ ?. 
+A. <table>
+B. <tc>
+C. <tr>
+D. <td>
+ANSWER: D
+
+Thuộc tính _______ của thẻ table được sử dụng để chỉ ra độ rộng của bảng. 
+A. Width
+B. Span
+C. Area
+D. Size
+ANSWER: A
+
+__________ là kiểu mặc định của phần tử input 
+A. Button
+B. Checkbox
+C. Text
+D. Radio
+ANSWER: C
+
+Biểu thức 15<<2 thực thi dich chuyển sang trái 2 bit (00001111 dịch 2 thành 00111100) Vậy kết quả sẽ là bao nhiêu? 
+A. 120
+B. 60
+C. 30
+D. 80
+ANSWER: B
+
+Thuộc tính lnkcolor của đối tượng document được dùng để: 
+A. Thiết lập(set) hoặc lấy về mầu của tất cả các active links trong trang
+B. Thiết lập(set) hoặc lấy về mầu của tất cả các links trong trang
+C. Thiết lập(set) hoặc lấy về mầu của tất cả các visited links trong trang
+D. Đối tượng document không có thuộc tính này
+ANSWER: B
+
+Sự kiện ________ của phần tử body sẽ đựoc kích hoạt khi trang được nạp xong. 
+A. Onfocus
+B. Onblur
+C. Onload
+D. Onsubmit
+ANSWER: C
+
+Sự kiện ________ sẽ được kích hoạt khi con trỏ chuột di chuyển lên một phần tử 
+A. Onsubmit 
+B.  Onmouseup
+C. Onmouseout
+D. Onmouseover
+ANSWER: D
+
+Thuộc tính method của form chỉ ra phương thức mà dữ liệu sẽ được chuyển tới Server. Nếu giá trị là _______, dữ liệu trên form sẽ được gửi như một khối dữ liệu. Nếu Giá trị là _______ thì trình duyệt sẽ gửi dữ liệu bằng cách tạo một truy vấn bao gồm Url, tên các điều khiển và các giá trị của các điều khiển trên form.  
+A. Post/get
+B.  Get/post
+C. Post/none
+D. Get/none
+ANSWER: A
+
+<style type="text/css"> #test {color:limegreen;font-family:fantasy;font-size:x-large} .abc {color:limegreen;font-family:arial;font-size:x-large} h1 {color:red;font-family:arial;font-size:x-large} </style> 
+A. Class selector
+B. Id selector
+C.  Tag selector
+D. None of these
+ANSWER: B
+
+"aptech".length trả lại giá trị là ____.  
+A. 5
+B. 6
+C. 7
+D. Error
+ANSWER: B
+
+Đặt dòng liên kết với file CSS ở vùng nào trong file HTML? 
+A. Trong thẻ <body>
+B. Trong thẻ <head>
+C. Ở cuối file HTML
+D. Ở đầu file HTML
+ANSWER: B
+
+Thuộc tính text-indent dùng để? 
+A. Thiết lập khoảng cách thụt đầu dòng  
+B.  Thiết lập chế độ canh văn bản
+C. Thêm hiệu ứng đặc biệt cho văn bản
+D.  Tất cả đều sai
+ANSWER: A
+
+Nhóm các đối tượng có cùng thuộc tính và có thể được sử dụng nhiều lần là: 
+A. class
+B.  id
+C. Cả A và B đều đúng
+D. Cả A và B đều sai
+ANSWER: A
+
+Trong mã màu RGB dạng hệ thập lục, #FFFFFF là màu gì? 
+A. Đen
+B. Trắng
+C. Đỏ
+D. Xanh
+ANSWER: B
+
+Mức độ ưu tiên khi áp dụng CSS là: 
+A. External CSS < Internal CSS < Inline CSS
+B.  Inline CSS < Internal CSS < External CSS
+C. Internal CSS < External CSS < Inline CSS
+D. Inline CSS < External CSS < Internal CSS
+ANSWER: A
+
+Thuộc tính z-index dùng để 
+A. Định vị tương đối cho một thành phần
+B. Quy định kiểu viền của một đối tượng web
+C. Tạo hiệu ứng màu sắc cho liên lết
+D. Đặt các thành phần web ở các lớp khác nhau
+ANSWER: D
+
+ text-transform: uppercase dùng để định dạng cho thành phần hiệu ứng 
+A. In hoa
+B. In hoa kí tự đầu tiên ở mỗi từ
+C. In thường
+D. Không áp dụng hiệu ứng nào cả
+ANSWER: A
+
+ CSS định nghĩa các style khác nhau cho cùng một loại HTML element bằng cách sử dụng: 
+A. class selector
+B. id selector
+C. name selector
+D. type selector
+ANSWER: A
+
+ Để liên kết tới External Style sheet ta sử dụng thẻ: 
+A. <STYLE>
+B. <A>
+C. <LINK>
+D. <CSS>
+ANSWER: C
+
+ Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu: 
+A. 2
+B. 3
+C. 4
+D. 5
+ANSWER: B
+
+Làm thế nào để bo tròn góc cạnh các phần tử? 
+A. border[round]: 30px;
+B. corner-effect: round;
+C. border-radius: 30px;
+D. alpha-effect: round-corner;
+ANSWER: C
+
+Làm thế nào để thêm bóng (shadow) cho các phần tử trong CSS3? 
+A. box-shadow: 10px 10px 5px grey;
+B. shadow-right: 10px shadow-bottom: 10px; 
+C. shadow-color: grey;
+D. alpha-effect[shadow]: 10px 10px 5px grey;
+ANSWER: A
+
+Làm thế nào để thêm hình ảnh xuất hiện trên đường viền cho các phần tử trong CSS3? 
+A. border: url(image.png);
+B. border-variable: image url(image.png);
+C. border-image: url(border.png) 30 30 round;
+D. Không thêm được hình ảnh xuất hiện trên đường viền
+ANSWER: C
+
+Làm cách nào để thay đổi kích thước hình ảnh background bằng CSS3? 
+A. background-size: 80px 60px;
+B. bg-dimensions: 80px 60px;
+C. background-proportion: 80px 60px;
+D. alpha-effect: bg-resize 80px 60px;
+ANSWER: A
+
+ Làm cách nào để thêm bóng (shadow) cho đoạn text bằng CSS3? 
+A. font: shadowed 5px 5px 5px grey;
+B. font-shadow: 5px 5px 5px grey;
+C. text-shadow: 5px 5px 5px grey;
+D. shadow: text 5px 5px 5px grey;
+ANSWER: C
+
+Làm thế nào để bắt buộc đoạn text xuống dòng? 
+A. word-wrap: break-word;
+B. text-wrap: break-word;
+C. text-wrap: force;
+D. text-width: set;
+ANSWER: A
+
+Đâu là lệnh chuyển đổi (transform) hợp lệ trong CSS3. 
+A. matrix() 
+B. modify()
+C. skip()
+D. simulate()
+ANSWER: A
+
+Làm thế nào để xoay phần tử trong CSS3? 
+A. object-rotation: 30deg;
+B. transform: rotate(30deg);
+C. rotate-object: 30deg;
+D. transform: rotate-30deg-clockwise;
+ANSWER: B
+
+Đâu là cách để chuyển đổi kích thước/tỷ lệ phần tử bằng CSS3? 
+A. transform: scale(2,4);
+B. scale-object: 2,4;
+C. scale: (2,4);
+D. None
+ANSWER: A
+
+Làm cách nào để tạo hiệu ứng chuyển tiếp transition bằng CSS3? 
+A. transition: width 2s; 
+B. transition-duration: 2s; transition-effect: width;
+C. alpha-effect: transition (width,2s);
+D. None
+ANSWER: A
+
+Khẳng định sau đúng hay sai? Box-shadow được tất cả các trình duyệt hỗ trợ 
+A. Đúng
+B. Sai
+ANSWER: A
+
+Cần thêm tiền tố nào để các thuộc tính CSS3 hoạt động trên trình duyệt Mozilla Firefox cũ? 
+A.  -webkit- 
+B. -moz- 
+C. -o- 
+D.  -gecko- 
+ANSWER: B
+
+Ba giá trị đầu tiên của text-shadow theo thứ tự là gì? 
+A. vertical, blur, horizontal 
+B. blur, vertical, horizontal 
+C. vertical, horizontal, blur 
+D. horizontal, vertical, blur
+ANSWER: D
+
+4 giá trị của border-radius lần lượt là? 
+A. top, bottom, left, right 
+B. up, down, front, behind 
+C. top-left, top-right, bottom-right, bottom-left
+D. bottom-left, bottom-right, top-right, top-left
+ANSWER: C
+
+RGBa có nghĩa là gì? 
+A. Red Gold Black alpha 
+B. Red Green Blue alpha 
+C. Red Gray Brown alpha 
+ANSWER: B
+
+Lệnh CSS có thể viết được ở đâu? 
+A. Viết lẫn vào HTML nhưng khi viết có thẻ <stylesheet> </stylesheet> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css
+B. Viết lẫn vào HTML nhưng khi viết có thẻ <style> </style> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .sheet
+C. Viết lẫn vào HTML nhưng khi viết có thẻ <style> </style>, viết theo tên thẻ ở thuộc tính style=" hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css
+D. Viết lẫn vào HTML nhưng khi viết có thẻ <Css> </Css> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css
+ANSWER: C
+
+Khi sử dụng thẻ DIV có Class = thì ở phần khai báo CSS ta đặt tên đối tượng thế nào? 
+A. Đặt tên đối tượng có dấu . ở đầu tên đối tượng
+B.  Đặt tên đối tượng có dấu $ ở đầu tên đối tượng
+C.  Đặt tên đối tượng có dấu # ở đầu tên đối tượng
+D.  Đặt tên đối tượng có dấu ? ở đầu tên đối tượng
+ANSWER: A
+
+CSS dùng để làm gì? 
+A.  Các kịch bản máy khách.
+B.  Viết các ứng dụng sự kiện
+C. Dùng để lập trình web từ phía máy chủ
+D.  Định dạng trang web
+ANSWER: D
+
+CSS chạy từ phía nào? 
+A. Không xử lý.
+B.  Phía máy khách ( trình duyệt)
+C.  Người dùng tự chạy
+D. Phía máy chủ ( webserver)
+ANSWER: B
+
+Biến trong javascript được khai báo thế nào? 
+A. dim x=5 dim x
+B.  var x=5; var x;
+C.  dime x=5 dime x
+D.  var $x=5 var $x
+ANSWER: B
+
+Kiểu gán nào sau trong JavaScript không hợp lệ? 
+A. x = x - y+
+B.  x *= y
+C. x = x + +y
+D.  x -*=y
+ANSWER: D
+
+P {color:red;text-align:center;}   Xem đoạn mã sau. Thẻ P sẽ có định dạng lại như thế nào?
+A.  Thẻ P của HTML sẽ có màu đỏ căn lề giữa.
+B. Thẻ P của HTML sẽ có màu đỏ căn lề trái.
+C. Thẻ P của HTML sẽ có màu đỏ căn lề phải.
+D.  Thẻ P của HTML sẽ không thay đổi vì nó đã được định nghĩa của HTML
+ANSWER: A
+
+Để nhúng mã JavaScript trong HTLM ta phải đặt vào vị trí nào sau đây? 
+A. Trong thẻ <body>
+B.  Ngay trước <body>
+C.  Trong thẻ <head>
+D.  Tất cả
+ANSWER: D
+
+Thẻ input type=''text'' … dùng để làm gì? 
+A. Tạo một ô text để nhập dữ liệu 
+B. Tạo một cùng có nhiều cột nhiều dòng
+C. Tạo một ô password
+D. Tất cả các ý trên
+ANSWER: A
+
+#ph {color:red;text-align:center;}   Xem đoạn mã sau. Hãy cho biết ph là gì?
+A.  Là một thuộc tính của CSS
+B.  Là tên của một cặp thẻ HTML.
+C.  Là tên của một đối tượng trong CSS
+D.  Là môt thuộc tính của HTML
+ANSWER: C
+
+Ký hiệu nào sau không hợp lệ? 
+A. >>
+B.  <<
+C.  !=>>
+D.  >>>
+ANSWER: C
+
+Để liên kết các dòng lệnh trong JavaScript thành khối ta sử dụng cách nào? 
+A. {}
+B.  Không được sử dụng script
+C.  []
+D.  ()
+ANSWER: A
+
+/*This is a comment*/ P { text-align:center; /*This is another comment*/ color:black; font-family:arial; }   Xem đoạn mã sau. Giá trị trong /*This is another comment*/ dùng để làm gì?
+A. Câu lệnh CSS
+B.  Câu lệnh Javascript.
+C.  Câu lệnh HTML
+D.  Chú thích cho tài liệu CSS
+ANSWER: D
+
+Khi sử dụng thẻ DIV có ID = thì ở phần khai báo CSS ta đặt tên đối tượng thế nào? 
+A. Đặt tên đối tượng có dấu . ở đầu tên đối tượng
+B. Đặt tên đối tượng có dấu ? ở đầu tên đối tượng
+C. Đặt tên đối tượng có dấu $ ở đầu tên đối tượng
+D.  Đặt tên đối tượng có dấu # ở đầu tên đối tượng
+ANSWER: D
+
+Trong CSS muốn tạo một đối tượng có nền màu đỏ, lệnh nào sau đây là đúng 
+A. backcolor: red;
+B.  Color: red;
+C. Backgroundcolor: red;
+D. background: red;
+ANSWER: D
+
+Để gộp chuỗi trong JavaScript ta sử dụng ký hiệu nào? 
+A. +
+B.  &&
+C.  ++
+D.  and
+ANSWER: A
+
+Lệnh để liên kết đến 1 file CSS là gì? 
+A.  <link rel=''stylesheet'' type=''text/css'' href=''mystyle.css'' />
+B.  <a rel=''stylesheet'' type=''text/css'' href=''mystyle.css'' />
+C.  <link href=''stylesheet'' type=''text/css'' ref=''mystyle.css'' />
+D.  <a href=''stylesheet'' type=''text/css'' src=''mystyle.css'' />
+ANSWER: A
+
+Sự kiện Onblur xảy ra khi nào? 
+A. Xảy ra khi thành phần của form được focus(làm nổi lên)
+B.  Xảy ra khi giá trị của thành phần được chọn thay đổi
+C. Xảy ra khi người dùng kích vào các thành phần hay liên kết của form
+D. Xảy ra khi input focus bị xoá từ thành phần form
+ANSWER: D
+
+Sự kiện nào sau không có trong Form? 
+A. Onclick
+B. OnBlur
+C. Onsubmit
+D. Oncharge
+ANSWER: D
+
+Thẻ <frameset rows> </framset>: 
+A.  Dùng để chia trang web ra nhiều phần theo cột
+B.  Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D.  Không có ý nào ở trên
+ANSWER: B
+
+Đặc tính nào sau đây không phải là đặc tính cơ bản của JavaScript? 
+A.  Đơn giản (Simple)
+B. Trực quan cao (visual)
+C.  Hướng đối tượng (Object Oriented)
+D.  Động (Dynamic)
+ANSWER: B
+
+Thẻ <frameset cols> </framset> 
+A. Dùng để chia trang web ra nhiều phần theo cột
+B.  Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên
+ANSWER: A
+
+Trong CSS thuộc tính border: solid dùng để mô tả gì? 
+A. Mô tả đường viên là 2 nét
+B.  Mô tả đường viền có độ bóng
+C.  Mô tả đường viền là liền
+D.  Mô tả đường viền nét đứt
+ANSWER: C
+
+Javascript là ngôn ngữ kịch bản có giấu được mã nguồn không? 
+A. Giấu được vì các kịch bản chạy ở server.
+B.  Không giấu được vì các kịch bản chạy ở client.
+C.  Hai phát biểu đều sai
+D. Giấu được vì chương trình hoạt động độc lập với trình duyệt
+ANSWER: B
+
+Sự kiện focus() có ý nghĩa gì? 
+A.  Mô tả việc con trỏ rời trường text (cách thức)
+B. Mô tả việc lựa chọn dòng text trong trường text (cách thức)
+C. Mô tả việc con trỏ tới trường text (cách thức)
+D. Tên của đối tượng được chỉ ra trong thẻ INPUT (thuộc tính)
+ANSWER: C
+
+Trong Javascript hàm parseFloatTA() dùng để làm gì? 
+A. Chuyển một số nguyên thành một chuỗi
+B. Chuyển một chuỗi thành số thực
+C. Chuyển một chuỗi thành số
+D.  Chuyển một chuỗi thành số nguyên
+ANSWER: B
+
+Từ khóa This trong JavaScript thể hiện? 
+A. Được sử dụng để thiết lập đối tượng ngầm định cho một nhóm các lệnh, bạn có thể sử dụng các thuộc tính mà không đề cập đến đối tượng
+B.  Được sử dụng để chỉ đối tượng hiện thời. Đối tượng được gọi thường là đối tượng hiện thời trong Phương thức hoặc trong hàm
+C.  Được sử dụng để thực hiện tạo ra một thể hiện mới của một đối tượng
+D.  Tất cả đều đúng
+ANSWER: B
+
+Để tạo một khoảng trắng mới ta dùng ký hiệu nào sau đây? 
+A.  \f
+B.  \b
+C.  \r
+D.  \n
+ANSWER: B
+
+Đối tượng Parent trong Frames có ý nghĩa? 
+A. Frame hiện thời
+B.  Cửa sổ hay frame chứa nhóm frame hiện thời
+C.  Mảng tất cả các frame trong cửa so
+D. Tất cả đều đúng
+ANSWER: B
+
+Sự kiện MouseOver xảy ra khi nào? 
+A. Xảy ra khi di chuyển chuột qua kết nối hay anchor
+B.  Xảy ra khi người dùng kích vào các thành phần hay liên kết của form
+C.  Xảy ra khi thành phần của form được focus(làm nổi lên)
+D.  Không có đáp án nào đúng
+ANSWER: D
+
+Để tạo một tab mới ta dùng ký hiệu nào sau đây? 
+A. \r
+B.  \t
+C.  \f
+D.  \n
+ANSWER: B
+
+Từ nào sau đây không phải là từ khóa trong JavaScript? 
+A. parseInt
+B.  parseFloat
+C.  const
+D.  continues
+ANSWER: D
+
+Để khai báo mảng trong JavaScript ta dùng ký hiệu? 
+A.  ( )
+B.  [( )]
+C.  { }
+D.  [ ]
+ANSWER: D
+
+Để chèn thêm 1 ký tự lạ trong JavaScript ví dụ dấu " ta viết theo cách nào? 
+A. document.write(" \"This text inside quotes.\" ");
+B. document.write(" \"This text inside quotes."\ ");
+C. document.write(" \This text inside quotes.\ ");
+D.  document.write("This text inside quotes");
+ANSWER: A
+
+Xét lệnh chmod hello.txt 777 có nghĩa là gì? 
+A. Lệnh này sai
+B. Trao một phần quyền cho mọi người
+C. Không có lệnh này
+D. Trao toàn quyền cho mọi người
+ANSWER: D
+
+(= ") Khi sử dụng thẻ DIV có Class = thì ở phần khai báo CSS ta đặt tên đối tượng thế nào?" 
+A. ( 2) = " Đặt tên đối tượng có dấu # ở đầu tên đối tượng "
+B.  ( 3) = " Đặt tên đối tượng có dấu $ ở đầu tên đối tượng "
+C.  ( 1) = " Đặt tên đối tượng có dấu . ở đầu tên đối tượng "
+D.  ( 4) = " Đặt tên đối tượng có dấu ? ở đầu tên đối tượng "
+ANSWER: C
+
+(= ") Lệnh CSS có thể viết được ở đâu?" 
+A. ( 2) = " Viết lẫn vào HTML nhưng khi viết có thẻ <Css> </Css> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css "
+B. ( 1) = "Viết lẫn vào HTML nhưng khi viết có thẻ <style> </style>, viết theo tên thẻ ở thuộc tính style="" hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css"
+C.  ( 3) = " Viết lẫn vào HTML nhưng khi viết có thẻ <stylesheet> </stylesheet> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css "
+D.  ( 4) = " Viết lẫn vào HTML nhưng khi viết có thẻ <style> </style> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .sheet "
+ANSWER: B
+
+Thẻ của HTML có cấu trúc thế nào? 
+A. HTML tag là các từ khóa được bao quanh bởi dấu ngoặc nhọn như
+B. HTML tag là các từ khóa được bao quanh bởi dấu ngoặc nhọn như <%%>
+C. HTML tag là các từ khóa được bao quanh bởi dấu ngoặc nhọn như
+D. HTML tag là các từ khóa được bao quanh bởi dấu ngoặc nhọn như
+ANSWER: D
+
+Khi lưu một tài liệu định dạng HTML phần mở rộng có thể là gì? 
+A. Phần mở rộng phải là htm
+B. Phần mở rộng phải là html hoặc htm
+C.  Phần mở rộng phải là html
+D. Tùy ý đặt
+ANSWER: B
+
+Thẻ trong HTML được viết thế nào? 
+A. Viết theo các thẻ có sẵn và tự đặt
+B. Được viết theo các cặp thẻ có sẵn trong các version của HTML
+C. Được viết tùy thích và phải đúng nguyên tắc đóng mở theo chuẩn w3c
+D. Cả A, B, C đều đúng
+ANSWER: B
+
+Thuộc tính của các cặp thẻ trong HTML được quy định thế nào? 
+A. Thuộc tính là một cặp thẻ con luôn luôn được quy định trong thẻ bắt đầu, Thuộc tính được lưu trong giá trị các cặp tên / như: tên = "giá trị"
+B. Thuộc tính luôn luôn được quy định trong thẻ bắt đầu, Thuộc tính được lưu trong giá trị các cặp tên / như: tên = "giá trị"
+C. Thuộc tính là một thẻ gốc đóng vai trò cung cấp thông tin, Thuộc tính được lưu trong giá trị các cặp tên / như: tên = "giá trị"
+ANSWER: B
+
+Với các thẻ được quy định về cách thức hiện thị tài liệu, chúng ta có thể can thiệp để thay được được thêm các thông tin đó không? 
+A.  Được thông qua việc khai báo lại tên các cặp thể và định dạng
+B.  Được thông qua việc khai báo lại thể style
+C.  Không được vì HTML đã quy định thẻ đó có định dạng rồi
+ANSWER: B
+
+Ngôn ngữ kịch bản Javascript được viết theo: 
+A. Vbscript
+B.  Javascript
+C. Cả javascript và Vbscript
+D. html
+ANSWER: B
+
+Ngôn ngữ kịch bản Javascript và Java có giống nhau không? 
+A. Có vì java cũng là ngôn ngữ lập trình web
+B.  Không giống nhau, và Java là ngôn ngữ do Sun Microsystems phát triển
+C.  Có, Javascript là một nhánh của lập trình Java
+D.  Không vì java không phải là ngôn ngữ lập trình
+ANSWER: B
+
+Ngôn ngữ kịch bản Javascript gần giống với ngôn ngữ nào sau đây? 
+A. Pascal
+B. Visual Basic
+C.  C++
+D.  Foxpro
+ANSWER: C
