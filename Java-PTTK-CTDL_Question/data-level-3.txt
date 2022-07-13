@@ -1,0 +1,847 @@
+
+Tên đầu tiên của Java là gì?
+A. Java
+B. Oak
+C. Cafe
+D. James golings
+ANSWER: B
+
+public class Main {     public static void main(String[] args) {     int x = -1;     String y = x + 3;     System.out.println("x = " + x + "y = " + y);     }    }       Đọc đoạn mã lệnh sau. Sau khi thực thi chương trình sẽ in ra kết quả gì ?
+A. x=-1 y=2
+B. Lỗi biên dịch: Uncompilable source code - incompatible types
+C. x=-1 y=-13
+D. x=-1 y=4
+ANSWER: B
+
+Đâu là khai báo biến đúng trong java?    (1) rollNumber     (2) $rearly_salary     (3) double     (4) $$_     (5) mount#balance
+A. 12345
+B. 123
+C. 124
+D. 125
+ANSWER: C
+
+int i = 1,  j = 10;    do {     if (i > j) {     break;     }     j--;    } while (++ i < 5 );    System.out.printIn("i = " + i + " and j = " + j);       Đọc đoạn mã sau. Kết quả in ra của đoạn mã trên là gì?
+A. i = 6 and j = 5
+B. i = 5 and j = 5
+C. i = 6 and j = 4
+D. i = 5 and j = 6
+ANSWER: D
+
+Lựa chọn đáp án phù hợp:    (a) byte (1) 256    (b) char (2) 5000    (c)int (3) 4899.99    (d) short (4)126    (e) double (5) 'F'
+A. a-4, b-5, c-2, d-1, e-3
+B. a-1, b-2, c-2, d-1, e-3
+. a-1, b-5, c-4, d-4, e-3
+D. a-5, b-4, c-1, d-2, e-3
+ANSWER: A
+
+Biểu thức nào có giá trị khác các biểu thức còn lại trong các biểu thức sau?    Cho x=true thuộc kiểu boolean.
+A. true
+B. x==true;
+C. 1==1
+D. !x
+ANSWER: D
+
+Có mấy cách để truyền tham số vào cho một phương thức?    Chọn một câu trả lời
+A. 2
+B. 1
+C. 3
+D. 4
+ANSWER: A
+
+Đâu là khai báo đúng về lớp Cat?    Chọn một câu trả lời
+A. Class Cat{}
+B. class public Cat(){}
+C. class Cat{}
+D. public Cat class{}
+ANSWER: C
+
+Một thành viên của một lớp được khai báo là private không những không thể được truy xuất từ bên trong lớp mà còn không nơi nào bên ngoài lớp.    Chọn một câu trả lời
+A. Câu 1 sai, câu 2 đúng
+B. Câu 1 đúng, câu 2 sai
+C. Cả 2 câu cùng đúng
+D. Cả 2 câu cùng sai [Không đúng]
+ANSWER: B
+
+Trong các khai báo sau đâu là khai báo không hợp lệ?    Chọn một câu trả lời
+A. int a1[][] = new int[][3];
+B. int a2[][] = new int[2][3];
+C. int a3[][] = new int[2][];
+D. int a4[][] = {{}, {}, {}};
+ANSWER: A
+
+Phát biểu nào sau đây là đúng:    Chọn một câu trả lời
+A. Mảng có thể lưu giữ các phần tử thuộc nhiều kiểu dữ liệu khác nhau
+B. Chỉ số của mảng có thể sử dụng kiểu số thực (float, double)
+C. Biểu thức array.length được sử dụng để trả về số phần tử trong mảng
+D. Một phần tử của mảng không thể truyền vào trong một phương thức.
+ANSWER: C
+
+Nếu phương thức của bạn ghi đè một trong số các phương thức của lớp cha, bạn có thể gọi phương thức bị ghi đè thông qua từ khóa nào?    Chọn một câu trả lời
+A. parent
+B. super
+C. this
+D. static
+ANSWER: B
+
+Một thành viên của một lớp được khai báo là private không những không thể được truy xuất từ bên trong lớp mà còn không nơi nào bên ngoài lớp.    Chọn một câu trả lời
+A. Câu 1 sai, câu 2 đúng
+B. Câu 1 đúng, câu 2 sai
+C. Cả 2 câu cùng đúng
+D. Cả 2 câu cùng sai
+ANSWER: B
+
+public class Main {     public static void main(String[] args) {     String names[] = {   "John",   "Anna",   "Peter",   "Victor",   "David"   };     System.out.println(names[2]);     }    }       Chương trình sau in ra màn hình xâu nào? Chọn một câu trả lời
+A. Có lỗi biên dịch: use new keyword to create object
+B. Peter
+C. Anna
+D. Victor
+ANSWER: B
+
+Đâu là khai báo đúng về lớp Cat?    Chọn một câu trả lời
+A. Class Cat{}
+B. class public Cat(){}
+C. class Cat{}
+D. public Cat class{}
+ANSWER: C
+
+Đâu KHÔNG phải là cách thức để khởi tạo giá trị cho thuộc tính name có kiểu chuỗi của lớp Cat?
+A. class Cat {String name = "noname";}
+B. public class Cat{ String name; public Cat(){name = "noname";} }
+C. public class Cat{ String name; public Cat(String x){name = x;} }
+D. public class Cat{ String name; public Cat(){ String name = "noname"; } }
+ANSWER: D
+
+Câu 1: Một thành viên protected của một lớp có thể được truy xuất từ bất kỳ lớp nào trong cùng một gói và từ một lớp con nằm bên ngoài gói nếu lớp bên ngoài đó là lớp con.    Câu 2:Một thành viên của một lớp được khai báo là private không những không thể được truy xuất từ bên trong lớp mà còn không nơi nào bên ngoài lớp.    Chọn một câu trả lời
+A. Câu 1 sai, câu 2 đúng
+B. Câu 1 đúng, câu 2 sai
+C. Cả 2 câu cùng đúng
+D. Cả 2 câu cùng sai
+ANSWER: B
+
+Khi biên dịch gặp lỗi Exception in thread main java.lang.NoClassDefFoundError: myprogram. Lỗi này có nghĩa gì?
+A. Đường dẫn chương trình sai.
+B. Không có hàm main
+C. Không khai báo class
+D. Không có từ khóa public tại mở đầu khai báo class
+ANSWER: A
+
+Để khai báo lớp Xedap1 kế thừa lớp Xedap phải làm như thế nào?
+A. class Xedap1 extend Xedap {}
+B. public classs Xedap1 extend Xedap {}
+C. class Xedap1 extends Xedap {}
+D. Tất cả đều sai.
+ANSWER: C
+
+Để sử dụng giao diện Xedap cho lớp Xedap1, ta làm thế nào?
+A. class Xedap1 implement Xedap {}
+B. public class Xedap1 implement Xedap {}
+C. class Xedap1 implements Xedap {}
+D. public class Xedap1 extends Xedap {}
+ANSWER: C
+
+String greeting = “Hello”;  int k = greeting.length();  System.out.print(k);       Khối lệnh sau có kết quả bao nhiêu?
+A. 4
+B. 5
+C. 6
+D. 7
+ANSWER: B
+
+class Student {}    public class Man extends Student {     public boolean isMan() {     return true;     }    }       Đoạn mã sau có lỗi biên dịch KHÔNG? Nếu có là lỗi nào sau?
+A. Không có lỗi biên dịch.
+B. Có lỗi biên dịch:class Student is empty.
+C. Có lỗi biên dịch:class Man has no constructor.
+D. Có lỗi biên dịch:class Student is empty, class Man has no constructor.
+ANSWER: A
+
+Lệnh str.charat(n) có tác dụng gì?
+A. Lấy ký tự bất kỳ trong chuỗi str
+B. Lấy độ dài chuỗi str
+C. Lấy ký tự có số chỉ mục n trong chuỗi k
+D. Không có lệnh này
+ANSWER: D
+
+String greetings = “Hello”;  String s = greetings.substring(0,3);       Hai câu lệnh sau ra kết quả s là bao nhiêu?
+A. Hell
+B. Hel
+C. ello
+D. Hello
+ANSWER: B
+
+String greetings = “Hello”  String s = greetings.substring(0,3);       Hai câu lệnh sau ra kết quả s là bao nhiêu?
+A. Hell
+B. Hel
+C. Lệnh sai
+D. Hello
+ANSWER: C
+
+String greetings = “ Hello “;  String s = greetings.substring(0,3);       Trong hai câu lệnh sau, lệnh substring có tác dụng gì?
+A. Lấy các ký tự từ vị trí chỉ mục 0 đến vị trí chỉ mục 2 của chuỗi greetings và đưa vào s
+B. Thay đổi 3 ký tự đầu tiên của chuỗi greetings 
+C. Sao chép chuỗi greetings vào chuỗi s
+D. Cắt các ký tự từ vị trí chỉ mục 0 đến chỉ mục 3 và đưa vào s
+ANSWER: A
+
+Cho xâu kí tự s=”ABCDEF”. Để lấy kỳ tự thứ ‘E’ của xâu ký tự s(String) dùng câu lệnh nào sau đây?
+A. s.charAt(5)
+B. s.charAt(4)
+C. s[5]
+D. s[4]
+ANSWER: B
+
+Trong các khai báo sau đâu là khai báo không hợp lệ?    Chọn một câu trả lời
+A. int a1[][] = new int[][3];
+B. int a2[][] = new int[2][3];
+C. int a3[][] = new int[2][];
+D. int a4[][] = {{}, {}, {}}
+ANSWER: A
+
+Câu 1: Nếu 2 đối tượng bằng nhau trong cùng một mảng và mảng đó được sắp xếp, các phần tử bằng nhau không thể thay đối thứ tự của chúng?    Câu 2: Chỉ số mảng bắt đầu từ 1    Chọn một câu trả lời
+A. Cả hai câu đều đúng
+B. Cả hai câu đều sai
+C. Câu 1 đúng, câu 2 sai
+D. Câu 2 đúng, câu 1 sai
+ANSWER: B
+
+final int ARRAY_SIZE = 5;    ARRAY_SIZE = 10;    System.out.println("size = " + ARRAY_SIZE);       Lệnh sau in ra cái gì?
+A. size = 10
+B. size = 5
+C. Lỗi ở dòng 3
+D. Lỗi ở dòng 2
+ANSWER: D
+
+Đoạn lệnh nào sẽ đưa ra lỗi biên dịch?    Chọn một câu trả lời
+A. class A { public A(int x) {} }
+B. class A {} class B extends A { B() {}}
+C. Class A { A() {}} class B { public B() {} }
+D. class Z { public Z(int) {} } class A extends Z { }
+ANSWER: D
+
+Câu 1: Nếu 2 đối tượng bằng nhau trong cùng một mảng và mảng đó được sắp xếp, các phần tử bằng nhau không thể thay đối thứ tự của chúng?    Câu 2: Chỉ số mảng bắt đầu từ 1    Chọn một câu trả lời
+A. Cả hai câu đều đúng
+B. Cả hai câu đều sai
+C. Câu 1 đúng, câu 2 sai
+D. Câu 2 đúng, câu 1 sai
+ANSWER: B
+
+Đoạn lệnh nào sẽ đưa ra lỗi biên dịch?    Chọn một câu trả lời
+A. class A { public A(int x) {} }
+B. class A {} class B extends A { B() {}}
+C. class A { A() {}} class B { public B() {} }
+D. class Z { public Z(int) {} } class A extends Z { }
+ANSWER: D
+
+Đâu là một khai báo lớp kế thừa từ hai giao điện đúng?    Chọn một câu trả lời
+A. interface Summable {} interface Eatable {} class Math implements Summable;Eatable{}
+B. interface Summable {} interface Eatable {} class Math implements Summable and Eatable{}
+C. interface Summable {} interface Eatable {} class Math: Summable,Eatable{}
+D. interface Summable {} interface Eatable {} class Math implements Summable,Eatable{}
+ANSWER: D
+
+String[][] str = {"lap", "trinh", "java"};    System.out.println(str[1][1]);       Cho khai báo mảng sau. Lệnh trên in ra cái gì?
+A. trinh
+B. java
+C. Lỗi biên dịch ở dòng 1
+D. Không in ra gì
+ANSWER: B
+
+Phương thức nào của class String trả về index của chuỗi ký tự con xuất hiện đầu  tiên trong chuỗi ký tự char "
+A. concat()
+B. charAt()
+C. indexOf()
+D. Không có đáp án đúng.
+ANSWER: C
+
+Phương thức nào dùng để tìm kiếm một chuỗi trong một chuỗi khác trong class  String của Java?
+A. lastIndexOf()
+B. substring()
+C. toString()
+D. Không có đáp án đúng
+ANSWER: A
+
+Trong Java, kiểu dữ liệu nào là một địa chỉ của đối tượng hoặc một mảng được  tạo ra trong bộ nhớ?
+A. Kiểu primitive
+B. Kiểu reference
+C. Kiểu format
+D. Không có đáp án đúng.
+ANSWER: B
+
+Lệnh result = condition ? value1 : value2 có nghĩa gì?
+A. Nếu condition là true thì result = value2, nếu condition là false thì result = value1
+B. Nếu condition là true thì result = value1, nếu condition là false thì result = value2
+C. Không có lệnh này
+D. Nếu condition là true thì result sẽ đảo giá trị của value1 và value2
+ANSWER: B
+
+String[] students = new String[10];  String studentName = “Peter Parker”;  students[0] = studentName;  studentName = null;       Có bao nhiêu đổi tham chiếu của đối tượng mảng và biến tồn tại sau khi thực hiện khối  lệnh?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: B
+
+Lệnh if CONDITION { Khối lệnh } có tác dụng gì?
+A. Nếu CONDITION đúng thì thực hiện Khối lệnh, nếu sai thì bỏ qua
+B. Nếu CONDITION sai thì thực hiện Khối lệnh, nếu đúng thì bỏ qua
+C. Tất cả đều sai.
+D. Không có đáp án đúng
+ANSWER: A
+
+Lệnh if CONDITION {Khối lệnh 1} else {Khối lệnh 2} có tác dụng gì?
+A. Nếu CONDITION đúng thì thực hiện Khối lệnh 1, nếu sai thì thực hiện Khối lệnh 2
+B. Nếu CONDITION sai thì thực hiện Khối lệnh 1, nếu đúng thì thực hiện Khối lệnh 2
+C. Nếu CONDITION sai thì thực hiện Khối lệnh 1, nếu đúng thì bỏ qua.
+D. Nếu CONDITION đúng thì thực hiện Khối lệnh 2, nếu sai thì bỏ qua
+ANSWER: A
+
+Để kiểm tra 2 chuỗi có bằng nhau hay không, sử dụng phương thức nào?
+A. string1== string2
+B. string1 = string2
+C. string1.equals(string2)
+D. string1.equal(string2)
+ANSWER: C
+
+Lệnh charAt(n) có tác dụng gì?
+A. Tìm kiếm ký tự thứ n
+B. Trả về ký tự thứ n-1
+C. Trả về ký tự thứ n
+D. Trả về ký tự có vị trí chỉ mục n
+ANSWER: D
+
+String greetings = “Hello”;  char letter = greetings.charAt(0);       Lệnh sau trả về kết quả là bao nhiêu?
+A. H
+B. e
+C. I
+D. o
+ANSWER: A
+
+Trong Javascript sự kiện OnUnload thực hiện khi nào?
+A. Khi bắt đầu chương trình chạy
+B. Khi click chuột
+C. Khi kết thúc một chương trình
+D. Khi di chuyển chuột qua
+ANSWER: C
+
+Trong Javascript sự kiện Onblur thực hiện khi nào?
+A. Khi một đối tượng trong form mất focus
+B. Khi một đối tượng trong form có focus
+C. Khi di chuyển con chuột qua form
+D. Khi click chuột vào nút lệnh
+ANSWER: A
+
+Trong Javascript sự kiện OnMouseOver thực hiện khi nào?
+A. Khi một đối tượng trong form mất focus
+B. Khi một đối tượng trong form có focus
+C. Khi di chuyển con chuột qua một đối tượng trong form
+D. Khi click chuột vào nút lệnh
+ANSWER: C
+
+Trong Javascript sự kiện Onclick xảy ra khi nào?
+A. Khi một đối tượng trong form mất focus
+B. Khi một đối tượng trong form có focus
+C. Khi click chuột vào một đối tượng trong form
+D. Khi click chuột vào nút lệnh
+ANSWER: D
+
+Trong Javascript sự kiện Onchange thực hiện khi nào?
+A. Khi một đối tượng trong form mất focus
+B. Khi một đối tượng trong form có focus
+C. Xảy ra khi giá trị của một trường trong form được người dùng thay đổi
+D. Khi click chuột vào nút lệnh
+ANSWER: C
+
+Thẻ <textarea ></texterea> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu 1 dòng
+B. Tạo một ô password
+C. Tạo một textbox cho phép nhập liệu nhiều dòng
+D. Tất cả các ý trên
+ANSWER: C
+
+Lệnh lặp for có dạng như thế nào?
+A. for ( biến = Giá trị đầu; Điều kiện; Giá trị tăng)
+B. for ( biến = Giá trị đầu; Giá trị tăng; điều kiện)
+C. for ( biến = Điều kiện; Giá trị tăng; Giá trị cuối)
+D. Tất cả các dạng trên
+ANSWER: B
+
+Vòng lặp While là dạng vòng lặp?
+A. Không xác định và xét điều kiện rồi mới lặp
+B. Không xác định và lặp rồi mới xét điều kiện
+C. Cả hai dạng trên
+D. Không tồn tại dạng nào ở trên
+ANSWER: A
+
+Lệnh break kết hợp với vòng for dùng để?
+A. Ngưng vòng for nếu gặp lệnh này
+B. Không có ý nghĩa trong vòng lặp
+C. Nhảy đến một tập lệnh khác
+D. Không thể kết hợp được
+ANSWER: A
+
+Hàm prompt(…) trong JavaScript dùng để làm gì?
+A. Hiển thị thông báo nhập thông tin
+B. Hiển thị một thông báo Yes, No
+C. Không phương án nào đúng
+D. Cả hai dạng trên
+ANSWER: A
+
+Trong JavaScript hàm parseInt() dùng để làm gì?
+A. Chuyển một chuỗi thành số
+B. Chuyển một chuỗi thành số thực
+C. Chuyển một số nguyên thành một chuỗi
+D. Chuyển một chuỗi thành số nguyên
+ANSWER: D
+
+Cho các khai báo sau:    1: byte [] array1, array2[];    2: byte array3 [][];    3: byte[][] array4;    Nếu các mảng trên đều được khởi tạo thì lệnh nào sau sẽ gặp lỗi?    Chọn một câu trả lời
+A. array2 = array1;
+B. array2[0] = array3[0];
+C. array2 = array4;
+D. array1=array2;
+ANSWER: C
+
+public abstract class Test {     public abstract void methodA();     public abstract void methodB()     {     System.out.printIn("Hello");     }    }       Làm thế nào để đoạn mã trên biên dịch thành công?
+A. Cài đặt cụ thể phần thân cho phương thức methodA()
+B. Thay thế từ khóa public ở dòng 2 thành private
+C. Xóa từ khóa abstract ở dòng 4
+D. Xóa từ khóa abstract ở dòng 2
+ANSWER: C
+
+Một lớp kế thừa từ lớp abstract thì từ khóa nào sau đây được sử dụng để cài đặt các phương thức của lớp kế thừa này?    Chọn một câu trả lời
+A. static
+B. public
+C. private
+D. abstract
+ANSWER: D
+
+Mô hình tiến trình phần mềm tiến hóa:
+A. Bản chất lặp
+B. Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm
+C. Nói chung không tạo ra những sản phẩm bỏ đi
+D. Tất cả các mục
+ANSWER: D
+
+Để xây dựng mô hình hệ thống, kỹ sư phải quan tâm tới một trong những nhân tố hạn chế sau:
+A. Những giả định và những ràng buộc
+B. Ngân sách và phí tổn
+C. Những đối tượng và những hoạt động
+D. Lịch biểu và các mốc sự kiện
+ANSWER: A
+
+Trong kỹ thuật tiến trình nghiệp vụ, ba kiến trúc khác nhau được kiểm tra:
+A. Hạ tầng kỹ thuật, dữ liệu, ứng dụng
+B. Hạ tầng tài chánh, tổ chức và truyền thông
+C. Cấu trúc báo cáo, cơ sở dữ liệu, mạng
+D. Cấu trúc dữ liệu, yêu cầu, hệ thống
+ANSWER: A
+
+Đặc tả hệ thống mô tả:
+A. Chức năng và hành vi của hệ thống dựa vào máy tính
+B. Việc thi hành của mỗi thành phần hệ thống được chỉ
+C. Chi tiết giải thuật và cấu trúc hệ thống
+D. Thời gian đòi hỏi cho việc giả lập hệ thống
+ANSWER: A
+
+Sử dụng bảng lần vết giúp:
+A. Debug chương trình dựa theo việc phát hiện lỗi thời gian thực
+B. Xác định việc biểu diễn những sự thi hành giải thuật
+C. Xác định, điều khiển và theo vết những thay đổi yêu cầu
+D. Không có mục nào
+ANSWER: C
+
+Tác vụ nào không được biểu diễn như là một phần của phân tích yêu cầu phần mềm?
+A. Định giá và tổng hợp
+B. Mô hình hóa và thừa nhận vấn đề
+C. Lập kế hoạch và lịch biểu
+D. Đặc tả và xem xét
+ANSWER: C
+
+Cấu trúc thông tin biểu diển tổ chức nội của:
+A. Những cấu trúc dữ liệu dùng để biểu diễn loại dữ liệu
+B. Mô hình bố trí nhân viên dự án
+C. Mô hình truyền thông dự án
+D. Những dữ liệu khác nhau và những mục điều khiển
+ANSWER: D
+
+Khung nhìn (view) nào được quan tâm đầu tiên trong phân tich yêu cầu phần mềm:
+A. actor view
+B. data view
+C. essential view
+D. implementation view
+ANSWER: C
+
+Mục nào không là một mục đích cho việc xây dựng một mô hình phân tích:
+A. Xác định một tập những yêu cầu phần mềm
+B. Mô tả yêu cầu khách hàng
+C. Phát triển một giải pháp tóm tắt cho vấn đề
+D. Thiết lập một nền tảng cho thiết kế phần mềm
+ANSWER: C
+
+Biểu đồ dịch chuyển trạng thái:
+A. Đưa ra hình ảnh về các đối tượng dữ liệu
+B. Đưa ra hình ảnh chức năng biến đổi luồng dữ liệu
+C. Chỉ ra hình ảnh dữ liệu được biến đổi như thế nào bởi hệ thống
+D. Chỉ ra những tƣơng tác của hệ thống đối với sự kiện bên ngoài
+ANSWER: D
+
+Mô hình thiết kế không quan tâm tới:
+A. Kiến trúc
+B. Dữ liệu
+C. Giao diện
+D. Phạm vi dự án
+ANSWER: D
+
+Một đặc trưng của thiết kế tốt là:
+A. Cho thấy sự liên kết mạnh giữa các module
+B. Thực hiện tất cả yêu cầu trong phân tích
+C. Bao gồm những test case cho tất cả thành phần
+D. Kết hợp mã nguồn nhằm mục đích mô tả
+ANSWER: B
+
+Loại mô hình nào không được có trong kiến trúc phần mềm:
+A. Dữ liệu
+B. Động
+C. Xử lý
+D. Cấu trúc
+ANSWER: A
+
+Cấp bậc điều khiển thể hiện:
+A. Thứ tự quyết định
+B. Việc tổ chức của các module
+C. Sự lặp lại của những hoạt động
+D. Sự tuần tự của các tiến trình
+ANSWER: B
+
+Mục đích của tham chiếu chéo những yêu cầu (ma trận) trong tài liệu thiết kế là nhằm:
+A. Cho phép người quản lý theo dõi năng suất của nhóm thiết kế
+B. Xác minh là tất cả các yêu cầu đã được xem xét trong thiết kế
+C. Chỉ ra chi phí kết hợp với mỗi yêu cầu
+D. Cung cấp cho việc thực thi tên của những nhà thiết kế cho mỗi yêu cầu
+ANSWER: B
+
+Khi một luồng tổng thể trong một đoạn của biểu đồ luồng dữ liệu có tính trình tự cao và theo sau những những đường thẳng sẽ thể hiện:
+A. Liên kết thấp
+B. Module hóa tốt
+C. Luồng giao dịch (transaction)
+D. Luồng biến đổi (transform)
+ANSWER: D
+
+Một bổ sung cần thiết nhằm biến đổi hay ánh xạ giao dịch để tạo một thiết kế kiến trúc đầy đủ là:
+A. Sơ đồ quan hệ - thực thể
+B. Từ điển dữ liệu
+C. Mô tả việc xử lý cho mỗi module
+D. Những Test-case cho mỗi module
+ANSWER: C
+
+Những hoạt động khung nào thường không kết hợp với những quá trình thiết kế giao diện người dùng:
+A. Ước lượng giá
+B. Xây dựng giao diện
+C. Định trị giao diện
+D. Phân tích người dùng và tác vụ
+ANSWER: A
+
+Ngôn ngữ thiết kế chương trình (PDL) thường là một:
+A. Sự kết hợp giữa cấu trúc lập trình và văn bản tường thuật
+B. Ngôn ngữ lập trình truyền thống theo luật riêng của nó
+C. Ngôn ngữ phát triển phần mềm có thể đọc bởi máy
+D. Một cách hữu dụng để biểu diễn kiến trúc phần mềm
+ANSWER: A
+
+Kiểm thử Black-box cố gắng tìm ra những lỗi:
+A. Chức năng không đầy đủ hay không đúng
+B. Những lỗi giao diện
+C. Những lỗi thực thi
+D. Tất cả mục trên
+ANSWER: D
+
+Trong tích hợp module, gom cụm (cluster) được dùng trong:
+A. Tích hợp từ dưới lên
+B. Tích hợp big-bang
+C. Tích hợp từ trên xuống
+D. Tích hợp tăng vòng
+ANSWER: A
+
+Trong độ đo hiệu quả khử lỗi DRE, số lỗi tiềm tàng là:
+A. Tất cả đều sai
+B. Số lỗi do khách hàng phát hiện
+C. Toàn bộ lỗi được phát hiện sau đó
+D. Toàn bộ lỗi chưa phát hiện
+ANSWER: C
+
+Tài liệu nào sau đây sẽ được tạo ra trong pha thiết kế hệ thống?
+A. Kế hoạch kiểm thử
+B. Mã lệnh
+C. Thiết kế chi tiết
+D. Lập kế hoạch
+ANSWER: C
+
+Những độ đo phức tạp vòng (cyclomatic complexity metric) cung cấp cho người thiết kế thống tin về số
+A. Chu kỳ trong chương trình
+B. Số lỗi trong chương trình
+C. Những đường logic độc lập trong chương trình
+D. Những phát biểu của chương trình
+ANSWER: C
+
+Kỹ sư phần mềm không cần?
+A. Kiến thức về phân tích thiết kế hệ thống
+B. Kiến thức về cơ sở dữ liệu
+C. Lập trình thành thạo bằng một ngôn ngữ lập trình
+D. Kinh nghiệm quản lý dự án phần mềm
+ANSWER: C
+
+Tính khả thi của phần mềm dựa vào các yếu tố sau:
+A. Nghiệp vụ và tiếp thị
+B. Phạm vi, ràng buộc và thị trường
+C. Công nghệ, tiền bạc, thời gian và tài nguyên
+D. Kỹ năng và năng lực của nhà phát triển
+ANSWER: C
+
+Phần mềm quản lý tài chính của một công ty là:
+A. Phần mềm nghiệp vụ (Business software)
+B. Phần mềm hệ thống (System software)
+C. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+D. Phần mềm thời gian thực (Real time software)
+ANSWER: A
+
+Phần mềm quản lý tài chính của một công ty là:
+A. Phần mềm nghiệp vụ (Business software)
+B. Phần mềm hệ thống (System software)
+C. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+D. Phần mềm thời gian thực (Real time software)
+ANSWER: A
+
+2 hình thức dùng mô tả yêu cầu là:
+A. Yêu cầu người dùng và yêu cầu hệ thống
+B. Yêu cầu chức năng và yêu cầu phi chức năng
+C. Yêu cầu chủ động và yêu cầu thụ động
+D. Yêu cầu cụ thể và yêu cầu trừu tượng
+ANSWER: A
+
+Tính chất nào không cần thiết cho phân tích dữ liệu ?
+A. Cấu trúc dữ liệu
+B. Đầy đủ
+C. Bảo mật
+D. Độ lớn
+ANSWER: C
+
+Phân tích yêu cầu bao gồm 3 hoạt động theo đúng thứ tự ?
+A. Làm tài liệu yêu cầu, làm rõ yêu cầu, xem xét yêu cầu
+B. Làm rõ yêu cầu, xem xét yêu cầu, làm tài liệu yêu cầu
+C. Xem xét yêu cầu, làm tài liệu yêu cầu, làm rõ yêu cầu
+D. Làm rõ yêu cầu, làm tài liệu yêu cầu, xem xét yêu cầu
+ANSWER: B
+
+Hoạt động sau đây thuộc loại bảo trì nào “Làm cho hệ thống tốt hơn, nhanh hơn, nhỏ hơn, tài liệu đầy đủ hơn”:
+A. Bảo trì sửa lỗi (Corrective maintenance)
+B. Bảo trì thích nghi (Adaptive maintenance)
+C. Bảo trì hoàn chỉnh (Perfective maintenance)
+D. Bảo trì phòng tránh (Preventive maintenance)
+ANSWER: C
+
+Hoạt động sau đây thuộc loại bảo trì nào “Phát hiện sớm và sửa sai các khuyết điểm vừa mới phát hiện trước khi chúng trở thành các khuyết điểm chính”:
+A. Bảo trì sửa lỗi (Corrective maintenance)
+B. Bảo trì thích nghi (Adaptive maintenance)
+C. Bảo trì hoàn chỉnh (Perfective maintenance)
+D. Bảo trì phòng tránh (Preventive maintenance)
+ANSWER: A
+
+Dạng kiểm thử nào sau đây không thuộc kiểm thử hộp đen:
+A. Kiểm thử điều kiện (Condition testing)
+B. Phân tích giá trị biên (boundary value analysis)
+C. Kiểm thử chuyển đổi trạng thái (State Transition Testing)
+D. Đoán lỗi (Error Guessing)
+ANSWER: A
+
+Yêu cầu nào là yêu cầu chức năng?
+A. Cảnh báo người dùng khi dung lượng trống trên đĩa còn 20%
+B. Thực hiện thao tác thêm, xem, xóa, sửa dữ liệu nghiệp vụ
+C. Cảnh báo ngày hệ thống bị sai
+D. Yêu cầu chỉnh lại ngày giờ hệ thống mỗi khi làm việc
+ANSWER: B
+
+Kỹ thuật gì nên dùng cho kiểm thử đơn vị:
+A. Kỹ thuật hộp trắng
+B. Kỹ thuật hộp đen
+C. Cả hai kỹ thuật hộp đen và trắng
+D. Kỹ thuật hồi quy (regression)
+ANSWER: A
+
+SRS là viết tắt của:
+A. Software Requirement Specification
+B. System Requirement Specification
+C. Studying Requirement Specification
+D. Solve Requirement Specification
+ANSWER: A
+
+Nguyên tắc kiểm thử nào sau đây là sai:
+A. Phải lên kế hoạch kiểm thử sớm ngay trong giai đoạn phân tích hệ thống
+B. Có thể thực hiện kiểm thử được toàn bộ mọi trường hợp có thể có của hệ thống
+C. Để hiệu quả, kiểm thử nên được thực hiện bởi một đội kiểm thử
+D. Tuân theo nguyên tắc Pareto
+ANSWER: B
+
+Phát biểu nào sau đây là không đúng khi nói đến quá trình thu thập yêu cầu:
+A. Yêu cầu rất khó phát hiện
+B. Yêu cầu rất dễ bị thay đổi
+C. Yêu cầu phải luôn thống nhất
+D. Yêu cầu luôn được biết một cách chính xác
+ANSWER: D
+
+Trong lược đồ use case sau, phát biểu nào là sai?
+A. “Kiểm tra ngân quỹ chiến dịch” là use case cơ bản
+B. “Kiểm tra ngân quỹ chiến dịch” là use case mở rộng được khởi động từ use case "In tóm tắt chiến dịch"
+C. “In tóm tắt chiến dịch” là use case cơ bản
+D. Tất cả đều sai
+ANSWER: A
+
+Chọn lựa nào sau đây mô tả một yêu cầu phi chức năng?
+A. Hệ thống phải có khả năng lưu trữ ban đầu là 500MB dữ liệu, mỗi năm tăng lên 100MB
+B. Hệ thống phải phát sinh ra một báo cáo về tất cả các chiến dịch quảng cáo cho một khách hàng cụ thể
+C. Hệ thống phải cho phép những người sử dụng nhập vào chi tiết các khách hàng
+D. Tất cả các Câu đều đúng
+ANSWER: A
+
+Kết quả của giai đoạn thu thập yêu cầu là:
+A. Bảng ước tính chi phí dự án
+B. Tài liệu đặc tả yêu cầu phần mềm
+C. Lược đồ ngữ cảnh
+D. Lược đồ Use case và các được đồ khác
+ANSWER: B
+
+Ví dụ nào sau đây không phải là yêu cầu phi chức năng?
+A. Phân chia ổ đĩa dữ liệu
+B. Các yêu cầu xử lý
+C. Nội dung của các báo cáo in ra theo yêu cầu của hệ thống
+D. Tất cả các mục
+ANSWER: C
+
+Chọn lựa nào sau đây mô tả một yêu cầu chức năng?
+A. Hệ thống phải có khả năng trả lời tất cả các truy vấn trong 5 giây
+B. Các người sử dụng của hệ thống sẽ gây ra ít lỗi hơn 50% so với hệ thống hiện tại
+C. Hệ thống phải cho phép những người sử dụng nhập vào các chi tiết của các chiến dịch quảng cáo
+D. Hàng tháng, báo cáo phải nộp lên giám đốc trước ngày 5 của tháng sau đó
+ANSWER: C
+
+Ai là người viết tài liệu SRS?
+A. Người quản lý dự án
+B. Phân tích viên
+C. Lập trình viên
+D. Khách hàng
+ANSWER: B
+
+Mô hình phát triển phần mềm dựa trên mẫu thử (prototype) là:
+A. Một phương pháp thích hợp được sử dụng khi các yêu cầu đã được xác định rõ ràng
+B. Phương pháp tốt nhất được sử dụng trong các dự án có nhiều thành viên
+C. Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng
+D. Một mô hình rất rủi ro, khó đưa ra được một sản phẩm tốt
+ANSWER: C
+
+Các đặc tính của mô hình tiến hóa:
+A. Thường dùng prototype
+B. Bản chất lặp
+C. Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm
+D. Tất cả các mục
+ANSWER: D
+
+Phát biểu nào là hợp lý nhất khi nói về mô hình phát triển phần mềm tuần tự tuyến tính:
+A. Một mô hình cũ phổ biến mà bây giờ hiếm khi dùng nữa
+B. Hướng tốt nhất để dùng cho những dự án với những nhóm phát triển lớn
+C. Một hướng hợp lý khi những yêu cầu được xác định rõ
+D. Một hướng tốt khi cần tạo nhanh một chương trình thực thi
+ANSWER: C
+
+Độ lớn (Volume) trong phân tích yêu cầu là:
+A. Là số lượng máy tính chạy phần mềm
+B. Là số lượng dữ liệu phát sinh trong một chu kỳ nào đó
+C. Là số lượng các nghiệp vụ hệ thống phải tiến hành trong một chu kỳ nào đó
+D. Là số lượng người làm việc với phần mềm
+ANSWER: C
+
+Sơ đồ nào sau đây không cần thiết trong phân tích yêu cầu?
+A. Use Case
+B. Entity Relationship Diagram
+C. State Transition Diagram
+D. Activity Diagram
+ANSWER: D
+
+Có bao nhiêu giai đoạn trong phân tích yêu cầu?
+A. 3
+B. 4
+C. 5
+D. 6
+ANSWER: C
+
+Có bao nhiêu nguyên lý đặc tả yêu cầu?
+A. 3
+B. 5
+C. 7
+D. 8
+ANSWER: D
+
+Độ đo mức độ bảo trì:
+A. Số vấn đề giải quyết trong tháng /tổng số vấn đề phát sinh trong tháng
+B. Số lần bảo trì vượt quá tiêu chuẩn thời gian /tổng số lần bảo trì
+C. Số lần bảo trì sai sót /tổng số lần bảo trì
+D. Thời gian trung trung bình của một lần bảo trì
+ANSWER: A
+
+Phát biểu nào là sai khi nói về bản chất của phần mềm:
+A. Có thể là sản phẩm theo đơn đặt hàng
+B. Là một sản phẩm công nghiệp
+C. Là sản phẩm có thể thực thi
+D. Không thực sự là sản phẩm
+ANSWER: D
+
+Kỹ thuật thu thập yêu cầu cầu nào cần đến sự nhất trí của số đông?
+A. Prototype
+B. Facilitated Workshops
+C. Observation
+D. Questionnaires & Surveys
+ANSWER: B
+
+Mục nào không dùng cho đặc tả yêu cầu:
+A. Đặc tả cú pháp
+B. Đặc tả đối tượng
+C. Đặc tả chức năng
+D. Đặc tả kỹ thuật
+ANSWER: D
+
+Use-cases là một kịch bản mà mô tả:
+A. Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước
+B. Những công cụ CASE sẽ được dùng như thế nào để xây dựng hệ thống
+C. Kế hoạch xây dựng cho sản phẩm phần mềm
+D. Những test-case cho sản phẩm phần mềm
+ANSWER: A
+
+Loại hình đặc tả nào không có?
+A. Đặc tả hình thức
+B. Đặc tả phi hình thức
+C. Đặc tả toán học
+D. Đặc tả hỗn hợp
+ANSWER: C
+
+Xác nhận yêu cầu (Requirements Validation) được tiến hành bởi:
+A. Phân tích viên và lập trình viên
+B. Phân tích viên và khách hàng
+C. Phân tích viên và các bên có liên quan
+D. Phân tích viên và người dùng
+ANSWER: C
+
+Khi xác nhận yêu cầu, cần phải làm sáng tỏ các từ nào sau đây:
+A. “một số”, “đôi khi”, “thường”, “thông thường”, “bình thường”, “phần lớn”, “đa số”
+B. Danh từ là số nhiều hay số ít
+C. Tính từ chỉ trạng thái
+D. Động từ ở hình thức chủ động hay bị động
+ANSWER: A
+
+Use-cases là một kịch bản mà mô tả :
+A. Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước
+B. Những công cụ CASE sẽ được dùng như thế nào để xây dựng hệ thống
+C. Kế hoạch xây dựng cho sản phẩm phần mềm
+D. Những test-case cho sản phẩm phần mềm
+ANSWER: A
+
+Chỉ phát biểu sai, để đạt được độ đo PUM thấp:
+A. Cải tiến quy trình
+B. Giảm lỗi giá
+C. Gia tăng số bản bán được
+D. Giảm thời gian sửa lỗi
+ANSWER: D

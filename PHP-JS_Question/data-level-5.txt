@@ -1,0 +1,568 @@
+
+Đoạn code sau đây phát sinh ra kết quả gì <?php $x = array(  "aaa",  "ttt",  "www",  "ttt",  "yyy",  "tttt" ); $y = array_count_values($x); echo $y[ttt];
+A. 2
+B. 3
+C. 1
+D. 4
+ANSWER: A
+
+<?php $score = 1234; $scoreboard = (array)$score; echo $scoreboard[0]; ?>   Kết quả của đoạn code dưới đây là?
+A. 1
+B. Error
+C. 1234
+D. 2
+ANSWER: C
+
+<?php $total = "25 students"; $more = 10; $total = $total + $more; echo "$total"; ?>   Kết quả của đoạn code dưới đây là?
+A. Error
+B. 35 students
+C. 35
+D. 25 students
+ANSWER: C
+
+<?php function one($string) {  echo "I am " . $String; } one("Batman"); ?>   Kết quả của đoạn code dưới đây là?
+A. I am Batman
+B. I am
+C. Batman
+D. Có lỗi xảy ra
+ANSWER: D
+
+<?php $x = 0; if ($x == 1) if ($x >= 0) print "true"; else print "false"; ?>   Kết quả của đoạn code dưới đây là?
+A. true
+B. false
+C. error
+D. Không có kết quả in ra
+ANSWER: D
+
+<?php $a = 1; if (echo $a) print "True"; else print "False"; ?>   Kết quả của đoạn code dưới đây là?
+A. true
+B. false
+C. Xảy ra lỗi
+D. Không có kết quả trả về
+ANSWER: C
+
+<?php $a = 1; if (print $a) print "True"; else print "False"; ?>   Kết quả của đoạn code dưới đây là?
+A. 1True
+B. False
+C. Có lỗi xảy ra
+D. Màn hình trắng
+ANSWER: A
+
+<?php if (preg_match("/[^a-z589]+/", "AB asdfg589nmGH", $array)) {  print "<pre>\n";  print_r($array[0]);  print "</pre>\n"; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 589
+B. ABGH
+C. asdfg589nm
+D. AB
+ANSWER: D
+
+Thực hiện kiểm tra nếu biến i không bằng 5, câu lệnh nào là đúng?
+A. if (i != 5)
+B. if i =! 5 then
+C. if i <> 5
+D. if (i <> 5)
+ANSWER: A
+
+var a = [9]; var b = [10]; console.log(a == 9); console.log(b == 10); console.log(a < b);   Kết quả đoạn code sau là:
+A. true true true
+B. false false false
+C. true true false
+D. false false true
+ANSWER: C
+
+function greatestNumberInArray(arr) {  let greatest = 0;  for (let i = 0; i < arr.length; i++) {  if (greatest < arr[i]) {  greatest = arr[i];  }  }  return greatest; }   Hàm greatestNumberInArray dưới đây có get được phần tử lớn nhất cho mọi array không?
+A. Yes
+B. No
+ANSWER: B
+
+const arr = [  x => x * 1,  x => x * 2,  x => x * 3,  x => x * 4 ]; console.log(arr.reduce((agg, el) => agg + el(agg), 1));   Kết quả là:
+A. 1
+B. 60
+C. 100
+D. 120
+ANSWER: D
+
+const ar = [5, 1, 3, 7, 25]; const ar1 = ar; console.log(ar1.sort()); ([5, 25].indexOf(ar[1]) != -1 && console.log(ar.reverse())) || (ar[3] == 25 && console.log(ar)); console.log(ar1);   Cho đoạn code sau. Kết quả là:
+A. [1, 3, 5, 7, 25] [7, 5, 3, 25, 1] [1, 25, 3, 5, 7] [1, 25, 3, 5, 7]
+B. [1, 25, 3, 5, 7] [5,1,3,7,25]
+C. [1, 25, 3, 5, 7] [7, 5, 3, 25, 1] [7, 5, 3, 25, 1] [7, 5, 3, 25, 1]
+D. An error is thrown
+ANSWER: C
+
+const arr1 = ['a', 'b', 'c']; const arr2 = ['b', 'c', 'a']; console.log(  arr1.sort() === arr1,  arr2.sort() == arr2,  arr1.sort() === arr2.sort() );   Cho đoạn code sau. Kết quả là:
+A. true true true
+B. true true false
+C. false false false
+D. true false true
+ANSWER: B
+
+function ArrayBoolean() {  if ([] == true && [1] == true) return [true, true];  else if ([] == true && [1] == false) return [true, false];  else if ([] == false && [1] == true) return [false, true];  else return [false, false]; } ArrayBoolean();   Cho đoạn code sau. Kết quả là:
+A. [true, true]
+B. [true, false]
+C. [false, true]
+D. [false, false]
+ANSWER: C
+
+let dog = {  breed: 'Border Collie',  sound: 'Wooh',  getBreed: () => {  return this.breed;  },  getSound: function() {  return this.sound;  } }; console.log(dog.getBreed(), dog.getSound());   Cho đoạn code sau. Kết quả là:
+A. Border Collie, Wooh
+B. Border Collie, undefined
+C. undefined, Wooh
+D. undefined, undefined
+ANSWER: C
+
+const person = { name: 'duthaho' }; function sayHi(age) {  return `${this.name} is ${age}`; } console.log(sayHi.call(person, 69)); console.log(sayHi.bind(person, 69));   Đoạn code sau sẽ cho kết quả như thế nào?
+A. undefined is 69 duthaho is 69
+B. function function
+C. duthaho is 69 duthaho is 69
+D. duthaho is 69 function
+ANSWER: D
+
+function withVar() {  const b = () => a;  var a = 24;  return b; } function withLet() {  const b = () => a;  let a = 24;  return b; } function changingValue() {  let a = 24;  const b = () => a;  a = 42;  return b; } console.log(withVar()()); // ?? console.log(withLet()()); // ?? console.log(changingValue()()); // ??   Kết quả đoạn code sau là:
+A. undefined Error 42
+B. 24 Error 24
+C. 24 24 42
+D. undefined Error 24
+ANSWER: C
+
+function Person(firstName, lastName) {  this.firstName = firstName;  this.lastName = lastName; } const ti = new Person('du', 'ti'); const teo = Person('du', 'teo'); console.log(ti); console.log(teo);   Đoạn code sau sẽ có kết quả là:
+A. Person {firstName: "du", lastName: "ti"} undefined
+B. Person {firstName: "du", lastName: "ti"} Person {firstName: "du", lastName:"teo"}'
+C. Person {firstName: "du", lastName: "ti"} {}
+D. Person {firstName: "du", lastName: "ti"} ReferenceError
+ANSWER: A
+
+bar(); var bar; function bar() { console.log('first'); } bar = function () { console.log('second'); }; bar(); foo(); function foo() { console.log(1); } var foo = function () { console.log(2); }; function foo() { console.log(3); } foo();   Đoạn code sau sẽ cho kết quả:
+A. second first 1 3
+B. first second 3 2
+C. second first 3 3
+D. first second 3 3
+ANSWER: B
+
+function sayHi() {  return (() => 0)(); } console.log(typeof sayHi());   Cho đoạn code sau, kết quả là:
+A. object
+B. number
+C. function
+D. undefined
+ANSWER: B
+
+const a = {  stringField: 'Joe',  numberField: 123,  dateField: new Date('1995-12-17T03:24:00'),  nestedField: { field: 'Nested' } }; const b = JSON.parse(JSON.stringify(a)); console.log(  a.stringField === b.stringField,  a.numberField === b.numberField,  a.dateField === b.dateField,  a.nestedField.field === b.nestedField.field );   Đoạn code sau sẽ có kết quả:
+A. true true true true
+B. true true true false
+C. true true false true
+D. false false false false
+ANSWER: C
+
+const notifications = 1; console.log(  `You have ${notifications} notification${notifications !==  1 && 's'}` );   Đoạn code trên sẽ có kết quả là:
+A. You have 1 notification
+B. You have 1 notifications
+C. You have 1 notificationfalse
+ANSWER: C
+
+const compare = a => a === a; console.log(compare(null)); console.log(compare(undefined)); console.log(compare(NaN)); console.log(compare([NaN]));   Cho đoạn code sau, kết quả sẽ là:
+A. true true true true
+B. true false true true
+C. true true false true
+D. true true false false
+ANSWER: C
+
+const n = 5; console.log(1..n); // ?   Cho đoạn code sau, kết quả là:
+A. [1, 2, 3, 4, 5]
+B. undefined
+C. Syntax error
+ANSWER: B
+
+const a = {  stringField: 'Joe',  nestedField: { field: 'Nested' },  functionField: () => 'aReturn' }; const b = Object.assign({}, a); b.stringField = 'Bob'; b.nestedField.field = 'Changed'; b.functionField = () => 'bReturn'; console.log(  a.stringField,  a.nestedField.field,  a.functionField() );   Cho đoạn code sau, kết quả là:
+A. Joe Nested aReturn
+B. Bob Changed bReturn
+C. Joe Changed aReturn
+D. Bob Nested bReturn
+ANSWER: C
+
+const url = 'quiz.duthaho.com'; const { length: ln, [ln - 1]: domain = 'quiz' } = url  .split('.')  .filter(Boolean); console.log(domain);   Cho đoạn code sau, kết quả là:
+A. "quiz"
+B. "duthaho"
+C. "com"
+D. undefined
+ANSWER: C
+
+const obj = { a: 'one', b: 'two', a: 'three' }; console.log(obj);   Cho đoạn code, kết quả là
+A. {a: "one", b: "two" }
+B. {b: "two", a: "three" }
+C. {a: "three", b: "two" }
+D. SyntaxError
+ANSWER: C
+
+const user = {  name: 'lao Hac',  age: 69,  pet: {  type: 'cho',  name: 'vang'  } }; Object.freeze(user); user.pet.name = 'shiba'; console.log(user.pet.name);   Kết quả của đoạn code là:
+A. shiba
+B. vang
+C. An error is thrown
+ANSWER: A
+
+const obj = {  1: 1,  2: 2,  3: 3 }; console.log(Object.keys(obj), Object.values(obj));   Đoạn code sau, kết quả sẽ là:
+A. [1, 2, 3] ["1", "2", "3"]
+B. ["1", "2", "3"] [1, 2, 3]
+C. ["1", "2", "3"] ["1", "2", "3"]
+ANSWER: B
+
+const obj = { 1: 'a', 2: 'b', 3: 'c' }; const set = new Set([1, 2, 3, 4, 5]); obj.hasOwnProperty('1'); obj.hasOwnProperty(1); set.has('1'); set.has(1);   Cho đoạn code sau, kết quả sẽ là:
+A. false true false true
+B. false true true true
+C. true true false true
+D. true true true true
+ANSWER: C
+
+const a = {}; const b = { key: 'b' }; const c = { key: 'c' }; a[b] = 123; a[c] = 456; console.log(a[b]);   Đoạn code sẽ cho kết quả
+A. 123
+B. 456
+C. undefined
+D. ReferenceError
+ANSWER: B
+
+const scrambled = {  2: 'e',  5: 'o',  1: 'h',  4: 'l',  3: 'l' }; const result = Object.values(scrambled).reduce(  (agg, el) => agg + el,  '' ); console.log(result);   Đoạn code sau sẽ cho kết quả là:
+A. hello
+B. eohll
+C. Cả A, B đều đúng
+D. Cả A, B đều sai
+ANSWER: A
+
+let b = '4'; console.log(b++ + 3, b);   Đoạn code sau sẽ cho kết quả:
+A. 44 4
+B. 8 5
+C. 7 5
+D. 43 5
+ANSWER: C
+
+console.log(1 < 2 < 3); console.log(3 > 2 > 1);   Đoạn code sau sẽ cho kết quả gì?
+A. true true
+B. true false
+C. false false
+D. undefined undefined
+ANSWER: B
+
+Trường hợp nào đúng? (1) Bạn có thể đặt thuộc tính font cho toàn bộ tài liệu bằng cách đặt nó vào trong thẻ body. (2) Bạn có thể đặt thuộc tính font cho từng từ(word), từng đoạn và từng phần tử trong một trang html
+A. Câu 1 đúng, câu 2 sai
+B. Câu 2 dúng, câu 1 sai
+C. Cả hai câu đều sai
+D. Cả hai câu đều đúng
+ANSWER: B
+
+public class Test {     public static int switchIt(int x)     {     int j = 1;     switch (x) {     case 1:   j++;     case 2:   j++;     case 3:   j++;     case 4:   j++;     default:   j++;     }     return j + x;     }     public static void main(String[] args) {     System.out.println("value = " + switchIt(4));     }    }       Kết quả in ra của đoạn mã bên dưới là gì? Chọn một câu trả lời
+A. value = 3
+B. value = 4
+C. value = 5
+D. value = 7
+ANSWER: D
+Khi thực thi chương trình, hàm main() sẽ gọi hàm switchIt(4), hàm switch() sẽ gán j=1, và so sánh x với các giá trị 1,2,3,4 và sẽ thực hiện các lệnh từ nhánh j=4 đến hết switch(vì không có lệnh break) do đó j tăng lên 2 => j=3. Cuối cùng sẽ trả về giá trị j+x =3+4=7
+class A {     int x = 10;     public void calTotal(A a) {     a.x = 12;     System.out.println(a.x);     }    }       Khi thực hiện lệnh:    A a = new A();    a.calTotal(a);    Giá trị của x sau khi thực hiện lệnh trên sẽ cho kết quả gì?
+A. 10
+B. 12
+C. 22
+D. 24
+ANSWER: B
+Khi gọi hàm calTotal tham số truyền cho hàm là một đối tượng thuộc lớp A, do đó sẽ làm thay đổi thuộc tính x của lớp A sang giá trị là 12.
+class Student {     public String sayHello() {     return "Student";     }    }    public class Man extends Student {     public int sayHello() {     return 0;     }    }       Đoạn mã sau có lỗi biên dịch nào? Chọn một câu trả lời
+A. Có lỗi biên dịch:sayHello() in Man cannot override sayHello() in Student return type int is not compatible with java.lang.String
+B. Không có lỗi biên dịch.
+C. Có lỗi biên dịch:sayHello() in Man cannot override sayHello() in Student because it is final
+D. Có lỗi biên dịch:sayHello() in Man and in Student has the same access modifier
+ANSWER: A
+Lớp Man định viết đè sayHello() được viết ở Student, nhưng có kiểu dữ liệu trả về là int không thể chuyển thành String được. Và sayHello() không được đánh dấu là final, nên có thể được ghi đè.
+public class Person {   protected String name;   protected int age;   public static void main(String[] args) {   Person p = new Person();   p.name = "Tom";   System.out.println(p.name);   }  }       Đoạn mã sau có lỗi biên dịch gì? Chọn một câu trả lời
+A. Không có lỗi biên dịch.
+B. name has protected access.
+C. age has protected access.
+D. name has public access.
+ANSWER: A
+hàm main ở trong cùng lớp Person, nên có thể truy xuất tới tất cả các trường của Person.
+class A {     int x = 10;     public void calTotal(A a) {     a.x = 12;     System.out.println(a.x);     }    }       Giá trị của x sau khi thực hiện lệnh trên sẽ cho kết quả gì?    Khi thực hiện lệnh:    A a = new A();    a.calTotal(a);
+A. 10
+B. 12
+C. 22
+D. 44
+ANSWER: B
+Vì: Khi gọi hàm calTotal tham số truyền cho hàm là một đối tượng thuộc lớp A, do đó sẽ làm thay đổi thuộc tính x của lớp A sang giá trị là 12.
+class Person {     protected String name;     public int age;    };    public class Main {     public static void main(String[] args) {     Person p = new Person();     p.name = "Tom";     }    }       Đoạn mã sau có lỗi biên dịch gì?
+A. Không có lỗi biên dịch.
+B. name has protected access.
+C. age has protected access.
+D. name has public access.
+ANSWER: B
+
+class Student {     public String sayHello() {     return "Student";     }    }    public class Man extends Student {     public String sayHello() {     return "man";     }     public static void main(String[] args) {     Man m = new Student();     System.out.println(m.sayHello());     }    }       Đoạn mã sau có lỗi biên dịch nào?
+A. Có lỗi biên dịch:Incompatible type, requiered Man, found Student.
+B. Không có lỗi biên dịch. In ra màn hình "man"
+C. Có lỗi biên dịch:access modified of sayHello in Student and Man are different
+D. Không có lỗi biên dịch. In ra màn hình "student"
+ANSWER: A
+m thuộc lớp Man, nhưng lại dùng để trỏ đển đối tượng của Student mà Man không phải là lớp con của Student. Và access modified của cùng phương thức ở lớp con chỉ cần mạnh hơn hoặc bằng cảu lớp cha la được.
+class Student {     public int getAge() {     return 10;     }    }    public class Man extends Student {     protected int getAge(int added) {     return super.getAge() + added;     }    }       Đoạn mã sau có lỗi biên dịch nào?
+A. Không có lỗi biên dịch.
+B. Có lỗi biên dịch: getAge() has in Man can not have weaker same access modifier than in Student.
+C. Có lỗi biên dịch:call to super, must be the first in constructor in class Man.
+D. Có lỗi biên dịch: getAge() in Student and Man can not have the same access arguments.
+ANSWER: A
+getAge() ở Student và Man có arguments khác nhau, nên chúng là các phương thức khác nhau.
+package pac02;    public class ClassA {     public int xA;     public String yA;    }    ---------    package pac01;    import pac02.ClassA;    public class Test {     public static void main(String[] args) {     ClassA a = new ClassA();     a.xA = 12;     a.yA = "Hello";     System.out.println("a.xA = " + a.xA + "; a.yA = " + a.yA);     }    }       Chương trình sẽ in ra kết quả gì khi thực thi đoạn mã sau?
+A. Lỗi biên dịch dòng 2.5, 2.6, 2.7
+B. Lỗi biên dịch dòng 2.5
+C. Lỗi biên dịch dòng 2.6, 2.7
+D. a.xA = 12; a.yA = Hello
+ANSWER: D
+Thuộc tính xA, yA của lớp ClassA được khai báo với từ khóa public nên được truy xuất và in ra kết quả chương trình là xA = 12, yA = Hello.
+Khối lệnh thực hiện chuyện gì?    int[] mang = new int[10];  int s = 0;  int j = 0;  for (int i: mang) {   i = ++j;   s += i;  }  System.out.println(“S = “ + s);
+A. Nhập dữ liệu cho mang nguyên.
+B. Tính tổng mảng nguyên.
+C. Nhập dữ liệu và tính tổng mảng nguyên.
+D. Tất cả đều sai.
+ANSWER: C
+
+class A {     final public int method1(int a, int b) {   return 0;   }    }    class B extends A {     public int method1(int a, int b) {   return 1;   }    }    public class Test {     public static void main(Strings args[]) {     B b;     System.out.println("x = " + b.method1(0, 1));     }    }       Chương trình sẽ in ra cái gì?
+A. x = 0
+B. x = 1
+C. Lỗi biên dịch
+D. x=10
+ANSWER: C
+Lớp A là lớp con của lớp B và phương thức method1() trong lớp cha đã khai báo là final do vậy không thể thực hiện ghi đè trong lớp con.
+class Student {     public String name;    }    public class Man extends Student {     private String name;    }       Đoạn mã sau có lỗi biên dịch nào?
+A. Có lỗi biên dịch:name has private access in Man.
+B. Không có lỗi biên dịch.
+C. Có lỗi biên dịch:for name access modifier in Man for name is weaker in Student.
+D. Có lỗi biên dịch:name has public access in Student.
+ANSWER: B
+Thuộc tính không có ràng buộc về access modifier ở lớp con và lớp cha.Và thuộc tính ở mỗi lớp có thể nhận default, protected, private, public là access modified
+class Student {     private String name;    }    public class Man extends Student {     private String name;     public static void main(String[] args) {     Student m = new Student();     m.name = "Peter";     }    }       Đoạn mã sau có kết quả như thế nào?
+A. Có lỗi biên dịch:name has private access in Student.
+B. Không có lỗi biên dịch.
+C. In ra chữ “student”
+D. In ra chữ “Peter”
+ANSWER: A
+Không thể truy xuất vào thuộc tính private từ bên ngoài lớp
+public class Person {   private String name;   protected int age;   public static void main(String[] args) {   Person p = new Person();   p.name = "Tom";   System.out.println(p.name);   }  }       Đoạn mã sau có lỗi biên dịch gì?
+A. Không có lỗi biên dịch.
+B. name has private access.
+C. age has protected access.
+D. name has public access.
+ANSWER: A
+Hàm main ở trong cùng lớp Person, nên có thể truy xuất tới tất cả các trường của Person.
+package pac02;    public class ClassA {     protected int xA;     public String yA;    }    ---------    package pac01;    import pac02.ClassA;    public class Test {     public static void main(String[] args) {     ClassA a = new ClassA();     a.xA = 12;     a.yA = "Hello";     System.out.println("a.xA = " + a.xA + "; a.yA = " + a.yA);     }    }       Chương trình sẽ in ra kết quả gì khi thực thi đoạn mã sau?
+A. Lỗi biên dịch dòng 2.7
+B. Lỗi biên dịch dòng 2.5
+C. Lỗi biên dịch dòng 2.5, 2.7
+D. a.xA = 12; a.yA = Hello
+ANSWER: D
+Thuộc tính xA của lớp ClassA được khai báo với từ khóa protected nên không được truy xuất từ ngoài gói pac02.
+public class Person {     private String name;     private int age;     public static void main(String[] args) {     Person p = new Person();     p.name = "Tom";     System.out.println(p.name);     }    }       Đoạn mã sau có lỗi biên dịch gì?
+A. Không có lỗi biên dịch.
+B. name has private access.
+C. \ge has private access.
+D. name has public access.
+ANSWER: A
+Hàm main ở trong cùng lớp Person, nên có thể truy xuất tới tất cả các trường của Person.
+public class Main {     public static void main(String[] args) {     String names[] = {   "John",   "Anna",   "Peter",   "Victor",   "David"   };     names = new String[5];     System.out.println(names[2]);     }    }       Chương trình sau in ra mà hình xâu nào?
+A. Có lỗi biên dịch: use new keyword to create object
+B. Peter
+C. Anna
+D. null
+ANSWER: D
+Lệnh 3 sẽ khai báo một mảng names và khởi tạo các giá trị cho mảng lần lượt là “John”, “Anna”,….Tuy nhiên lệnh sau (4) lại tạo lại mảng names và không gán giá trị cho các phần tử mảng => các phần tử sẽ có giá trị null
+StringBuffer s = new StringBuffer("hello how are you how?");    int x = s.indexOf("ow");    System.out.println(x);       Trong đoạn mã trên x nhận giá trị bao nhiêu?
+A. 7
+B. 6
+C. 5
+D. Lỗi biên dịch
+ANSWER: A
+Hàm indexOf trả về vị trí đầu tiên xuất hiện của chuỗi ow trong chuỗi s( là ở vị trí thứ 7).
+class Student {     public int getAge() {     return 10;     }    }    public class Man extends Student {     public int getAge(int added) {     return super.getAge() + added;     }     public static void main(String[] args) {     Man s = new Man();     System.out.println(s.getAge());   System.out.println(s.getAge());     }    }       Hãy cho biết kết quả khi chạy đoạn chương trình sau?
+A. 10 11
+B. 10 10
+C. 11 11
+D. Không in gì và báo lỗi
+ANSWER: B
+
+class BreakDemo {   public static void main(String[] args) {   int[] arrayOfInts = {   32,   87,   3,   589,   12,   1076,   2000,   8,   622,   127   };   int searchFor = 12;   int i;   boolean fountIt = false;   for (i = 0; i < arrayOfInts.length; i++) {   if (arrayOfInts[i] == searchFor) {   fountIt = true;   break;   }   }   if (fountIt) {   System.out.println(“Found“ + searchFor + “at index“ + i);   } else System.out.println(searchFor + “not in the array”);   }  }       Chương trình trên sai ở dòng nào?
+A. 2 và 6
+B. 3 và 11, 15
+C. 5, 7, 9
+D. Chương trình không sai
+ANSWER: D
+
+class BreakDemo {   public static void main(String[] args) {   int[] arrayOfInts = {   32,   87,   3,   589,   12,   1076,   2000,   8,   622,   127   };   int searchFor = 12;   int i;   boolean fountIt = false;–Môn Java cơsở14   Trang 14   Ket - noi.com diễnđàn công nghệ,   giáo dục   for (i = 0; i < arrayOfInts.length; i++) {   if (arrayOfInts[i] == searchFor) {   fountIt = true;   break;   }   }   if (fountIt) {   System.out.println(“Found“ + searchFor + “at index“ + i);   } else System.out.println(searchFor + “not in the array”);   }  }       Chương trình thực hiện công việc gì?
+A. Tìm 1 phần tử trong mảng.
+B. So sánh các phần tử mảng với nhau.
+C. Tính tổng mảng.
+D. Tất cả đáp án đều sai.
+ANSWER: A
+
+class ContinueDemo {   public static void main(String[] args) {   String searchMe = “peter piper picked a peck of pickled peppers”;   int max = searchMe.length();   int numPs = 0;   for (int i = 0; i < max; i++) {   if (searchMe.charAt(i) != 'p') continue;   numPs++;   }   System.out.println(“Found“ + numPs + “p 's in the string.”);  }  }'       Chương trình sau thực hiện công việc gì?
+A. Đếm chữ cái p trong chuỗi ký tự
+B. Tìm xem chữ p có đứng trước chữ i trong chuỗi hay không
+C. Tìm kiếm chữ cái p trong chuỗi
+D. Cả 3 đáp án đều sai.
+ANSWER: A
+
+class ContinueDemo {   public static void main(String[] args) {   String searchMe = “peter piper picked a peck of pickled pepers”;   int max = searchMe.length();   int numPs = 0;   for (int i = 0; i < max; i++) {   if (searchMe.charAt(i) != 'p') continue;   numPs++;   }   System.out.println(“Found“ + numPs + “p 's in the string.”);  }  }'       Chương trình sau ra kết quả là gì?
+A. Found 9 p's in the string.
+B. Found 8 p's in the string.
+C. Found 10 p's in the string.
+D. Không có đáp án đúng.
+ANSWER: B
+
+double a, b;  if (a == 0)  if (b != 0) System.out.println(“Phuong trinh vo nghiem”);  else System.out.println(“Phuong trinh co vo so nghiem”);  else System.out.println(-b/a);       Khối lệnh sau ra kết quả là bao nhiêu với a = 0, b = 0?
+A. Phuong trinh vo nghiem
+B. Phuong trinh co vo so nghiem
+C. -1.6
+D. Lỗi biên dịch
+ANSWER: B
+
+int i = 1,  j = 10;    do {     if (i++>--j) {     continue;     }    } while ( i < 5 );    System.out.println("i = " + i + "and j = " + j);       Kết quả in ra của đoạn mã trên là gì?
+A. i = 6 and j = 6
+B. i = 5 and j = 5
+C. i = 6 and j = 5
+D. i = 5 and j = 6
+ANSWER: D
+Khi thực hiện chương trình, mỗi lần lặp sẽ tăng i lên 1 và giảm j đi 1. Vòng lặp sẽ kết thúc khi i=5. Do vậy i=5, j=6
+public class Test {     public static void main(string args[]) {     int i = 0;     while (true) {     if (i == 4) break;     ++i;     System.out.println(i);     }     }  }       Giá trị cuối cùng của i tại dòng 7 là bao nhiêu?
+A. 0
+B. Lỗi biên dịch
+C. 4
+D. 5
+ANSWER: C
+khi thực thi đoạn mã giá trị của i sẽ lần lượt tăng lên và cuối cùng nhận giá trị 4.
+public class Foo {    public static void main(String[] args) {    try {    return;    } finally {    System.out.println( "Finally" );    }    }    }  Kết quả in ra của đoạn mã trên là gì?    Chọn một câu trả lời
+A. Finally
+B. Lỗi biên dịch
+C. Đoạn mã thực thi nhưng không in ra kết quả
+D. Lỗi sinh ra trong quá trình chạy.
+ANSWER: A
+Khi thực thi khối lệnh finally sẽ luôn được thực thi và in ra kết quả trong khối lệnh là Finally.
+Câu hỏi không được kỹ sư phần mềm hiện nay quan tâm nữa:
+A. Tại sao chi phí phần cứng máy tính quá cao?
+B. Tại sao phần mềm mất một thời gian dài để hoàn tất?
+C. Tại sao người ta tốn nhiếu chi phí để phát triển một mẩu phần mềm?
+D. Tại sao những lỗi phần mềm không được loại bỏ trong sản phẩm trước khi xuất xưởng
+ANSWER: A
+
+Mô hình phát triển phần mềm lặp lại tăng thêm:
+A. Một hướng hợp lý khi yêu cầu được xác định rõ
+B. Một hướng tốt khi cần tạo nhanh một sản phẩm thực thi lõi
+C. Một hướng tốt nhất dùng cho những dự án có những nhóm phát triển lớn
+D. Một mô hình cách mạng không nhưng không được dùng cho sản phẩm thương mại
+ANSWER: B
+
+Ai là người không thích hợp để tham dự vào nhóm FAST (facilitated application specification techniques):
+A. Kỹ sư phần cứng và phần mềm
+B. Đại diện nhà sản xuất
+C. Đại diện thị trường
+D. Nhân viên tài chánh cao cấp
+ANSWER: D
+
+Những yêu cầu nào được quan tâm suốt QFD (quality function deployment):
+A. exciting requirements
+B. expected requirement
+C. normal requirements
+D. technology requirements
+ANSWER: D
+
+Phân tích giá trị được dẫn ra như là một phần của QFD (quality function deployment) nhằm xác định:
+A. Chi phí của hoạt động đảm bảo chất lượng của dự án
+B. Chi phí quan hệ của những yêu cầu qua việc triển khai chức năng, tác vụ và thông tin
+C. Độ ưu tiên quan hệ của những yêu cầu qua việc triển khai chức năng, tác vụ và thông tin
+D. Kích thước của bản ý kiến khách hàng
+ANSWER: C
+
+Trong ngữ cảnh của phân tích yêu cầu, hai loại phân tách vấn đề là:
+A. bottom-up và top-down
+B. horizontal and vertical
+C. subordinate và superordinate
+D. Không có mục nào
+ANSWER: B
+
+Tạo nguyên mẫu tiến hóa thường thích được dùng hơn tạo nguyên mẫu bỏ đi bởi vì:
+A. Cho phép tái sử dụng nguyên mẫu đầu
+B. Không đòi hỏi làm việc nhiều với khách hàng
+C. Dễ dành thực hiện nhanh
+D. Nhiều tin cậy hơn
+ANSWER: A
+
+Loại trừu tượng nào được dùng trong thiết kế phần mềm:
+A. Điều khiển
+B. Dữ liệu
+C. Thủ tục
+D. Tất cả mục trên
+ANSWER: D
+
+Khi luồng thông tin trong một đoạn của sơ đồ luồng dữ liệu thể hiện bằng một mục đơn mà bẩy một luồng dữ liệu khác theo một trong nhiều đường sẽ thể hiện:
+A. Liên kết thấp
+B. Module hóa tốt
+C. Luồng giao dịch (transaction)
+D. Luồng biến đổi (transform)
+ANSWER: C
+
+Mô hình nào đưa ra hình ảnh tiền sử (profile) người dùng cuối của hệ thống dựa vào máy tính:
+A. Mô hình thiết kế
+B. Mô hình người dùng
+C. Mô hình của người dùng
+D. Mô hình nhận thức hệ thống
+ANSWER: B
+
+Trong mô hình phân tích thành phần dựa vào kịch bản (Scenario based element) được dùng cho:
+A. Thiết kế kiến trúc
+B.Thiết kế thành phần
+C. Thiết kế giao diện
+D. Thiết kế dữ liệu/class
+ANSWER: C
+
+Trong mô hình CMM (Software Capability Maturity Model) có mấy mức độ trưởng thành:
+A. 5 mức độ
+B. 4 mức độ
+C. 6 mức độ
+D. 3 mức độ
+ANSWER: A
+
+Theo Boris Beizer, thiết kế Testcase cần theo ràng buộc (contraint):
+A. Theo một cách thức đầy đủ
+B. Tất cả đều đúng
+C. Nỗ lực và thời gian là tối thiểu
+D. Nhằm khám phá lỗi
+ANSWER: B
+
+Những thành phần kiến trúc trong kỹ thuật sản phẩm là:
+A. Dữ liệu, phần cứng, phần mềm, con người
+B. Dữ liệu, tài liệu, phần cứng, phần mềm
+C. Dữ liệu, phần cứng, phần mềm, thủ tục
+D. Tài liệu, phần cứng, con người, thủ tục
+ANSWER: A
+
+Phần mềm quản lý sinh viên của 1 trường là:
+A. Phần mềm hệ thống (System software)
+B. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+C. Phần mềm thời gian thực (Real time software)
+D. Phần mềm nghiệp vụ (Business software)
+ANSWER: D
+
+Theo thống kê từ những thách thức đối với công nghệ phần mềm thì lỗi nhiều nhất là do:
+A. Kiểm tra và bảo trì
+B. Phân tích yêu cầu
+C. Thiết kế
+D. Viết Code
+ANSWER: B
+
+Nguyên lý Pareto được áp dụng trong kiểm thử được phát biểu như sau:
+A. 80% lỗi trong chương trình thường do 20% bug gây ra
+B. 20% lỗi trong chương trình thường do 80% bug gây ra
+C. Chi phí sửa lỗi ở giai đoạn thu nhận yêu cầu chỉ bằng 1/5 chi phí sửa lỗi ở giai đoạn cuối
+D. 60% lỗi được tìm thấy trong giai đoạn kiển thử đơn vị
+ANSWER: A
+
+Mật độ lỗi (defect density) dùng để đo lường:
+A. Chất lượng sản phẩm cuối
+B. Dự án phần mềm
+C. Quá trình sản xuất
+D. Chất lượng bảo trì
+ANSWER: A
+
+Kỹ thuật thu thập yêu cầu nào cần đến chuyên gia?
+A. Interview
+B. Observation
+C. Expert
+D. Delphi
+ANSWER: C

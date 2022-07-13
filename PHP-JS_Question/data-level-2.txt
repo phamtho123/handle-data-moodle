@@ -1,0 +1,3586 @@
+
+Engine nào là nền tảng chính của PHP?
+A. ZEDAT
+B. ZEND
+C. ZENAT
+D. ZETA
+ANSWER: B
+
+Cài đặt Apache xong bạn có thể kiểm tra servername của bạn qua cách gọi ulr http://localhost, ngoài cách này còn cách nào khác nữa không?
+A. http://127.0.0.1
+B. http://127.0.1.0
+C. http://127.0.0.0
+D. http://000.0.0.0
+ANSWER: A
+
+Khi sử dụng bộ PHP & Apache bạn phải trả
+A. 1500$
+B. 150$
+C. 50$ / mỗi tháng
+D. Không tốn đồng nào
+ANSWER: D
+
+PHP dựa theo syntax của ngôn ngữ nào?
+A. Basic
+B. Pascal
+C. C
+D. VB Script
+ANSWER: C
+
+W tượng trưng cho cụm từ nào trong gói WAMP?
+A. Word
+B. Windows
+C. Whistler
+D. While
+ANSWER: B
+
+Truớc khi đổi thành PHP: Hypertext Preprocessor nguồn gốc của nó phát xuất từ cụm từ nào
+A. Preminum Handled Processor
+B. Personal HomePage Tools
+C. Printed Homepage Product
+D. Personal Hightec Processor
+ANSWER: B
+
+Khi thực thi biến này $Var3 = $var1 % $var2 dạng type của nó là
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: B
+
+Dạng type nào sẽ được tự động dịch khi gán biến này $var = 50.0
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: A
+
+Số 41 này tương đương với số Bit nào
+A. 10010010
+B. 00101001
+C. 00010101
+D. 00101101
+ANSWER: B
+
+Ứng dụng PHP có thể gắn ở
+A. Chỉ gắn được ở phần Header
+B. Chỉ gắn được ở phần Body
+C. Chỗ nào cũng được trong văn bản (tệp) HTML
+D. A, B, C đều đúng
+ANSWER: C
+
+Câu lệnh nào là đúng , khi bạn muốn biến đổi dang (type) thành integer?
+A. $item = (int) "100Laptop";
+B. $tem = "int""100Laptop";
+C. $item = [int] "100Laptop";
+D. $item = INT"100Laptop";
+ANSWER: A
+
+Loại biến nào được dùng trong PHP?
+A. Typeless variable
+B. Headless variable
+C. Nameless variable
+D. Irrevelant variable
+ANSWER: A
+
+Câu lệnh nào dùng để xuất ra trình duyệt?
+A. say
+B. write
+C. echo
+D. cout<<
+ANSWER: C
+
+Trong php, có thể sử dụng cả dấu nháy đơn ‘’ và dấu nháy kép “” cho chuỗi
+A. False
+B. True
+ANSWER: B
+
+PHP cho phép gửi mail trực tiếp từ script
+A. False
+B. True
+ANSWER: B
+
+Để +1 cho biến $count
+A. $count =+1
+B. ++count
+C. count++;
+D. $count++;
+ANSWER: C
+
+Để ghi chú trong file php
+A. <comment>…</comment>
+B. /*…*/
+C. <!--…-->
+D. *\..\*
+ANSWER: B
+
+Để chèn nội dung 1 tập tin vào, thì sử dụng
+A. include[]
+B. #include()
+C. include()
+D. #include{}
+ANSWER: C
+
+Hàm nào để in biến, chuỗi, số… ra ngoài trình duyệt trong php?
+A. echo();
+B. printf
+C. ""
+ANSWER: A
+
+Tên biến nào sau đây sai?
+A. $number-in-class
+B. $nic
+C. $NumberInClass
+D. $number_in_class
+ANSWER: A
+
+<?php $father = "mother"; $mother = "son"; echo $$father; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. son
+B. mother
+C. motherson
+D. error
+ANSWER: A
+
+Tên biến nào sau đây là hợp lệ
+A. $3hello
+B. $this
+C. $_hello
+D. Tất cả đều không hợp lệ
+ANSWER: C
+
+Câu nào dưới đây có kết quả bằng với $add += $add ?
+A. $add = $add
+B. $add = $add +$add
+C. $add = $add + 1
+D. $add = $add + $add + 1
+ANSWER: B
+
+Câu lệnh nào là đúng , khi bạn muốn biến đổi dang (type) thành integer?
+A. $item = (int) "100Laptop";
+B. $tem = "int""100Laptop";
+C. $item = [int] "100Laptop";
+D. $item = INT"100Laptop";
+ANSWER: A
+
+Type boolean trả cho ta giá trị gì ?
+A. true hay false
+B. equal hay unequal
+C. bigger hay smaller
+D. yes hay none
+ANSWER: A
+
+Câu lệnh nào để thêm 1 dòng vào bảng trong MYSQL/MYSQLI
+A. Add new
+B. Insert into
+C. Update new
+D. Insert new
+ANSWER: B
+
+Trong mệnh đề LIKE, cú pháp nào là đúng để tìm các giá trị nào kết thúc bằng “qpt”
+A. LIKE %qpt
+B. LIKE *ton
+C. LIKE ton$
+D. LIKE ^.*ton$
+ANSWER: A
+
+Mệnh đề SQL nào hạn chế số dòng trả về trong 1 câu truy vấn
+A. AND
+B. WHERE
+C. HAVING
+D. FROM
+ANSWER: B
+
+Câu lệnh SELECT mà không có mệnh đề WHERE sẽ trả về
+A. Mọi dòng dữ liệu từ bảng của câu lệnh WHERE trước đó
+B. Mọi dữ liệu từ bảng
+C. Câu lệnh sai vì SELECT là phải có mệnh đề WHERE
+D. Luôn trả về giá trị NULL
+ANSWER: B
+
+Cho bảng employees với dữ liệu sau emp_id emp_name 1Brush 2Jerrin Câu lệnh truy vấn sau đây sẽ trả về giá trị gì? Select count(*) from employees
+A. 3
+B. 2
+C. 1
+D. Tất cả đều sai
+ANSWER: B
+
+Câu lệnh SELECT mà không có mệnh đề WHERE sẽ trả về
+A. Mọi dòng dữ liệu từ bảng của câu lệnh WHERE trước đó
+B. Mọi dữ liệu từ bảng
+C. Câu lệnh sai vì SELECT là phải có mệnh đề WHERE
+D. Luôn trả về giá trị NULL
+ANSWER: B
+
+Trong MySQL, Câu lệnh nào vừa xóa dữ liệu của bảng, vừa xóa luôn bảng
+A. TRUNCATE
+B. DROP
+C. EMPTY
+D. DEL
+ANSWER: B
+
+Các tập tin PHP có phần mở rộng mặc định là
+A. .html
+B. .xml
+C. .php
+D. .ph
+ANSWER: C
+
+PHP dựa theo cú pháp của ngôn ngữ nào?
+A. Basic
+B. Pascal
+C. C
+D. VB Script
+ANSWER: C
+
+Kí tự W trong WAMP tượng trưng cho từ
+A. Word
+B. Windows
+C. Whistler
+D. While
+ANSWER: B
+
+Dạng type nào sẽ được tự động dịch khi thực thi lệnh gán: $var = 50.0
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: A
+
+Để viết code PHP, bạn có thể sử dụng bộ Editor
+A. Notepad
+B. Notepad ++
+C. Adobe Dreamweaver
+D. Cả 3 câu trên đều đúng
+ANSWER: D
+
+Phiên bản …. giới thiệu tính năng Try/catch Exception?
+A. PHP 4
+B. PHP 5
+C. PHP 5.3
+D. PHP 6
+ANSWER: B
+
+<?php $num = “1”; $num1 = “2”; print $num + $num1; ?>   Kết quả của đoạn code dưới đây là?
+A. 3
+B. 1+2
+C. 12
+D. Xảy ra lỗi
+ANSWER: A
+
+Tên biến nào sau đây là hợp lệ
+A. $3hello
+B. $this
+C. $_hello
+D. Tất cả đều không hợp lệ
+ANSWER: C
+
+<?php echo ord("hi"); ?>   Kết quả của đoạn code dưới đây là?
+A. 106
+B. 103
+C. 104
+D. 209
+ANSWER: C
+
+Mảng PHP bắt đầu bởi phần tử có vị trí
+A. 1
+B. 2
+C. 0
+D. -1
+ANSWER: C
+
+Tính đóng gói trong OOP là
+A. Polymorphism
+B. Inheritance
+C. Encapsulation
+D. Abstraction
+ANSWER: C
+
+Tính đa hình trong OOP là
+A. Abstraction
+B. Polymorphism
+C. Inheritance
+D. Differential
+ANSWER: B
+
+Tính kế thừa trong OOP là
+A. Polymorphism
+B. Inheritance
+C. Encapsulation
+D. Abstraction
+ANSWER: B
+
+Giới thiệu từ khóa “instanceof” ? Điền vào dấu ...
+A. PHP 4
+B. PHP 5
+C. PHP 5.3
+D. PHP 6
+ANSWER: B
+
+Trong PHP, từ khóa nào được dùng để truy xuất đến các phương thức và thuộc tính trong chính lớp đó
+A. private
+B. public
+C. protected
+D. $this
+ANSWER: D
+
+Trong PHP, từ khóa nào cho phép các phương thức và thuộc tính của lớp có thể được truy xuất mà không cần khởi tạo đối tượng của lớp đó
+A. protected
+B. final
+C. static
+D. private
+ANSWER: C
+
+Trong các cách sau đây, cách nào giúp bạn nhận được dữ liệu gửi đi từ Form mà không chắc chắn cơ chế nó được gửi đi như thế nào?
+A. $_REQUEST[]
+B. $_GET[]
+C. $_POST[]
+D. $_SEND[]
+ANSWER: A
+
+Trong Xpath để lấy ra thông tin phần tử ở vị trí cuối cùng, chúng ta sử dụng
+A. last()
+B. last()-1
+C. end()
+D. end()-1
+ANSWER: C
+
+Phương thức nào sau đây được sử dụng để lấy các không gian tên được sử dụng trong một tài liệu XML từ một đối tượng SimpleXMLElement?
+A. getName()
+B. getNamespaces()
+C. getElement()
+D. getDefined()
+ANSWER: B
+
+Phương thức nào sau đây được sử dụng để lấy tên của phần tử XML từ một đối tượng SimpleXMLElement?
+A. getDefined()
+B. getNamespaces()
+C. getName()
+D. getCall()
+ANSWER: C
+
+Phát biểu nào sao đây SAI về phương thức __construct()
+A. __construct() được gọi tự động và được gọi đầu tiên khi một object được khởi tạo.
+B. __construct() thường dùng để khởi tạo các giá trị ban đầu, các trường hợp gọi __construct()
+C. __construct() được đặt tên trùng với tên class
+D. __construct() phải có tham số được truyền
+ANSWER: D
+
+<?php class A {  static $word = "hello";  static function hello()  {  print static ::$word;  } } class B extends A {  static $word = "bye"; } B::hello(); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. bye
+B. hello
+C. byehello
+D. Có lỗi xảy ra
+ANSWER: A
+
+Làm sao để truy cập vào một thuộc tính trong class thông qua $this
+A. $this.$varname
+B. $this.varname
+C. $this->varname
+D. $this->$varname
+ANSWER: C
+
+Phương pháp nào sau đây được gọi để in trực tiếp thông tin của mọt đối tượng (tương tự dùng echo hoặc print để in chuỗi)
+A. __unset()
+B. __isset()
+C. __toString()
+D. __set_state()
+ANSWER: B
+
+<?php $values = array(  10,  20,  '0',  '10hello',  'hello10' ); echo array_sum($values); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 20
+B. 30
+C. 40
+D. 50
+ANSWER: C
+
+<?php $a = 5; $b = 4; $c = ($a++ * ++$b); echo $c; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 20
+B. 21
+C. 27
+D. 25
+ANSWER: D
+
+Câu lệnh SQL nào sau đây để xóa bảng từ cơ sở dữ liệu cho trước
+A. DELETE TABLE <table_name> FROM DATABASE
+B. DELETE TABLE <table_name>
+C. DROP TABLE <table_name>
+D. DROP TABLE <table_name> FROM DATABASE
+ANSWER: C
+
+Để hiển thị những dòng phân biệt (loại bỏ kết quả trùng) chúng ta sử dụng từ khóa nào sau đây?
+A. ONLY
+B. ALL
+C. DISTINCT
+D. ANY
+ANSWER: C
+
+Cho bảng user gồm các cột id, firstname, lastname, email và age. Sử dụng điều kiện nào trong câu SQL để in ra những user từ 20 đến 40 tuổi
+A. BETWEEN 25 & 40
+B. BETWEEN 25 - 40
+C. BETWEEN 25 TO 40
+D. BETWEEN 25 AND 40
+ANSWER: D
+
+Hàm nào dùng để lấy thời gian hiện tại trong MySQL
+A. getTime()
+B. currentTime()
+C. NOW()
+D. thoigian()
+ANSWER: C
+
+mysql_pconnect() dùng để
+A. Tạo kết nối tới db
+B. Tạo kết nối tới db và liên kết SQL vẫn không đóng lại sau khi các câu lệnh được thực thi
+C. Tạo kết nối tới db và liên kết SQL tự động đóng lại sau khi các câu lệnh được thực thi
+D. Tất cả đều sai
+ANSWER: B
+
+Trong SQL, từ khóa nào được dùng để sắp xếp kết quả trả về?
+A. ORDER
+B. SORT BY
+C. ORDER BY
+D. SORT
+ANSWER: C
+
+Câu lệnh nào được sử dụng để tạo bảng?
+A. CREATE TABLE table_name (column_name column_type);
+B. CREATE table_name (column_type column_name);
+C. CREATE table_name (column_name column_type);
+D. CREATE TABLE table_name (column_type column_name);
+ANSWER: A
+
+Trong PHP, hàm nào dùng để nhận dữ liệu trả về từ câu truy vấn database?
+A. get_array() and get_row()
+B. get_array() and get_column()
+C. fetch_array() and fetch_row()
+D. fetch_array() and fetch_column()
+ANSWER: C
+
+$var = 'a'; $VAR = 'b'; echo "$var$VAR";   Đoạn mã sau, in ra giá trị nào sau đây
+A. ab
+B. aa
+C. bb
+D. AB
+ANSWER: A
+
+$a = array(); if ($a == null) {   echo 'true'; } else {  echo 'false'; }   Đoạn mã sau, in ra giá trị nào sau đây
+A. True
+B. False
+C. Không in
+D. Cả A và B
+ANSWER: A
+
+Lệnh prompt trong Javascript để làm gì?
+A. Hiện một thông báo nhập thông tin
+B. Hiện một thông báo dạng yes, No
+C. Cả hai dạng trên
+D. Không có lệnh nào đúng
+ANSWER: A
+
+Trong Javascript sự kiện OnMouseOver thực hiện khi nào?
+A. Khi một đối tượng trong form mất focus.
+B. Khi một đối tượng trong form có focus
+C. Khi di chuyển con chuột qua một đối tượng trong form.
+D. Khi click chuột vào nút lệnh
+ANSWER: C
+
+< script >  function kiemtra() {  window.open("http://www.vnn.vn", "Chao");  } <  /script> < /  head > <  body onload = "kiemtra()" > < /body>   Trong Javascript đoạn mã sau cho ra kết quả gì?
+A. Khi chạy thì một trang khác (VNN) được hiện ra .
+B. Không chạy được vì sai
+C. Khi kết thúc thì một site khác hiện ra
+D. Hiện một trang vnn duy nhất.
+ANSWER: A
+
+Thẻ <Frameset cols> </frameset>
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên.
+ANSWER: A
+
+Thẻ <Frameset rows > </frameset>
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên.
+ANSWER: B
+
+Trong JavaScript sự kiện Onchange xảy ra khi nào trong các trường hợp sau.
+A. Khi một đối tượng trong form mất focus
+B. Khi kích chuột vào nút lệnh
+C. Xảy ra khi giá trị của một trường trong form được người dùng thay đổi dữ liệu
+D. Khi một đối tượng trong form nhận focus
+ANSWER: C
+
+Làm cách nào để gọi một hàm myFunction trong JavaScript?
+A. call function myFunction()
+B. call myFunction()
+C. myFunction()
+D. Cả A, B, C đều đúng
+ANSWER: C
+
+Hàm prompt(…) trong JavaScript dùng để làm gì?
+A. Hiển thị thông báo nhập thông tin
+B. Hiển thị một thông báo Yes, No
+C. Cả hai dạng trên
+D. Không phương án nào đúng
+ANSWER: A
+
+Cách nào để làm tròn 7.25 tới số nguyên gần nhất trong JavaScript?
+A. rnd(7.25)
+B. round(7.25)
+C. Math.round(7.25)
+D. Math.rnd(7.25)
+ANSWER: C
+
+var a = [1, 2, 3]; var b = [1, 2, 3]; var c = '1,2,3'; console.log(a == c); console.log(b == c); console.log(a == b);   Kết quả của đoạn code sau là
+A. true, true, false
+B. true, true, true
+C. true, false, false
+D. false, false false
+ANSWER: A
+
+Cấu trúc đơn giản của một trang HTML được khai báo theo thứ tự là:
+A. HEAD, HTML, BODY
+B. HEAD, TITLE, BODY
+C. HEAD, BODY, HTML
+D. HTML, HEAD, BODY
+ANSWER: D
+
+Để khai báo một phần bị đánh dấu trên trang web ta sử dụng thẻ <A> với thuộc tính:
+A. NAME
+B. CLASS
+C. HREF
+D. ID
+ANSWER: A
+
+Để chèn hình ảnh vào trang web ta dùng thẻ
+A. <PIC>
+B. <IMG>
+C. <IMAGE>
+D. <PICTURE>
+ANSWER: B
+
+Để hiển thị các thông tin như tác giả, địa chỉ, chữ ký trong tài liệu HTML ta dùng thẻ:
+A. <ADDRESS>
+B. <PRE>
+C. <BLOCKQUOTE>
+D. <AUTHOR>
+ANSWER: A
+
+Để tạo ra những ô mà chúng có thể kéo rộng ra hơn một dòng trên bảng ta sử dụng thuộc tính:
+A. Colspan
+B. Align
+C. Rowspan
+D. Valign
+ANSWER: C
+
+Để canh lề dọc cho các ô trong bảng ta sử dụng thuộc tính:
+A. Colspan
+B. Align
+C. Rowspan
+D. Valign
+ANSWER: D
+
+Để liên kết tới external style sheet ta sử dụng thẻ:
+A. <style>
+B. <a>
+C. <link>
+D. <css>
+ANSWER: C
+
+Phương thức nào dùng để thay đổi và cập nhật định dạng ngay lập tức:
+A. Auto styles
+B. Html style
+C. Css style
+D. New style
+ANSWER: A
+
+Đường dẫn nào cung cấp địa chỉ url đầy đủ (bao gồm cả giao thức) tới tài liệu được liên kết?
+A. Root – relative
+B. Document-relative
+C. Absolute
+ANSWER: C
+
+Dùng để chỉ định các thuộc tính cho các đối tượng như văn bản, đoạn văn, hình ảnh...
+A. Property inspector
+B. Insert panel
+C. Objects panel
+D. Code inspector
+ANSWER: A
+
+Đâu là tag tạo ra mầu nền của web?
+A. <body color="yellow">
+B. <body bgcolor="yellow">
+C. <background>yellow</background>
+ANSWER: B
+
+Đâu là tag căn lề trái cho nội dung 1 ô trong bảng
+A. <tdleft>
+B. <td valign="left">
+C. <td align="left">
+D. <td leftalign>
+ANSWER: C
+
+Đâu là tag tạo ra 1 danh sách đứng đầu bằng số
+A. <ul>
+B. <list>
+C. <ol>
+D. <dl>
+ANSWER: C
+
+Đâu là tag tạo ra 1 danh sách đứng đầu bởi dấu chấm?
+A. <list>
+B. <ul>
+C. <ol>
+D. <dl>
+ANSWER: B
+
+Tag nào tạo ra 1 checkbox?
+A. <check>
+B. <input type="check">
+C. <checkbox>
+D. <input type="checkbox">
+ANSWER: D
+
+Tag nào tạo ra 1 text input field?
+A. <textfield>
+B. <textinput type="text">
+C. <input type="text">
+D. <input type="textfield">
+ANSWER: C
+
+Tag nào tạo ra 1 drop-down list?
+A. <select>
+B. <list>
+C. <input type="dropdown">
+D. <input type="list">
+ANSWER: A
+
+Tag nào tạo ra 1 text area?
+A. <input type="textbox">
+B. <textarea>
+C. <input type="textarea">
+ANSWER: B
+
+Tag nào dùng để chèn 1 hình vào web?
+A. <image src="image.gif">
+B. <img>image.gif</img>
+C. <img src="image.gif">
+D. <img href="image.gif>
+ANSWER: C
+
+Css là viết tắt của?
+A. Creative style sheets
+B. Computer style sheets
+C. Cascading style sheets
+D. Colorful style sheets
+ANSWER: C
+
+Đặt dòng liên kết với file css ở vùng nào trong file xhtml?
+A. In the <body> section
+B. In the <head> section
+C. At the top of the document
+D. At the end of the document
+ANSWER: B
+
+Dòng nào thể hiện đúng một comment (lời chú thích) trong css?
+A. /* this is a comment */
+B. // this is a comment //
+C. ‘ this is a comment
+D. // this is a comment
+ANSWER: A
+
+Làm thế nào thêm màu nền cho tất cả các phần tử <h1> ?
+A. H1.all {background-color:#ffffff}
+B. H1 {background-color:#ffffff}
+C. All.h1 {background-color:#ffffff}
+D. Tất cả các câu trên đều sai.
+ANSWER: B
+
+Làm thế nào thay màu nền của chữ (text)?
+A. Text-color=
+B. Fgcolor:
+C. Color:
+D. Text-color:
+ANSWER: C
+
+Thuộc tính nào làm chữ trong tag p trở thành chữ đậm?
+A. {text-size:bold}
+B. <p style=”font-size:bold”>
+C. <p style=”text-size:bold”>
+D. P {font-weight:bold}
+ANSWER: D
+
+Làm sao để mỗi từ trong 1 dòng đều viết hoa ở đầu từ?
+A. Text-transform:capitalize
+B. Text-transform:uppercase
+C. You can’t do that with css
+ANSWER: A
+
+Làm sao để thay đổi font của mỗi phần tử?
+A. Font=
+B. F:
+C. Font-family:
+D. Tất cả các câu trên đều sai.
+ANSWER: C
+
+Làm sao để tạo chữ đậm?
+A. Font-weight:bold
+B. Style:bold
+C. Font:b
+D. Tất cả các câu trên đều đúng
+ANSWER: B
+
+Làm thế nào để hình ở đầu mỗi dòng của 1 list (danh sách) có hình vuông?
+A. Type: 2
+B. Type: square
+C. List-type: square
+D. List-style-type: square
+ANSWER: C
+
+Câu lệnh nào cho phép trả về phần tử đầu tiên trong mảng và xóa phần tử đó khỏi mảng?
+A. Pop
+B. Push
+C. Reverse
+D. Shift
+ANSWER: D
+
+________ không phải là thưộc tính của text box.
+A. Size
+B. Type
+C. Rows
+D. Value
+ANSWER: C
+
+Địa chỉ (đường dẫn) cho phép xác định một tài nguyên trên web được gọi là?
+A. Url
+B. Protocol
+C. Webaddress
+D. Http
+ANSWER: A
+
+Một ô trong bảng được định nghĩa bằng thẻ ______ ?.
+A. <table>
+B. <tc>
+C. <tr>
+D. <td>
+ANSWER: D
+
+Thuộc tính _______ của thẻ table được sử dụng để chỉ ra độ rộng của bảng.
+A. Width
+B. Span
+C. Area
+D. Size
+ANSWER: A
+
+__________ là kiểu mặc định của phần tử input
+A. Button
+B. Checkbox
+C. Text
+D. Radio
+ANSWER: C
+
+Đặt dòng liên kết với file CSS ở vùng nào trong file HTML?
+A. Trong thẻ <body>
+B. Trong thẻ <head>
+C. Ở cuối file HTML
+D. Ở đầu file HTML
+ANSWER: B
+
+Thuộc tính text-indent dùng để?
+A. Thiết lập khoảng cách thụt đầu dòng
+B. Thiết lập chế độ canh văn bản
+C. Thêm hiệu ứng đặc biệt cho văn bản
+D. Tất cả đều sai
+ANSWER: A
+
+Mức độ ưu tiên khi áp dụng CSS là:
+A. External CSS < Internal CSS < Inline CSS
+B. Inline CSS < Internal CSS < External CSS
+C. Internal CSS < External CSS < Inline CSS
+D. Inline CSS < External CSS < Internal CSS
+ANSWER: A
+
+Thuộc tính z-index dùng để
+A. Định vị tương đối cho một thành phần
+B. Quy định kiểu viền của một đối tượng web
+C. Tạo hiệu ứng màu sắc cho liên lết
+D. Đặt các thành phần web ở các lớp khác nhau
+ANSWER: D
+
+text-transform: uppercase dùng để định dạng cho thành phần hiệu ứng
+A. In hoa
+B. In hoa kí tự đầu tiên ở mỗi từ
+C. In thường
+D. Không áp dụng hiệu ứng nào cả
+ANSWER: A
+
+Để liên kết tới External Style sheet ta sử dụng thẻ:
+A. <STYLE>
+B. <A>
+C. <LINK>
+D. <CSS>
+ANSWER: C
+
+Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu:
+A. 2
+B. 3
+C. 4
+D. 5
+ANSWER: B
+
+Làm cách nào để tạo hiệu ứng chuyển tiếp transition bằng CSS3?
+A. transition: width 2s;
+B. transition-duration: 2s; transition-effect: width;
+C. alpha-effect: transition (width,2s);
+D. None
+ANSWER: A
+
+Khẳng định sau đúng hay sai? Box-shadow được tất cả các trình duyệt hỗ trợ
+A. Đúng
+B. Sai
+ANSWER: A
+
+Cần thêm tiền tố nào để các thuộc tính CSS3 hoạt động trên trình duyệt Mozilla Firefox cũ?
+A. -webkit-
+B. -moz-
+C. -o-
+D. -gecko-
+ANSWER: B
+
+Ba giá trị đầu tiên của text-shadow theo thứ tự là gì?
+A. vertical, blur, horizontal
+B. blur, vertical, horizontal
+C. vertical, horizontal, blur
+D. horizontal, vertical, blur
+ANSWER: D
+
+RGBa có nghĩa là gì?
+A. Red Gold Black alpha
+B. Red Green Blue alpha
+C. Red Gray Brown alpha
+ANSWER: B
+
+Khi sử dụng thẻ DIV có Class = thì ở phần khai báo CSS ta đặt tên đối tượng thế nào?
+A. Đặt tên đối tượng có dấu . ở đầu tên đối tượng
+B. Đặt tên đối tượng có dấu $ ở đầu tên đối tượng
+C. Đặt tên đối tượng có dấu # ở đầu tên đối tượng
+D. Đặt tên đối tượng có dấu ? ở đầu tên đối tượng
+ANSWER: A
+
+Kiểu gán nào sau trong JavaScript không hợp lệ?
+A. x = x - y+
+B. x *= y
+C. x = x + +y
+D. x -*=y
+ANSWER: D
+
+P {color:red;text-align:center;}   Xem đoạn mã sau. Thẻ P sẽ có định dạng lại như thế nào?
+A. Thẻ P của HTML sẽ có màu đỏ căn lề giữa.
+B. Thẻ P của HTML sẽ có màu đỏ căn lề trái.
+C. Thẻ P của HTML sẽ có màu đỏ căn lề phải.
+D. Thẻ P của HTML sẽ không thay đổi vì nó đã được định nghĩa của HTML
+ANSWER: A
+
+Để nhúng mã JavaScript trong HTLM ta phải đặt vào vị trí nào sau đây?
+A. Trong thẻ <body>
+B. Ngay trước <body>
+C. Trong thẻ <head>
+D. Tất cả
+ANSWER: D
+
+#ph {color:red;text-align:center;}   Xem đoạn mã sau. Hãy cho biết ph là gì?
+A. Là một thuộc tính của CSS
+B. Là tên của một cặp thẻ HTML.
+C. Là tên của một đối tượng trong CSS
+D. Là môt thuộc tính của HTML
+ANSWER: C
+
+Ký hiệu nào sau không hợp lệ?
+A. >>
+B. <<
+C. !=>>
+D. >>>
+ANSWER: C
+
+Khi sử dụng thẻ DIV có ID = thì ở phần khai báo CSS ta đặt tên đối tượng thế nào?
+A. Đặt tên đối tượng có dấu . ở đầu tên đối tượng
+B. Đặt tên đối tượng có dấu ? ở đầu tên đối tượng
+C. Đặt tên đối tượng có dấu $ ở đầu tên đối tượng
+D. Đặt tên đối tượng có dấu # ở đầu tên đối tượng
+ANSWER: D
+
+Thẻ <frameset rows> </framset>:
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên
+ANSWER: B
+
+Đặc tính nào sau đây không phải là đặc tính cơ bản của JavaScript?
+A. Đơn giản (Simple)
+B. Trực quan cao (visual)
+C. Hướng đối tượng (Object Oriented)
+D. Động (Dynamic)
+ANSWER: B
+
+Thẻ <frameset cols> </framset>
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên
+ANSWER: A
+
+Trong CSS thuộc tính border: solid dùng để mô tả gì?
+A. Mô tả đường viên là 2 nét
+B. Mô tả đường viền có độ bóng
+C. Mô tả đường viền là liền
+D. Mô tả đường viền nét đứt
+ANSWER: C
+
+Sự kiện focus() có ý nghĩa gì?
+A. Mô tả việc con trỏ rời trường text (cách thức)
+B. Mô tả việc lựa chọn dòng text trong trường text (cách thức)
+C. Mô tả việc con trỏ tới trường text (cách thức)
+D. Tên của đối tượng được chỉ ra trong thẻ INPUT (thuộc tính)
+ANSWER: C
+
+Trong Javascript hàm parseFloatTA() dùng để làm gì?
+A. Chuyển một số nguyên thành một chuỗi
+B. Chuyển một chuỗi thành số thực
+C. Chuyển một chuỗi thành số
+D. Chuyển một chuỗi thành số nguyên
+ANSWER: B
+
+Sự kiện MouseOver xảy ra khi nào?
+A. Xảy ra khi di chuyển chuột qua kết nối hay anchor
+B. Xảy ra khi người dùng kích vào các thành phần hay liên kết của form
+C. Xảy ra khi thành phần của form được focus(làm nổi lên)
+D. Không có đáp án nào đúng
+ANSWER: D
+
+Để chèn thêm 1 ký tự lạ trong JavaScript ví dụ dấu " ta viết theo cách nào?
+A. document.write(" \"This text inside quotes.\" ");
+B. document.write(" \"This text inside quotes."\ ");
+C. document.write(" \This text inside quotes.\ ");
+D. document.write("This text inside quotes");
+ANSWER: A
+
+Xét lệnh chmod hello.txt 777 có nghĩa là gì?
+A. Lệnh này sai
+B. Trao một phần quyền cho mọi người
+C. Không có lệnh này
+D. Trao toàn quyền cho mọi người
+ANSWER: D
+
+(= ") Khi sử dụng thẻ DIV có Class = thì ở phần khai báo CSS ta đặt tên đối tượng thế nào?"
+A. ( 2) = " Đặt tên đối tượng có dấu # ở đầu tên đối tượng "
+B. ( 3) = " Đặt tên đối tượng có dấu $ ở đầu tên đối tượng "
+C. ( 1) = " Đặt tên đối tượng có dấu . ở đầu tên đối tượng "
+D. ( 4) = " Đặt tên đối tượng có dấu ? ở đầu tên đối tượng "
+ANSWER: C
+
+(= ") Lệnh CSS có thể viết được ở đâu?"
+A. ( 2) = " Viết lẫn vào HTML nhưng khi viết có thẻ <Css> </Css> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css "
+B. ( 1) = "Viết lẫn vào HTML nhưng khi viết có thẻ <style> </style>, viết theo tên thẻ ở thuộc tính style="" hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css"
+C. ( 3) = " Viết lẫn vào HTML nhưng khi viết có thẻ <stylesheet> </stylesheet> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css "
+D. ( 4) = " Viết lẫn vào HTML nhưng khi viết có thẻ <style> </style> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .sheet "
+ANSWER: B
+
+Khi lưu một tài liệu định dạng HTML phần mở rộng có thể là gì?
+A. Phần mở rộng phải là htm
+B. Phần mở rộng phải là html hoặc htm
+C. Phần mở rộng phải là html
+D. Tùy ý đặt
+ANSWER: B
+
+Thẻ trong HTML được viết thế nào?
+A. Viết theo các thẻ có sẵn và tự đặt
+B. Được viết theo các cặp thẻ có sẵn trong các version của HTML
+C. Được viết tùy thích và phải đúng nguyên tắc đóng mở theo chuẩn w3c
+D. Cả A, B, C đều đúng
+ANSWER: B
+
+Với các thẻ được quy định về cách thức hiện thị tài liệu, chúng ta có thể can thiệp để thay được được thêm các thông tin đó không?
+A. Được thông qua việc khai báo lại tên các cặp thể và định dạng
+B. Được thông qua việc khai báo lại thể style
+C. Không được vì HTML đã quy định thẻ đó có định dạng rồi
+ANSWER: B
+
+Ngôn ngữ kịch bản Javascript gần giống với ngôn ngữ nào sau đây?
+A. Pascal
+B. Visual Basic
+C. C++
+D. Foxpro
+ANSWER: C
+
+Trong câu lệnh sau: public static void main(String[] agrs) thì phần tử agrs[0] chứa giá trị gì?
+A. Tên của chương trình
+B. Số lượng tham số
+C. Tham số đầu tiên của danh sách tham số
+D. Không câu nào đúng
+ANSWER: C
+Trong khai báo đối số của hàm main() thì agrs là một mảng xâu kí tự, đồng thời hàm main có thể nhận nhiều đối số => agrs[0] là đối số đầu tiên trong danh sách đối số của hàm main()
+Phương thức next() của lớp Scanner dùng để làm gì?
+A. Nhập một số nguyên
+B. Nhập một ký tự
+C. Nhập một chuỗi
+D. Không có phương thức này
+ANSWER: C
+Phương thức next() của lớp Scanner sử dụng để nhập một chuỗi ký tự bao gồm cả khoảng trắng.
+Gói nào trong java chứa lớp Scanner dùng để nhập dữ liệu từ bàn phím?
+A. java.net
+B. java.io
+C. java.util
+D. java.awt
+ANSWER: A
+Vì: Theo cấu trúc của gói java.util
+G/s đã định nghĩa lớp XX với một phương thức thông thường là Display, sau đó sinh ra đối tượng objX từ lớp XX. Để gọi phương thức Display ta sử dụng cú pháp nào?
+A. XX.Display;
+B. XX.Display();
+C. objX.Display();
+D. Display();
+ANSWER: C
+Vì: Để truy xuất và phương thức của đối tượng ta sử dụng cú pháp: tendoituong.tenphuongthuc();
+Đâu KHÔNG phải là thành phần trong cấu trúc của lớp trong java.
+A. Tên lớp
+B. Thuộc tính
+C. Phương thức
+D. Biến
+ANSWER: D
+Thành phần trong cấu trúc của lớp trong java bao gồm tên lớp, thuộc tính, phương thức
+Hàm tạo được sử dụng để hủy đối tượng
+A. Cả hai câu đều đúng
+B. Cả hai câu đều sai
+C. Câu 1 đúng, câu 2 sai
+D. Câu 2 đúng, câu 1 sai
+ANSWER: C
+Vì: Trong java toán tử new được sử dụng kết hợp với hàm tạo để sinh ra đối tượng
+Với giá trị nào của x, biểu thức sau trả về giá trị true(x thuộc kiểu int).    x%3==0
+A. 2
+B. 7
+C. 4
+D. 9
+ANSWER: D
+x%3 trả về giá trị là 0 khi x là bội của 3. Trong các đáp án, chỉ có đáp án D có gia trị là bội của 3.
+Đâu là khai báo biến hợp lệ?
+A. theOne
+B. the One
+C. 1the_One
+D. $the One
+ANSWER: A
+Vì: Theo quy tắc khai báo biến thì tên biến nên bắt đầu bởi ký tự, không có khoảng cách giữa tên biến và tên biến không được bắt đầu bởi số.
+Trong các khai báo sau đâu là khai báo không hợp lệ?    Chọn một câu trả lời
+A. int a1[][] = new int[][3];
+B. int a2[][] = new int[2][3];
+C. int a3[][] = new int[2][];
+D. int a4[][] = {{}, {}, {}}
+ANSWER: A
+Bắt buộc phải xác định số dòng trong khai báo mảng hai chiều.
+Java Virtual Machine là gì?
+A. Là một thành phần của Java platform dùng để đọc mã bytecode trong file .class
+B. Là chương trình biên dịch của java dùng để biên dịch file nguồn java thành mã bytecode.
+C. Là chương trình chạy cho java
+D. Tất cả các đáp án đều đúng
+ANSWER: A
+
+Thứ tự các từ khóa public và static khi khai bao như thế nào?
+A. public đứng trước static
+B. static đứng trước public
+C. Thứ tự bất kỳ nhưng thông thường public đứng trước
+D. Tất cả đều sai.
+ANSWER: C
+
+Câu lệnh khai báo chuẩn cho cách main như thế nào?
+A. public static void main(String[] a) {}
+B. public static int main(String args) {}
+C. public static main(String[] args) {}
+D. public static final void main(String[] args) {}
+ANSWER: A
+
+Câu nào sau đây là sai?
+A. /** chú thích */
+B. /* chú thích */
+C. /* chú thích
+D. // chú thích
+ANSWER: C
+
+Đối tượng trong phần mềm là gì?
+A. Là một bó phần mềm gồm các hành vi và trạng thái có liên quan với nhau.
+B. Là vật thể xác định của thế giới thực.
+C. Là vật thể gồm hành vi và trạng thái.
+D. Là các đối tượng được biểu diễn trong phần mềm gồm có 2 thuộc tính trường dữ liệu và các cách xử lý dữ liệu.
+ANSWER: D
+
+Khai báo lớp nào dưới đây là đúng?
+A. public class default {}
+B. protected inner class engine {}
+C. final class outer {}
+D. Tất cả đều sai.
+ANSWER: C
+
+Cách đặt tên nào sau đây là sai?
+A. 2word
+B. *word
+C. main
+D. Tất cả đều sai.
+ANSWER: D
+
+Một lớp trong Java có thể có bao nhiêu lớp cha?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: A
+
+Một lớp trong Java có bao nhiêu lớp con?
+A. 2
+B. 3
+C. 4
+D. Vô số
+ANSWER: D
+
+Chọn câu trả lời đúng nhất. Interface là gì?
+A. Là lớp chứa các cách rỗng có liên quan với nhau.
+B. Là một kiểu tham chiếu, tương tự như class, chỉ có thể chứa hằng giá trị, khai báo cách và kiểu lồng.
+C. Là một cách thực hiện của lớp khác.
+D. Là lớp nối giữa lớp cơ sở và lớp cha.
+ANSWER: B
+
+Có bao nhiêu loại biến trong Java?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: D
+
+Khái niệm cách start()?
+A. Mọi cách thực hiện tác vụ sau khi khởi tạo phải chèn lên cách start. start() bắt đầu việc thực thi của applet.
+B. Là cách bắt đầu của applet và chạy song song với applet.
+C. cách khởi tạo của applet và chạy song song với applet.
+D. Tất cả đều sai.
+ANSWER: A
+
+Trong các kiểu giá trị số thực đặc biệt dưới đây, kiểu nào là đúng?
+A. Dương vô cực
+B. Âm vô cực
+C. NaN
+D. Cả 3 giá trị trên
+ANSWER: D
+
+Phát biểu nào sau đây là đúng:    Chọn một câu trả lời
+A. Mảng có thể lưu giữ các phần tử thuộc nhiều kiểu dữ liệu khác nhau
+B. Chỉ số của mảng có thể sử dụng kiểu số thực (float, double)
+C. Biểu thức array.length được sử dụng để trả về số phần tử trong mảng
+D. Một phần tử của mảng không thể truyền vào trong một phương thức.
+ANSWER: C
+biểu thức array.length trả về số phần tử trong mảng.
+Phát biểu sau nào là SAI
+A. Mảng có kích thước không đổi trong toàn bộ chương trình
+B. Mảng là cấu trúc dữ liệu có khả năng lưu trữ nhiều thành phần (phần tử) dữ liệu với kiểu khác nhau
+C. Mảng N phần tử được đánh chỉ số từ 0 đến N - 1
+D. Chỉ số mảng bắt đầu bằng 0
+ANSWER: B
+Đáp án đúng là: Mảng là cấu trúc dữ liệu có khả năng lưu trữ nhiều thành phần (phần tử) dữ liệu với kiểu khác nhau Vì:
+class Student {}    public class Man extends Student {    }       Đoạn mã sau có lỗi biên dịch không? Nếu có là lỗi nào sau?
+A. Không có lỗi biên dịch.
+B. Có lỗi biên dịch:class Student is empty.
+C. Có lỗi biên dịch:class Man is empty.
+D. Có lỗi biên dịch:class Student is empty, class Man is empty.
+ANSWER: A
+Chúng ta có thể khai báo các lớp không có thuộc tính và phương thức trống(empty). Nên đáp án A đúng và D, C, D sai.
+Đâu là một khai báo interface đúng?    Chọn một câu trả lời
+A. public interface MyInterface {}
+B. public interface MyInterface { default int x; }
+C. public interface MyInterface { protected int sum(int x, int y); }
+D. public interface MyInterface { private int sum(int x, int y); }
+ANSWER: A
+Trong đáp án B default là từ khóa dùng trong lệnh switch chứ không phải là một từ khóa truy xuất.Trong đáp án C, D không thể mức truy xuất private hoặc protected cho thuộc tính cúng như phương thức.Trong khai báo interface có thể không khai báo gì.
+Để đảo giá trị của một biến boolean, ta dùng toán tử nào?
+A. !
+B. >>
+C. <<
+D. >>>
+ANSWER: A
+
+Thẻ <input type=”Submit” dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nút lệnh dùng để gửi tin trong form đi
+C. Tạo một nút lệnh dùng để xóa thông tin trong form
+D. Tất cả các ý trên
+ANSWER: B
+
+Thẻ <input type=”Radio” …> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nhóm đối tượng chọn nhưng chọn duy nhất
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: B
+
+Thẻ <input type=”checkbox” …> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nhóm đối tượng chọn được nhiều đối tượng
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả ý trên
+ANSWER: B
+
+Thẻ <input type=”button” …> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nút lệnh lên trên form
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả ý kiến trên
+ANSWER: B
+
+Hàm alert() dùng để làm gì?
+A. Dùng để hiện một thông điệp
+B. Dùng để hiện một thông báo nhập
+C. Dùng để chuyển đổi số sang chữ
+D. Tất cả các dạng trên
+ANSWER: A
+
+Thẻ <Frameset rows > </frameset>
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên
+ANSWER: B
+
+Thẻ <Frame src=” duong dan ”>
+A. Dùng để chèn ảnh
+B. Dùng để lấy dữ liệu từ một trang khác
+C. Tất cả dạng trên
+D. Không có ý nào trong các ý trên
+ANSWER: B
+
+Thực hiện kiểm tra nếu biến “i” không bằng 5, câu lệnh nào là đúng?
+A. if (i != 5)
+B. if i <> 5
+C. if i =! 5 then
+D. if (i <> 5)
+ANSWER: A
+
+Cách viết câu lệnh IF nào sau đây là đúng?
+A. if (i == 5)
+B. if i == 5 then
+C. if i = 5 then
+D. if i = 5
+ANSWER: A
+
+Có mấy cách để truyền tham số vào cho một phương thức?    Chọn một câu trả lời
+A. 2
+B. 1
+C. 3
+D. 4
+ANSWER: A
+Khi truyền tham số vào cho phương thức có hai cách là: truyền theo kiểu tham trị và truyền theo kiểu tham biến.
+Mô hình phát triển dựa vào thành phần:
+A. Chỉ phù hợp cho thiết kế phần cứng máy tính
+B. Không thể hỗ trợ phát triển những thành phần sử dụng lại
+C. Dựa vào những kỹ thuật hỗ trợ đối tượng
+D. Không định chi phí hiệu quả bằng những độ đo phần mềm có thể định lượng
+ANSWER: C
+
+Thành phần nào của kỹ thuật tiến trình nghiệp vụ là trách nhiệm của kỹ sư phần mềm:
+A. Phân tích phạm vi nghiệp vụ
+B. Thiết kế hệ thống nghiệp vụ
+C. Kế hoạch sản phẩm
+D. Kế hoạch chiến lược thông tin
+ANSWER: B
+
+Cách tốt nhất để đưa tới việc xem xét việc đánh giá yêu cầu là:
+A. Kiểm tra lỗi mô hình hệ thống
+B. Nhờ khách hàng kiểm tra yêu cầu
+C. Gởi họ tới đội thiết kế và xem họ có sự quan tâm nào không
+D. Dùng danh sách các câu hỏi kiểm tra để kiểm tra mỗi yêu cầu
+ANSWER: D
+
+Mẫu mô hình hệ thống chứa thành phần?
+A. Input
+B. Output
+C. Giao diện người dùng
+D. Tất cả mục trên
+ANSWER: D
+
+Dòng thông tin biểu diễn cách thức mà dữ liệu và điều khiển:
+A. Quan hệ với một dữ liệu và điều khiển khác
+B. Biến đổi khi mỗi lần dịch chuyển qua hệ thống
+C. Sẽ được thực thi trong thiết kế cuối cùng
+D. Không có mục nào
+ANSWER: B
+
+Sơ đồ luồng dữ liệu:
+A. Đưa ra hình ảnh quan hệ giữa các đối tượng dữ liệu
+B. Đưa ra hình ảnh những chức năng biến đổi luồng dữ liệu
+C. Chỉ ra những quyết định logic chính khi chúng xuất hiện
+D. Chỉ ra sự tương tác của hệ thống với sự kiện bên ngoài
+ANSWER: B
+
+Sự quan trọng của thiết kế phần mềm có thể được tóm tắt bằng từ đơn:
+A. Accuracy
+B. Complexity
+C. Efficiency
+D. Quality
+ANSWER: D
+
+Thủ tục phần mềm tập trung vào:
+A. Cấp bậc điều khiển trong một cảm nhận trừu tượng hơn
+B. Xử lý chi tiết của mỗi module riêng biệt
+C. Xử lý chi tiết của mỗi tập module
+D. Quan hệ giữa điều khiển và thủ tục
+ANSWER: B
+
+Nguyên nhân của việc sinh lỗi do thiết kế mức thành phần trước khi thiết kế dữ liệu là:
+A. Thiết kế thành phần thì phụ thuộc vào ngôn ngữ còn thiết kế dữ liệu thì không
+B. Thiết kế dữ liệu thì dễ thực hiện hơn
+C. Thiết kế dữ liệu thì khó thực hiện
+D. Cấu trúc dữ liệu thường ảnh hưởng tới cách thức mà thíết kế thành phần phải theo
+ANSWER: D
+
+Mục nào không là một phần của kiến trúc phần mềm:
+A. Chi tiết giải thuật
+B. Cơ sở dữ liệu
+C. Thiết kế dữ liệu
+D. Cấu trúc chương trình
+ANSWER: A
+
+Mẫu kiến trúc nhấn mạnh tới những thành phần:
+A. Ràng buộc
+B. Tập hợp những thành phần
+C. Mô hình ngữ nghĩa
+D. Tất cả những mục
+ANSWER: D
+
+Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào:
+A. Tính truy cập và tính tin cậy của hệ thống
+B. Dữ liệu và điều khiển của hệ thống
+C. Tính chức năng của hệ thống
+D. Những chi tiết thực thi của hệ thống
+ANSWER: B
+
+Những nguyên lý thiết kế giao diện nào không cho phép người dùng còn điều khiển tương tác với máy tính:
+A. Cho phép được gián đoạn
+B. Cho phép tương tác có thể undo
+C. Che dấu những bản chất kỹ thuật với những người dùng thường
+D. Chỉ cung cấp một cách thức xác định cứng khi hoàn thành tác vụ
+ANSWER: D
+
+Sự toàn vẹn (consistency) giao diện ngầm định:
+A. Những kỹ thuật input giữ tương tự suốt ứng dụng
+B. Mỗi ứng dụng phải có look and feel riêng biệt
+C. Cách thức điều hướng (navigational) nhạy với ngữ cảnh
+D. Câu a và b
+ANSWER: D
+
+Mô hình nào đưa ra hình ảnh look and feel cho giao diện người dùng cùng những thông tin hỗ trợ:
+A. Mô hình thiết kế
+B. Mô hình người dùng
+C. Mô hình hình ảnh hệ thống
+D. Mô hình nhận thức hệ thống
+ANSWER: C
+
+Hướng tiếp cận nào để những phân tích tác vụ của người dùng trong thiết kế giao diện người dùng:
+A. Người dùng cho biết những ưa thích qua bản câu hỏi
+B. Dựa vào ý kiến của những lập trình viên có kinh nghiệm
+C. Nghiên cứu những hệ thống tự động liên quan
+D. Quan sát thao tác ngƣời dùng
+ANSWER: D
+
+Những vấn đề thiết kế chung nổi trội lên trong hầu hết giao diện người dùng:
+A. Kết nối tiền sử người dùng (profile) và shortcut chức năng
+B. Xử lý lỗi và thời gian đáp ứng của hệ thống
+C. Quyết định hiển thị hình ảnh và thiết kế icon
+D. Không có mục nào
+ANSWER: B
+
+Những độ đo phức tạp vòng (cyclomatic complexity metric) cung cấp cho người thiết kế thống tin về số
+A. Chu kỳ trong chương trình
+B. Số lỗi trong chương trình
+C. Những đường logic độc lập trong chương trình
+D. Những phát biểu của chương trình
+ANSWER: C
+
+Kiểm thử điều kiện là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case:
+A. Dựa vào kiểm thử đường cơ bản
+B. Thử thách điều kiện logic trong module phần mềm
+C. Chọn những đường dẫn kiểm tra dựa vào những vị trí và dùng những biến
+D. Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+ANSWER: B
+
+Kiểm thử luồng dữ liệu là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case:
+A. Dựa vào kiểm thử đường cơ bản
+B. Thử thách điều kiện logic trong module phần mềm
+C. Chọn những đƣờng dẫn kiểm tra dựa vào những vị trí và dùng những biến
+D. Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+ANSWER: C
+
+Lý do tốt nhất cho việc dùng nhóm kiểm tra phần mềm độc lập là:
+A. Những người phát triển phần mềm không cần làm bất kỳ kiểm thử nào
+B. Những người lạ sẽ kiểm phần mềm rất chặt
+C. Những người kiểm thử không được dính dáng tới dự án cho đến khi kiểm thử bắt đầu
+D. Mâu thuẩn về quyền lợi giữa những ngƣời phát triển và những ngƣời kiểm thử sẽ giảm
+ANSWER: D
+
+Kiểm thử tích hợp Top-down có thuận lợi chính là:
+A. Những module mức thấp không bao giờ cần kiểm thử
+B. Những điểm quyết định chính được kiểm thử sớm
+C. Không có những stub cần phải viết
+D. Không có mục nào
+ANSWER: B
+
+Hướng debug là gì?
+A. Backtracking
+B. Brute force
+C. Sự loại trừ nguyên nhân
+D. Tất cả các mục
+ANSWER: D
+
+Trong biểu diễn lịch biểu dự án Critical path là đường:
+A. Là một đường duy nhất
+B. Có thời gian ngắn nhất
+C. Có thời gian dài nhất
+D. Tất cả đều đúng phụ thuộc vào dự án
+ANSWER: C
+
+Theo chiến thuật kiểm nghiệm phổ biến, kiểm nghiệm tính năng tương quan với:
+A. Phân tích toàn bộ hệ thống
+B. Thiết kế
+C. Phân tích yêu cầu
+D. Mã hóa
+ANSWER: C
+
+Sự toàn vẹn (consistency) giao diện ngầm định :
+A. Những kỹ thuật input giữ tương tự suốt ứng dụng
+B. . Mỗi ứng dụng phải có look and feel riêng biệt
+C. Cách thức điều hướng (navigational) nhạy với ngữ cảnh
+D. Câu a và b
+ANSWER: D
+
+Mục nào liên quan tới phân tích người dùng:
+A. Mô hình hệ thống của người dùng
+B. Trong tình huống đặc trưng thì người dùng thực hiện công việc gì?
+C. Những feedback từ việc đánh giá của người dùng
+D. Nếu người dùng xảy ra lỗi thì hậu quả như thế nào?
+ANSWER: D
+
+Tiêu chuẩn ISO-14598 đưa ra:
+A. Đưa ra quy trình đánh giá tính an toàn cho sản phẩm phần mềm
+B. Đưa ra quy trình đánh giá hiệu quả của phần mềm
+C. Đưa ra quy trình đánh giá chất lượng cho sản phẩm phần mềm
+D. Đưa ra quy trình đánh giá tính khả dụng cho sản phẩm phần mềm
+ANSWER: C
+
+IEEE 830-1993 là một khuyến nghị tiêu chuẩn cho?
+A. Software requirement specification
+B. Software design
+C. Testing
+D. Coding
+ANSWER: A
+
+Phần mềm dự báo thời tiết thu thập các số liệu về nhiệt độ, độ ẩm, … xử lý tính toán để cho ra các dự báo thời tiết là 1 ví dụ của loại phần mềm:
+A. Phần mềm hệ thống (System software)
+B. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+C. Phần mềm thời gian thực (Real time software)
+D. Phần mềm nghiệp vụ (Business software)
+ANSWER: C
+
+Theo một báo cáo của IBM, "31% các dự án bị hủy bỏ trước khi chúng được hoàn thành, 53% vượt dự toán trung bình 189% và cứ mỗi 100 dự án, có 94 dự án khởi động lại". Lý do nào cho số liệu thống kê trên?
+A. Thiếu đào tạo đầy đủ về công nghệ phần mềm
+B. Thiếu đạo đức phần mềm và sự hiểu biết
+C. Quản lý các vấn đề trong công ty
+D. Ảnh hưởng của sự suy thoái kinh tế
+ANSWER: A
+
+Mối quan tâm chính của công nghệ phần mềm là gì?
+A. Sản xuất phần cứng
+B. Sản xuất phần mềm
+C. Cấu hình mạng
+D. Phần mềm có thể dùng lại
+ANSWER: B
+
+Yêu cầu có thể chia ra thành các lọai nào sau đây?
+A. Chức năng, phi chức năng, yêu cầu hệ thống
+B. Chức năng, phi chức năng
+C. Chức năng, phi chức năng, yêu cầu miền ứng dụng
+D. Chức năng, phi chức năng, yêu cầu nghiệp vụ
+ANSWER: B
+
+ 
+A. Có định hướng thời gian
+B. Có giá trị pháp lý
+C. Tính mô tả trừu tượng
+D. Có thể mô tả bằng toán học
+ANSWER: A
+
+CASE là từ viết tắt của:
+A. Cost Aided Software Engineering
+B. Computer Aided Software Engineering
+C. Control Aided Software Engineering
+D. Computer Analyzing Software Engineering
+ANSWER: B
+
+Mục nào không dùng cho đặc tả yêu cầu:
+A. Đặc tả thao tác
+B. Đặc tả mô hình
+C. Đặc tả bằng sơ đồ
+D. Đặc tả thuật toán
+ANSWER: B
+
+Đâu là output của chương trình dưới đây?    def outerFunction():   global a  a = 20  def innerFunction():   global a  a = 30  print('a =', a)  a = 10  outerFunction()  print('a =', a)
+A. a = 10 a = 30
+B. a = 10
+C. a = 20
+D. a = 30
+ANSWER: C
+
+Đâu là kết quả của đoạn code dưới đây?    class Foo:   def printLine(self, line = 'Python'):   print(line)  o1 = Foo()  o1.printLine('Java')
+A. Python
+B. line
+C. Java
+D. Java Python
+ANSWER: C
+
+Đâu là output của chương trình dưới đây?    class Point:   def __init__(self, x = 0, y = 0):   self.x = x + 1  self.y = y + 1  p1 = Point()  print(p1.x, p1.y)
+A. 0 0
+B. 1 1
+C. None None
+D. x y
+ANSWER: B
+
+Đoạn code nào sau đây sử dụng tính năng kế thừa của Python?
+A. class Foo: Pass
+B. class Foo(object): pass class Hoo(object) pass
+C. class Foo: pass class Hoo(Foo): pass
+D. Không có đáp án chính xác.
+ANSWER: C
+
+Khẳng định nào sau đây là đúng?
+A. Trong Python, một toán tử có thể có hoạt động khác nhau tùy thuộc vào toán hạng được sử dụng.
+B. Bạn có thể thay đổi cách các toán tử hoạt động trong Python.
+C. __add () __ được gọi khi toán tử ' + ' được sử dụng.
+D. Tất cả các đáp trên đều đúng.
+ANSWER: D
+
+Mở file với chế độ mode ' a ' có ý nghĩa gì?
+A. Mở file ở chế độ chỉ được phép đọc.
+B. Mở file ở chế độ ghi.
+C. Mở file chế độ ghi tiếp vào cuối file.
+D. Mở file để đọc và ghi.
+ANSWER: C
+
+Đoạn code nào tự động đóng tệp khi có ngoại lệ xảy ra?
+A. with open("test.txt", encoding = 'utf-8') as f:
+B. try: f = open("test.txt",encoding = 'utf-8') finall f.close()
+C. Không có đáp án chính xác
+D. Cả A và B đều đúng
+ANSWER: D
+
+Đoạn code dưới đây có ý nghĩa gì?    os.listdir()
+A. In ra thư mục làm việc hiện tại.
+B. In ra tất cả các thư mục (không phải tệp) bên trong thư mục đã cho
+C. In ra tất cả các thư mục và tập tin bên trong thư mục đã cho.
+D. Tạo một thư mục mới.
+ANSWER: C
+
+Khẳng định nào về ngoại lệ là đúng nhất?
+A. Ngoại lệ (Exception) là lỗi phát sinh khi đang thực thi chương trình (runtime error).
+B. Lỗi cú pháp (syntax error) cũng là một ngoại lệ.
+C. Ngoại lệ được Python dùng để loại bỏ một khối code khỏi chương trình.
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: A
+
+Điều gì sẽ xảy ra nếu bạn cố mở một file không tồn tại?
+A. Python tự động tạo một file mới dưới tên bạn đang gọi ra.
+B. Không có gì xảy ra vì file không tồn tại.
+C. Gây ra một ngoại lệ
+D. Không có đáp án nào đúng
+ANSWER: C
+
+Đâu là kết quả của đoạn code dưới đây?    number = 5.0  try:  r = 10 / number  print(r)  except:   print("Oops! Error occurred.")
+A. Oops! Error occurred.
+B. 2.0
+C. 2.0 Oops! Error occurred.
+D. 5.0
+ANSWER: B
+
+Kết quả nào là output của đoạn code dưới đây?    try:  print("throw")  except:   print("except")  finally:  print("finally")
+A. finally throw
+B. finally except
+C. except finally
+D. throw finally
+ANSWER: D
+
+Mở file với chế độ mode ' wb ' có ý nghĩa gì?
+A. Mở file để ghi.
+B. Mở file để đọc và ghi.
+C. Mở file để ghi cho dạng nhị phân.
+D. Mở file để đọc và ghi cho dạng nhị phân.
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    list = [ 'Tech', 404, 3.03, 'Beamers', 33.3 ]  print list[1:3]
+A. [ 'Tech', 404, 3.03, 'Beamers', 33.3 ]
+B. [404, 3.03]
+C. ['Tech', 'Beamers']
+D. None of the above
+ANSWER: B
+
+Đâu không phải là kiểu dữ liệu tiêu chuẩn trong Python?
+A. List
+B. Dictionary
+C. Class
+D. Tuple
+ANSWER: C
+
+Lệnh print in ra kết quả nào cho chương trình dưới đây?    list1 = [1, 3]  list2 = list1  list1[0] = 4  print(list2)
+A. [4, 3]
+B. [1, 3]
+C. [1, 4]
+D. [1, 3, 4]
+ANSWER: A
+
+Chạy code sau trong Python, kết quả là:    num = '5'*'5'
+A. 333
+B. 27
+C. 9
+D. TypeError: can't multiply sequence by non-int of type 'str'
+ANSWER: D
+
+Hàm pow(x,y,z) được diễn giải là:
+A. (x**y)**z
+B. (x**y) / z
+C. (x**y) % z
+D. (x**y)*z
+ANSWER: C
+
+Kết quả của hàm sau là gì?    all([2,4,0,6])
+A. Error
+B. True
+C. False
+D. 0
+ANSWER: C
+
+Kết quả của biểu thức sau là gì?    round(4.5676,2)
+A. 4.5
+B. 4.6
+C. 4.57
+D. 4.56
+ANSWER: C
+
+Output của hàm sau là gì?    any([2>8, 4>2, 1>2])
+A. Error
+B. True
+C. False
+D. 4>2
+ANSWER: B
+
+Output của hàm biểu diễn dưới đây là gì?    import math  abs(math.sqrt(25))
+A. Error
+B. -5
+C. 5
+D. 5.0
+ANSWER: D
+
+Các kết quả của hàm hiển thị dưới đây là gì?    sum(2,4,6)  sum([1,2,3])
+A. Error, 6
+B. 12, Error
+C. 12, 6
+D. Error, Error
+ANSWER: A
+
+Output của hàm sau là:    all(3,0,4.2)
+A. True
+B. False
+C. Error
+D. 0
+ANSWER: C
+
+Output của hàm biểu diễn dưới đây là gì?    divmod(10.5,5)  divmod(2.4,1.2)
+A. (2.00, 0.50) (2.00, 0.00)
+B. (2, 0.5) (2, 0)
+C. (2.0, 0.5) (2.0, 0.0)
+D. (2, 0.5) (2)
+ANSWER: C
+
+Output của hàm sau là gì?    float('1e-003')  float('2e+003')
+A. 3.00 300
+B. 0.001 2000.0
+C. 0.001 200
+D. Error 2003
+ANSWER: B
+
+Hàm nào sau đây không chấp nhận iterable làm tham số?
+A. enumerate()
+B. all()
+C. chr()
+D. max()
+ANSWER: C
+
+Hàm nào sau đây chỉ chấp nhận số nguyên làm tham số?
+A. ord()
+B. min()
+C. chr()
+D. any()
+ANSWER: C
+
+Giả sử có một list: l = [2,3,4]. Nếu muốn in list này theo thứ tự ngược lại ta nên sử dụng phương pháp nào sau đây?
+A. reverse(l)
+B. list(reverse[(l)])
+C. reversed(l)
+D. list(reversed(l))
+ANSWER: D
+
+Hàm nào sau đây sẽ không xảy ra lỗi khi không truyền tham số cho nó?
+A. min()
+B. divmod()
+C. all()
+D. float()
+ANSWER: D
+
+Hàm nào sau đây không gây ra lỗi?
+A. ord()
+B. ord(' ')
+C. ord(")
+D. ord("")
+ANSWER: B
+
+Kết quả của hàm hiển thị dưới đây là gì?    len(["hello",2, 4, 6])
+A. 4
+B. 3
+C. Error
+D. 6
+ANSWER: A
+
+Kết quả của hàm sau là gì?    oct(7)  oct(‘7’)
+A. Error 07
+B. 07 Error
+C. 0o7 Error
+D. 07 0o7
+ANSWER: C
+
+Chọn đáp án đúng: Phát biểu nào chính xác khi nói về Hàm trong Python?
+A. Hàm có thể được tái sử dụng trong chương trình.
+B. Sử dụng hàm không có tác động tích cực gì đến các module trong chương trình.
+C. Không thể tự tạo các hàm của riêng người viết chương trình.
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: A
+
+Chọn đáp án đúng: Phát biểu nào chính xác khi nói về Docstring trong Python?
+A. Docstring là chuỗi đầu tiên ngay sau tiêu đề hàm
+B. Docstring là không bắt buộc nhưng nên có trong một hàm
+C. Docstring được truy cập bởi thuộc tính __doc__ trên đối tượng
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: D
+
+Đâu là lợi thế của việc sử dụng hàm trong Python?
+A. Tránh việc phải lặp lại code thực thi những tác vụ tương tự nhau.
+B. Phân tách các vấn đề phức tạp thành các phần đơn giản hơn.
+C. Code rõ ràng, dễ quản lý hơn
+D. Tất cả các đáp án đều đúng.
+ANSWER: D
+
+Python có 2 loại hàm chính, đó là:
+A. Custom function & User defined function
+B. Built-in function & User defined function
+C. Built-in function & User function
+D. System function & User function
+ANSWER: B
+
+Hàm được khai báo ở đâu?
+A. Module
+B. Class
+C. Trong một hàm khác
+D. Tất cả các phương án trên
+ANSWER: D
+
+Engine nào là nền tảng chính của PHP?
+A. ZEDAT
+B. ZEND
+C. ZENAT
+D. ZETA
+ANSWER: B
+
+Cài đặt Apache xong bạn có thể kiểm tra servername của bạn qua cách gọi ulr http://localhost, ngoài cách này còn cách nào khác nữa không?
+A. http://127.0.0.1
+B. http://127.0.1.0
+C. http://127.0.0.0
+D. http://000.0.0.0
+ANSWER: A
+
+Khi sử dụng bộ PHP & Apache bạn phải trả
+A. 1500$
+B. 150$
+C. 50$ / mỗi tháng
+D. Không tốn đồng nào
+ANSWER: D
+
+PHP dựa theo syntax của ngôn ngữ nào?
+A. Basic
+B. Pascal
+C. C
+D. VB Script
+ANSWER: C
+
+W tượng trưng cho cụm từ nào trong gói WAMP?
+A. Word
+B. Windows
+C. Whistler
+D. While
+ANSWER: B
+
+Truớc khi đổi thành PHP: Hypertext Preprocessor nguồn gốc của nó phát xuất từ cụm từ nào
+A. Preminum Handled Processor
+B. Personal HomePage Tools
+C. Printed Homepage Product
+D. Personal Hightec Processor
+ANSWER: B
+
+Khi thực thi biến này $Var3 = $var1 % $var2 dạng type của nó là
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: B
+
+Dạng type nào sẽ được tự động dịch khi gán biến này $var = 50.0
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: A
+
+Số 41 này tương đương với số Bit nào
+A. 10010010
+B. 00101001
+C. 00010101
+D. 00101101
+ANSWER: B
+
+Ứng dụng PHP có thể gắn ở
+A. Chỉ gắn được ở phần Header
+B. Chỉ gắn được ở phần Body
+C. Chỗ nào cũng được trong văn bản (tệp) HTML
+D. A, B, C đều đúng
+ANSWER: C
+
+Câu lệnh nào là đúng , khi bạn muốn biến đổi dang (type) thành integer?
+A. $item = (int) "100Laptop";
+B. $tem = "int""100Laptop";
+C. $item = [int] "100Laptop";
+D. $item = INT"100Laptop";
+ANSWER: A
+
+Loại biến nào được dùng trong PHP?
+A. Typeless variable
+B. Headless variable
+C. Nameless variable
+D. Irrevelant variable
+ANSWER: A
+
+Câu lệnh nào dùng để xuất ra trình duyệt?
+A. say
+B. write
+C. echo
+D. cout<<
+ANSWER: C
+
+Trong php, có thể sử dụng cả dấu nháy đơn ‘’ và dấu nháy kép “” cho chuỗi
+A. False
+B. True
+ANSWER: B
+
+PHP cho phép gửi mail trực tiếp từ script
+A. False
+B. True
+ANSWER: B
+
+Để +1 cho biến $count
+A. $count =+1
+B. ++count
+C. count++;
+D. $count++;
+ANSWER: C
+
+Để ghi chú trong file php
+A. <comment>…</comment>
+B. /*…*/
+C. <!--…-->
+D. *\..\*
+ANSWER: B
+
+Để chèn nội dung 1 tập tin vào, thì sử dụng
+A. include[]
+B. #include()
+C. include()
+D. #include{}
+ANSWER: C
+
+Hàm nào để in biến, chuỗi, số… ra ngoài trình duyệt trong php?
+A. echo();
+B. printf
+C. ""
+ANSWER: A
+
+Tên biến nào sau đây sai?
+A. $number-in-class
+B. $nic
+C. $NumberInClass
+D. $number_in_class
+ANSWER: A
+
+<?php $father = "mother"; $mother = "son"; echo $$father; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. son
+B. mother
+C. motherson
+D. error
+ANSWER: A
+
+Tên biến nào sau đây là hợp lệ
+A. $3hello
+B. $this
+C. $_hello
+D. Tất cả đều không hợp lệ
+ANSWER: C
+
+Câu nào dưới đây có kết quả bằng với $add += $add ?
+A. $add = $add
+B. $add = $add +$add
+C. $add = $add + 1
+D. $add = $add + $add + 1
+ANSWER: B
+
+Câu lệnh nào là đúng , khi bạn muốn biến đổi dang (type) thành integer?
+A. $item = (int) "100Laptop";
+B. $tem = "int""100Laptop";
+C. $item = [int] "100Laptop";
+D. $item = INT"100Laptop";
+ANSWER: A
+
+Type boolean trả cho ta giá trị gì ?
+A. true hay false
+B. equal hay unequal
+C. bigger hay smaller
+D. yes hay none
+ANSWER: A
+
+Câu lệnh nào để thêm 1 dòng vào bảng trong MYSQL/MYSQLI
+A. Add new
+B. Insert into
+C. Update new
+D. Insert new
+ANSWER: B
+
+Trong mệnh đề LIKE, cú pháp nào là đúng để tìm các giá trị nào kết thúc bằng “qpt”
+A. LIKE %qpt
+B. LIKE *ton
+C. LIKE ton$
+D. LIKE ^.*ton$
+ANSWER: A
+
+Mệnh đề SQL nào hạn chế số dòng trả về trong 1 câu truy vấn
+A. AND
+B. WHERE
+C. HAVING
+D. FROM
+ANSWER: B
+
+Câu lệnh SELECT mà không có mệnh đề WHERE sẽ trả về
+A. Mọi dòng dữ liệu từ bảng của câu lệnh WHERE trước đó
+B. Mọi dữ liệu từ bảng
+C. Câu lệnh sai vì SELECT là phải có mệnh đề WHERE
+D. Luôn trả về giá trị NULL
+ANSWER: B
+
+Cho bảng employees với dữ liệu sau emp_id emp_name 1Brush 2Jerrin Câu lệnh truy vấn sau đây sẽ trả về giá trị gì? Select count(*) from employees
+A. 3
+B. 2
+C. 1
+D. Tất cả đều sai
+ANSWER: B
+
+Câu lệnh SELECT mà không có mệnh đề WHERE sẽ trả về
+A. Mọi dòng dữ liệu từ bảng của câu lệnh WHERE trước đó
+B. Mọi dữ liệu từ bảng
+C. Câu lệnh sai vì SELECT là phải có mệnh đề WHERE
+D. Luôn trả về giá trị NULL
+ANSWER: B
+
+Trong MySQL, Câu lệnh nào vừa xóa dữ liệu của bảng, vừa xóa luôn bảng
+A. TRUNCATE
+B. DROP
+C. EMPTY
+D. DEL
+ANSWER: B
+
+Các tập tin PHP có phần mở rộng mặc định là
+A. .html
+B. .xml
+C. .php
+D. .ph
+ANSWER: C
+
+PHP dựa theo cú pháp của ngôn ngữ nào?
+A. Basic
+B. Pascal
+C. C
+D. VB Script
+ANSWER: C
+
+Kí tự W trong WAMP tượng trưng cho từ
+A. Word
+B. Windows
+C. Whistler
+D. While
+ANSWER: B
+
+Dạng type nào sẽ được tự động dịch khi thực thi lệnh gán: $var = 50.0
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: A
+
+Để viết code PHP, bạn có thể sử dụng bộ Editor
+A. Notepad
+B. Notepad ++
+C. Adobe Dreamweaver
+D. Cả 3 câu trên đều đúng
+ANSWER: D
+
+Phiên bản …. giới thiệu tính năng Try/catch Exception?
+A. PHP 4
+B. PHP 5
+C. PHP 5.3
+D. PHP 6
+ANSWER: B
+
+<?php $num = “1”; $num1 = “2”; print $num + $num1; ?>   Kết quả của đoạn code dưới đây là?
+A. 3
+B. 1+2
+C. 12
+D. Xảy ra lỗi
+ANSWER: A
+
+Tên biến nào sau đây là hợp lệ
+A. $3hello
+B. $this
+C. $_hello
+D. Tất cả đều không hợp lệ
+ANSWER: C
+
+<?php echo ord("hi"); ?>   Kết quả của đoạn code dưới đây là?
+A. 106
+B. 103
+C. 104
+D. 209
+ANSWER: C
+
+Mảng PHP bắt đầu bởi phần tử có vị trí
+A. 1
+B. 2
+C. 0
+D. -1
+ANSWER: C
+
+Tính đóng gói trong OOP là
+A. Polymorphism
+B. Inheritance
+C. Encapsulation
+D. Abstraction
+ANSWER: C
+
+Tính đa hình trong OOP là
+A. Abstraction
+B. Polymorphism
+C. Inheritance
+D. Differential
+ANSWER: B
+
+Tính kế thừa trong OOP là
+A. Polymorphism
+B. Inheritance
+C. Encapsulation
+D. Abstraction
+ANSWER: B
+
+Giới thiệu từ khóa “instanceof” ? Điền vào dấu ...
+A. PHP 4
+B. PHP 5
+C. PHP 5.3
+D. PHP 6
+ANSWER: B
+
+Trong PHP, từ khóa nào được dùng để truy xuất đến các phương thức và thuộc tính trong chính lớp đó
+A. private
+B. public
+C. protected
+D. $this
+ANSWER: D
+
+Trong PHP, từ khóa nào cho phép các phương thức và thuộc tính của lớp có thể được truy xuất mà không cần khởi tạo đối tượng của lớp đó
+A. protected
+B. final
+C. static
+D. private
+ANSWER: C
+
+Trong các cách sau đây, cách nào giúp bạn nhận được dữ liệu gửi đi từ Form mà không chắc chắn cơ chế nó được gửi đi như thế nào?
+A. $_REQUEST[]
+B. $_GET[]
+C. $_POST[]
+D. $_SEND[]
+ANSWER: A
+
+Trong Xpath để lấy ra thông tin phần tử ở vị trí cuối cùng, chúng ta sử dụng
+A. last()
+B. last()-1
+C. end()
+D. end()-1
+ANSWER: C
+
+Phương thức nào sau đây được sử dụng để lấy các không gian tên được sử dụng trong một tài liệu XML từ một đối tượng SimpleXMLElement?
+A. getName()
+B. getNamespaces()
+C. getElement()
+D. getDefined()
+ANSWER: B
+
+Phương thức nào sau đây được sử dụng để lấy tên của phần tử XML từ một đối tượng SimpleXMLElement?
+A. getDefined()
+B. getNamespaces()
+C. getName()
+D. getCall()
+ANSWER: C
+
+Phát biểu nào sao đây SAI về phương thức __construct()
+A. __construct() được gọi tự động và được gọi đầu tiên khi một object được khởi tạo.
+B. __construct() thường dùng để khởi tạo các giá trị ban đầu, các trường hợp gọi __construct()
+C. __construct() được đặt tên trùng với tên class
+D. __construct() phải có tham số được truyền
+ANSWER: D
+
+<?php class A {  static $word = "hello";  static function hello()  {  print static ::$word;  } } class B extends A {  static $word = "bye"; } B::hello(); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. bye
+B. hello
+C. byehello
+D. Có lỗi xảy ra
+ANSWER: A
+
+Làm sao để truy cập vào một thuộc tính trong class thông qua $this
+A. $this.$varname
+B. $this.varname
+C. $this->varname
+D. $this->$varname
+ANSWER: C
+
+Phương pháp nào sau đây được gọi để in trực tiếp thông tin của mọt đối tượng (tương tự dùng echo hoặc print để in chuỗi)
+A. __unset()
+B. __isset()
+C. __toString()
+D. __set_state()
+ANSWER: B
+
+<?php $values = array(  10,  20,  '0',  '10hello',  'hello10' ); echo array_sum($values); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 20
+B. 30
+C. 40
+D. 50
+ANSWER: C
+
+<?php $a = 5; $b = 4; $c = ($a++ * ++$b); echo $c; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 20
+B. 21
+C. 27
+D. 25
+ANSWER: D
+
+Câu lệnh SQL nào sau đây để xóa bảng từ cơ sở dữ liệu cho trước
+A. DELETE TABLE <table_name> FROM DATABASE
+B. DELETE TABLE <table_name>
+C. DROP TABLE <table_name>
+D. DROP TABLE <table_name> FROM DATABASE
+ANSWER: C
+
+Để hiển thị những dòng phân biệt (loại bỏ kết quả trùng) chúng ta sử dụng từ khóa nào sau đây?
+A. ONLY
+B. ALL
+C. DISTINCT
+D. ANY
+ANSWER: C
+
+Cho bảng user gồm các cột id, firstname, lastname, email và age. Sử dụng điều kiện nào trong câu SQL để in ra những user từ 20 đến 40 tuổi
+A. BETWEEN 25 & 40
+B. BETWEEN 25 - 40
+C. BETWEEN 25 TO 40
+D. BETWEEN 25 AND 40
+ANSWER: D
+
+Hàm nào dùng để lấy thời gian hiện tại trong MySQL
+A. getTime()
+B. currentTime()
+C. NOW()
+D. thoigian()
+ANSWER: C
+
+mysql_pconnect() dùng để
+A. Tạo kết nối tới db
+B. Tạo kết nối tới db và liên kết SQL vẫn không đóng lại sau khi các câu lệnh được thực thi
+C. Tạo kết nối tới db và liên kết SQL tự động đóng lại sau khi các câu lệnh được thực thi
+D. Tất cả đều sai
+ANSWER: B
+
+Trong SQL, từ khóa nào được dùng để sắp xếp kết quả trả về?
+A. ORDER
+B. SORT BY
+C. ORDER BY
+D. SORT
+ANSWER: C
+
+Câu lệnh nào được sử dụng để tạo bảng?
+A. CREATE TABLE table_name (column_name column_type);
+B. CREATE table_name (column_type column_name);
+C. CREATE table_name (column_name column_type);
+D. CREATE TABLE table_name (column_type column_name);
+ANSWER: A
+
+Trong PHP, hàm nào dùng để nhận dữ liệu trả về từ câu truy vấn database?
+A. get_array() and get_row()
+B. get_array() and get_column()
+C. fetch_array() and fetch_row()
+D. fetch_array() and fetch_column()
+ANSWER: C
+
+$var = 'a'; $VAR = 'b'; echo "$var$VAR";   Đoạn mã sau, in ra giá trị nào sau đây
+A. ab
+B. aa
+C. bb
+D. AB
+ANSWER: A
+
+$a = array(); if ($a == null) {   echo 'true'; } else {  echo 'false'; }   Đoạn mã sau, in ra giá trị nào sau đây
+A. True
+B. False
+C. Không in
+D. Cả A và B
+ANSWER: A
+
+Lệnh prompt trong Javascript để làm gì?
+A. Hiện một thông báo nhập thông tin
+B. Hiện một thông báo dạng yes, No
+C. Cả hai dạng trên
+D. Không có lệnh nào đúng
+ANSWER: A
+
+Trong Javascript sự kiện OnMouseOver thực hiện khi nào?
+A. Khi một đối tượng trong form mất focus.
+B. Khi một đối tượng trong form có focus
+C. Khi di chuyển con chuột qua một đối tượng trong form.
+D. Khi click chuột vào nút lệnh
+ANSWER: C
+
+< script >  function kiemtra() {  window.open("http://www.vnn.vn", "Chao");  } <  /script> < /  head > <  body onload = "kiemtra()" > < /body>   Trong Javascript đoạn mã sau cho ra kết quả gì?
+A. Khi chạy thì một trang khác (VNN) được hiện ra .
+B. Không chạy được vì sai
+C. Khi kết thúc thì một site khác hiện ra
+D. Hiện một trang vnn duy nhất.
+ANSWER: A
+
+Thẻ <Frameset cols> </frameset>
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên.
+ANSWER: A
+
+Thẻ <Frameset rows > </frameset>
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên.
+ANSWER: B
+
+Trong JavaScript sự kiện Onchange xảy ra khi nào trong các trường hợp sau.
+A. Khi một đối tượng trong form mất focus
+B. Khi kích chuột vào nút lệnh
+C. Xảy ra khi giá trị của một trường trong form được người dùng thay đổi dữ liệu
+D. Khi một đối tượng trong form nhận focus
+ANSWER: C
+
+Làm cách nào để gọi một hàm myFunction trong JavaScript?
+A. call function myFunction()
+B. call myFunction()
+C. myFunction()
+D. Cả A, B, C đều đúng
+ANSWER: C
+
+Hàm prompt(…) trong JavaScript dùng để làm gì?
+A. Hiển thị thông báo nhập thông tin
+B. Hiển thị một thông báo Yes, No
+C. Cả hai dạng trên
+D. Không phương án nào đúng
+ANSWER: A
+
+Cách nào để làm tròn 7.25 tới số nguyên gần nhất trong JavaScript?
+A. rnd(7.25)
+B. round(7.25)
+C. Math.round(7.25)
+D. Math.rnd(7.25)
+ANSWER: C
+
+var a = [1, 2, 3]; var b = [1, 2, 3]; var c = '1,2,3'; console.log(a == c); console.log(b == c); console.log(a == b);   Kết quả của đoạn code sau là
+A. true, true, false
+B. true, true, true
+C. true, false, false
+D. false, false false
+ANSWER: A
+
+Cấu trúc đơn giản của một trang HTML được khai báo theo thứ tự là:
+A. HEAD, HTML, BODY
+B. HEAD, TITLE, BODY
+C. HEAD, BODY, HTML
+D. HTML, HEAD, BODY
+ANSWER: D
+
+Để khai báo một phần bị đánh dấu trên trang web ta sử dụng thẻ <A> với thuộc tính:
+A. NAME
+B. CLASS
+C. HREF
+D. ID
+ANSWER: A
+
+Để chèn hình ảnh vào trang web ta dùng thẻ
+A. <PIC>
+B. <IMG>
+C. <IMAGE>
+D. <PICTURE>
+ANSWER: B
+
+Để hiển thị các thông tin như tác giả, địa chỉ, chữ ký trong tài liệu HTML ta dùng thẻ:
+A. <ADDRESS>
+B. <PRE>
+C. <BLOCKQUOTE>
+D. <AUTHOR>
+ANSWER: A
+
+Để tạo ra những ô mà chúng có thể kéo rộng ra hơn một dòng trên bảng ta sử dụng thuộc tính:
+A. Colspan
+B. Align
+C. Rowspan
+D. Valign
+ANSWER: C
+
+Để canh lề dọc cho các ô trong bảng ta sử dụng thuộc tính:
+A. Colspan
+B. Align
+C. Rowspan
+D. Valign
+ANSWER: D
+
+Để liên kết tới external style sheet ta sử dụng thẻ:
+A. <style>
+B. <a>
+C. <link>
+D. <css>
+ANSWER: C
+
+Phương thức nào dùng để thay đổi và cập nhật định dạng ngay lập tức:
+A. Auto styles
+B. Html style
+C. Css style
+D. New style
+ANSWER: A
+
+Đường dẫn nào cung cấp địa chỉ url đầy đủ (bao gồm cả giao thức) tới tài liệu được liên kết?
+A. Root – relative
+B. Document-relative
+C. Absolute
+ANSWER: C
+
+Dùng để chỉ định các thuộc tính cho các đối tượng như văn bản, đoạn văn, hình ảnh...
+A. Property inspector
+B. Insert panel
+C. Objects panel
+D. Code inspector
+ANSWER: A
+
+Đâu là tag tạo ra mầu nền của web?
+A. <body color="yellow">
+B. <body bgcolor="yellow">
+C. <background>yellow</background>
+ANSWER: B
+
+Đâu là tag căn lề trái cho nội dung 1 ô trong bảng
+A. <tdleft>
+B. <td valign="left">
+C. <td align="left">
+D. <td leftalign>
+ANSWER: C
+
+Đâu là tag tạo ra 1 danh sách đứng đầu bằng số
+A. <ul>
+B. <list>
+C. <ol>
+D. <dl>
+ANSWER: C
+
+Đâu là tag tạo ra 1 danh sách đứng đầu bởi dấu chấm?
+A. <list>
+B. <ul>
+C. <ol>
+D. <dl>
+ANSWER: B
+
+Tag nào tạo ra 1 checkbox?
+A. <check>
+B. <input type="check">
+C. <checkbox>
+D. <input type="checkbox">
+ANSWER: D
+
+Tag nào tạo ra 1 text input field?
+A. <textfield>
+B. <textinput type="text">
+C. <input type="text">
+D. <input type="textfield">
+ANSWER: C
+
+Tag nào tạo ra 1 drop-down list?
+A. <select>
+B. <list>
+C. <input type="dropdown">
+D. <input type="list">
+ANSWER: A
+
+Tag nào tạo ra 1 text area?
+A. <input type="textbox">
+B. <textarea>
+C. <input type="textarea">
+ANSWER: B
+
+Tag nào dùng để chèn 1 hình vào web?
+A. <image src="image.gif">
+B. <img>image.gif</img>
+C. <img src="image.gif">
+D. <img href="image.gif>
+ANSWER: C
+
+Css là viết tắt của?
+A. Creative style sheets
+B. Computer style sheets
+C. Cascading style sheets
+D. Colorful style sheets
+ANSWER: C
+
+Đặt dòng liên kết với file css ở vùng nào trong file xhtml?
+A. In the <body> section
+B. In the <head> section
+C. At the top of the document
+D. At the end of the document
+ANSWER: B
+
+Dòng nào thể hiện đúng một comment (lời chú thích) trong css?
+A. /* this is a comment */
+B. // this is a comment //
+C. ‘ this is a comment
+D. // this is a comment
+ANSWER: A
+
+Làm thế nào thêm màu nền cho tất cả các phần tử <h1> ?
+A. H1.all {background-color:#ffffff}
+B. H1 {background-color:#ffffff}
+C. All.h1 {background-color:#ffffff}
+D. Tất cả các câu trên đều sai.
+ANSWER: B
+
+Làm thế nào thay màu nền của chữ (text)?
+A. Text-color=
+B. Fgcolor:
+C. Color:
+D. Text-color:
+ANSWER: C
+
+Thuộc tính nào làm chữ trong tag p trở thành chữ đậm?
+A. {text-size:bold}
+B. <p style=”font-size:bold”>
+C. <p style=”text-size:bold”>
+D. P {font-weight:bold}
+ANSWER: D
+
+Làm sao để mỗi từ trong 1 dòng đều viết hoa ở đầu từ?
+A. Text-transform:capitalize
+B. Text-transform:uppercase
+C. You can’t do that with css
+ANSWER: A
+
+Làm sao để thay đổi font của mỗi phần tử?
+A. Font=
+B. F:
+C. Font-family:
+D. Tất cả các câu trên đều sai.
+ANSWER: C
+
+Làm sao để tạo chữ đậm?
+A. Font-weight:bold
+B. Style:bold
+C. Font:b
+D. Tất cả các câu trên đều đúng
+ANSWER: B
+
+Làm thế nào để hình ở đầu mỗi dòng của 1 list (danh sách) có hình vuông?
+A. Type: 2
+B. Type: square
+C. List-type: square
+D. List-style-type: square
+ANSWER: C
+
+Câu lệnh nào cho phép trả về phần tử đầu tiên trong mảng và xóa phần tử đó khỏi mảng?
+A. Pop
+B. Push
+C. Reverse
+D. Shift
+ANSWER: D
+
+________ không phải là thưộc tính của text box.
+A. Size
+B. Type
+C. Rows
+D. Value
+ANSWER: C
+
+Địa chỉ (đường dẫn) cho phép xác định một tài nguyên trên web được gọi là?
+A. Url
+B. Protocol
+C. Webaddress
+D. Http
+ANSWER: A
+
+Một ô trong bảng được định nghĩa bằng thẻ ______ ?.
+A. <table>
+B. <tc>
+C. <tr>
+D. <td>
+ANSWER: D
+
+Thuộc tính _______ của thẻ table được sử dụng để chỉ ra độ rộng của bảng.
+A. Width
+B. Span
+C. Area
+D. Size
+ANSWER: A
+
+__________ là kiểu mặc định của phần tử input
+A. Button
+B. Checkbox
+C. Text
+D. Radio
+ANSWER: C
+
+Đặt dòng liên kết với file CSS ở vùng nào trong file HTML?
+A. Trong thẻ <body>
+B. Trong thẻ <head>
+C. Ở cuối file HTML
+D. Ở đầu file HTML
+ANSWER: B
+
+Thuộc tính text-indent dùng để?
+A. Thiết lập khoảng cách thụt đầu dòng
+B. Thiết lập chế độ canh văn bản
+C. Thêm hiệu ứng đặc biệt cho văn bản
+D. Tất cả đều sai
+ANSWER: A
+
+Mức độ ưu tiên khi áp dụng CSS là:
+A. External CSS < Internal CSS < Inline CSS
+B. Inline CSS < Internal CSS < External CSS
+C. Internal CSS < External CSS < Inline CSS
+D. Inline CSS < External CSS < Internal CSS
+ANSWER: A
+
+Thuộc tính z-index dùng để
+A. Định vị tương đối cho một thành phần
+B. Quy định kiểu viền của một đối tượng web
+C. Tạo hiệu ứng màu sắc cho liên lết
+D. Đặt các thành phần web ở các lớp khác nhau
+ANSWER: D
+
+text-transform: uppercase dùng để định dạng cho thành phần hiệu ứng
+A. In hoa
+B. In hoa kí tự đầu tiên ở mỗi từ
+C. In thường
+D. Không áp dụng hiệu ứng nào cả
+ANSWER: A
+
+Để liên kết tới External Style sheet ta sử dụng thẻ:
+A. <STYLE>
+B. <A>
+C. <LINK>
+D. <CSS>
+ANSWER: C
+
+Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu:
+A. 2
+B. 3
+C. 4
+D. 5
+ANSWER: B
+
+Làm cách nào để tạo hiệu ứng chuyển tiếp transition bằng CSS3?
+A. transition: width 2s;
+B. transition-duration: 2s; transition-effect: width;
+C. alpha-effect: transition (width,2s);
+D. None
+ANSWER: A
+
+Khẳng định sau đúng hay sai? Box-shadow được tất cả các trình duyệt hỗ trợ
+A. Đúng
+B. Sai
+ANSWER: A
+
+Cần thêm tiền tố nào để các thuộc tính CSS3 hoạt động trên trình duyệt Mozilla Firefox cũ?
+A. -webkit-
+B. -moz-
+C. -o-
+D. -gecko-
+ANSWER: B
+
+Ba giá trị đầu tiên của text-shadow theo thứ tự là gì?
+A. vertical, blur, horizontal
+B. blur, vertical, horizontal
+C. vertical, horizontal, blur
+D. horizontal, vertical, blur
+ANSWER: D
+
+RGBa có nghĩa là gì?
+A. Red Gold Black alpha
+B. Red Green Blue alpha
+C. Red Gray Brown alpha
+ANSWER: B
+
+Khi sử dụng thẻ DIV có Class = thì ở phần khai báo CSS ta đặt tên đối tượng thế nào?
+A. Đặt tên đối tượng có dấu . ở đầu tên đối tượng
+B. Đặt tên đối tượng có dấu $ ở đầu tên đối tượng
+C. Đặt tên đối tượng có dấu # ở đầu tên đối tượng
+D. Đặt tên đối tượng có dấu ? ở đầu tên đối tượng
+ANSWER: A
+
+Kiểu gán nào sau trong JavaScript không hợp lệ?
+A. x = x - y+
+B. x *= y
+C. x = x + +y
+D. x -*=y
+ANSWER: D
+
+P {color:red;text-align:center;}   Xem đoạn mã sau. Thẻ P sẽ có định dạng lại như thế nào?
+A. Thẻ P của HTML sẽ có màu đỏ căn lề giữa.
+B. Thẻ P của HTML sẽ có màu đỏ căn lề trái.
+C. Thẻ P của HTML sẽ có màu đỏ căn lề phải.
+D. Thẻ P của HTML sẽ không thay đổi vì nó đã được định nghĩa của HTML
+ANSWER: A
+
+Để nhúng mã JavaScript trong HTLM ta phải đặt vào vị trí nào sau đây?
+A. Trong thẻ <body>
+B. Ngay trước <body>
+C. Trong thẻ <head>
+D. Tất cả
+ANSWER: D
+
+#ph {color:red;text-align:center;}   Xem đoạn mã sau. Hãy cho biết ph là gì?
+A. Là một thuộc tính của CSS
+B. Là tên của một cặp thẻ HTML.
+C. Là tên của một đối tượng trong CSS
+D. Là môt thuộc tính của HTML
+ANSWER: C
+
+Ký hiệu nào sau không hợp lệ?
+A. >>
+B. <<
+C. !=>>
+D. >>>
+ANSWER: C
+
+Khi sử dụng thẻ DIV có ID = thì ở phần khai báo CSS ta đặt tên đối tượng thế nào?
+A. Đặt tên đối tượng có dấu . ở đầu tên đối tượng
+B. Đặt tên đối tượng có dấu ? ở đầu tên đối tượng
+C. Đặt tên đối tượng có dấu $ ở đầu tên đối tượng
+D. Đặt tên đối tượng có dấu # ở đầu tên đối tượng
+ANSWER: D
+
+Thẻ <frameset rows> </framset>:
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên
+ANSWER: B
+
+Đặc tính nào sau đây không phải là đặc tính cơ bản của JavaScript?
+A. Đơn giản (Simple)
+B. Trực quan cao (visual)
+C. Hướng đối tượng (Object Oriented)
+D. Động (Dynamic)
+ANSWER: B
+
+Thẻ <frameset cols> </framset>
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên
+ANSWER: A
+
+Trong CSS thuộc tính border: solid dùng để mô tả gì?
+A. Mô tả đường viên là 2 nét
+B. Mô tả đường viền có độ bóng
+C. Mô tả đường viền là liền
+D. Mô tả đường viền nét đứt
+ANSWER: C
+
+Sự kiện focus() có ý nghĩa gì?
+A. Mô tả việc con trỏ rời trường text (cách thức)
+B. Mô tả việc lựa chọn dòng text trong trường text (cách thức)
+C. Mô tả việc con trỏ tới trường text (cách thức)
+D. Tên của đối tượng được chỉ ra trong thẻ INPUT (thuộc tính)
+ANSWER: C
+
+Trong Javascript hàm parseFloatTA() dùng để làm gì?
+A. Chuyển một số nguyên thành một chuỗi
+B. Chuyển một chuỗi thành số thực
+C. Chuyển một chuỗi thành số
+D. Chuyển một chuỗi thành số nguyên
+ANSWER: B
+
+Sự kiện MouseOver xảy ra khi nào?
+A. Xảy ra khi di chuyển chuột qua kết nối hay anchor
+B. Xảy ra khi người dùng kích vào các thành phần hay liên kết của form
+C. Xảy ra khi thành phần của form được focus(làm nổi lên)
+D. Không có đáp án nào đúng
+ANSWER: D
+
+Để chèn thêm 1 ký tự lạ trong JavaScript ví dụ dấu " ta viết theo cách nào?
+A. document.write(" \"This text inside quotes.\" ");
+B. document.write(" \"This text inside quotes."\ ");
+C. document.write(" \This text inside quotes.\ ");
+D. document.write("This text inside quotes");
+ANSWER: A
+
+Xét lệnh chmod hello.txt 777 có nghĩa là gì?
+A. Lệnh này sai
+B. Trao một phần quyền cho mọi người
+C. Không có lệnh này
+D. Trao toàn quyền cho mọi người
+ANSWER: D
+
+(= ") Khi sử dụng thẻ DIV có Class = thì ở phần khai báo CSS ta đặt tên đối tượng thế nào?"
+A. ( 2) = " Đặt tên đối tượng có dấu # ở đầu tên đối tượng "
+B. ( 3) = " Đặt tên đối tượng có dấu $ ở đầu tên đối tượng "
+C. ( 1) = " Đặt tên đối tượng có dấu . ở đầu tên đối tượng "
+D. ( 4) = " Đặt tên đối tượng có dấu ? ở đầu tên đối tượng "
+ANSWER: C
+
+(= ") Lệnh CSS có thể viết được ở đâu?"
+A. ( 2) = " Viết lẫn vào HTML nhưng khi viết có thẻ <Css> </Css> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css "
+B. ( 1) = "Viết lẫn vào HTML nhưng khi viết có thẻ <style> </style>, viết theo tên thẻ ở thuộc tính style="" hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css"
+C. ( 3) = " Viết lẫn vào HTML nhưng khi viết có thẻ <stylesheet> </stylesheet> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css "
+D. ( 4) = " Viết lẫn vào HTML nhưng khi viết có thẻ <style> </style> hoặc viết ra một file riêng và đặt tên có phần mở rộng là .sheet "
+ANSWER: B
+
+Khi lưu một tài liệu định dạng HTML phần mở rộng có thể là gì?
+A. Phần mở rộng phải là htm
+B. Phần mở rộng phải là html hoặc htm
+C. Phần mở rộng phải là html
+D. Tùy ý đặt
+ANSWER: B
+
+Thẻ trong HTML được viết thế nào?
+A. Viết theo các thẻ có sẵn và tự đặt
+B. Được viết theo các cặp thẻ có sẵn trong các version của HTML
+C. Được viết tùy thích và phải đúng nguyên tắc đóng mở theo chuẩn w3c
+D. Cả A, B, C đều đúng
+ANSWER: B
+
+Với các thẻ được quy định về cách thức hiện thị tài liệu, chúng ta có thể can thiệp để thay được được thêm các thông tin đó không?
+A. Được thông qua việc khai báo lại tên các cặp thể và định dạng
+B. Được thông qua việc khai báo lại thể style
+C. Không được vì HTML đã quy định thẻ đó có định dạng rồi
+ANSWER: B
+
+Ngôn ngữ kịch bản Javascript gần giống với ngôn ngữ nào sau đây?
+A. Pascal
+B. Visual Basic
+C. C++
+D. Foxpro
+ANSWER: C
+
+Trong câu lệnh sau: public static void main(String[] agrs) thì phần tử agrs[0] chứa giá trị gì?
+A. Tên của chương trình
+B. Số lượng tham số
+C. Tham số đầu tiên của danh sách tham số
+D. Không câu nào đúng
+ANSWER: C
+Trong khai báo đối số của hàm main() thì agrs là một mảng xâu kí tự, đồng thời hàm main có thể nhận nhiều đối số => agrs[0] là đối số đầu tiên trong danh sách đối số của hàm main()
+Phương thức next() của lớp Scanner dùng để làm gì?
+A. Nhập một số nguyên
+B. Nhập một ký tự
+C. Nhập một chuỗi
+D. Không có phương thức này
+ANSWER: C
+Phương thức next() của lớp Scanner sử dụng để nhập một chuỗi ký tự bao gồm cả khoảng trắng.
+Gói nào trong java chứa lớp Scanner dùng để nhập dữ liệu từ bàn phím?
+A. java.net
+B. java.io
+C. java.util
+D. java.awt
+ANSWER: A
+Vì: Theo cấu trúc của gói java.util
+G/s đã định nghĩa lớp XX với một phương thức thông thường là Display, sau đó sinh ra đối tượng objX từ lớp XX. Để gọi phương thức Display ta sử dụng cú pháp nào?
+A. XX.Display;
+B. XX.Display();
+C. objX.Display();
+D. Display();
+ANSWER: C
+Vì: Để truy xuất và phương thức của đối tượng ta sử dụng cú pháp: tendoituong.tenphuongthuc();
+Đâu KHÔNG phải là thành phần trong cấu trúc của lớp trong java.
+A. Tên lớp
+B. Thuộc tính
+C. Phương thức
+D. Biến
+ANSWER: D
+Thành phần trong cấu trúc của lớp trong java bao gồm tên lớp, thuộc tính, phương thức
+Hàm tạo được sử dụng để hủy đối tượng
+A. Cả hai câu đều đúng
+B. Cả hai câu đều sai
+C. Câu 1 đúng, câu 2 sai
+D. Câu 2 đúng, câu 1 sai
+ANSWER: C
+Vì: Trong java toán tử new được sử dụng kết hợp với hàm tạo để sinh ra đối tượng
+Với giá trị nào của x, biểu thức sau trả về giá trị true(x thuộc kiểu int).    x%3==0
+A. 2
+B. 7
+C. 4
+D. 9
+ANSWER: D
+x%3 trả về giá trị là 0 khi x là bội của 3. Trong các đáp án, chỉ có đáp án D có gia trị là bội của 3.
+Đâu là khai báo biến hợp lệ?
+A. theOne
+B. the One
+C. 1the_One
+D. $the One
+ANSWER: A
+Vì: Theo quy tắc khai báo biến thì tên biến nên bắt đầu bởi ký tự, không có khoảng cách giữa tên biến và tên biến không được bắt đầu bởi số.
+Trong các khai báo sau đâu là khai báo không hợp lệ?    Chọn một câu trả lời
+A. int a1[][] = new int[][3];
+B. int a2[][] = new int[2][3];
+C. int a3[][] = new int[2][];
+D. int a4[][] = {{}, {}, {}}
+ANSWER: A
+Bắt buộc phải xác định số dòng trong khai báo mảng hai chiều.
+Java Virtual Machine là gì?
+A. Là một thành phần của Java platform dùng để đọc mã bytecode trong file .class
+B. Là chương trình biên dịch của java dùng để biên dịch file nguồn java thành mã bytecode.
+C. Là chương trình chạy cho java
+D. Tất cả các đáp án đều đúng
+ANSWER: A
+
+Thứ tự các từ khóa public và static khi khai bao như thế nào?
+A. public đứng trước static
+B. static đứng trước public
+C. Thứ tự bất kỳ nhưng thông thường public đứng trước
+D. Tất cả đều sai.
+ANSWER: C
+
+Câu lệnh khai báo chuẩn cho cách main như thế nào?
+A. public static void main(String[] a) {}
+B. public static int main(String args) {}
+C. public static main(String[] args) {}
+D. public static final void main(String[] args) {}
+ANSWER: A
+
+Câu nào sau đây là sai?
+A. /** chú thích */
+B. /* chú thích */
+C. /* chú thích
+D. // chú thích
+ANSWER: C
+
+Đối tượng trong phần mềm là gì?
+A. Là một bó phần mềm gồm các hành vi và trạng thái có liên quan với nhau.
+B. Là vật thể xác định của thế giới thực.
+C. Là vật thể gồm hành vi và trạng thái.
+D. Là các đối tượng được biểu diễn trong phần mềm gồm có 2 thuộc tính trường dữ liệu và các cách xử lý dữ liệu.
+ANSWER: D
+
+Khai báo lớp nào dưới đây là đúng?
+A. public class default {}
+B. protected inner class engine {}
+C. final class outer {}
+D. Tất cả đều sai.
+ANSWER: C
+
+Cách đặt tên nào sau đây là sai?
+A. 2word
+B. *word
+C. main
+D. Tất cả đều sai.
+ANSWER: D
+
+Một lớp trong Java có thể có bao nhiêu lớp cha?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: A
+
+Một lớp trong Java có bao nhiêu lớp con?
+A. 2
+B. 3
+C. 4
+D. Vô số
+ANSWER: D
+
+Chọn câu trả lời đúng nhất. Interface là gì?
+A. Là lớp chứa các cách rỗng có liên quan với nhau.
+B. Là một kiểu tham chiếu, tương tự như class, chỉ có thể chứa hằng giá trị, khai báo cách và kiểu lồng.
+C. Là một cách thực hiện của lớp khác.
+D. Là lớp nối giữa lớp cơ sở và lớp cha.
+ANSWER: B
+
+Có bao nhiêu loại biến trong Java?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: D
+
+Khái niệm cách start()?
+A. Mọi cách thực hiện tác vụ sau khi khởi tạo phải chèn lên cách start. start() bắt đầu việc thực thi của applet.
+B. Là cách bắt đầu của applet và chạy song song với applet.
+C. cách khởi tạo của applet và chạy song song với applet.
+D. Tất cả đều sai.
+ANSWER: A
+
+Trong các kiểu giá trị số thực đặc biệt dưới đây, kiểu nào là đúng?
+A. Dương vô cực
+B. Âm vô cực
+C. NaN
+D. Cả 3 giá trị trên
+ANSWER: D
+
+Phát biểu nào sau đây là đúng:    Chọn một câu trả lời
+A. Mảng có thể lưu giữ các phần tử thuộc nhiều kiểu dữ liệu khác nhau
+B. Chỉ số của mảng có thể sử dụng kiểu số thực (float, double)
+C. Biểu thức array.length được sử dụng để trả về số phần tử trong mảng
+D. Một phần tử của mảng không thể truyền vào trong một phương thức.
+ANSWER: C
+biểu thức array.length trả về số phần tử trong mảng.
+Phát biểu sau nào là SAI
+A. Mảng có kích thước không đổi trong toàn bộ chương trình
+B. Mảng là cấu trúc dữ liệu có khả năng lưu trữ nhiều thành phần (phần tử) dữ liệu với kiểu khác nhau
+C. Mảng N phần tử được đánh chỉ số từ 0 đến N - 1
+D. Chỉ số mảng bắt đầu bằng 0
+ANSWER: B
+Đáp án đúng là: Mảng là cấu trúc dữ liệu có khả năng lưu trữ nhiều thành phần (phần tử) dữ liệu với kiểu khác nhau Vì:
+class Student {}    public class Man extends Student {    }       Đoạn mã sau có lỗi biên dịch không? Nếu có là lỗi nào sau?
+A. Không có lỗi biên dịch.
+B. Có lỗi biên dịch:class Student is empty.
+C. Có lỗi biên dịch:class Man is empty.
+D. Có lỗi biên dịch:class Student is empty, class Man is empty.
+ANSWER: A
+Chúng ta có thể khai báo các lớp không có thuộc tính và phương thức trống(empty). Nên đáp án A đúng và D, C, D sai.
+Đâu là một khai báo interface đúng?    Chọn một câu trả lời
+A. public interface MyInterface {}
+B. public interface MyInterface { default int x; }
+C. public interface MyInterface { protected int sum(int x, int y); }
+D. public interface MyInterface { private int sum(int x, int y); }
+ANSWER: A
+Trong đáp án B default là từ khóa dùng trong lệnh switch chứ không phải là một từ khóa truy xuất.Trong đáp án C, D không thể mức truy xuất private hoặc protected cho thuộc tính cúng như phương thức.Trong khai báo interface có thể không khai báo gì.
+Để đảo giá trị của một biến boolean, ta dùng toán tử nào?
+A. !
+B. >>
+C. <<
+D. >>>
+ANSWER: A
+
+Thẻ <input type=”Submit” dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nút lệnh dùng để gửi tin trong form đi
+C. Tạo một nút lệnh dùng để xóa thông tin trong form
+D. Tất cả các ý trên
+ANSWER: B
+
+Thẻ <input type=”Radio” …> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nhóm đối tượng chọn nhưng chọn duy nhất
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: B
+
+Thẻ <input type=”checkbox” …> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nhóm đối tượng chọn được nhiều đối tượng
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả ý trên
+ANSWER: B
+
+Thẻ <input type=”button” …> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nút lệnh lên trên form
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả ý kiến trên
+ANSWER: B
+
+Hàm alert() dùng để làm gì?
+A. Dùng để hiện một thông điệp
+B. Dùng để hiện một thông báo nhập
+C. Dùng để chuyển đổi số sang chữ
+D. Tất cả các dạng trên
+ANSWER: A
+
+Thẻ <Frameset rows > </frameset>
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên
+ANSWER: B
+
+Thẻ <Frame src=” duong dan ”>
+A. Dùng để chèn ảnh
+B. Dùng để lấy dữ liệu từ một trang khác
+C. Tất cả dạng trên
+D. Không có ý nào trong các ý trên
+ANSWER: B
+
+Thực hiện kiểm tra nếu biến “i” không bằng 5, câu lệnh nào là đúng?
+A. if (i != 5)
+B. if i <> 5
+C. if i =! 5 then
+D. if (i <> 5)
+ANSWER: A
+
+Cách viết câu lệnh IF nào sau đây là đúng?
+A. if (i == 5)
+B. if i == 5 then
+C. if i = 5 then
+D. if i = 5
+ANSWER: A
+
+Có mấy cách để truyền tham số vào cho một phương thức?    Chọn một câu trả lời
+A. 2
+B. 1
+C. 3
+D. 4
+ANSWER: A
+Khi truyền tham số vào cho phương thức có hai cách là: truyền theo kiểu tham trị và truyền theo kiểu tham biến.
+Mô hình phát triển dựa vào thành phần:
+A. Chỉ phù hợp cho thiết kế phần cứng máy tính
+B. Không thể hỗ trợ phát triển những thành phần sử dụng lại
+C. Dựa vào những kỹ thuật hỗ trợ đối tượng
+D. Không định chi phí hiệu quả bằng những độ đo phần mềm có thể định lượng
+ANSWER: C
+
+Thành phần nào của kỹ thuật tiến trình nghiệp vụ là trách nhiệm của kỹ sư phần mềm:
+A. Phân tích phạm vi nghiệp vụ
+B. Thiết kế hệ thống nghiệp vụ
+C. Kế hoạch sản phẩm
+D. Kế hoạch chiến lược thông tin
+ANSWER: B
+
+Cách tốt nhất để đưa tới việc xem xét việc đánh giá yêu cầu là:
+A. Kiểm tra lỗi mô hình hệ thống
+B. Nhờ khách hàng kiểm tra yêu cầu
+C. Gởi họ tới đội thiết kế và xem họ có sự quan tâm nào không
+D. Dùng danh sách các câu hỏi kiểm tra để kiểm tra mỗi yêu cầu
+ANSWER: D
+
+Mẫu mô hình hệ thống chứa thành phần?
+A. Input
+B. Output
+C. Giao diện người dùng
+D. Tất cả mục trên
+ANSWER: D
+
+Dòng thông tin biểu diễn cách thức mà dữ liệu và điều khiển:
+A. Quan hệ với một dữ liệu và điều khiển khác
+B. Biến đổi khi mỗi lần dịch chuyển qua hệ thống
+C. Sẽ được thực thi trong thiết kế cuối cùng
+D. Không có mục nào
+ANSWER: B
+
+Sơ đồ luồng dữ liệu:
+A. Đưa ra hình ảnh quan hệ giữa các đối tượng dữ liệu
+B. Đưa ra hình ảnh những chức năng biến đổi luồng dữ liệu
+C. Chỉ ra những quyết định logic chính khi chúng xuất hiện
+D. Chỉ ra sự tương tác của hệ thống với sự kiện bên ngoài
+ANSWER: B
+
+Sự quan trọng của thiết kế phần mềm có thể được tóm tắt bằng từ đơn:
+A. Accuracy
+B. Complexity
+C. Efficiency
+D. Quality
+ANSWER: D
+
+Thủ tục phần mềm tập trung vào:
+A. Cấp bậc điều khiển trong một cảm nhận trừu tượng hơn
+B. Xử lý chi tiết của mỗi module riêng biệt
+C. Xử lý chi tiết của mỗi tập module
+D. Quan hệ giữa điều khiển và thủ tục
+ANSWER: B
+
+Nguyên nhân của việc sinh lỗi do thiết kế mức thành phần trước khi thiết kế dữ liệu là:
+A. Thiết kế thành phần thì phụ thuộc vào ngôn ngữ còn thiết kế dữ liệu thì không
+B. Thiết kế dữ liệu thì dễ thực hiện hơn
+C. Thiết kế dữ liệu thì khó thực hiện
+D. Cấu trúc dữ liệu thường ảnh hưởng tới cách thức mà thíết kế thành phần phải theo
+ANSWER: D
+
+Mục nào không là một phần của kiến trúc phần mềm:
+A. Chi tiết giải thuật
+B. Cơ sở dữ liệu
+C. Thiết kế dữ liệu
+D. Cấu trúc chương trình
+ANSWER: A
+
+Mẫu kiến trúc nhấn mạnh tới những thành phần:
+A. Ràng buộc
+B. Tập hợp những thành phần
+C. Mô hình ngữ nghĩa
+D. Tất cả những mục
+ANSWER: D
+
+Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào:
+A. Tính truy cập và tính tin cậy của hệ thống
+B. Dữ liệu và điều khiển của hệ thống
+C. Tính chức năng của hệ thống
+D. Những chi tiết thực thi của hệ thống
+ANSWER: B
+
+Những nguyên lý thiết kế giao diện nào không cho phép người dùng còn điều khiển tương tác với máy tính:
+A. Cho phép được gián đoạn
+B. Cho phép tương tác có thể undo
+C. Che dấu những bản chất kỹ thuật với những người dùng thường
+D. Chỉ cung cấp một cách thức xác định cứng khi hoàn thành tác vụ
+ANSWER: D
+
+Sự toàn vẹn (consistency) giao diện ngầm định:
+A. Những kỹ thuật input giữ tương tự suốt ứng dụng
+B. Mỗi ứng dụng phải có look and feel riêng biệt
+C. Cách thức điều hướng (navigational) nhạy với ngữ cảnh
+D. Câu a và b
+ANSWER: D
+
+Mô hình nào đưa ra hình ảnh look and feel cho giao diện người dùng cùng những thông tin hỗ trợ:
+A. Mô hình thiết kế
+B. Mô hình người dùng
+C. Mô hình hình ảnh hệ thống
+D. Mô hình nhận thức hệ thống
+ANSWER: C
+
+Hướng tiếp cận nào để những phân tích tác vụ của người dùng trong thiết kế giao diện người dùng:
+A. Người dùng cho biết những ưa thích qua bản câu hỏi
+B. Dựa vào ý kiến của những lập trình viên có kinh nghiệm
+C. Nghiên cứu những hệ thống tự động liên quan
+D. Quan sát thao tác ngƣời dùng
+ANSWER: D
+
+Những vấn đề thiết kế chung nổi trội lên trong hầu hết giao diện người dùng:
+A. Kết nối tiền sử người dùng (profile) và shortcut chức năng
+B. Xử lý lỗi và thời gian đáp ứng của hệ thống
+C. Quyết định hiển thị hình ảnh và thiết kế icon
+D. Không có mục nào
+ANSWER: B
+
+Những độ đo phức tạp vòng (cyclomatic complexity metric) cung cấp cho người thiết kế thống tin về số
+A. Chu kỳ trong chương trình
+B. Số lỗi trong chương trình
+C. Những đường logic độc lập trong chương trình
+D. Những phát biểu của chương trình
+ANSWER: C
+
+Kiểm thử điều kiện là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case:
+A. Dựa vào kiểm thử đường cơ bản
+B. Thử thách điều kiện logic trong module phần mềm
+C. Chọn những đường dẫn kiểm tra dựa vào những vị trí và dùng những biến
+D. Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+ANSWER: B
+
+Kiểm thử luồng dữ liệu là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case:
+A. Dựa vào kiểm thử đường cơ bản
+B. Thử thách điều kiện logic trong module phần mềm
+C. Chọn những đƣờng dẫn kiểm tra dựa vào những vị trí và dùng những biến
+D. Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+ANSWER: C
+
+Lý do tốt nhất cho việc dùng nhóm kiểm tra phần mềm độc lập là:
+A. Những người phát triển phần mềm không cần làm bất kỳ kiểm thử nào
+B. Những người lạ sẽ kiểm phần mềm rất chặt
+C. Những người kiểm thử không được dính dáng tới dự án cho đến khi kiểm thử bắt đầu
+D. Mâu thuẩn về quyền lợi giữa những ngƣời phát triển và những ngƣời kiểm thử sẽ giảm
+ANSWER: D
+
+Kiểm thử tích hợp Top-down có thuận lợi chính là:
+A. Những module mức thấp không bao giờ cần kiểm thử
+B. Những điểm quyết định chính được kiểm thử sớm
+C. Không có những stub cần phải viết
+D. Không có mục nào
+ANSWER: B
+
+Hướng debug là gì?
+A. Backtracking
+B. Brute force
+C. Sự loại trừ nguyên nhân
+D. Tất cả các mục
+ANSWER: D
+
+Trong biểu diễn lịch biểu dự án Critical path là đường:
+A. Là một đường duy nhất
+B. Có thời gian ngắn nhất
+C. Có thời gian dài nhất
+D. Tất cả đều đúng phụ thuộc vào dự án
+ANSWER: C
+
+Theo chiến thuật kiểm nghiệm phổ biến, kiểm nghiệm tính năng tương quan với:
+A. Phân tích toàn bộ hệ thống
+B. Thiết kế
+C. Phân tích yêu cầu
+D. Mã hóa
+ANSWER: C
+
+Sự toàn vẹn (consistency) giao diện ngầm định :
+A. Những kỹ thuật input giữ tương tự suốt ứng dụng
+B. . Mỗi ứng dụng phải có look and feel riêng biệt
+C. Cách thức điều hướng (navigational) nhạy với ngữ cảnh
+D. Câu a và b
+ANSWER: D
+
+Mục nào liên quan tới phân tích người dùng:
+A. Mô hình hệ thống của người dùng
+B. Trong tình huống đặc trưng thì người dùng thực hiện công việc gì?
+C. Những feedback từ việc đánh giá của người dùng
+D. Nếu người dùng xảy ra lỗi thì hậu quả như thế nào?
+ANSWER: D
+
+Tiêu chuẩn ISO-14598 đưa ra:
+A. Đưa ra quy trình đánh giá tính an toàn cho sản phẩm phần mềm
+B. Đưa ra quy trình đánh giá hiệu quả của phần mềm
+C. Đưa ra quy trình đánh giá chất lượng cho sản phẩm phần mềm
+D. Đưa ra quy trình đánh giá tính khả dụng cho sản phẩm phần mềm
+ANSWER: C
+
+IEEE 830-1993 là một khuyến nghị tiêu chuẩn cho?
+A. Software requirement specification
+B. Software design
+C. Testing
+D. Coding
+ANSWER: A
+
+Phần mềm dự báo thời tiết thu thập các số liệu về nhiệt độ, độ ẩm, … xử lý tính toán để cho ra các dự báo thời tiết là 1 ví dụ của loại phần mềm:
+A. Phần mềm hệ thống (System software)
+B. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+C. Phần mềm thời gian thực (Real time software)
+D. Phần mềm nghiệp vụ (Business software)
+ANSWER: C
+
+Theo một báo cáo của IBM, "31% các dự án bị hủy bỏ trước khi chúng được hoàn thành, 53% vượt dự toán trung bình 189% và cứ mỗi 100 dự án, có 94 dự án khởi động lại". Lý do nào cho số liệu thống kê trên?
+A. Thiếu đào tạo đầy đủ về công nghệ phần mềm
+B. Thiếu đạo đức phần mềm và sự hiểu biết
+C. Quản lý các vấn đề trong công ty
+D. Ảnh hưởng của sự suy thoái kinh tế
+ANSWER: A
+
+Mối quan tâm chính của công nghệ phần mềm là gì?
+A. Sản xuất phần cứng
+B. Sản xuất phần mềm
+C. Cấu hình mạng
+D. Phần mềm có thể dùng lại
+ANSWER: B
+
+Yêu cầu có thể chia ra thành các lọai nào sau đây?
+A. Chức năng, phi chức năng, yêu cầu hệ thống
+B. Chức năng, phi chức năng
+C. Chức năng, phi chức năng, yêu cầu miền ứng dụng
+D. Chức năng, phi chức năng, yêu cầu nghiệp vụ
+ANSWER: B
+
+ 
+A. Có định hướng thời gian
+B. Có giá trị pháp lý
+C. Tính mô tả trừu tượng
+D. Có thể mô tả bằng toán học
+ANSWER: A
+
+CASE là từ viết tắt của:
+A. Cost Aided Software Engineering
+B. Computer Aided Software Engineering
+C. Control Aided Software Engineering
+D. Computer Analyzing Software Engineering
+ANSWER: B
+
+Mục nào không dùng cho đặc tả yêu cầu:
+A. Đặc tả thao tác
+B. Đặc tả mô hình
+C. Đặc tả bằng sơ đồ
+D. Đặc tả thuật toán
+ANSWER: B
+
+Đâu là output của chương trình dưới đây?    def outerFunction():   global a  a = 20  def innerFunction():   global a  a = 30  print('a =', a)  a = 10  outerFunction()  print('a =', a)
+A. a = 10 a = 30
+B. a = 10
+C. a = 20
+D. a = 30
+ANSWER: C
+
+Đâu là kết quả của đoạn code dưới đây?    class Foo:   def printLine(self, line = 'Python'):   print(line)  o1 = Foo()  o1.printLine('Java')
+A. Python
+B. line
+C. Java
+D. Java Python
+ANSWER: C
+
+Đâu là output của chương trình dưới đây?    class Point:   def __init__(self, x = 0, y = 0):   self.x = x + 1  self.y = y + 1  p1 = Point()  print(p1.x, p1.y)
+A. 0 0
+B. 1 1
+C. None None
+D. x y
+ANSWER: B
+
+Đoạn code nào sau đây sử dụng tính năng kế thừa của Python?
+A. class Foo: Pass
+B. class Foo(object): pass class Hoo(object) pass
+C. class Foo: pass class Hoo(Foo): pass
+D. Không có đáp án chính xác.
+ANSWER: C
+
+Khẳng định nào sau đây là đúng?
+A. Trong Python, một toán tử có thể có hoạt động khác nhau tùy thuộc vào toán hạng được sử dụng.
+B. Bạn có thể thay đổi cách các toán tử hoạt động trong Python.
+C. __add () __ được gọi khi toán tử ' + ' được sử dụng.
+D. Tất cả các đáp trên đều đúng.
+ANSWER: D
+
+Mở file với chế độ mode ' a ' có ý nghĩa gì?
+A. Mở file ở chế độ chỉ được phép đọc.
+B. Mở file ở chế độ ghi.
+C. Mở file chế độ ghi tiếp vào cuối file.
+D. Mở file để đọc và ghi.
+ANSWER: C
+
+Đoạn code nào tự động đóng tệp khi có ngoại lệ xảy ra?
+A. with open("test.txt", encoding = 'utf-8') as f:
+B. try: f = open("test.txt",encoding = 'utf-8') finall f.close()
+C. Không có đáp án chính xác
+D. Cả A và B đều đúng
+ANSWER: D
+
+Đoạn code dưới đây có ý nghĩa gì?    os.listdir()
+A. In ra thư mục làm việc hiện tại.
+B. In ra tất cả các thư mục (không phải tệp) bên trong thư mục đã cho
+C. In ra tất cả các thư mục và tập tin bên trong thư mục đã cho.
+D. Tạo một thư mục mới.
+ANSWER: C
+
+Khẳng định nào về ngoại lệ là đúng nhất?
+A. Ngoại lệ (Exception) là lỗi phát sinh khi đang thực thi chương trình (runtime error).
+B. Lỗi cú pháp (syntax error) cũng là một ngoại lệ.
+C. Ngoại lệ được Python dùng để loại bỏ một khối code khỏi chương trình.
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: A
+
+Điều gì sẽ xảy ra nếu bạn cố mở một file không tồn tại?
+A. Python tự động tạo một file mới dưới tên bạn đang gọi ra.
+B. Không có gì xảy ra vì file không tồn tại.
+C. Gây ra một ngoại lệ
+D. Không có đáp án nào đúng
+ANSWER: C
+
+Đâu là kết quả của đoạn code dưới đây?    number = 5.0  try:  r = 10 / number  print(r)  except:   print("Oops! Error occurred.")
+A. Oops! Error occurred.
+B. 2.0
+C. 2.0 Oops! Error occurred.
+D. 5.0
+ANSWER: B
+
+Kết quả nào là output của đoạn code dưới đây?    try:  print("throw")  except:   print("except")  finally:  print("finally")
+A. finally throw
+B. finally except
+C. except finally
+D. throw finally
+ANSWER: D
+
+Mở file với chế độ mode ' wb ' có ý nghĩa gì?
+A. Mở file để ghi.
+B. Mở file để đọc và ghi.
+C. Mở file để ghi cho dạng nhị phân.
+D. Mở file để đọc và ghi cho dạng nhị phân.
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    list = [ 'Tech', 404, 3.03, 'Beamers', 33.3 ]  print list[1:3]
+A. [ 'Tech', 404, 3.03, 'Beamers', 33.3 ]
+B. [404, 3.03]
+C. ['Tech', 'Beamers']
+D. None of the above
+ANSWER: B
+
+Đâu không phải là kiểu dữ liệu tiêu chuẩn trong Python?
+A. List
+B. Dictionary
+C. Class
+D. Tuple
+ANSWER: C
+
+Lệnh print in ra kết quả nào cho chương trình dưới đây?    list1 = [1, 3]  list2 = list1  list1[0] = 4  print(list2)
+A. [4, 3]
+B. [1, 3]
+C. [1, 4]
+D. [1, 3, 4]
+ANSWER: A
+
+Chạy code sau trong Python, kết quả là:    num = '5'*'5'
+A. 333
+B. 27
+C. 9
+D. TypeError: can't multiply sequence by non-int of type 'str'
+ANSWER: D
+
+Hàm pow(x,y,z) được diễn giải là:
+A. (x**y)**z
+B. (x**y) / z
+C. (x**y) % z
+D. (x**y)*z
+ANSWER: C
+
+Kết quả của hàm sau là gì?    all([2,4,0,6])
+A. Error
+B. True
+C. False
+D. 0
+ANSWER: C
+
+Kết quả của biểu thức sau là gì?    round(4.5676,2)
+A. 4.5
+B. 4.6
+C. 4.57
+D. 4.56
+ANSWER: C
+
+Output của hàm sau là gì?    any([2>8, 4>2, 1>2])
+A. Error
+B. True
+C. False
+D. 4>2
+ANSWER: B
+
+Output của hàm biểu diễn dưới đây là gì?    import math  abs(math.sqrt(25))
+A. Error
+B. -5
+C. 5
+D. 5.0
+ANSWER: D
+
+Các kết quả của hàm hiển thị dưới đây là gì?    sum(2,4,6)  sum([1,2,3])
+A. Error, 6
+B. 12, Error
+C. 12, 6
+D. Error, Error
+ANSWER: A
+
+Output của hàm sau là:    all(3,0,4.2)
+A. True
+B. False
+C. Error
+D. 0
+ANSWER: C
+
+Output của hàm biểu diễn dưới đây là gì?    divmod(10.5,5)  divmod(2.4,1.2)
+A. (2.00, 0.50) (2.00, 0.00)
+B. (2, 0.5) (2, 0)
+C. (2.0, 0.5) (2.0, 0.0)
+D. (2, 0.5) (2)
+ANSWER: C
+
+Output của hàm sau là gì?    float('1e-003')  float('2e+003')
+A. 3.00 300
+B. 0.001 2000.0
+C. 0.001 200
+D. Error 2003
+ANSWER: B
+
+Hàm nào sau đây không chấp nhận iterable làm tham số?
+A. enumerate()
+B. all()
+C. chr()
+D. max()
+ANSWER: C
+
+Hàm nào sau đây chỉ chấp nhận số nguyên làm tham số?
+A. ord()
+B. min()
+C. chr()
+D. any()
+ANSWER: C
+
+Giả sử có một list: l = [2,3,4]. Nếu muốn in list này theo thứ tự ngược lại ta nên sử dụng phương pháp nào sau đây?
+A. reverse(l)
+B. list(reverse[(l)])
+C. reversed(l)
+D. list(reversed(l))
+ANSWER: D
+
+Hàm nào sau đây sẽ không xảy ra lỗi khi không truyền tham số cho nó?
+A. min()
+B. divmod()
+C. all()
+D. float()
+ANSWER: D
+
+Hàm nào sau đây không gây ra lỗi?
+A. ord()
+B. ord(' ')
+C. ord(")
+D. ord("")
+ANSWER: B
+
+Kết quả của hàm hiển thị dưới đây là gì?    len(["hello",2, 4, 6])
+A. 4
+B. 3
+C. Error
+D. 6
+ANSWER: A
+
+Kết quả của hàm sau là gì?    oct(7)  oct(‘7’)
+A. Error 07
+B. 07 Error
+C. 0o7 Error
+D. 07 0o7
+ANSWER: C
+
+Chọn đáp án đúng: Phát biểu nào chính xác khi nói về Hàm trong Python?
+A. Hàm có thể được tái sử dụng trong chương trình.
+B. Sử dụng hàm không có tác động tích cực gì đến các module trong chương trình.
+C. Không thể tự tạo các hàm của riêng người viết chương trình.
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: A
+
+Chọn đáp án đúng: Phát biểu nào chính xác khi nói về Docstring trong Python?
+A. Docstring là chuỗi đầu tiên ngay sau tiêu đề hàm
+B. Docstring là không bắt buộc nhưng nên có trong một hàm
+C. Docstring được truy cập bởi thuộc tính __doc__ trên đối tượng
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: D
+
+Đâu là lợi thế của việc sử dụng hàm trong Python?
+A. Tránh việc phải lặp lại code thực thi những tác vụ tương tự nhau.
+B. Phân tách các vấn đề phức tạp thành các phần đơn giản hơn.
+C. Code rõ ràng, dễ quản lý hơn
+D. Tất cả các đáp án đều đúng.
+ANSWER: D
+
+Python có 2 loại hàm chính, đó là:
+A. Custom function & User defined function
+B. Built-in function & User defined function
+C. Built-in function & User function
+D. System function & User function
+ANSWER: B
+
+Hàm được khai báo ở đâu?
+A. Module
+B. Class
+C. Trong một hàm khác
+D. Tất cả các phương án trên
+ANSWER: D

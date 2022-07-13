@@ -1,0 +1,8 @@
+
+Phát biểu sau nào là SAI    Chọn một câu trả lời
+A. Mảng có kích thước không đổi trong toàn bộ chương trình
+B. Mảng là cấu trúc dữ liệu có khả năng lưu trữ nhiều thành phần (phần tử) dữ liệu với kiểu khác nhau
+C. Mảng N phần tử được đánh chỉ số từ 0 đến N - 1
+D. Chỉ số mảng bắt đầu bằng 0
+ANSWER: B
+Mảng chỉ có thể lưu trữ các phần tử có cùng kiểu dữ liệu.

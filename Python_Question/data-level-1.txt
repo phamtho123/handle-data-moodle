@@ -1,0 +1,161 @@
+
+Khẳng định nào sau đây về Python là đúng?
+A. Python là một ngôn ngữ lập trình cấp cao.
+B. Python là một ngôn ngữ thông dịch.
+C. Python là ngôn ngữ lập trình hướng đối tượng.
+D. Tất cả các đáp án đều đúng.
+ANSWER: D
+
+Kí hiệu nào dùng để xác định các khối lệnh (khối lệnh của hàm, vòng lặp,...) trong Python?
+A. Dấu ngoặc nhọn { }
+B. Dấu ngoặc vuông [ ]
+C. Thụt lề
+D. Dầu ngoặc đơn ( )
+ANSWER: C
+
+Khẳng định nào là đúng về chú thích trong Python?
+A. Chú thích giúp cho các lập trình viên hiểu rõ hơn về chương trình.
+B. Trình thông dịch Python sẽ bỏ qua những chú thích.
+C. Có thể viết chú thích trên cùng một dòng với lệnh/biểu thức hoặc viết trên nhiều dòng mà không vấn đề gì cả
+D. Tất cả các đáp án trên.
+ANSWER: D
+
+Đâu là quy tắc đúng khi đặt tên cho biến trong Python?
+A. Tên biến có thể bắt đầu bằng dấu gạch dưới " _ ".
+B. Có thể sử dụng keyword làm tên biến.
+C. Tên biến có thể bắt đầu bằng một chữ số.
+D. Tên biến có thể có các ký hiệu như !, @, #, $, %,...
+ANSWER: A
+
+n trong đoạn sau là kiểu dữ liệu nào?    n = '5'
+A. integer
+B. string
+C. tuple
+D. operator
+ANSWER: B
+
+Output của lệnh sau là:    print(1, 2, 3, 4, sep='*')
+A. 1 2 3 4
+B. 1234
+C. 1*2*3*4
+D. 24
+ANSWER: C
+
+Lệnh nào dùng để lấy dữ liệu đầu vào từ người dùng?
+A. cin
+B. scanf()
+C. input()
+D. <>
+ANSWER: C
+
+Kết quả của đoạn code dưới đây là:    numbers = [2, 3, 4]  print(numbers)
+A. 2, 3, 4
+B. 2 3 4
+C. [2, 3, 4]
+D. [2 3 4]
+ANSWER: C
+
+Câu lệnh sử dụng toán tử and trả về kết quả TRUE khi nào?
+A. Cả hai toán hạng đều là TRUE.
+B. Cả hai toán hàng đều là FALSE.
+C. Một trong hai toán hạng là TRUE.
+D. Toán hạng đầu tiên là TRUE.
+ANSWER: A
+
+Output của lệnh là:    print(3 >= 3)
+A. 3 >= 3
+B. True
+C. False
+D. None
+ANSWER: B
+
+Khẳng định nào là đúng khi nói về đoạn code sau:    def printHello():   print("Hello")  a = printHello()
+A. printHello() là một hàm và a là một biến. Cả hai đều không phải đối tượng.
+B. Cả printHello() và a đều thể hiện chung một đối tượng.
+C. printHello() và a là hai đối tượng khác nhau.
+D. Lỗi cú pháp. Không thể gán hàm cho một biến trong Python.
+ANSWER: B
+
+Khẳng định nào sau đây là đúng?
+A. Lớp (class) là một kế hoạch chi tiết cho đối tượng.
+B. Chỉ có thể tạo một đối tượng duy nhất từ lớp đã cho.
+C. Cả hai đáp án trên đều đúng.
+D. Không có đáp án chính xác.
+ANSWER: A
+
+Ý nghĩa của hàm __init__() trong Python là gì?
+A. Khởi tạo một lớp để sử dụng.
+B. Được gọi khi một đối tượng mới được khởi tạo.
+C. Khởi tạo và đưa tất cả các thuộc tính dữ liệu về 0 khi được gọi.
+D. Không có đáp án đúng.
+ANSWER: B
+
+Một lớp được thừa hưởng thuộc tính từ hai lớp khác nhau được gọi là gì?
+A. Kế thừa đa cấp (Multilevel Inheritance)
+B. Đa kế thừa (Multiple Inheritance)
+C. Kế thừa phân cấp (Hierarchical Inheritance)
+D. Kế thừa (Inheritance)
+ANSWER: B
+
+Đoạn code dưới đây có ý nghĩa gì?    f = open("test.txt")
+A. Mở file test.txt được phép đọc và ghi vào file.
+B. Mở file test.txt và chỉ được phép đọc file.
+C. Mở file test.txt và được phép ghi đè vào file
+D. Mở file test.txt và được phép ghi tiếp vào file.
+ANSWER: B
+
+Đối tượng dưới đây thuộc kiểu dữ liệu nào?    L = [1, 23, ‘hello’, 1]
+A. List
+B. Dictionary
+C. Tuple
+D. Array
+ANSWER: A
+
+Output của lệnh dưới đây là:    print "Hello World"[::-1]
+A. dlroW olleH
+B. Hello Worl
+C. d
+D. Error
+ANSWER: A
+
+Đâu là giá trị của colors[2]?    colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+A. orange
+B. indigo
+C. blue
+D. yellow
+ANSWER: D
+
+Đâu là điểm khác biệt giữa tuple và list?
+A. Tuple nằm trong dấu ngoặc nhọn, list nằm trong dầu ngoặc vuông.
+B. Tuple nằm trong dấu ngoặc vuông, list nằm trong dầu ngoặc nhọn.
+C. Tuple là danh sách với dữ liệu kiểu la mã, list là danh sách với kiểu dữ liệu thường.
+D. Dữ liệu thuộc kiểu list có thể thay đổi được, dữ liệu thuộc kiểu tuple không thể thay đổi được.
+ANSWER: D
+
+Hàm nào sau đây là hàm tích hợp sẵn trong Python
+A. seed()
+B. sqrt()
+C. factorial()
+D. print()
+ANSWER: D
+
+Kết quả của biểu thức sau là gì?    round(4.576)
+A. 4.5
+B. 5
+C. 4
+D. 4.6
+ANSWER: B
+
+Từ khóa nào được sử dụng để bắt đầu hàm?
+A. Fun
+B. Define
+C. Def
+D. Function
+ANSWER: C
+
+Output của chương trình dưới đây là gì?    def sayHello():   print('Hello World!')   sayHello()   sayHello()
+A. Hello World! Hello World!
+B. ‘Hello World!’ ‘Hello World!’
+C. Hello Hello
+D. Không có đáp án đúng
+ANSWER: A

@@ -1,0 +1,166 @@
+
+Khẳng định nào là đúng về đoạn code dưới đây?    f = open('test.txt', 'r', encoding = 'utf-8')  f.read()
+A. Chương trình này đọc nội dung của file test.txt.
+B. Nếu test.txt có xuống dòng, hàm read() sẽ trả về kí hiệu bắt đầu dòng mới là ‘\ n’.
+C. Bạn có thể truyền một tham số kiểu integer cho read()
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: D
+
+Đoạn code sau thực hiện yêu cầu gì?    try:  # đoạn code có thể gây ra lỗi  pass  except(TypeError, ZeroDivisionError):   print("Python Quiz")
+A. In ra ' Python Quiz ' nếu có ngoại lệ xảy ra (không quan trọng là ngoại lệ gì).
+B. In ra ' Python Quiz ' nếu không có ngoại lệ xảy ra.
+C. In ra ' Python Quiz ' nếu một trong hai ngoại lệ TypeError và ZeroDivisionError xảy ra.
+D. Chỉ in ra ' Python Quiz ' khi cả hai ngoại lệ TypeError và ZeroDivisionError cùng xảy ra
+ANSWER: C
+
+Ngoại lệ nào xảy ra khi phát hiện thấy lỗi không thuộc bất kỳ danh mục nào khác?
+A. ReferenceError
+B. SystemError
+C. RuntimeError
+D. LookupError
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    def myfunc():   try:   print('Monday')  finally:  print('Tuesday')  myfunc()
+A. Tuesday
+B. Monday Tuesday
+C. Tuesday Monday
+D. Monday
+ANSWER: B
+
+Đâu là output của đoạn code dưới đây?    mylist=[1, 5, 9, int('0')]  print(sum(mylist))
+A. 16
+B. 15
+C. 63
+D. Không có đáp án đúng.
+ANSWER: B
+
+Kết quả của chương trình được in ra là:    mylist=['a', 'aa', 'aaa', 'b', 'bb', 'bbb']  print(mylist[:-1])
+A. [a, aa, aaa, b, bb]
+B. ['a', 'aa', 'aaa', 'b', 'bb']
+C. ['a', 'aa', 'aaa', 'b', 'bb', 'bbb']
+D. Error
+ANSWER: B
+
+Theo dõi đoạn code dưới đây và chọn đáp án đúng nhất:    a = [1, 4, 20, 2, 5]  x = a[0]  for i in a:   if i > x:   x = i  print x
+A. x là giá trị trung bình của list.
+B. x là giá trị nhỏ nhất của list.
+C. x là giá trị lớn nhất của list.
+D. x là tổng giá trị các số trong list.
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    for i in range(10):   if i == 5:   break  else :   print(i)  else :   print("Here")
+A. 0 1 2 3 4 Here
+B. 0 1 2 3 4 5 Here
+C. 0 1 2 3 4
+D. 1 2 3 4 5
+ANSWER: C
+
+Kết quả của chương trình được in ra màn hình là?    string = "my name is x"  for i in string:   print (i, end=", ")
+A. m, y, , n, a, m, e, , i, s, , x,
+B. m, y, , n, a, m, e, , i, s, , x
+C. my, name, is, x,
+D. Error
+ANSWER: A
+
+Theo dõi đoạn code dưới đây và chọn đáp án đúng nhất:    i = 0  x = 0  while i < 10:   if i % 2 == 0:   x += 1   i += 1    x = _____.
+A. 3
+B. 4
+C. 5
+D. 0
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    def f(value):   while True:   value = (yield value)    a = f(10)  print(next(a))  print(next(a))  print(a.send(20))
+A. 10 10
+B. 10 10 20
+C. 10 None 20
+D. 10 None None
+ANSWER: C
+
+Kết quả của chương trình được in ra màn hình là?    x = 1  y = "2"  z = 3    sum = 0  for i in (x, y, z):   if isinstance(i, int):   sum += i  print(sum)
+A. 2
+B. 3
+C. 4
+D. 6
+ANSWER: C
+
+Kết quả của biểu thức sau là gì?    min(max(False,-3,-4), 2,7)
+A. 2
+B. False
+C. -3
+D. -4
+ANSWER: B
+
+Kết quả của biểu thức sau là gì?    chr(‘97’)  chr(97)
+A. a Error
+B. ‘a’ a
+C. Error a
+D. Error Error
+ANSWER: C
+
+Kết quả của hàm sau là gì?    complex(1+2j)
+A. Error
+B. 1
+C. 2j
+D. 1+2j
+ANSWER: D
+
+Đâu là kết quả của hàm complex() trong những đáp án dưới đây?
+A. 0j
+B. 0+0j
+C. 0
+D. Error
+ANSWER: A
+
+Hàm divmod(a,b) trong đó 'a' và 'b' là những số nguyên được diễn giải là:
+A. (a%b, a//b)
+B. (a//b, a%b)
+C. (a//b, a*b)
+D. (a/b, a%b)
+ANSWER: B
+
+Biểu thức complex(‘2-3j’) là hợp lệ còn complex(‘2 – 3j’) sai cú pháp của hàm complex(). Khẳng định sau đây đúng hay sai?
+A. Đúng
+B. Sai
+ANSWER: A
+
+Kết quả của hàm hiển thị dưới đây là gì?    list(enumerate([2, 3]))
+A. Error
+B. [(1, 2), (2, 3)]
+C. [(0, 2), (1, 3)]
+D. [(2, 3)]
+ANSWER: C
+
+Kết quả của hàm hiển thị dưới đây là gì?    x=3  eval('x^2')
+A. Error
+B. 1
+C. 9
+D. 6
+ANSWER: B
+
+Kết quả của biểu thức sau là gì?    hex(15)
+A. f
+B. 0xF
+C. 0Xf
+D. 0xf
+ANSWER: D
+
+Output của chương trình dưới đây là gì?    def say(message, times = 1):   print(message * times)  say('Hello')  say('World', 5)
+A. Hello WorldWorldWorldWorldWorld
+B. Hello World 5
+C. Hello World,World,World,World,World
+D. Hello HelloHelloHelloHelloHello
+ANSWER: A
+
+Đâu là yếu tố được gọi ra khi hàm được khai báo trong một class?
+A. Module
+B. Class
+C. Method
+D. Một hàm khác
+ANSWER: C
+
+Chọn đáp án đúng khi nói về hàm id() trong Python?
+A. Id() trả về định danh một đối tượng.
+B. Mỗi đối tượng không chỉ có một id duy nhất.
+C. Cả hai phương án trên đều đúng.
+D. Không có đáp án đúng.
+ANSWER: A

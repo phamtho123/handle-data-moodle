@@ -1,0 +1,427 @@
+
+Đâu là câu SAI về ngôn ngữ Java?
+A. Ngôn ngữ Java có phân biệt chữ hoa – chữ thường
+B. Java là ngôn ngữ lập trình hướng đối tượng
+C. Dấu chấm phẩy được sử dụng để kết thúc lệnh trong java
+D. Chương trình viết bằng Java chỉ có thể chạy trên hệ điều hành win
+ANSWER: D
+
+Đâu không phải là một kiểu dữ liệu nguyên thủy trong Java?
+A. double
+B. int
+C. long
+D. long float
+ANSWER: D
+
+Muốn chạy được chương trình java, chỉ cần cài phần mền nào sau đây?
+A. Netbeans
+B. Eclipse
+C. JDK
+D. Java Platform
+ANSWER: D
+
+Phương thức nextLine() thuộc lớp nào ?
+A. String
+B. Scanner
+C. Integer
+D. System
+ANSWER: B
+
+Đối tượng là gì?
+A. Các lớp được tạo thể hiện từ đó
+B. Một thể hiện của lớp
+C. Một tham chiếu đến một thuộc tính
+D. Một biến
+ANSWER: B
+
+Kiểu dữ liệu nào trong Java chứa giá trị bao gồm cả chữ và số?
+A. int
+B. byte
+C. char
+D. String
+ANSWER: D
+
+Phát biểu nào sau đây là đúng:    Chọn một câu trả lời
+A. Mảng có thể lưu giữ các phần tử thuộc nhiều kiểu dữ liệu khác nhau
+B. Chỉ số của mảng có thể sử dụng kiểu số thực (float, double)
+C. Biểu thức array.length được sử dụng để trả về số phần tử trong mảng
+D. Một phần tử của mảng không thể truyền vào trong một phương thức.
+ANSWER: C
+
+File chứa mã nguồn java sau khi được biên dịch có đuôi là gì?
+A. .java
+B. .class
+C. .jav
+D. .exe
+ANSWER: B
+
+Java platform gồm mấy thành phần?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: B
+
+Java chạy trên hệ điều hành nào sau đây:
+A. Microsoft Windows
+B. Linux
+C. Sun Solaris OS
+D. Tất cả các đáp án đều đúng.
+ANSWER: D
+
+API là gì?
+A. Thư viện mã nguồn của Java.
+B. Là thư viện chứa các thành phần phần mềm tạo sẵn cung cấp các chức năng cho chương trình Java.
+C. Thư viện cung cấp giao diện đồ họa cho chương trình Java.
+D. Tất cả đều sai.
+ANSWER: B
+
+Ngôn ngữ lập trình Java cung cấp các chức năng nào sau đây?
+A. Tất cả đáp án trên
+B. Giao diện lập trình ứng dụng
+C. Bộ công cụ giao diện người dùng
+D. Thư viện tích hợp
+ANSWER: A
+
+Có bao nhiêu cách viết chú thích trong Java?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: C
+
+Một chương trình gồm 2 class sẽ có bao nhiêu cách main?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: D
+
+Trường dữ liệu là các biến dạng nào sau đây?
+A. Biến thay mặt và Tham số
+B. Biến thay mặt và biến lớp
+C. Biến thay mặt và biến cục bộ
+D. Biến lớp và Tham số
+ANSWER: B
+
+Biến dữ liệu là các biến dạng nào sau đây?
+A. Biến lớp và Tham số
+B. Biến cục bộ và Tham số
+C. Biến cục bộ và biến lớp
+D. Các đáp án đều sai.
+ANSWER: B
+
+Biến f nào sau đây là biến đại diện?
+A. float f;
+B. public static f;
+C. double CA(int f)
+D. Không có giá trị đúng
+ANSWER: A
+
+Khai báo nào sau đây là khai báo biến lớp?
+A. final double d;
+B. private static id;
+C. volatile int sleepTime
+D. Không có đáp án đúng
+ANSWER: B
+
+Cách đặt tên nào sau đây là không chính xác?
+A. final
+B. dem
+C. _final
+D. $final
+ANSWER: A
+
+Có bao nhiêu kiểu dữ liệu cơ sở trong Java?
+A. 7
+B. 8
+C. 9
+D. 5
+ANSWER: B
+
+Có bao nhiêu kiểu số nguyên trong Java?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: D
+
+Có bao nhiêu kiểu dữ liệu ký tự cơ sở trong Java?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: A
+
+Trong Java, kiểu char biểu diễn bộ mã code nào dưới đây?
+A. UTF-8
+B. UTF-16
+C. UTF-32
+D. Tất cả các mã trên
+ANSWER: B
+
+Giá trị mặc định của một biến kiểu char là?
+A. u0000
+B. \uFFFF
+C. 0F
+D. 0x
+ANSWER: A
+
+Kiểu enum là gì?
+A. Là kiểu dữ liệu gồm các trường chứa một tập hợp cố định các hằng số.
+B. Là kiểu dữ liệu liệt kê các biến số.
+C. Là một kiểu dữ liệu trong java.
+D. Tất cả đều sai.
+ANSWER: A
+
+Phạm vi truy cập của một đối tượng khi khai báo private là gì?
+A. Có thể được truy cập bất kỳ vị trí nào trong chương trình.
+B. Có thể được truy cập từ các lớp trong cùng package.
+C. Có thể được truy cập từ các lớp trong cùng package và lớp con nằm trong package khác.
+D. Chỉ có thể truy cập từ các phương thức khác trong class đó.
+ANSWER: D
+
+Phạm vi truy cập của một đối tượng khi được khai bao protected là gì?
+A. Có thể được truy cập từ bất kỳ vị trí nào trong chương trình.
+B. Có thể được truy cập từ các lớp trong cùng package.
+C. Có thể được truy cập từ các lớp trong cùng package và lớp con nằm trong package khác.
+D. Chỉ có thể truy cập từ các phương thức khác trong class đó.
+ANSWER: C
+
+Phạm vi truy cập của một đối tượng khi được khai báo public là gì?
+A. Có thể được truy cập từ bất kỳ vị trí nào trong chương trình.
+B. Có thể được truy cập từ các lớp trong cùng package.
+C. Có thể được truy cập từ các lớp trong cùng package và lớp con nằm trong package khác.
+D. Chỉ có thể truy cập từ các phương thức khác trong class đó.
+ANSWER: A
+
+Chức năng của vòng lặp while là gi?
+A. Kiểm tra kết quả của biểu thức boolean
+B. Tránh mâu thuẫn giữa bên trong và bên ngoài switch
+C. Lặp lại khối lệnh chứng nào điều kiện là đúng
+D. Không có đáp án đúng
+ANSWER: C
+
+Java cung cấp một số câu lệnh làm thay đổi dòng điều khiển dựa trên các điều kiện. Lệnh nào dừng việc hoạt động của vòng lòng trong cùng và bắt đầu câu lệnh tiếp theo ngay sau khối lệnh?
+A. break
+B. continue
+C. change
+D. Jump
+ANSWER: A
+
+Lệnh nào ngừng vòng lặp hiện thời và bắt đầu vòng lặp tiếp theo?
+A. continue
+B. break
+C. cease
+D. end
+ANSWER: A
+
+Thẻ
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên
+ANSWER: A
+
+Có những cách nào viết code JavaScript để chạy trong trang web?
+A. Cả hai dạng viết tệp riêng hoặc viết trong trang HTML
+B. Viết chung với HTML
+C. Viết trên một tệp riêng
+D. Không thuộc dạng nào
+ANSWER: A
+
+Trong JavaScript sự kiện OnMouseOver xảy ra khi nào?
+A. Khi một đối tượng trong form mất focus
+B. Khi di chuyển con chuột qua một đối tượng trong form
+C. Khi kích chuột vào nút lệnh
+D. Khi một đối tượng trong form nhận focus
+ANSWER: B
+
+Trong JavaScript sự kiện Onclick xảy ra khi nào?
+A. Khi một đối tượng trong form nhận focus
+B. Khi một đối tượng trong form mất focus
+C. Khi click chuột vào một đối tượng trong form
+D. Khi click chuột vào nút lệnh
+ANSWER: D
+
+JavaScript là ngôn ngữ kịch bản có che dấu được mã nguồn không?
+A. Không dấu được vì các kịch bản chạy phía client
+B. Dấu được vì chương trình hoạt động độc lập với trình duyệt
+C. Hai phát biểu trên đều sai
+D. Hai phát biểu trên đều đúng
+ANSWER: A
+
+Ba giai đoạn tổng quát của công nghệ phần mềm?
+A. Definition, development, support
+B. What, how, where
+C. Programming, debugging, maintenance
+D. Analysis, design, testing
+ANSWER: A
+
+Mô hình phát triển ứng dụng nhanh:
+A. Một cách gọi khác của mô hình phát triển dựa vào thành phần
+B. Một cách hữu dụng khi khách hàng không xàc định yêu cầu rõ ràng
+C. Sự ráp nối tốc độ cao của mô hình tuần tự tuyến tính
+D. Tất cả mục trên
+ANSWER: C
+
+Nội dung thông tin biểu diễn những đối tượng điều khiển và dữ liệu riêng biệt mà bao gồm những thông tin mà:
+A. Cần thiết để trình bày tất cả output
+B. Được đòi hỏi cho việc xử lý lỗi
+C. Được đòi hỏi cho hoạt động tạo giao diện hệ thống
+D. Được biến đổi bởi phần mềm
+ANSWER: D
+
+Biểu đồ quan hệ thực thể:
+A. Đưa ra hình ảnh quan hệ giữa các đối tượng dữ liệu
+B. Đưa ra hình ảnh những chức năng biến đổi luồng dữ liệu
+C. Chỉ ra những quyết định logic chính khi chúng xuất hiện
+D. Chỉ ra sự tương tác của hệ thống với sự kiện bên ngoài
+ANSWER: A
+
+Phân tích văn phạm của bản tường thuật xử lý là bước đầu tiên tốt nhất để tạo ra:
+A. Tự điển dữ liệu
+B. Biểu đồ dòng dữ liệu
+C. Biểu đồ quan hệ thực thể
+D. Biểu đồ dịch chuyển trạng thái
+ANSWER: B
+
+Biểu đồ dòng điều khiển:
+A. Cần thiết để mô hình những hệ thống hướng sự kiện
+B. Được đòi hỏi cho tất cả hệ thống
+C. Được dùng trong biểu đồ dòng dữ liệu
+D. Hữu dụng trong mô hình hóa giao diện người dùng
+ANSWER: A
+
+Từ điển dữ liệu chứa những mô tả của mỗi:
+A. Mục cấu hình phần mềm
+B. Đối tượng dữ liệu phần mềm
+C. Biểu đồ phần mềm
+D. Hệ thống ký hiệu phần mềm
+ANSWER: B
+
+Nhằm xác định những mẫu kiến trúc hay kết hợp những mẫu phù hợp nhất cho hệ thống đề nghị, kỹ thuật yêu cầu dùng để khám phá:
+A. Giải thuật phức tạp
+B. Đặc trưng và ràng buộc
+C. Điều khiển và dữ liệu
+D. Những mẫu thiết kế
+ANSWER: B
+
+Mô hình nào đưa ra hình ảnh hệ thống trong đầu của người dùng cuối:
+A. Mô hình thiết kế
+B. Mô hình người dùng
+C. Hình ảnh hệ thống
+D. Mô hình nhận thức hệ thống
+ANSWER: D
+
+Những hệ thống phát triển giao diện người dùng đặc trưng cung cấp những kỹ thuật cho việc xây dựng những nguyên mẫu giao diện bao gồm:
+A. Tạo code
+B. Những tool vẽ
+C. Định trị input
+D. Tất cả mục trên
+ANSWER: D
+
+Những bản câu hỏi có ý nghĩa nhất đối với những người thiết kế giao diện khi được hoàn tất bởi:
+A. Khách hàng
+B. Những lập trình viên có kinh nghiệm
+C. Người dùng sản phẩm
+D. Người quản lý dự án
+ANSWER: C
+
+Nhiều đo lường hữu dụng có thể thu thập khi quan sát những người dùng tương tác với hệ thống máy tính gồm:
+A. Thời gian cho ứng dụng
+B. Số khiếm khuyết (defect) phần mềm
+C. Tính tin cậy của phần mềm
+D. Thời gian đọc tài liệu trợ giúp
+ANSWER: D
+
+Một bảng quyết định được dùng:
+A. Để tư liệu tất cả những trạng thái phụ thuộc
+B. Để hướng dẫn phát triển kế hoạch quản lý dự án
+C. Chỉ khi xây dựng hệ chuyên gia
+D. Khi một tập phức tạp những điều kiện và hoạt động xuất hiện trong thành phần
+ANSWER: D
+
+Trong một dự án thành công sử dụng chiến lược:
+A. Đưa ra những xem xét kỹ thuật hình thức ưu tiên trước khi kiểm thử
+B. Chỉ rõ những yêu cầu trong theo một cách thức có thể định lượng
+C. Quan tâm tới việc sử dụng những nhóm kiểm thử độc lập
+D. Tất cả mục trên
+ANSWER: D
+
+Những kiểm tra chấp nhận thường được đưa ra bởi:
+A. Người phát triển
+B. Những ngƣời dùng cuối
+C. Nhóm kiểm thử
+D. Những kỹ sư hệ thống
+ANSWER: B
+
+Xét đường độc lập cơ bản, nếu có 7 node phân nhánh thì ta có số đường thực thi cơ bản độc lập là:
+A. 8
+B. 7
+C. 9
+D. 6
+ANSWER: A
+
+Vấn đề nào sau đây liên quan chính đến pha thiết kế?
+A. Khả thi
+B. Dữ liệu
+C. Tất cả các mục
+D. Phạm vi dự án
+ANSWER: B
+
+Use-cases là một kịch bản mà mô tả:
+A. Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước
+B. Những công cụ CASE sẽ được dùng như thế nào để xây dựng hệ thống
+C. Kế hoạch xây dựng cho sản phẩm phần mềm
+D. Những test-case cho sản phẩm phần mềm
+ANSWER: A
+
+Từ điển dữ liệu chứa những mô tả của mỗi:
+A. Mục cấu hình phần mềm
+B. Đối tượng dữ liệu phần mềm
+C. . Biểu đồ phần mềm
+D. Hệ thống ký hiệu phần mềm
+ANSWER: B
+
+Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào :
+A. Tính truy cập và tính tin cậy của hệ thống
+B. Dữ liệu và điều khiển của hệ thống
+C. Tính chức năng của hệ thống
+D. Những chi tiết thực thi của hệ thống
+ANSWER: B
+
+Mục nào không phải là một loại kiến trúc (style): kiến trúc:
+A. Luồng dữ liệu
+B. Kiến trúc ngữ cảnh
+C. Gọi trả về
+D. Tầng
+ANSWER: B
+
+Kỹ thuật nào sau đây là xây dựng phần mềm từ các thành phần đã được thiết kế trong lĩnh vực công nghệ khác nhau?
+A. Extreme programming
+B. Evolutionary prototyping
+C. Component architecture
+D. Open-source development
+ANSWER: C
+
+Điều nào không đúng?
+A. Công nghệ phần mềm thuộc ngành khoa học máy tính
+B. Công nghệ phần mềm là một phần của ngành kỹ thuật hệ thống (System Engineering)
+C. Khoa học máy tính thuộc ngành công nghệ phần mềm
+D. Công nghệ phần mềm có liên quan với việc phát triển và cung cấp các phần mềm hữu ích
+ANSWER: C
+
+Loại khả thi nào không được xem xét trong phân tích khả thi:
+A. Khả thi về kinh tế
+B. Khả thi về thực hiện
+C. Khả thi vể kỹ thuật
+D. Khả thi về chất lượng
+ANSWER: D
+
+Câu hỏi nào có liên quan đến phân tích thiết kế?
+A. Thời gian hoàn thành dự án có đủ không?
+B. Làm thế nào chuyển thiết kế dữ liệu logic sang thiết kế dữ liệu vật lý?
+C. Các xử lý nào được tiến hành và các thông tin chi tiết liên quan?
+D. Đâu là phạm vi của hệ thống phần mềm?
+ANSWER: B

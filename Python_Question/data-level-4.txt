@@ -1,0 +1,105 @@
+
+Kết quả của chương trình dưới đây là:    class Point:   def __init__(self, x = 0, y = 0):   self.x = x  self.y = y  def __sub__(self, other):   x = self.x + other.x  y = self.y + other.y  return Point(x, y)  p1 = Point(3, 4)  p2 = Point(1, 2)  result = p1 - p2  print(result.x, result.y)
+A. 2 2
+B. 4 6
+C. 0 0
+D. 1 1
+ANSWER: B
+
+Khẳng định nào là đúng về chương trình dưới đây?    class A:   def __init__(self):   self.a = 1  self.__b = 1  def getY(self):   return self.__b    obj = A()  obj.a = 45  print(obj.a)
+A. Chương trình có lỗi xảy ra vì ' __b ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.
+B. Chương trình chạy bình thường và kết quả được in ra là 1.
+C. Chương trình có lỗi xảy ra vì ' a ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.
+D. Chương trình chạy bình thường và kết quả được in ra là 45.
+ANSWER: D
+
+Khẳng định nào là đúng về chương trình dưới đây?    class A:   def __init__(self):   self.x = 1  self.__y = 1  def getY(self):   return self.__y    a = A()  a.x = 45  print(a.x)
+A. Chương trình có lỗi xảy ra vì ' x ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.
+B. Chương trình chạy bình thường và kết quả được in ra là 1.
+C. Chương trình có lỗi xảy ra vì ' __y ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.
+D. Chương trình chạy bình thường và kết quả được in ra là 45.
+ANSWER: D
+
+Vòng lặp nào trả về kết quả dưới đây?    11111  22222  33333  44444  55555
+A. for i in range(1, 6): print(i, i, i, i, i)
+B. for i in range(1, 5): print(str(i) * 5)
+C. for i in range(1, 6): print(str(i) * 5)
+D. for i in range(0, 5): print(str(i) * 5)
+ANSWER: C
+
+Điền phần còn thiếu trong đoạn code để được out dưới đây:    55555  44444  33333  22222  11111  for i in range(5, 0, ____ ):   print(str(i) * 5)
+A. 0
+B. None
+C. 1
+D. -1
+ANSWER: D
+
+Đâu là kết quả của đoạn code dưới đây?    myList = [1, 5, 5, 5, 5, 1]  max = myList[0]  indexOfMax = 0  for i in range(1, len(myList)):   if myList[i] > max:   max = myList[i]   indexOfMax = i  print(indexOfMax)
+A. 0
+B. 4
+C. 1
+D. 5
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    x = True  y = False  z = False    if not x or y:   print(1)  elif not x or not y and z:   print(2)  elif not x or y or not y and x:   print(3)  else :   print(4)
+A. 2
+B. None
+C. 1
+D. 3
+ANSWER: D
+
+Output của hàm sau là gì? Lưu ý: số lượng khoảng trắng trước số đó là 5.    float(' -12345\n')
+A. -12345.0 (5 khoảng trắng trước số)
+B. -12345.0
+C. Error
+D. -12345.000000000…. (số thập phân vô hạn)
+ANSWER: B
+
+Kết quả của hàm hiển thị dưới đây là gì?    ord(65)  ord(‘A’)
+A. A 65
+B. Error 65
+C. A Error
+D. Error Error
+ANSWER: B
+
+Kết quả của hàm sau là gì?    float(‘-infinity’)  float(‘inf’)
+A. –inf inf
+B. –infinity inf
+C. Error Error
+D. Error Junk value
+ANSWER: A
+
+Output của chương trình dưới đây là gì?    def printMax(a, b):   if a > b:   print(a, 'is maximum')  elif a == b:   print(a, 'is equal to', b)  else :   print(b, 'is maximum')  printMax(3, 4)
+A. 3
+B. 4
+C. 4 is maximum
+D. Không có đáp án
+ANSWER: C
+
+Output của chương trình dưới đây là gì?    x = 50  def func(x):   print('Giá trị của x là', x)  x = 2  print('Giá trị của x được thay đổi thành', x)  func(x)  print('Giá trị hiện tại của x là', x)
+A. Giá trị hiện tại của x là 50
+B. Giá trị hiện tại của x là 100
+C. Giá trị hiện tại của x là 2
+D. Không có đáp án đúng
+ANSWER: A
+
+Output của chương trình dưới đây là gì?    x = 50  def func():   global x  print('Giá trị của x là', x)  x = 2  print('Giá trị của x được thay đổi thành', x)  func()  print('Giá trị hiện tại của x là', x)
+A. Giá trị của x là 50 Giá trị của x được thay đổi thành 2 Giá trị hiện tại của x là 50
+B. Giá trị của x là 50 Giá trị của x được thay đổi thành 2 Giá trị hiện tại của x là 2
+C. Giá trị của x là 50 Giá trị của x được thay đổi thành 50 Giá trị hiện tại của x là 50
+D. Không có đáp án đúng
+ANSWER: B
+
+Output của chương trình dưới đây là gì?    def func(a, b = 5, c = 10):   print('a bằng', a, 'và b bằng', b, 'và c bằng', c)  func(3, 7)  func(25, c = 24)  func(c = 50, a = 100)
+A. a bằng 7 và b bằng 3 và c bằng 10 a bằng 25 và b bằng 5 và c bằng 24 a bằng 5 và b bằng 100 và c bằng 50
+B. a bằng 3 và b bằng 7 và c bằng 10 a bằng 5 và b bằng 25 và c bằng 24 a bằng 50 và b bằng 100 và c bằng 5
+C. a bằng 3 và b bằng 7 và c bằng 10 a bằng 25 và b bằng 5 và c bằng 24 a bằng 100 và b bằng 5 và c bằng 50
+D. Không có đáp án đúng
+ANSWER: C
+
+Output của chương trình dưới đây là gì?    def maximum(x, y):   if x > y:   return x  elif x == y:   return 'Các số bằng nhau'  else :   return y  print(maximum(2, 3))
+A. 2
+B. 3
+C. Các số bằng nhau
+D. Không có đáp án
+ANSWER: B

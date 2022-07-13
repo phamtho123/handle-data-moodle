@@ -1,0 +1,266 @@
+
+Đâu là output của chương trình dưới đây?    def outerFunction():   global a  a = 20  def innerFunction():   global a  a = 30  print('a =', a)  a = 10  outerFunction()  print('a =', a)
+A. a = 10 a = 30
+B. a = 10
+C. a = 20
+D. a = 30
+ANSWER: C
+
+Đâu là kết quả của đoạn code dưới đây?    class Foo:   def printLine(self, line = 'Python'):   print(line)  o1 = Foo()  o1.printLine('Java')
+A. Python
+B. line
+C. Java
+D. Java Python
+ANSWER: C
+
+Đâu là output của chương trình dưới đây?    class Point:   def __init__(self, x = 0, y = 0):   self.x = x + 1  self.y = y + 1  p1 = Point()  print(p1.x, p1.y)
+A. 0 0
+B. 1 1
+C. None None
+D. x y
+ANSWER: B
+
+Đoạn code nào sau đây sử dụng tính năng kế thừa của Python?
+A. class Foo: Pass
+B. class Foo(object): pass class Hoo(object) pass
+C. class Foo: pass class Hoo(Foo): pass
+D. Không có đáp án chính xác.
+ANSWER: C
+
+Khẳng định nào sau đây là đúng?
+A. Trong Python, một toán tử có thể có hoạt động khác nhau tùy thuộc vào toán hạng được sử dụng.
+B. Bạn có thể thay đổi cách các toán tử hoạt động trong Python.
+C. __add () __ được gọi khi toán tử ' + ' được sử dụng.
+D. Tất cả các đáp trên đều đúng.
+ANSWER: D
+
+Mở file với chế độ mode ' a ' có ý nghĩa gì?
+A. Mở file ở chế độ chỉ được phép đọc.
+B. Mở file ở chế độ ghi.
+C. Mở file chế độ ghi tiếp vào cuối file.
+D. Mở file để đọc và ghi.
+ANSWER: C
+
+Đoạn code nào tự động đóng tệp khi có ngoại lệ xảy ra?
+A. with open("test.txt", encoding = 'utf-8') as f:
+B. try: f = open("test.txt",encoding = 'utf-8') finall f.close()
+C. Không có đáp án chính xác
+D. Cả A và B đều đúng
+ANSWER: D
+
+Đoạn code dưới đây có ý nghĩa gì?    os.listdir()
+A. In ra thư mục làm việc hiện tại.
+B. In ra tất cả các thư mục (không phải tệp) bên trong thư mục đã cho
+C. In ra tất cả các thư mục và tập tin bên trong thư mục đã cho.
+D. Tạo một thư mục mới.
+ANSWER: C
+
+Khẳng định nào về ngoại lệ là đúng nhất?
+A. Ngoại lệ (Exception) là lỗi phát sinh khi đang thực thi chương trình (runtime error).
+B. Lỗi cú pháp (syntax error) cũng là một ngoại lệ.
+C. Ngoại lệ được Python dùng để loại bỏ một khối code khỏi chương trình.
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: A
+
+Điều gì sẽ xảy ra nếu bạn cố mở một file không tồn tại?
+A. Python tự động tạo một file mới dưới tên bạn đang gọi ra.
+B. Không có gì xảy ra vì file không tồn tại.
+C. Gây ra một ngoại lệ
+D. Không có đáp án nào đúng
+ANSWER: C
+
+Đâu là kết quả của đoạn code dưới đây?    number = 5.0  try:  r = 10 / number  print(r)  except:   print("Oops! Error occurred.")
+A. Oops! Error occurred.
+B. 2.0
+C. 2.0 Oops! Error occurred.
+D. 5.0
+ANSWER: B
+
+Kết quả nào là output của đoạn code dưới đây?    try:  print("throw")  except:   print("except")  finally:  print("finally")
+A. finally throw
+B. finally except
+C. except finally
+D. throw finally
+ANSWER: D
+
+Mở file với chế độ mode ' wb ' có ý nghĩa gì?
+A. Mở file để ghi.
+B. Mở file để đọc và ghi.
+C. Mở file để ghi cho dạng nhị phân.
+D. Mở file để đọc và ghi cho dạng nhị phân.
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    list = [ 'Tech', 404, 3.03, 'Beamers', 33.3 ]  print list[1:3]
+A. [ 'Tech', 404, 3.03, 'Beamers', 33.3 ]
+B. [404, 3.03]
+C. ['Tech', 'Beamers']
+D. None of the above
+ANSWER: B
+
+Đâu không phải là kiểu dữ liệu tiêu chuẩn trong Python?
+A. List
+B. Dictionary
+C. Class
+D. Tuple
+ANSWER: C
+
+Lệnh print in ra kết quả nào cho chương trình dưới đây?    list1 = [1, 3]  list2 = list1  list1[0] = 4  print(list2)
+A. [4, 3]
+B. [1, 3]
+C. [1, 4]
+D. [1, 3, 4]
+ANSWER: A
+
+Chạy code sau trong Python, kết quả là:    num = '5'*'5'
+A. 333
+B. 27
+C. 9
+D. TypeError: can't multiply sequence by non-int of type 'str'
+ANSWER: D
+
+Hàm pow(x,y,z) được diễn giải là:
+A. (x**y)**z
+B. (x**y) / z
+C. (x**y) % z
+D. (x**y)*z
+ANSWER: C
+
+Kết quả của hàm sau là gì?    all([2,4,0,6])
+A. Error
+B. True
+C. False
+D. 0
+ANSWER: C
+
+Kết quả của biểu thức sau là gì?    round(4.5676,2)
+A. 4.5
+B. 4.6
+C. 4.57
+D. 4.56
+ANSWER: C
+
+Output của hàm sau là gì?    any([2>8, 4>2, 1>2])
+A. Error
+B. True
+C. False
+D. 4>2
+ANSWER: B
+
+Output của hàm biểu diễn dưới đây là gì?    import math  abs(math.sqrt(25))
+A. Error
+B. -5
+C. 5
+D. 5.0
+ANSWER: D
+
+Các kết quả của hàm hiển thị dưới đây là gì?    sum(2,4,6)  sum([1,2,3])
+A. Error, 6
+B. 12, Error
+C. 12, 6
+D. Error, Error
+ANSWER: A
+
+Output của hàm sau là:    all(3,0,4.2)
+A. True
+B. False
+C. Error
+D. 0
+ANSWER: C
+
+Output của hàm biểu diễn dưới đây là gì?    divmod(10.5,5)  divmod(2.4,1.2)
+A. (2.00, 0.50) (2.00, 0.00)
+B. (2, 0.5) (2, 0)
+C. (2.0, 0.5) (2.0, 0.0)
+D. (2, 0.5) (2)
+ANSWER: C
+
+Output của hàm sau là gì?    float('1e-003')  float('2e+003')
+A. 3.00 300
+B. 0.001 2000.0
+C. 0.001 200
+D. Error 2003
+ANSWER: B
+
+Hàm nào sau đây không chấp nhận iterable làm tham số?
+A. enumerate()
+B. all()
+C. chr()
+D. max()
+ANSWER: C
+
+Hàm nào sau đây chỉ chấp nhận số nguyên làm tham số?
+A. ord()
+B. min()
+C. chr()
+D. any()
+ANSWER: C
+
+Giả sử có một list: l = [2,3,4]. Nếu muốn in list này theo thứ tự ngược lại ta nên sử dụng phương pháp nào sau đây?
+A. reverse(l)
+B. list(reverse[(l)])
+C. reversed(l)
+D. list(reversed(l))
+ANSWER: D
+
+Hàm nào sau đây sẽ không xảy ra lỗi khi không truyền tham số cho nó?
+A. min()
+B. divmod()
+C. all()
+D. float()
+ANSWER: D
+
+Hàm nào sau đây không gây ra lỗi?
+A. ord()
+B. ord(' ')
+C. ord(")
+D. ord("")
+ANSWER: B
+
+Kết quả của hàm hiển thị dưới đây là gì?    len(["hello",2, 4, 6])
+A. 4
+B. 3
+C. Error
+D. 6
+ANSWER: A
+
+Kết quả của hàm sau là gì?    oct(7)  oct(‘7’)
+A. Error 07
+B. 07 Error
+C. 0o7 Error
+D. 07 0o7
+ANSWER: C
+
+Chọn đáp án đúng: Phát biểu nào chính xác khi nói về Hàm trong Python?
+A. Hàm có thể được tái sử dụng trong chương trình.
+B. Sử dụng hàm không có tác động tích cực gì đến các module trong chương trình.
+C. Không thể tự tạo các hàm của riêng người viết chương trình.
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: A
+
+Chọn đáp án đúng: Phát biểu nào chính xác khi nói về Docstring trong Python?
+A. Docstring là chuỗi đầu tiên ngay sau tiêu đề hàm
+B. Docstring là không bắt buộc nhưng nên có trong một hàm
+C. Docstring được truy cập bởi thuộc tính __doc__ trên đối tượng
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: D
+
+Đâu là lợi thế của việc sử dụng hàm trong Python?
+A. Tránh việc phải lặp lại code thực thi những tác vụ tương tự nhau.
+B. Phân tách các vấn đề phức tạp thành các phần đơn giản hơn.
+C. Code rõ ràng, dễ quản lý hơn
+D. Tất cả các đáp án đều đúng.
+ANSWER: D
+
+Python có 2 loại hàm chính, đó là:
+A. Custom function & User defined function
+B. Built-in function & User defined function
+C. Built-in function & User function
+D. System function & User function
+ANSWER: B
+
+Hàm được khai báo ở đâu?
+A. Module
+B. Class
+C. Trong một hàm khác
+D. Tất cả các phương án trên
+ANSWER: D

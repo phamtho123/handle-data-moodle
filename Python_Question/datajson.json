@@ -1,0 +1,1000 @@
+[
+ {
+  "STT": 1,
+  "Question": "\nKhẳng định nào sau đây về Python là đúng?\n",
+  "Option A": "A. Python là một ngôn ngữ lập trình cấp cao.\n",
+  "Option B": "B. Python là một ngôn ngữ thông dịch.\n",
+  "Option C": "C. Python là ngôn ngữ lập trình hướng đối tượng.\n",
+  "Option D": "D. Tất cả các đáp án đều đúng.\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "1"
+ },
+ {
+  "STT": 2,
+  "Question": "\nKí hiệu nào dùng để xác định các khối lệnh (khối lệnh của hàm, vòng lặp,...) trong Python?\n",
+  "Option A": "A. Dấu ngoặc nhọn { }\n",
+  "Option B": "B. Dấu ngoặc vuông [ ]\n",
+  "Option C": "C. Thụt lề\n",
+  "Option D": "D. Dầu ngoặc đơn ( )\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "1"
+ },
+ {
+  "STT": 3,
+  "Question": "\nKhẳng định nào là đúng về chú thích trong Python?\n",
+  "Option A": "A. Chú thích giúp cho các lập trình viên hiểu rõ hơn về chương trình.\n",
+  "Option B": "B. Trình thông dịch Python sẽ bỏ qua những chú thích.\n",
+  "Option C": "C. Có thể viết chú thích trên cùng một dòng với lệnh/biểu thức hoặc viết trên nhiều dòng mà không vấn đề gì cả\n",
+  "Option D": "D. Tất cả các đáp án trên.\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "1"
+ },
+ {
+  "STT": 4,
+  "Question": "\nĐâu là quy tắc đúng khi đặt tên cho biến trong Python?\n",
+  "Option A": "A. Tên biến có thể bắt đầu bằng dấu gạch dưới \" _ \".\n",
+  "Option B": "B. Có thể sử dụng keyword làm tên biến.\n",
+  "Option C": "C. Tên biến có thể bắt đầu bằng một chữ số.\n",
+  "Option D": "D. Tên biến có thể có các ký hiệu như !, @, #, $, %,...\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "1"
+ },
+ {
+  "STT": 5,
+  "Question": "\nn trong đoạn sau là kiểu dữ liệu nào?    n = '5'\n",
+  "Option A": "A. integer\n",
+  "Option B": "B. string\n",
+  "Option C": "C. tuple\n",
+  "Option D": "D. operator\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "1"
+ },
+ {
+  "STT": 6,
+  "Question": "\nOutput của lệnh sau là:    print(1, 2, 3, 4, sep='*')\n",
+  "Option A": "A. 1 2 3 4\n",
+  "Option B": "B. 1234\n",
+  "Option C": "C. 1*2*3*4\n",
+  "Option D": "D. 24\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "1"
+ },
+ {
+  "STT": 7,
+  "Question": "\nLệnh nào dùng để lấy dữ liệu đầu vào từ người dùng?\n",
+  "Option A": "A. cin\n",
+  "Option B": "B. scanf()\n",
+  "Option C": "C. input()\n",
+  "Option D": "D. <>\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "1"
+ },
+ {
+  "STT": 8,
+  "Question": "\nKết quả của đoạn code dưới đây là:    numbers = [2, 3, 4]  print(numbers)\n",
+  "Option A": "A. 2, 3, 4\n",
+  "Option B": "B. 2 3 4\n",
+  "Option C": "C. [2, 3, 4]\n",
+  "Option D": "D. [2 3 4]\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "1"
+ },
+ {
+  "STT": 9,
+  "Question": "\nCâu lệnh sử dụng toán tử and trả về kết quả TRUE khi nào?\n",
+  "Option A": "A. Cả hai toán hạng đều là TRUE.\n",
+  "Option B": "B. Cả hai toán hàng đều là FALSE.\n",
+  "Option C": "C. Một trong hai toán hạng là TRUE.\n",
+  "Option D": "D. Toán hạng đầu tiên là TRUE.\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "1"
+ },
+ {
+  "STT": 10,
+  "Question": "\nOutput của lệnh là:    print(3 >= 3)\n",
+  "Option A": "A. 3 >= 3\n",
+  "Option B": "B. True\n",
+  "Option C": "C. False\n",
+  "Option D": "D. None\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "1"
+ },
+ {
+  "STT": 11,
+  "Question": "\nKhẳng định nào là đúng khi nói về đoạn code sau:    def printHello():   print(\"Hello\")  a = printHello()\n",
+  "Option A": "A. printHello() là một hàm và a là một biến. Cả hai đều không phải đối tượng.\n",
+  "Option B": "B. Cả printHello() và a đều thể hiện chung một đối tượng.\n",
+  "Option C": "C. printHello() và a là hai đối tượng khác nhau.\n",
+  "Option D": "D. Lỗi cú pháp. Không thể gán hàm cho một biến trong Python.\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "1"
+ },
+ {
+  "STT": 13,
+  "Question": "\nKhẳng định nào sau đây là đúng?\n",
+  "Option A": "A. Lớp (class) là một kế hoạch chi tiết cho đối tượng.\n",
+  "Option B": "B. Chỉ có thể tạo một đối tượng duy nhất từ lớp đã cho.\n",
+  "Option C": "C. Cả hai đáp án trên đều đúng.\n",
+  "Option D": "D. Không có đáp án chính xác.\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "1"
+ },
+ {
+  "STT": 15,
+  "Question": "\nÝ nghĩa của hàm __init__() trong Python là gì?\n",
+  "Option A": "A. Khởi tạo một lớp để sử dụng.\n",
+  "Option B": "B. Được gọi khi một đối tượng mới được khởi tạo.\n",
+  "Option C": "C. Khởi tạo và đưa tất cả các thuộc tính dữ liệu về 0 khi được gọi.\n",
+  "Option D": "D. Không có đáp án đúng.\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "1"
+ },
+ {
+  "STT": 18,
+  "Question": "\nMột lớp được thừa hưởng thuộc tính từ hai lớp khác nhau được gọi là gì?\n",
+  "Option A": "A. Kế thừa đa cấp (Multilevel Inheritance)\n",
+  "Option B": "B. Đa kế thừa (Multiple Inheritance)\n",
+  "Option C": "C. Kế thừa phân cấp (Hierarchical Inheritance)\n",
+  "Option D": "D. Kế thừa (Inheritance)\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "1"
+ },
+ {
+  "STT": 22,
+  "Question": "\nĐoạn code dưới đây có ý nghĩa gì?    f = open(\"test.txt\")\n",
+  "Option A": "A. Mở file test.txt được phép đọc và ghi vào file.\n",
+  "Option B": "B. Mở file test.txt và chỉ được phép đọc file.\n",
+  "Option C": "C. Mở file test.txt và được phép ghi đè vào file\n",
+  "Option D": "D. Mở file test.txt và được phép ghi tiếp vào file.\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "1"
+ },
+ {
+  "STT": 36,
+  "Question": "\nĐối tượng dưới đây thuộc kiểu dữ liệu nào?    L = [1, 23, ‘hello’, 1]\n",
+  "Option A": "A. List\n",
+  "Option B": "B. Dictionary\n",
+  "Option C": "C. Tuple\n",
+  "Option D": "D. Array\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "1"
+ },
+ {
+  "STT": 37,
+  "Question": "\nOutput của lệnh dưới đây là:    print \"Hello World\"[::-1]\n",
+  "Option A": "A. dlroW olleH\n",
+  "Option B": "B. Hello Worl\n",
+  "Option C": "C. d\n",
+  "Option D": "D. Error\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "1"
+ },
+ {
+  "STT": 40,
+  "Question": "\nĐâu là giá trị của colors[2]?    colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']\n",
+  "Option A": "A. orange\n",
+  "Option B": "B. indigo\n",
+  "Option C": "C. blue\n",
+  "Option D": "D. yellow\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "1"
+ },
+ {
+  "STT": 41,
+  "Question": "\nĐâu là điểm khác biệt giữa tuple và list?\n",
+  "Option A": "A. Tuple nằm trong dấu ngoặc nhọn, list nằm trong dầu ngoặc vuông.\n",
+  "Option B": "B. Tuple nằm trong dấu ngoặc vuông, list nằm trong dầu ngoặc nhọn.\n",
+  "Option C": "C. Tuple là danh sách với dữ liệu kiểu la mã, list là danh sách với kiểu dữ liệu thường.\n",
+  "Option D": "D. Dữ liệu thuộc kiểu list có thể thay đổi được, dữ liệu thuộc kiểu tuple không thể thay đổi được.\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "1"
+ },
+ {
+  "STT": 56,
+  "Question": "\nHàm nào sau đây là hàm tích hợp sẵn trong Python\n",
+  "Option A": "A. seed()\n",
+  "Option B": "B. sqrt()\n",
+  "Option C": "C. factorial()\n",
+  "Option D": "D. print()\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "1"
+ },
+ {
+  "STT": 57,
+  "Question": "\nKết quả của biểu thức sau là gì?    round(4.576)\n",
+  "Option A": "A. 4.5\n",
+  "Option B": "B. 5\n",
+  "Option C": "C. 4\n",
+  "Option D": "D. 4.6\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "1"
+ },
+ {
+  "STT": 87,
+  "Question": "\nTừ khóa nào được sử dụng để bắt đầu hàm?\n",
+  "Option A": "A. Fun\n",
+  "Option B": "B. Define\n",
+  "Option C": "C. Def\n",
+  "Option D": "D. Function\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "1"
+ },
+ {
+  "STT": 88,
+  "Question": "\nOutput của chương trình dưới đây là gì?    def sayHello():   print('Hello World!')   sayHello()   sayHello()\n",
+  "Option A": "A. Hello World! Hello World!\n",
+  "Option B": "B. ‘Hello World!’ ‘Hello World!’\n",
+  "Option C": "C. Hello Hello\n",
+  "Option D": "D. Không có đáp án đúng\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "1"
+ },
+ {
+  "STT": 12,
+  "Question": "\nĐâu là output của chương trình dưới đây?    def outerFunction():   global a  a = 20  def innerFunction():   global a  a = 30  print('a =', a)  a = 10  outerFunction()  print('a =', a)\n",
+  "Option A": "A. a = 10 a = 30\n",
+  "Option B": "B. a = 10\n",
+  "Option C": "C. a = 20\n",
+  "Option D": "D. a = 30\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 14,
+  "Question": "\nĐâu là kết quả của đoạn code dưới đây?    class Foo:   def printLine(self, line = 'Python'):   print(line)  o1 = Foo()  o1.printLine('Java')\n",
+  "Option A": "A. Python\n",
+  "Option B": "B. line\n",
+  "Option C": "C. Java\n",
+  "Option D": "D. Java Python\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 16,
+  "Question": "\nĐâu là output của chương trình dưới đây?    class Point:   def __init__(self, x = 0, y = 0):   self.x = x + 1  self.y = y + 1  p1 = Point()  print(p1.x, p1.y)\n",
+  "Option A": "A. 0 0\n",
+  "Option B": "B. 1 1\n",
+  "Option C": "C. None None\n",
+  "Option D": "D. x y\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "2"
+ },
+ {
+  "STT": 17,
+  "Question": "\nĐoạn code nào sau đây sử dụng tính năng kế thừa của Python?\n",
+  "Option A": "A. class Foo: Pass\n",
+  "Option B": "B. class Foo(object): pass class Hoo(object) pass\n",
+  "Option C": "C. class Foo: pass class Hoo(Foo): pass\n",
+  "Option D": "D. Không có đáp án chính xác.\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 19,
+  "Question": "\nKhẳng định nào sau đây là đúng?\n",
+  "Option A": "A. Trong Python, một toán tử có thể có hoạt động khác nhau tùy thuộc vào toán hạng được sử dụng.\n",
+  "Option B": "B. Bạn có thể thay đổi cách các toán tử hoạt động trong Python.\n",
+  "Option C": "C. __add () __ được gọi khi toán tử ' + ' được sử dụng.\n",
+  "Option D": "D. Tất cả các đáp trên đều đúng.\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 21,
+  "Question": "\nMở file với chế độ mode ' a ' có ý nghĩa gì?\n",
+  "Option A": "A. Mở file ở chế độ chỉ được phép đọc.\n",
+  "Option B": "B. Mở file ở chế độ ghi.\n",
+  "Option C": "C. Mở file chế độ ghi tiếp vào cuối file.\n",
+  "Option D": "D. Mở file để đọc và ghi.\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 23,
+  "Question": "\nĐoạn code nào tự động đóng tệp khi có ngoại lệ xảy ra?\n",
+  "Option A": "A. with open(\"test.txt\", encoding = 'utf-8') as f:\n",
+  "Option B": "B. try: f = open(\"test.txt\",encoding = 'utf-8') finall f.close()\n",
+  "Option C": "C. Không có đáp án chính xác\n",
+  "Option D": "D. Cả A và B đều đúng\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 25,
+  "Question": "\nĐoạn code dưới đây có ý nghĩa gì?    os.listdir()\n",
+  "Option A": "A. In ra thư mục làm việc hiện tại.\n",
+  "Option B": "B. In ra tất cả các thư mục (không phải tệp) bên trong thư mục đã cho\n",
+  "Option C": "C. In ra tất cả các thư mục và tập tin bên trong thư mục đã cho.\n",
+  "Option D": "D. Tạo một thư mục mới.\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 26,
+  "Question": "\nKhẳng định nào về ngoại lệ là đúng nhất?\n",
+  "Option A": "A. Ngoại lệ (Exception) là lỗi phát sinh khi đang thực thi chương trình (runtime error).\n",
+  "Option B": "B. Lỗi cú pháp (syntax error) cũng là một ngoại lệ.\n",
+  "Option C": "C. Ngoại lệ được Python dùng để loại bỏ một khối code khỏi chương trình.\n",
+  "Option D": "D. Tất cả các đáp án trên đều đúng.\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "2"
+ },
+ {
+  "STT": 27,
+  "Question": "\nĐiều gì sẽ xảy ra nếu bạn cố mở một file không tồn tại?\n",
+  "Option A": "A. Python tự động tạo một file mới dưới tên bạn đang gọi ra.\n",
+  "Option B": "B. Không có gì xảy ra vì file không tồn tại.\n",
+  "Option C": "C. Gây ra một ngoại lệ\n",
+  "Option D": "D. Không có đáp án nào đúng\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 28,
+  "Question": "\nĐâu là kết quả của đoạn code dưới đây?    number = 5.0  try:  r = 10 / number  print(r)  except:   print(\"Oops! Error occurred.\")\n",
+  "Option A": "A. Oops! Error occurred.\n",
+  "Option B": "B. 2.0\n",
+  "Option C": "C. 2.0 Oops! Error occurred.\n",
+  "Option D": "D. 5.0\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "2"
+ },
+ {
+  "STT": 32,
+  "Question": "\nKết quả nào là output của đoạn code dưới đây?    try:  print(\"throw\")  except:   print(\"except\")  finally:  print(\"finally\")\n",
+  "Option A": "A. finally throw\n",
+  "Option B": "B. finally except\n",
+  "Option C": "C. except finally\n",
+  "Option D": "D. throw finally\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 35,
+  "Question": "\nMở file với chế độ mode ' wb ' có ý nghĩa gì?\n",
+  "Option A": "A. Mở file để ghi.\n",
+  "Option B": "B. Mở file để đọc và ghi.\n",
+  "Option C": "C. Mở file để ghi cho dạng nhị phân.\n",
+  "Option D": "D. Mở file để đọc và ghi cho dạng nhị phân.\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 38,
+  "Question": "\nKết quả nào là output của đoạn code dưới đây?    list = [ 'Tech', 404, 3.03, 'Beamers', 33.3 ]  print list[1:3]\n",
+  "Option A": "A. [ 'Tech', 404, 3.03, 'Beamers', 33.3 ]\n",
+  "Option B": "B. [404, 3.03]\n",
+  "Option C": "C. ['Tech', 'Beamers']\n",
+  "Option D": "D. None of the above\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "2"
+ },
+ {
+  "STT": 39,
+  "Question": "\nĐâu không phải là kiểu dữ liệu tiêu chuẩn trong Python?\n",
+  "Option A": "A. List\n",
+  "Option B": "B. Dictionary\n",
+  "Option C": "C. Class\n",
+  "Option D": "D. Tuple\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 44,
+  "Question": "\nLệnh print in ra kết quả nào cho chương trình dưới đây?    list1 = [1, 3]  list2 = list1  list1[0] = 4  print(list2)\n",
+  "Option A": "A. [4, 3]\n",
+  "Option B": "B. [1, 3]\n",
+  "Option C": "C. [1, 4]\n",
+  "Option D": "D. [1, 3, 4]\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "2"
+ },
+ {
+  "STT": 45,
+  "Question": "\nChạy code sau trong Python, kết quả là:    num = '5'*'5'\n",
+  "Option A": "A. 333\n",
+  "Option B": "B. 27\n",
+  "Option C": "C. 9\n",
+  "Option D": "D. TypeError: can't multiply sequence by non-int of type 'str'\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 58,
+  "Question": "\nHàm pow(x,y,z) được diễn giải là:\n",
+  "Option A": "A. (x**y)**z\n",
+  "Option B": "B. (x**y) / z\n",
+  "Option C": "C. (x**y) % z\n",
+  "Option D": "D. (x**y)*z\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 59,
+  "Question": "\nKết quả của hàm sau là gì?    all([2,4,0,6])\n",
+  "Option A": "A. Error\n",
+  "Option B": "B. True\n",
+  "Option C": "C. False\n",
+  "Option D": "D. 0\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 60,
+  "Question": "\nKết quả của biểu thức sau là gì?    round(4.5676,2)\n",
+  "Option A": "A. 4.5\n",
+  "Option B": "B. 4.6\n",
+  "Option C": "C. 4.57\n",
+  "Option D": "D. 4.56\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 61,
+  "Question": "\nOutput của hàm sau là gì?    any([2>8, 4>2, 1>2])\n",
+  "Option A": "A. Error\n",
+  "Option B": "B. True\n",
+  "Option C": "C. False\n",
+  "Option D": "D. 4>2\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "2"
+ },
+ {
+  "STT": 62,
+  "Question": "\nOutput của hàm biểu diễn dưới đây là gì?    import math  abs(math.sqrt(25))\n",
+  "Option A": "A. Error\n",
+  "Option B": "B. -5\n",
+  "Option C": "C. 5\n",
+  "Option D": "D. 5.0\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 63,
+  "Question": "\nCác kết quả của hàm hiển thị dưới đây là gì?    sum(2,4,6)  sum([1,2,3])\n",
+  "Option A": "A. Error, 6\n",
+  "Option B": "B. 12, Error\n",
+  "Option C": "C. 12, 6\n",
+  "Option D": "D. Error, Error\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "2"
+ },
+ {
+  "STT": 64,
+  "Question": "\nOutput của hàm sau là:    all(3,0,4.2)\n",
+  "Option A": "A. True\n",
+  "Option B": "B. False\n",
+  "Option C": "C. Error\n",
+  "Option D": "D. 0\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 70,
+  "Question": "\nOutput của hàm biểu diễn dưới đây là gì?    divmod(10.5,5)  divmod(2.4,1.2)\n",
+  "Option A": "A. (2.00, 0.50) (2.00, 0.00)\n",
+  "Option B": "B. (2, 0.5) (2, 0)\n",
+  "Option C": "C. (2.0, 0.5) (2.0, 0.0)\n",
+  "Option D": "D. (2, 0.5) (2)\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 74,
+  "Question": "\nOutput của hàm sau là gì?    float('1e-003')  float('2e+003')\n",
+  "Option A": "A. 3.00 300\n",
+  "Option B": "B. 0.001 2000.0\n",
+  "Option C": "C. 0.001 200\n",
+  "Option D": "D. Error 2003\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "2"
+ },
+ {
+  "STT": 75,
+  "Question": "\nHàm nào sau đây không chấp nhận iterable làm tham số?\n",
+  "Option A": "A. enumerate()\n",
+  "Option B": "B. all()\n",
+  "Option C": "C. chr()\n",
+  "Option D": "D. max()\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 76,
+  "Question": "\nHàm nào sau đây chỉ chấp nhận số nguyên làm tham số?\n",
+  "Option A": "A. ord()\n",
+  "Option B": "B. min()\n",
+  "Option C": "C. chr()\n",
+  "Option D": "D. any()\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 77,
+  "Question": "\nGiả sử có một list: l = [2,3,4]. Nếu muốn in list này theo thứ tự ngược lại ta nên sử dụng phương pháp nào sau đây?\n",
+  "Option A": "A. reverse(l)\n",
+  "Option B": "B. list(reverse[(l)])\n",
+  "Option C": "C. reversed(l)\n",
+  "Option D": "D. list(reversed(l))\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 81,
+  "Question": "\nHàm nào sau đây sẽ không xảy ra lỗi khi không truyền tham số cho nó?\n",
+  "Option A": "A. min()\n",
+  "Option B": "B. divmod()\n",
+  "Option C": "C. all()\n",
+  "Option D": "D. float()\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 83,
+  "Question": "\nHàm nào sau đây không gây ra lỗi?\n",
+  "Option A": "A. ord()\n",
+  "Option B": "B. ord(' ')\n",
+  "Option C": "C. ord(\")\n",
+  "Option D": "D. ord(\"\")\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "2"
+ },
+ {
+  "STT": 84,
+  "Question": "\nKết quả của hàm hiển thị dưới đây là gì?    len([\"hello\",2, 4, 6])\n",
+  "Option A": "A. 4\n",
+  "Option B": "B. 3\n",
+  "Option C": "C. Error\n",
+  "Option D": "D. 6\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "2"
+ },
+ {
+  "STT": 85,
+  "Question": "\nKết quả của hàm sau là gì?    oct(7)  oct(‘7’)\n",
+  "Option A": "A. Error 07\n",
+  "Option B": "B. 07 Error\n",
+  "Option C": "C. 0o7 Error\n",
+  "Option D": "D. 07 0o7\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "2"
+ },
+ {
+  "STT": 86,
+  "Question": "\nChọn đáp án đúng: Phát biểu nào chính xác khi nói về Hàm trong Python?\n",
+  "Option A": "A. Hàm có thể được tái sử dụng trong chương trình.\n",
+  "Option B": "B. Sử dụng hàm không có tác động tích cực gì đến các module trong chương trình.\n",
+  "Option C": "C. Không thể tự tạo các hàm của riêng người viết chương trình.\n",
+  "Option D": "D. Tất cả các đáp án trên đều đúng.\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "2"
+ },
+ {
+  "STT": 95,
+  "Question": "\nChọn đáp án đúng: Phát biểu nào chính xác khi nói về Docstring trong Python?\n",
+  "Option A": "A. Docstring là chuỗi đầu tiên ngay sau tiêu đề hàm\n",
+  "Option B": "B. Docstring là không bắt buộc nhưng nên có trong một hàm\n",
+  "Option C": "C. Docstring được truy cập bởi thuộc tính __doc__ trên đối tượng\n",
+  "Option D": "D. Tất cả các đáp án trên đều đúng.\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 96,
+  "Question": "\nĐâu là lợi thế của việc sử dụng hàm trong Python?\n",
+  "Option A": "A. Tránh việc phải lặp lại code thực thi những tác vụ tương tự nhau.\n",
+  "Option B": "B. Phân tách các vấn đề phức tạp thành các phần đơn giản hơn.\n",
+  "Option C": "C. Code rõ ràng, dễ quản lý hơn\n",
+  "Option D": "D. Tất cả các đáp án đều đúng.\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 97,
+  "Question": "\nPython có 2 loại hàm chính, đó là:\n",
+  "Option A": "A. Custom function & User defined function\n",
+  "Option B": "B. Built-in function & User defined function\n",
+  "Option C": "C. Built-in function & User function\n",
+  "Option D": "D. System function & User function\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "2"
+ },
+ {
+  "STT": 98,
+  "Question": "\nHàm được khai báo ở đâu?\n",
+  "Option A": "A. Module\n",
+  "Option B": "B. Class\n",
+  "Option C": "C. Trong một hàm khác\n",
+  "Option D": "D. Tất cả các phương án trên\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "2"
+ },
+ {
+  "STT": 24,
+  "Question": "\nKhẳng định nào là đúng về đoạn code dưới đây?    f = open('test.txt', 'r', encoding = 'utf-8')  f.read()\n",
+  "Option A": "A. Chương trình này đọc nội dung của file test.txt.\n",
+  "Option B": "B. Nếu test.txt có xuống dòng, hàm read() sẽ trả về kí hiệu bắt đầu dòng mới là ‘\\ n’.\n",
+  "Option C": "C. Bạn có thể truyền một tham số kiểu integer cho read()\n",
+  "Option D": "D. Tất cả các đáp án trên đều đúng.\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "3"
+ },
+ {
+  "STT": 29,
+  "Question": "\nĐoạn code sau thực hiện yêu cầu gì?    try:  # đoạn code có thể gây ra lỗi  pass  except(TypeError, ZeroDivisionError):   print(\"Python Quiz\")\n",
+  "Option A": "A. In ra ' Python Quiz ' nếu có ngoại lệ xảy ra (không quan trọng là ngoại lệ gì).\n",
+  "Option B": "B. In ra ' Python Quiz ' nếu không có ngoại lệ xảy ra.\n",
+  "Option C": "C. In ra ' Python Quiz ' nếu một trong hai ngoại lệ TypeError và ZeroDivisionError xảy ra.\n",
+  "Option D": "D. Chỉ in ra ' Python Quiz ' khi cả hai ngoại lệ TypeError và ZeroDivisionError cùng xảy ra\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 30,
+  "Question": "\nNgoại lệ nào xảy ra khi phát hiện thấy lỗi không thuộc bất kỳ danh mục nào khác?\n",
+  "Option A": "A. ReferenceError\n",
+  "Option B": "B. SystemError\n",
+  "Option C": "C. RuntimeError\n",
+  "Option D": "D. LookupError\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 31,
+  "Question": "\nKết quả nào là output của đoạn code dưới đây?    def myfunc():   try:   print('Monday')  finally:  print('Tuesday')  myfunc()\n",
+  "Option A": "A. Tuesday\n",
+  "Option B": "B. Monday Tuesday\n",
+  "Option C": "C. Tuesday Monday\n",
+  "Option D": "D. Monday\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "3"
+ },
+ {
+  "STT": 42,
+  "Question": "\nĐâu là output của đoạn code dưới đây?    mylist=[1, 5, 9, int('0')]  print(sum(mylist))\n",
+  "Option A": "A. 16\n",
+  "Option B": "B. 15\n",
+  "Option C": "C. 63\n",
+  "Option D": "D. Không có đáp án đúng.\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "3"
+ },
+ {
+  "STT": 43,
+  "Question": "\nKết quả của chương trình được in ra là:    mylist=['a', 'aa', 'aaa', 'b', 'bb', 'bbb']  print(mylist[:-1])\n",
+  "Option A": "A. [a, aa, aaa, b, bb]\n",
+  "Option B": "B. ['a', 'aa', 'aaa', 'b', 'bb']\n",
+  "Option C": "C. ['a', 'aa', 'aaa', 'b', 'bb', 'bbb']\n",
+  "Option D": "D. Error\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "3"
+ },
+ {
+  "STT": 50,
+  "Question": "\nTheo dõi đoạn code dưới đây và chọn đáp án đúng nhất:    a = [1, 4, 20, 2, 5]  x = a[0]  for i in a:   if i > x:   x = i  print x\n",
+  "Option A": "A. x là giá trị trung bình của list.\n",
+  "Option B": "B. x là giá trị nhỏ nhất của list.\n",
+  "Option C": "C. x là giá trị lớn nhất của list.\n",
+  "Option D": "D. x là tổng giá trị các số trong list.\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 51,
+  "Question": "\nKết quả nào là output của đoạn code dưới đây?    for i in range(10):   if i == 5:   break  else :   print(i)  else :   print(\"Here\")\n",
+  "Option A": "A. 0 1 2 3 4 Here\n",
+  "Option B": "B. 0 1 2 3 4 5 Here\n",
+  "Option C": "C. 0 1 2 3 4\n",
+  "Option D": "D. 1 2 3 4 5\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 52,
+  "Question": "\nKết quả của chương trình được in ra màn hình là?    string = \"my name is x\"  for i in string:   print (i, end=\", \")\n",
+  "Option A": "A. m, y, , n, a, m, e, , i, s, , x,\n",
+  "Option B": "B. m, y, , n, a, m, e, , i, s, , x\n",
+  "Option C": "C. my, name, is, x,\n",
+  "Option D": "D. Error\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "3"
+ },
+ {
+  "STT": 53,
+  "Question": "\nTheo dõi đoạn code dưới đây và chọn đáp án đúng nhất:    i = 0  x = 0  while i < 10:   if i % 2 == 0:   x += 1   i += 1    x = _____.\n",
+  "Option A": "A. 3\n",
+  "Option B": "B. 4\n",
+  "Option C": "C. 5\n",
+  "Option D": "D. 0\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 54,
+  "Question": "\nKết quả nào là output của đoạn code dưới đây?    def f(value):   while True:   value = (yield value)    a = f(10)  print(next(a))  print(next(a))  print(a.send(20))\n",
+  "Option A": "A. 10 10\n",
+  "Option B": "B. 10 10 20\n",
+  "Option C": "C. 10 None 20\n",
+  "Option D": "D. 10 None None\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 55,
+  "Question": "\nKết quả của chương trình được in ra màn hình là?    x = 1  y = \"2\"  z = 3    sum = 0  for i in (x, y, z):   if isinstance(i, int):   sum += i  print(sum)\n",
+  "Option A": "A. 2\n",
+  "Option B": "B. 3\n",
+  "Option C": "C. 4\n",
+  "Option D": "D. 6\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 65,
+  "Question": "\nKết quả của biểu thức sau là gì?    min(max(False,-3,-4), 2,7)\n",
+  "Option A": "A. 2\n",
+  "Option B": "B. False\n",
+  "Option C": "C. -3\n",
+  "Option D": "D. -4\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "3"
+ },
+ {
+  "STT": 66,
+  "Question": "\nKết quả của biểu thức sau là gì?    chr(‘97’)  chr(97)\n",
+  "Option A": "A. a Error\n",
+  "Option B": "B. ‘a’ a\n",
+  "Option C": "C. Error a\n",
+  "Option D": "D. Error Error\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 67,
+  "Question": "\nKết quả của hàm sau là gì?    complex(1+2j)\n",
+  "Option A": "A. Error\n",
+  "Option B": "B. 1\n",
+  "Option C": "C. 2j\n",
+  "Option D": "D. 1+2j\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "3"
+ },
+ {
+  "STT": 68,
+  "Question": "\nĐâu là kết quả của hàm complex() trong những đáp án dưới đây?\n",
+  "Option A": "A. 0j\n",
+  "Option B": "B. 0+0j\n",
+  "Option C": "C. 0\n",
+  "Option D": "D. Error\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "3"
+ },
+ {
+  "STT": 69,
+  "Question": "\nHàm divmod(a,b) trong đó 'a' và 'b' là những số nguyên được diễn giải là:\n",
+  "Option A": "A. (a%b, a//b)\n",
+  "Option B": "B. (a//b, a%b)\n",
+  "Option C": "C. (a//b, a*b)\n",
+  "Option D": "D. (a/b, a%b)\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "3"
+ },
+ {
+  "STT": 71,
+  "Question": "\nBiểu thức complex(‘2-3j’) là hợp lệ còn complex(‘2 – 3j’) sai cú pháp của hàm complex(). Khẳng định sau đây đúng hay sai?\n",
+  "Option A": "A. Đúng\n",
+  "Option B": "B. Sai\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "3"
+ },
+ {
+  "STT": 72,
+  "Question": "\nKết quả của hàm hiển thị dưới đây là gì?    list(enumerate([2, 3]))\n",
+  "Option A": "A. Error\n",
+  "Option B": "B. [(1, 2), (2, 3)]\n",
+  "Option C": "C. [(0, 2), (1, 3)]\n",
+  "Option D": "D. [(2, 3)]\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 73,
+  "Question": "\nKết quả của hàm hiển thị dưới đây là gì?    x=3  eval('x^2')\n",
+  "Option A": "A. Error\n",
+  "Option B": "B. 1\n",
+  "Option C": "C. 9\n",
+  "Option D": "D. 6\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "3"
+ },
+ {
+  "STT": 82,
+  "Question": "\nKết quả của biểu thức sau là gì?    hex(15)\n",
+  "Option A": "A. f\n",
+  "Option B": "B. 0xF\n",
+  "Option C": "C. 0Xf\n",
+  "Option D": "D. 0xf\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "3"
+ },
+ {
+  "STT": 92,
+  "Question": "\nOutput của chương trình dưới đây là gì?    def say(message, times = 1):   print(message * times)  say('Hello')  say('World', 5)\n",
+  "Option A": "A. Hello WorldWorldWorldWorldWorld\n",
+  "Option B": "B. Hello World 5\n",
+  "Option C": "C. Hello World,World,World,World,World\n",
+  "Option D": "D. Hello HelloHelloHelloHelloHello\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "3"
+ },
+ {
+  "STT": 99,
+  "Question": "\nĐâu là yếu tố được gọi ra khi hàm được khai báo trong một class?\n",
+  "Option A": "A. Module\n",
+  "Option B": "B. Class\n",
+  "Option C": "C. Method\n",
+  "Option D": "D. Một hàm khác\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "3"
+ },
+ {
+  "STT": 100,
+  "Question": "\nChọn đáp án đúng khi nói về hàm id() trong Python?\n",
+  "Option A": "A. Id() trả về định danh một đối tượng.\n",
+  "Option B": "B. Mỗi đối tượng không chỉ có một id duy nhất.\n",
+  "Option C": "C. Cả hai phương án trên đều đúng.\n",
+  "Option D": "D. Không có đáp án đúng.\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "3"
+ },
+ {
+  "STT": 20,
+  "Question": "\nKết quả của chương trình dưới đây là:    class Point:   def __init__(self, x = 0, y = 0):   self.x = x  self.y = y  def __sub__(self, other):   x = self.x + other.x  y = self.y + other.y  return Point(x, y)  p1 = Point(3, 4)  p2 = Point(1, 2)  result = p1 - p2  print(result.x, result.y)\n",
+  "Option A": "A. 2 2\n",
+  "Option B": "B. 4 6\n",
+  "Option C": "C. 0 0\n",
+  "Option D": "D. 1 1\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "4"
+ },
+ {
+  "STT": 33,
+  "Question": "\nKhẳng định nào là đúng về chương trình dưới đây?    class A:   def __init__(self):   self.a = 1  self.__b = 1  def getY(self):   return self.__b    obj = A()  obj.a = 45  print(obj.a)\n",
+  "Option A": "A. Chương trình có lỗi xảy ra vì ' __b ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.\n",
+  "Option B": "B. Chương trình chạy bình thường và kết quả được in ra là 1.\n",
+  "Option C": "C. Chương trình có lỗi xảy ra vì ' a ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.\n",
+  "Option D": "D. Chương trình chạy bình thường và kết quả được in ra là 45.\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "4"
+ },
+ {
+  "STT": 34,
+  "Question": "\nKhẳng định nào là đúng về chương trình dưới đây?    class A:   def __init__(self):   self.x = 1  self.__y = 1  def getY(self):   return self.__y    a = A()  a.x = 45  print(a.x)\n",
+  "Option A": "A. Chương trình có lỗi xảy ra vì ' x ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.\n",
+  "Option B": "B. Chương trình chạy bình thường và kết quả được in ra là 1.\n",
+  "Option C": "C. Chương trình có lỗi xảy ra vì ' __y ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.\n",
+  "Option D": "D. Chương trình chạy bình thường và kết quả được in ra là 45.\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "4"
+ },
+ {
+  "STT": 46,
+  "Question": "\nVòng lặp nào trả về kết quả dưới đây?    11111  22222  33333  44444  55555\n",
+  "Option A": "A. for i in range(1, 6): print(i, i, i, i, i)\n",
+  "Option B": "B. for i in range(1, 5): print(str(i) * 5)\n",
+  "Option C": "C. for i in range(1, 6): print(str(i) * 5)\n",
+  "Option D": "D. for i in range(0, 5): print(str(i) * 5)\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "4"
+ },
+ {
+  "STT": 47,
+  "Question": "\nĐiền phần còn thiếu trong đoạn code để được out dưới đây:    55555  44444  33333  22222  11111  for i in range(5, 0, ____ ):   print(str(i) * 5)\n",
+  "Option A": "A. 0\n",
+  "Option B": "B. None\n",
+  "Option C": "C. 1\n",
+  "Option D": "D. -1\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "4"
+ },
+ {
+  "STT": 48,
+  "Question": "\nĐâu là kết quả của đoạn code dưới đây?    myList = [1, 5, 5, 5, 5, 1]  max = myList[0]  indexOfMax = 0  for i in range(1, len(myList)):   if myList[i] > max:   max = myList[i]   indexOfMax = i  print(indexOfMax)\n",
+  "Option A": "A. 0\n",
+  "Option B": "B. 4\n",
+  "Option C": "C. 1\n",
+  "Option D": "D. 5\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "4"
+ },
+ {
+  "STT": 49,
+  "Question": "\nKết quả nào là output của đoạn code dưới đây?    x = True  y = False  z = False    if not x or y:   print(1)  elif not x or not y and z:   print(2)  elif not x or y or not y and x:   print(3)  else :   print(4)\n",
+  "Option A": "A. 2\n",
+  "Option B": "B. None\n",
+  "Option C": "C. 1\n",
+  "Option D": "D. 3\n",
+  "Answer": "ANSWER: D\n",
+  "Level": "4"
+ },
+ {
+  "STT": 78,
+  "Question": "\nOutput của hàm sau là gì? Lưu ý: số lượng khoảng trắng trước số đó là 5.    float(' -12345\\n')\n",
+  "Option A": "A. -12345.0 (5 khoảng trắng trước số)\n",
+  "Option B": "B. -12345.0\n",
+  "Option C": "C. Error\n",
+  "Option D": "D. -12345.000000000…. (số thập phân vô hạn)\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "4"
+ },
+ {
+  "STT": 79,
+  "Question": "\nKết quả của hàm hiển thị dưới đây là gì?    ord(65)  ord(‘A’)\n",
+  "Option A": "A. A 65\n",
+  "Option B": "B. Error 65\n",
+  "Option C": "C. A Error\n",
+  "Option D": "D. Error Error\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "4"
+ },
+ {
+  "STT": 80,
+  "Question": "\nKết quả của hàm sau là gì?    float(‘-infinity’)  float(‘inf’)\n",
+  "Option A": "A. –inf inf\n",
+  "Option B": "B. –infinity inf\n",
+  "Option C": "C. Error Error\n",
+  "Option D": "D. Error Junk value\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "4"
+ },
+ {
+  "STT": 89,
+  "Question": "\nOutput của chương trình dưới đây là gì?    def printMax(a, b):   if a > b:   print(a, 'is maximum')  elif a == b:   print(a, 'is equal to', b)  else :   print(b, 'is maximum')  printMax(3, 4)\n",
+  "Option A": "A. 3\n",
+  "Option B": "B. 4\n",
+  "Option C": "C. 4 is maximum\n",
+  "Option D": "D. Không có đáp án\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "4"
+ },
+ {
+  "STT": 90,
+  "Question": "\nOutput của chương trình dưới đây là gì?    x = 50  def func(x):   print('Giá trị của x là', x)  x = 2  print('Giá trị của x được thay đổi thành', x)  func(x)  print('Giá trị hiện tại của x là', x)\n",
+  "Option A": "A. Giá trị hiện tại của x là 50\n",
+  "Option B": "B. Giá trị hiện tại của x là 100\n",
+  "Option C": "C. Giá trị hiện tại của x là 2\n",
+  "Option D": "D. Không có đáp án đúng\n",
+  "Answer": "ANSWER: A\n",
+  "Level": "4"
+ },
+ {
+  "STT": 91,
+  "Question": "\nOutput của chương trình dưới đây là gì?    x = 50  def func():   global x  print('Giá trị của x là', x)  x = 2  print('Giá trị của x được thay đổi thành', x)  func()  print('Giá trị hiện tại của x là', x)\n",
+  "Option A": "A. Giá trị của x là 50 Giá trị của x được thay đổi thành 2 Giá trị hiện tại của x là 50\n",
+  "Option B": "B. Giá trị của x là 50 Giá trị của x được thay đổi thành 2 Giá trị hiện tại của x là 2\n",
+  "Option C": "C. Giá trị của x là 50 Giá trị của x được thay đổi thành 50 Giá trị hiện tại của x là 50\n",
+  "Option D": "D. Không có đáp án đúng\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "4"
+ },
+ {
+  "STT": 93,
+  "Question": "\nOutput của chương trình dưới đây là gì?    def func(a, b = 5, c = 10):   print('a bằng', a, 'và b bằng', b, 'và c bằng', c)  func(3, 7)  func(25, c = 24)  func(c = 50, a = 100)\n",
+  "Option A": "A. a bằng 7 và b bằng 3 và c bằng 10 a bằng 25 và b bằng 5 và c bằng 24 a bằng 5 và b bằng 100 và c bằng 50\n",
+  "Option B": "B. a bằng 3 và b bằng 7 và c bằng 10 a bằng 5 và b bằng 25 và c bằng 24 a bằng 50 và b bằng 100 và c bằng 5\n",
+  "Option C": "C. a bằng 3 và b bằng 7 và c bằng 10 a bằng 25 và b bằng 5 và c bằng 24 a bằng 100 và b bằng 5 và c bằng 50\n",
+  "Option D": "D. Không có đáp án đúng\n",
+  "Answer": "ANSWER: C\n",
+  "Level": "4"
+ },
+ {
+  "STT": 94,
+  "Question": "\nOutput của chương trình dưới đây là gì?    def maximum(x, y):   if x > y:   return x  elif x == y:   return 'Các số bằng nhau'  else :   return y  print(maximum(2, 3))\n",
+  "Option A": "A. 2\n",
+  "Option B": "B. 3\n",
+  "Option C": "C. Các số bằng nhau\n",
+  "Option D": "D. Không có đáp án\n",
+  "Answer": "ANSWER: B\n",
+  "Level": "4"
+ }
+]

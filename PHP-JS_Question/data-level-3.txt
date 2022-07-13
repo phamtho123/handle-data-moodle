@@ -1,0 +1,2004 @@
+
+Khi thực thi PHP4 Script nó nhanh hơn PHP3 mấy lần
+A. Gấp 25
+B. Gấp 3
+C. Gấp 40
+D. Gấp 100
+ANSWER: D
+
+PHP không hổ trợ dạng type nào?
+A. Integer
+B. String
+C. Single
+D. Double
+ANSWER: C
+
+Câu lệnh PHP nào không tương thích trong văn bản HTML?
+A. <?php echo "Hello World"; ?>
+B. <? echo "Hello World"; ?>
+C. <% echo "Hello World"; %>
+D. <! echo "Hello Wordl"; !>
+ANSWER: D
+
+Để in ra "Hello World" trong PHP
+A. "Hello World";
+B. Document.Write("Hello World");
+C. echo "Hello World";
+D. Cả A, B, C đều đúng
+ANSWER: C
+
+Làm cách nào để lấy biến truyền qua server thông qua phương thức GET trong php
+A. Request.Form;
+B. $_GET[];
+C. Request.QueryString;
+D. Request
+ANSWER: B
+
+Cách nào đúng để include 1 file "time.inc" ?
+A. <?php require("time.inc"); ?>
+B. <?php include_file("time.inc"); ?>
+C. <% include file="time.inc" %>
+D. <!--include file="time.inc"-->
+ANSWER: A
+
+Mở file “time.txt” để đọc
+A. fopen("time.txt","r");
+B. open("time.txt","read");
+C. open("time.txt");
+D. fopen("time.txt","r+");
+ANSWER: A
+
+Kết nối db nào là đúng
+A. mysql_connect("localhost");
+B. connect_mysql("localhost");
+C. mysql_open("localhost");
+D. dbopen("localhost");
+ANSWER: A
+
+Biến nào có tên sai ?
+A. $my-Var
+B. $myVar
+C. $my_Var
+ANSWER: A
+
+Trong PHP, die() và exit() là như nhau
+A. True
+B. False
+ANSWER: A
+
+Hàm nào sau đây dùng để lấy 1 hoặc nhiều giá trị ngẫu nhiên từ mảng php?
+A. array_rand()
+B. array_random()
+C. Random_array()
+D. Rand_array()
+ANSWER: A
+
+Để nối 2 chuỗi trong php, sử dụng …?
+A. dot operator (.)
+B. plus operator (+)
+ANSWER: A
+
+Hàm nào để ngưng script php chạy tiếp?
+A. break()
+B. quit()
+C. die()
+ANSWER: C
+
+Kết quả trả về của đoạn script là gì? <?php $rest = substr("abcdef", -1); $rest = substr("abcdef", 0, -1); ?>
+A. f,abcde
+B. a,fedcb
+C. b,abcdef
+D. a,abcde
+ANSWER: A
+
+<?php $x = array(  2 => "mouse",  7 => "keyboard" ); $y = array_keys($x); echo $y[1]; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. keyboard
+B. mouse
+C. 7
+D. 2
+ANSWER: C
+
+<?php $x = "101.5degrees"; (double)$x; (int)$x; echo (string)$x; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. 101.5
+B. degrees
+C. 101
+D. 101.5degrees
+ANSWER: D
+
+<?php $arr = array(  5 => 1,  12 => 2 ); $arr[] = 56; $arr["x"] = 42; echo var_dump($arr); ?>   Đoạn code sau cho ra kết quả gì?
+A. 42
+B. array(3) { [12]=> int(2) [13]=> int(56) ["x"]=> int(42) }
+C. array(4) { [5]=>int(1) [12]=> int(2) [13]=> int(56) ["x"]=> int(42) }
+D. 1,2,56,42
+ANSWER: C
+
+<?php $date = "2009-5-19"; $time = "14:31:38"; $datetime = $date . $time; echo date("Y-m-d:H:i:s", strtotime($datetime)); ?>   Đoạn code sau cho ra kết quả gì?
+A. 2009-5-19:14:31:38
+B. 2009-5-19:2:31:38
+C. 19-5-2009:2:31:38
+D. 19/5/2009:14:31:38
+ANSWER: A
+
+<?php $color = array(  "red",  "yellow",  "white" ); $x = in_array("black", $color); if ($x == 0) echo "good bye"; if ($x == 1) echo "Hello"; ?>   Đoạn code sau cho ra kết quả gì?
+A. Hello
+B. Error
+C. good bye
+D. None of the above
+ANSWER: C
+
+Để chạy code PHP, bạn cần cài đặt
+A. PHP
+B. PHP, Apache
+C. Apache, IIS
+D. IIS
+ANSWER: B
+
+MySQL chạy trên hệ điều hành nào
+A. Mac OS
+B. Chỉ Windows
+C. Chỉ Linux
+D. Cả ba câu trên đều đúng
+ANSWER: D
+
+Trong MySQL, Câu lệnh nào vừa xóa dữ liệu của bảng, vừa xóa luôn bảng
+A. TRUNCATE
+B. DROP
+C. EMPTY
+D. DEL
+ANSWER: B
+
+Trong PHP, hàm nào dùng để nhận dữ liệu trả về từ câu truy vấn database?
+A. get_array() and get_row()
+B. get_array() and get_column()
+C. fetch_array() and fetch_row()
+D. fetch_array() and fetch_column()
+ANSWER: C
+
+Trong lớp mysqli của PHP, phương thức nào dùng để gửi câu truy vấn
+A. query()
+B. send_query()
+C. sendquery()
+D. query_send()
+ANSWER: A
+
+PHP hỗ trợ hệ Quản Trị CSDL nào sớm nhất?
+A. Oracle Database
+B. SQL
+C. SQL+
+D. MySQL
+ANSWER: B
+
+Khi thực thi: $var3 = $var1 % $var2, dạng type của $var3 là
+A. double
+B. integer
+C. string
+D. boolean
+ANSWER: B
+
+Câu lệnh nào lưu trữ giá trị 111 trong biến num?
+A. int $num = 111;
+B. int mum = 111;
+C. $num = 111;
+D. 111 = $num;
+ANSWER: C
+
+<?php $num = 1; $num1 = 2; print $num . "+" . $num1; ?>   Kết quả của đoạn php dưới đây là?
+A. 3
+B. 1+2
+C. 1.+.2
+D. Xảy ra lỗi
+ANSWER: B
+
+<?php $color = "maroon"; $var = $color[2]; echo "$var"; ?>   Kết quả của đoạn code dưới đây là?
+A. a
+B. Error
+C. $var
+D. r
+ANSWER: D
+
+Câu nào dưới đây có kết quả bằng với $add += $add ?
+A. $add = $add
+B. $add = $add +$add
+C. $add = $add + 1
+D. $add = $add + $add + 1
+ANSWER: B
+
+Câu lệnh nào output ra “$x” trên màn hình
+A. echo “\$x”;
+B. echo “$$x”;
+C. ) echo “/$x”;
+D. echo “$x;”;
+ANSWER: A
+
+<?php $num = 10; echo 'What is her age? \n She is $num years old'; ?>   Kết quả của đoạn code dưới đây là?
+A. What is her age? \n She is $num years old
+B. What is her age? She is $num years old
+C. What is her age? She is 10 years old
+D. What is her age?
+ANSWER: A
+
+Nếu $a = 12 thì câu lệnh sau: ($a == 12) ? 5 : 1 có kết quả là?
+A. 12
+B. 1
+C. Error
+D. 5
+ANSWER: D
+
+Trong PHP, hàm bắt đầu bởi __(2 dấu _) được gọi là hàm
+A. Magic Function
+B. Inbuilt Function
+C. Default Function
+D. User Defined Function
+ANSWER: A
+
+Rasmus Lerdorf, người tạo ra ngôn ngữ PHP là người nước nào?
+A. Úc
+B. Ấn Độ
+C. Greenland
+D. Anh
+ANSWER: C
+
+Trong PHP, hàm nào được sử dụng để nén 1 chuỗi?
+A. zip_compress()
+B. zip()
+C. compress()
+D. gzcompress()
+ANSWER: D
+
+<?php echo chr(52); ?>   Kết quả của đoạn code dưới đây là?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: D
+
+<?php echo ucwords("i love my country"); ?>   Kết quả của đoạn code dưới đây là?
+A. I love my country
+B. i love my Country
+C. I love my Country
+D. I Love My Country
+ANSWER: D
+
+<?php echo lcfirst("welcome to India"); ?>   Kết quả của đoạn code dưới đây là?
+A. welcome to India
+B. welcome to india
+C. Welcome to India
+D. Welcome to india
+ANSWER: A
+
+Trong PHP, hàm nào dùng để kiểm tra 1 đối tượng có phải là mảng hay không?
+A. this_array()
+B. is_array()
+C. do_array()
+D. in_array()
+ANSWER: B
+
+Trong PHP, hàm nào dùng để thêm phần tử vào cuối mảng?
+A. array_unshift()
+B. into_array()
+C. inend_array()
+D. array_push()
+ANSWER: D
+
+<?php $fruits = array(  "apple",  "orange",  "banana" ); echo (next($fruits)); echo (next($fruits)); ?>   Kết quả của đoạn code dưới đây là?
+A. orangebanana
+B. appleorange
+C. orangeorange
+D. appleapple
+ANSWER: A
+
+Trong PHP, hàm nào dùng để truy xuất tới phần tử trước đó trong mảng?
+A. last()
+B. before()
+C. prev()
+D. previous()
+ANSWER: C
+
+Trong PHP, hàm nào sắp xếp mảng theo thứ tự giảm dần?
+A. sort()
+B. asort()
+C. rsort()
+D. dsort()
+ANSWER: C
+
+<?php define("GREETING", "Hello you! How are you today?"); echo constant("GREETING"); ?>   Kết quả của đoạn code dưới đây là?
+A. Hello you! How are you today?
+B. GREETING
+C. GREETING, Hello you! How are you today?
+D. “GREETING”,”Hello you! How are you today?”
+ANSWER: A
+
+<?php echo stripos("I love php, I love php too!", "PHP"); ?>   Kết quả của đoạn code dưới đây là?
+A. 3
+B. 7
+C. 8
+D. 10
+ANSWER: B
+
+<?php function mine($m) {  if ($m < 0) echo "less than 0";  if ($m >= 0) echo "Not True"; } mine(0); ?>   Kết quả của đoạn code dưới đây là?
+A. less than 0
+B. Not True
+C. Không ra kết quả
+D. Tất cả đều sai
+ANSWER: B
+
+<?php function _func() {  echo "Hello World"; } _func(); ?>   Kết quả của đoạn code dưới đây là?
+A. Hello World
+B. Không có kết quả
+C. Có lỗi xảy ra
+D. Tất cả đều sai
+ANSWER: A
+
+<?php function mine($num) {  $num = 2 + $num;  echo $num; } mine(3); ?>   Kết quả của đoạn code dưới đây là?
+A. 3
+B. $num
+C. 5
+D. Tất cả đều sai
+ANSWER: C
+
+<?php function colour() {  $colors = array(  "red",  "green",  "blue",  "yellow"  );  foreach ($colors as $value)  {  echo "$value " . ",";  } } colour(); ?>   Kết quả của đoạn code dưới đây là?
+A. red,green,blue,yellow,
+B. green,blue,yellow,red
+C. red,blue,yellow,green
+D. red,green,yellow,blue
+ANSWER: A
+
+<?php function case () {  echo "Hello World! ";  echo "Hello World! ";  echo "Hello World! "; } case (); ?>   Kết quả của đoạn code dưới đây là?
+A. Hello World!
+B. Hello World! Hello World!
+C. Hello World! Hello World! Hello World!
+D. Tất cả đều sai
+ANSWER: C
+
+<?php function email() {  $email = ’user@yahoo . com’;  $new = strstr($email, ‘@'); echo $new; } email(); ?>   Kết quả của đoạn code dưới đây là?
+A. user
+B. user@yahoo.com
+C. @yahoo.com
+D. yahoo.com
+ANSWER: C
+
+<?php $x = 0; if ($x == 0) print "hi"; else print "how are u"; print "hello" ?>   Kết quả của đoạn code dưới đây là?
+A. how are uhello
+B. hihello
+C. hi
+D. No output
+ANSWER: B
+
+Dòng nào để khởi tạo một đối tượng thuộc lớp có tên foo trong PHP
+A. $obj = new $foo;
+B. $obj = new foo;
+C. $obj = new foo ();
+D. obj = new foo ();
+ANSWER: C
+
+Dòng nào để định nghĩa hằng số PI trong PHP
+A. constant PI = “3.1415”;
+B. const $PI = “3.1415”;
+C. constant PI = ‘3.1415’;
+D. const PI = ‘3.1415’;
+ANSWER: D
+
+Trong PHP, để gọi hằng số PI của lớp mathFunction
+A. echo PI;
+B. echo mathFunction->PI;
+C. echo mathFunction::PI;
+D. echo mathFunction=PI;
+ANSWER: C
+
+PHP không hỗ trợ từ khóa tầm vực nào sau đây:
+A. final
+B. abstract
+C. final, abstract
+D. Tất cả từ khóa đều được PHP hỗ trợ
+ANSWER: D
+
+Trong PHP, từ khóa tầm vực nào ngăn không cho một phương thức bị ghi đè bởi lớp con
+A. Abstract
+B. Protected
+C. Final
+D. Static
+ANSWER: C
+
+Khai báo nào là đúng cho phương thức dựng (Constructor) trong PHP
+A. classname()
+B. _construct()
+C. function -construct()
+D. function __construct()
+ANSWER: D
+
+<?php $b = false; if ($b = true) print ("true"); else print ("false"); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. False
+B. True
+C. Có lỗi xảy ra
+D. True false
+ANSWER: B
+
+<?php $x = 25; while ($x < 10) {  $x--; } print ($x); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 25
+B. 0
+C. Có xảy ra lỗi
+D. 10
+ANSWER: A
+
+<?php switch (1) {  case 1:  print ("Book Details");  case 2:  print ("Book Author");  default:  print ("Missing Book"); } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. Book Details
+B. Book Author
+C. Missing Book
+D. Book DetailsBook AuthorMissing Book
+ANSWER: D
+
+<? echo (int)"1235Jason"; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 1235
+B. Có lỗi xảy ra
+C. 0
+D. 1235Jason
+ANSWER: A
+
+Chức năng "Loại bỏ phần tử cuối cùng của mảng và trả về phần tử cuối cùng đã được loại bỏ" là chức năng của hàm nào trong các hàm sau đây
+A. array_pop
+B. array_shift
+C. array_unique
+D. unset
+ANSWER: A
+
+Chức năng "Tính tổng các phần tử trong mảng" là chức năng của hàm nào trong các hàm sau đây
+A. sum
+B. array_sum
+C. sum_array
+D. Cả 3 đáp án trên
+ANSWER: B
+
+Chức năng " Chuyển một chuỗi thành một mảng" là chức năng của hàm nào trong các hàm sau đây
+A. str_to_array
+B. str_array
+C. implode
+D. explode
+ANSWER: D
+
+Chức năng " Chuyển một mảng thành một chuỗi" là chức năng của hàm nào trong các hàm sau đây
+A. array_to_str
+B. array_str
+C. implode
+D. explode
+ANSWER: C
+
+Chức năng "Làm tròn số" không phải là chức năng của hàm nào trong các hàm sau đây
+A. round
+B. ceil
+C. floor
+D. round_number
+ANSWER: D
+
+Chức năng "Kiểm tra sự tồn tại của tập tin, thư mục" là chức năng của hàm nào trong các hàm sau đây?
+A. file_exist
+B. filetype
+C. filesize
+D. is_executable
+ANSWER: A
+
+Một tập tin được cấu hình với quyền 754, như vậy phát biểu nào sau đây là phát biểu đúng ?
+A. Owner/User có quyền đọc và thực thi
+B. Owner/User chỉ có quyền đọc tập tin
+C. Owner/User có toàn quyền
+D. Owner/User chỉ có quyền ghi tập tin
+ANSWER: C
+
+Đoạn mã HTML nào sau đây được sử dụng cho việc upload tập tin trong form?
+A. <form enctype="text/plain" action="index.php" method="post">
+B. <form enctype="plain" action="index.php" method="post">
+C. <form enctype="multipart/form-data" action="index.php" method="post">
+D. <form enctype="application/upload-file" action="index.php" method="post">
+ANSWER: C
+
+Làm cách nào để lưu trữ một biến age có giá trị 25 vào trong session
+A. $age = 25; session_regiser('age');
+B. $_SESSION['age'] = 25;
+C. session_register('age', 25);
+D. $HTTP_SESSION_VARS['age'] = 25;
+ANSWER: C
+
+Làm thế nào để bạn bắt đầu sử dụng Session trong PHP?
+A. Luôn luôn được tự động gọi
+B. Gọi hàm start_session()
+C. Thiết lập session.auto_start trong phần cấu hình
+D. Gọi hàm session_register()
+ANSWER: D
+
+Phát biểu nào sao đây sai về XML
+A. XML quy định người dùng phải tuân theo các thẻ riêng mà XML đã định nghĩa sẵn
+B. Các thẻ XML khá giống với HTML: tag, data, attribute
+C. XML được xây dựng theo dạng cây, phải có tối thiểu một nút gốc
+D. XML được hỗ trợ trên các trình duyệt phổ biến hiện
+ANSWER: A
+
+Phát biểu nào sao đây đúng về công dụng của XML?
+A. Lưu trữ thông tin nhỏ
+B. Tạo phần tóm tắt nội dung cho website (RSS)
+C. Tạo sơ đồ cho website (sitemap)
+D. Là cầu nối trao đổi dữ liệu giữa các ứng dụng web (web service)
+ANSWER: C
+
+Trong các điều khiển truy cập sau đây, điều khiển nào xác định rằng một tính năng có thể được truy cập bởi tất cả các lớp khác?
+A. Protected
+B. Abstract
+C. Public
+D. Private
+ANSWER: C
+
+<?php class number {  public $a = 10;  public $b = 20;  private $c = 30; } $numbers = new number(); foreach ($numbers as $var => $value) {  echo "$value "; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 10 20
+B. The script will throw an error.
+C. 10200
+D. 10 20 30
+ANSWER: A
+
+<?php class Object {  function Object($entity)  {  $entity->name = "John";  } } class Entity {  var $name = "Maria"; } $entity = new Entity(); $obj = new Object($entity); print $entity->name; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. Maria
+B. John
+C. The script will throw an error message.
+D. JohnMaria
+ANSWER: B
+
+Điều này sao đây mô tả đúng về thư viện PHPThumb
+A. Thư viện xử lý các vấn đề liên quan đến hình ảnh
+B. Thư viện xử lý các vấn đề liên quan đến biểu đồ
+C. Thư viện xử lý các vấn đề liên quan đến tập tin Word và Excel
+D. Thư viện xử lý các vấn đề liên quan đến tập tin PDF
+ANSWER: A
+
+<?php $str = 'val1,val2,,val4,'; echo count(explode(',', $str)); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 5
+B. 6
+C. 7
+D. 8
+ANSWER: A
+
+Khi thực thi câu lệnh SQL nếu gặp thông báo lỗi “Ambiguous column name”, điều này tương đương với phát biểu nào sao đây?
+A. Tên cột không tìm thấy
+B. Tên bảng không tìm thấy
+C. Lỗi cú pháp
+D. Tên cột có mặt ở nhiều bảng
+ANSWER: D
+
+Thứ tự mệnh đề trong SQL được sắp xếp theo độ giảm dần thứ tự ưu tiên là phát biểu nào sau đây?
+A. FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY
+B. SELECT , FROM, WHERE, GROUP BY, HAVING, ORDER BY
+C. SELECT , WHERE, FROM, GROUP BY, HAVING, ORDER BY
+D. FROM, SELECT, GROUP BY, HAVING, WHERE, ORDER BY
+ANSWER: A
+
+Sử dụng từ khóa nào để đặt tên mới cho cột
+A. ALIAS
+B. AS
+C. NEW_COLUMM_NAME
+D. NEW_NAME
+ANSWER: B
+
+Trong MySQL, Hàm nào sau đây không phải là hàm tập hợp
+A. AVG
+B. MIN
+C. MAX
+D. Không có câu nào đúng
+ANSWER: D
+
+Tên 1 database tối đa có bao nhiêu kí tự
+A. 55
+B. 72
+C. 64
+D. 40
+ANSWER: C
+
+Trong MySQL, Câu lệnh nào chỉ xóa dữ liệu của bảng
+A. TRUNCATE
+B. DROP
+C. EMPTY
+D. SELECT
+ANSWER: A
+
+PHP hỗ trợ hệ Quản Trị CSDL nào sớm nhất?
+A. Oracle Database
+B. SQL
+C. SQL+
+D. MySQL
+ANSWER: D
+
+Câu lệnh nào được sử dụng để chọn CSDL?
+A. $mysqli=select_db(‘databasename’);
+B. mysqli=select_db(‘databasename’);
+C. mysqli->select_db(‘databasename’);
+D. $mysqli->select_db(‘databasename’);
+ANSWER: D
+
+$a = array(  null => 'a',  true => 'b',  false => 'c',  0 => 'd',  1 => 'e',  '' => 'f' ); echo count($a);   Đoạn mã sau, in ra giá trị nào sau đây
+A. 2
+B. 3
+C. 5
+D. 6
+ANSWER: B
+
+<?php $RESULT = 11 + 11 + 0x11; echo "$RESULT"; ?>   Đoạn mã sau, in ra giá trị nào sau đây
+A. 22
+B. 11
+C. 39
+D. 19
+ANSWER: C
+
+Trong Javascript sự kiện Onload thực hiện khi:
+A. Khi bắt đầu chương trình chạy
+B. Khi click chuột
+C. Khi kết thúc một chương trình
+D. Khi di chuyển chuột qua.
+ANSWER: A
+
+Trong Javascript sự kiện OnUnload thực hiện khi nào?
+A. Khi bắt đầu chương trình chạy
+B. Khi click chuột
+C. Khi kết thúc một chương trình
+D. Khi di chuyển chuột qua.
+ANSWER: C
+
+Trong Javascript sự kiện Onblur thực hiện khi nào?
+A. Khi một đối tượng trong form mất focus.
+B. Khi một đối tượng trong form có focus
+C. Khi di chuyển con chuột qua form.
+D. Khi click chuột vào nút lệnh
+ANSWER: A
+
+Dùng cách nào có thể biết được trình duyệt đang được sử dụng tại máy client?
+A. browser.name
+B. client.navName
+C. navigator.appName
+ANSWER: C
+
+Trong JavaScript sự kiện Onload xảy ra khi nào?
+A. Khi bắt đầu chạy chương trình
+B. Khi click chuột
+C. Khi di chuyển chuột qua
+D. Khi kết thúc một chương trình
+ANSWER: A
+
+Trong JavaScript sự kiện OnUnload xảy ra khi nào?
+A. Khi bắt đầu chạy chương trình
+B. Khi kết thúc một chương trình
+C. Khi kích chuột
+D. Khi di chuyển chuột qua
+ANSWER: B
+
+Để định nghĩa một tập các frame đơn ta sử dụng thẻ:
+A. <frame>
+B. <noframe>
+C. <ifframe>
+D. <frameset>
+ANSWER: C
+
+Để khai báo một phần tử điều khiển nhập văn bản chỉ có một dòng ta sử dụng thẻ:
+A. <input type= “text”>
+B. <input type = “hidden”
+C. <input type= “password”
+D. <textarea>
+ANSWER: A
+
+Để khai báo một phần tử điều khiển ẩn có chứa một value để phục vụ cho các mục đích khác trên trang web mà không muốn hiển thị ra ta dùng thẻ:
+A. <input type= “text”>
+B. <input type = “hidden”
+C. <input type= “password”
+D. <textarea>
+ANSWER: B
+
+Để khai báo một phần tử điều khiển cho phép người dùng có thể chọn một hay nhiều giá trị ta sử dụng thẻ:
+A. <input type= “text”>
+B. <input type = “radio”
+C. <input type= “checkbox”
+D. <textarea>
+ANSWER: C
+
+Để khai báo một phần tử điều khiển khi nhấn vào sẽ gửi thông tin của form đi ta sử dụng thẻ:
+A. <input type= “text”>
+B. <input type = “submit”
+C. <input type= “password”
+D. <input type = “reset”>
+ANSWER: B
+
+Để khai báo một phần tử điều khiển tạo một nút nhấn trên trang web ta sử dụng thẻ:
+A. <input type= “file”>
+B. <input type = “button”>
+C. <input type= “hidden”
+D. <input type = “image”>
+ANSWER: B
+
+Để khai báo một phần tử điều khiển để mở một hộp thoại giúp người dùng mở một file trên hệ thống thư mục của máy tính ta sử dụng thẻ:
+A. <input type= “file”>
+B. <input type = “button”>
+C. <input type= “hidden”
+D. <input type = “image”>
+ANSWER: A
+
+Thứ tự xép tầng của css theo độ ưu tiên từ thấp đến cao như sau:
+A. External style sheet, internal style sheet, browser default, inline style
+B. Inline style, browser default, external style sheet, internal style sheet
+C. Browser default, internal style sheet, inline style, external style sheet
+D. Browser default, external style sheet, internal style sheet, inline style
+ANSWER: D
+
+Css định nghĩa các style khác nhau cho cùng một loại html element bằng cách sử dụng:
+A. Class selector
+B. Id selector
+C. Name selector
+D. Type selector
+ANSWER: A
+
+Dreamweaver sử dụng giao thức gì để tải một site cục bộ lên web server?
+A. Http
+B. Fpt
+C. Smtp
+D. Hmpt
+ANSWER: B
+
+Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu:
+A. 2
+B. 3
+C. 4
+D. 5
+ANSWER: B
+
+Tính năng nào trong dreamweaver cho phép hiển thị mã nguồn tài liệu:
+A. Code view
+B. Design view
+C. Combined view
+D. Layout view
+ANSWER: A
+
+Tính năng nào trong dreamweaver cho phép hiển thị trực quan của tài liệu:
+A. Code view
+B. Design view
+C. Combined view
+D. Layout view
+ANSWER: D
+
+Tính năng nào trong dreamweaver cho phép hiển thị code và trực quan của tài liệu:
+A. Code view
+B. Design view
+C. Combined view
+D. Layout view
+ANSWER: C
+
+Tính năng nào trong dreamweaver cho phép thiết kế trang trong chế độ design view:
+A. Code view
+B. Design view
+C. Combined view
+D. Layout view
+ANSWER: B
+
+Ở chế độ thiết kế (layout view) chúng ta có thể insert table hoặc draw layer
+A. True
+B. False
+ANSWER: A
+
+Phần mở rộng của flash movie là:
+A. Swt
+B. Gif
+C. Dwt
+D. Swf
+ANSWER: D
+
+Các templates trong dreamweaver được lưu với phần mở rộng là gì?
+A. Css
+B. Dwt
+C. Html
+D. Swf
+ANSWER: B
+
+Sau khi tạo một table, thực hiện thao tác nào sau đây để thêm một hàng mới vào table:
+A. Đưa con trỏ đến ô cuối cùng, sau đó nhấn phím tab
+B. Ctrl + m
+C. Modify insert row
+D. Insert table
+ANSWER: B
+
+Làm sao để khi click chuột vào link thì tạo ra cửa sổ mới?
+A. <a href="url" new>
+B. <a href="url" target="new">
+C. <a href="url" target="_blank">
+D. <a href="url" target="blank">
+ANSWER: C
+
+Đâu là những tag dành cho việc tạo bảng?
+A. <table><tr><td>
+B. <thead><body><tr>
+C. <table><head><tfoot>
+D. <table><tr><tt>
+ANSWER: A
+
+Tag nào dùng để tạo hình nền cho web?
+A. <body background="background.gif">
+B. <background img="background.gif">
+C. <img src="background.gif" background>
+ANSWER: A
+
+Muốn liên kết xhtml với 1 file định nghĩa css ta dùng dòng nào sau đây?
+A. <style src=”mystyle.css”>
+B. <stylesheet>mystyle.css</stylesheet>
+C. <link rel=”stylesheet” type=”text/css” href=”mystyle.css”>
+D. Tất cả các câu trên đều sai.
+ANSWER: C
+
+Muốn liên kết xhtml với 1 file định nghĩa css ta dùng dòng nào sau đây?
+A. <style src=”mystyle.css”>
+B. <stylesheet>mystyle.css</stylesheet>
+C. <link rel=”stylesheet” type=”text/css” href=”mystyle.css”>
+D. Tất cả các câu trên đều sai.
+ANSWER: C
+
+Thuộc tính nào định nghĩa css ngay trong 1 tag?
+A. Font
+B. Class
+C. Style
+D. Styles
+ANSWER: C
+
+Dòng nào tuân theo đúng cú pháp của css?
+A. Body {color: black}
+B. {body;color:black}
+C. Body:color=black
+D. {body:color=black(body}
+ANSWER: A
+
+Làm sao để hiển thị liên kết mà ko có gạch chân bên dưới?
+A. A {decoration:no underline}
+B. A {text-decoration:no underline}
+C. A {underline:none}
+D. A {text-decoration:none}
+ANSWER: D
+
+Làm thế nào để hiển thị viền 1 phần tử với kích thước đường viền như sau: The top border = 10 pixels the bottom border = 5 pixels the left border = 20 pixels the right border = 1pixel?
+A. Border-width:5px 20px 10px 1px
+B. Border-width:10px 5px 20px 1px
+C. Border-width:10px 1px 5px 20px
+D. Border-width:10px 20px 5px 1px
+ANSWER: C
+
+Làm sao để thay đổi lề trái của một phần tử?
+A. Margin-left:
+B. Text-indent:
+C. Margin:
+D. Indent:
+ANSWER: A
+
+Nút lệnh(button) nào.dưới đây cho phép gửi thông tin trên form tới server khi được click Chuột?
+A. Reset
+B. Send
+C. Form
+D. Submit
+ANSWER: D
+
+Những phát biểu nào là đúng khi nói về style sheet?
+A. Có thể đặt trong thẻ meta
+B. Có thể đặt bên trong một trang html
+C. Có thể đặt ở một file bên ngoài, và không được liên kết với trang html
+D. Không thể chứa nhiều hơn một luật (rule)
+ANSWER: B
+
+Danh sách định nghĩa (definition lists) được đóng bởi thẻ nào?
+A. </dd>
+B. </dt>
+C. </dc>
+D. </dl>
+ANSWER: D
+
+Thuộc tính lnkcolor của đối tượng document được dùng để:
+A. Thiết lập(set) hoặc lấy về mầu của tất cả các active links trong trang
+B. Thiết lập(set) hoặc lấy về mầu của tất cả các links trong trang
+C. Thiết lập(set) hoặc lấy về mầu của tất cả các visited links trong trang
+D. Đối tượng document không có thuộc tính này
+ANSWER: B
+
+Sự kiện ________ của phần tử body sẽ đựoc kích hoạt khi trang được nạp xong.
+A. Onfocus
+B. Onblur
+C. Onload
+D. Onsubmit
+ANSWER: C
+
+Sự kiện ________ sẽ được kích hoạt khi con trỏ chuột di chuyển lên một phần tử
+A. Onsubmit
+B. Onmouseup
+C. Onmouseout
+D. Onmouseover
+ANSWER: D
+
+"aptech".length trả lại giá trị là ____.
+A. 5
+B. 6
+C. 7
+D. Error
+ANSWER: B
+
+CSS định nghĩa các style khác nhau cho cùng một loại HTML element bằng cách sử dụng:
+A. class selector
+B. id selector
+C. name selector
+D. type selector
+ANSWER: A
+
+Làm thế nào để bo tròn góc cạnh các phần tử?
+A. border[round]: 30px;
+B. corner-effect: round;
+C. border-radius: 30px;
+D. alpha-effect: round-corner;
+ANSWER: C
+
+Làm thế nào để thêm bóng (shadow) cho các phần tử trong CSS3?
+A. box-shadow: 10px 10px 5px grey;
+B. shadow-right: 10px shadow-bottom: 10px;
+C. shadow-color: grey;
+D. alpha-effect[shadow]: 10px 10px 5px grey;
+ANSWER: A
+
+Làm cách nào để thay đổi kích thước hình ảnh background bằng CSS3?
+A. background-size: 80px 60px;
+B. bg-dimensions: 80px 60px;
+C. background-proportion: 80px 60px;
+D. alpha-effect: bg-resize 80px 60px;
+ANSWER: A
+
+Làm thế nào để bắt buộc đoạn text xuống dòng?
+A. word-wrap: break-word;
+B. text-wrap: break-word;
+C. text-wrap: force;
+D. text-width: set;
+ANSWER: A
+
+Đâu là lệnh chuyển đổi (transform) hợp lệ trong CSS3.
+A. matrix()
+B. modify()
+C. skip()
+D. simulate()
+ANSWER: A
+
+Đâu là cách để chuyển đổi kích thước/tỷ lệ phần tử bằng CSS3?
+A. transform: scale(2,4);
+B. scale-object: 2,4;
+C. scale: (2,4);
+D. None
+ANSWER: A
+
+/*This is a comment*/ P { text-align:center; /*This is another comment*/ color:black; font-family:arial; }   Xem đoạn mã sau. Giá trị trong /*This is another comment*/ dùng để làm gì?
+A. Câu lệnh CSS
+B. Câu lệnh Javascript.
+C. Câu lệnh HTML
+D. Chú thích cho tài liệu CSS
+ANSWER: D
+
+Sự kiện Onblur xảy ra khi nào?
+A. Xảy ra khi thành phần của form được focus(làm nổi lên)
+B. Xảy ra khi giá trị của thành phần được chọn thay đổi
+C. Xảy ra khi người dùng kích vào các thành phần hay liên kết của form
+D. Xảy ra khi input focus bị xoá từ thành phần form
+ANSWER: D
+
+Sự kiện nào sau không có trong Form?
+A. Onclick
+B. OnBlur
+C. Onsubmit
+D. Oncharge
+ANSWER: D
+
+<?php interface foo { } class_alias('foo', 'bar'); echo interface_exists('bar') ? 'yes' : 'no'; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. Error
+B. No
+C. Yes
+D. NULL
+ANSWER: C
+
+Tên đầu tiên của Java là gì?
+A. Java
+B. Oak
+C. Cafe
+D. James golings
+ANSWER: B
+Vì: Theo lịch sử ngôn ngữ java tên đầu tiên của java là oak.
+public class Main {     public static void main(String[] args) {     int x = -1;     String y = x + 3;     System.out.println("x = " + x + "y = " + y);     }    }       Đọc đoạn mã lệnh sau. Sau khi thực thi chương trình sẽ in ra kết quả gì ?
+A. x=-1 y=2
+B. Lỗi biên dịch: Uncompilable source code - incompatible types
+C. x=-1 y=-13
+D. x=-1 y=4
+ANSWER: B
+Vì: y là chuỗi, x là số không thể thực hiện cộng chuỗi và số.
+Đâu là khai báo biến đúng trong java?    (1) rollNumber     (2) $rearly_salary     (3) double     (4) $$_     (5) mount#balance
+A. 12345
+B. 123
+C. 124
+D. 125
+ANSWER: C
+
+int i = 1,  j = 10;    do {     if (i > j) {     break;     }     j--;    } while (++ i < 5 );    System.out.printIn("i = " + i + " and j = " + j);       Đọc đoạn mã sau. Kết quả in ra của đoạn mã trên là gì?
+A. i = 6 and j = 5
+B. i = 5 and j = 5
+C. i = 6 and j = 4
+D. i = 5 and j = 6
+ANSWER: D
+
+Lựa chọn đáp án phù hợp:    (a) byte (1) 256    (b) char (2) 5000    (c)int (3) 4899.99    (d) short (4)126    (e) double (5) 'F'
+A. a-4, b-5, c-2, d-1, e-3
+B. a-1, b-2, c-2, d-1, e-3
+. a-1, b-5, c-4, d-4, e-3
+D. a-5, b-4, c-1, d-2, e-3
+ANSWER: A
+Vì: byte: 126, char:'F', int:5000, short: 256, double:4899.99
+Biểu thức nào có giá trị khác các biểu thức còn lại trong các biểu thức sau?    Cho x=true thuộc kiểu boolean.
+A. true
+B. x==true;
+C. 1==1
+D. !x
+ANSWER: D
+Biểu thức x==true ở đáp án B trả về giá trị là true, 1==1 ở đáp án C cũng trả về giá trị là true. !x trả về giá trị là !true là false, khác các đáp án khách.
+Có mấy cách để truyền tham số vào cho một phương thức?    Chọn một câu trả lời
+A. 2
+B. 1
+C. 3
+D. 4
+ANSWER: A
+Vì: Khi truyền tham số vào cho phương thức có hai cách là: truyền theo kiểu tham trị và truyền theo kiểu tham biến.
+Đâu là khai báo đúng về lớp Cat?    Chọn một câu trả lời
+A. Class Cat{}
+B. class public Cat(){}
+C. class Cat{}
+D. public Cat class{}
+ANSWER: C
+
+Một thành viên của một lớp được khai báo là private không những không thể được truy xuất từ bên trong lớp mà còn không nơi nào bên ngoài lớp.    Chọn một câu trả lời
+A. Câu 1 sai, câu 2 đúng
+B. Câu 1 đúng, câu 2 sai
+C. Cả 2 câu cùng đúng
+D. Cả 2 câu cùng sai [Không đúng]
+ANSWER: B
+Các thành phần Protected có thể truy xuất từ lớp đó và các lớp con của lớp đó.Thành phần private chỉ có thể truy xuất từ trong lớp đó.
+Trong các khai báo sau đâu là khai báo không hợp lệ?    Chọn một câu trả lời
+A. int a1[][] = new int[][3];
+B. int a2[][] = new int[2][3];
+C. int a3[][] = new int[2][];
+D. int a4[][] = {{}, {}, {}};
+ANSWER: A
+Bắt buộc phải xác định số dòng trong khai báo mảng hai chiều.
+Phát biểu nào sau đây là đúng:    Chọn một câu trả lời
+A. Mảng có thể lưu giữ các phần tử thuộc nhiều kiểu dữ liệu khác nhau
+B. Chỉ số của mảng có thể sử dụng kiểu số thực (float, double)
+C. Biểu thức array.length được sử dụng để trả về số phần tử trong mảng
+D. Một phần tử của mảng không thể truyền vào trong một phương thức.
+ANSWER: C
+Vì: biểu thức array.length trả về số phần tử trong mảng.
+Nếu phương thức của bạn ghi đè một trong số các phương thức của lớp cha, bạn có thể gọi phương thức bị ghi đè thông qua từ khóa nào?    Chọn một câu trả lời
+A. parent
+B. super
+C. this
+D. static
+ANSWER: B
+Vì: Từ khóa super được sử dụng trong lớp con để gọi phương thức của lớp cha.
+Một thành viên của một lớp được khai báo là private không những không thể được truy xuất từ bên trong lớp mà còn không nơi nào bên ngoài lớp.    Chọn một câu trả lời
+A. Câu 1 sai, câu 2 đúng
+B. Câu 1 đúng, câu 2 sai
+C. Cả 2 câu cùng đúng
+D. Cả 2 câu cùng sai
+ANSWER: B
+
+public class Main {     public static void main(String[] args) {     String names[] = {   "John",   "Anna",   "Peter",   "Victor",   "David"   };     System.out.println(names[2]);     }    }       Chương trình sau in ra màn hình xâu nào? Chọn một câu trả lời
+A. Có lỗi biên dịch: use new keyword to create object
+B. Peter
+C. Anna
+D. Victor
+ANSWER: B
+Vì: Lệnh System.out.println(names[2]);sẽ in ra phần tử đứng thứ 3 trong mảng names (chỉ số mảng từ 0 => in ra Peter)
+Đâu là khai báo đúng về lớp Cat?    Chọn một câu trả lời
+A. Class Cat{}
+B. class public Cat(){}
+C. class Cat{}
+D. public Cat class{}
+ANSWER: C
+Vì: Theo cú pháp khai báo lớp
+Đâu KHÔNG phải là cách thức để khởi tạo giá trị cho thuộc tính name có kiểu chuỗi của lớp Cat?
+A. class Cat {String name = "noname";}
+B. public class Cat{ String name; public Cat(){name = "noname";} }
+C. public class Cat{ String name; public Cat(String x){name = x;} }
+D. public class Cat{ String name; public Cat(){ String name = "noname"; } }
+ANSWER: D
+Biến name trong hàm tạo là biến cục bộ, không phải là thuộc tính name.
+Câu 1: Một thành viên protected của một lớp có thể được truy xuất từ bất kỳ lớp nào trong cùng một gói và từ một lớp con nằm bên ngoài gói nếu lớp bên ngoài đó là lớp con.    Câu 2:Một thành viên của một lớp được khai báo là private không những không thể được truy xuất từ bên trong lớp mà còn không nơi nào bên ngoài lớp.    Chọn một câu trả lời
+A. Câu 1 sai, câu 2 đúng
+B. Câu 1 đúng, câu 2 sai
+C. Cả 2 câu cùng đúng
+D. Cả 2 câu cùng sai
+ANSWER: B
+
+Khi biên dịch gặp lỗi Exception in thread main java.lang.NoClassDefFoundError: myprogram. Lỗi này có nghĩa gì?
+A. Đường dẫn chương trình sai.
+B. Không có hàm main
+C. Không khai báo class
+D. Không có từ khóa public tại mở đầu khai báo class
+ANSWER: A
+
+Để khai báo lớp Xedap1 kế thừa lớp Xedap phải làm như thế nào?
+A. class Xedap1 extend Xedap {}
+B. public classs Xedap1 extend Xedap {}
+C. class Xedap1 extends Xedap {}
+D. Tất cả đều sai.
+ANSWER: C
+
+Để sử dụng giao diện Xedap cho lớp Xedap1, ta làm thế nào?
+A. class Xedap1 implement Xedap {}
+B. public class Xedap1 implement Xedap {}
+C. class Xedap1 implements Xedap {}
+D. public class Xedap1 extends Xedap {}
+ANSWER: C
+
+String greeting = “Hello”;  int k = greeting.length();  System.out.print(k);       Khối lệnh sau có kết quả bao nhiêu?
+A. 4
+B. 5
+C. 6
+D. 7
+ANSWER: B
+
+class Student {}    public class Man extends Student {     public boolean isMan() {     return true;     }    }       Đoạn mã sau có lỗi biên dịch KHÔNG? Nếu có là lỗi nào sau?
+A. Không có lỗi biên dịch.
+B. Có lỗi biên dịch:class Student is empty.
+C. Có lỗi biên dịch:class Man has no constructor.
+D. Có lỗi biên dịch:class Student is empty, class Man has no constructor.
+ANSWER: A
+Chúng ta có thể khai báo các lớp không có thuộc tính và phương thức trống(empty). Khi một lớp không có constructor, trình biên dịch sẽ tự động thêm vào một constructor mặc định.Vậy đoạn mã đã cho không có lỗi biên dịch nào.
+Lệnh str.charat(n) có tác dụng gì?
+A. Lấy ký tự bất kỳ trong chuỗi str
+B. Lấy độ dài chuỗi str
+C. Lấy ký tự có số chỉ mục n trong chuỗi k
+D. Không có lệnh này
+ANSWER: D
+
+String greetings = “Hello”;  String s = greetings.substring(0,3);       Hai câu lệnh sau ra kết quả s là bao nhiêu?
+A. Hell
+B. Hel
+C. ello
+D. Hello
+ANSWER: B
+
+String greetings = “Hello”  String s = greetings.substring(0,3);       Hai câu lệnh sau ra kết quả s là bao nhiêu?
+A. Hell
+B. Hel
+C. Lệnh sai
+D. Hello
+ANSWER: C
+
+String greetings = “ Hello “;  String s = greetings.substring(0,3);       Trong hai câu lệnh sau, lệnh substring có tác dụng gì?
+A. Lấy các ký tự từ vị trí chỉ mục 0 đến vị trí chỉ mục 2 của chuỗi greetings và đưa vào s
+B. Thay đổi 3 ký tự đầu tiên của chuỗi greetings 
+C. Sao chép chuỗi greetings vào chuỗi s
+D. Cắt các ký tự từ vị trí chỉ mục 0 đến chỉ mục 3 và đưa vào s
+ANSWER: A
+
+Cho xâu kí tự s=”ABCDEF”. Để lấy kỳ tự thứ ‘E’ của xâu ký tự s(String) dùng câu lệnh nào sau đây?
+A. s.charAt(5)
+B. s.charAt(4)
+C. s[5]
+D. s[4]
+ANSWER: B
+
+Trong các khai báo sau đâu là khai báo không hợp lệ?    Chọn một câu trả lời
+A. int a1[][] = new int[][3];
+B. int a2[][] = new int[2][3];
+C. int a3[][] = new int[2][];
+D. int a4[][] = {{}, {}, {}}
+ANSWER: A
+Bắt buộc phải xác định số dòng trong khai báo mảng hai chiều.
+Câu 1: Nếu 2 đối tượng bằng nhau trong cùng một mảng và mảng đó được sắp xếp, các phần tử bằng nhau không thể thay đối thứ tự của chúng?    Câu 2: Chỉ số mảng bắt đầu từ 1    Chọn một câu trả lời
+A. Cả hai câu đều đúng
+B. Cả hai câu đều sai
+C. Câu 1 đúng, câu 2 sai
+D. Câu 2 đúng, câu 1 sai
+ANSWER: B
+mảng truy xuất phần tử theo chỉ số của nó, nếu 2 phần tử có giá trị giống nhau thì cũng sẽ nằm ở vị trí khác nhau, do dó không thể thay đổi thứ tự của chúng được.
+final int ARRAY_SIZE = 5;    ARRAY_SIZE = 10;    System.out.println("size = " + ARRAY_SIZE);       Lệnh sau in ra cái gì?
+A. size = 10
+B. size = 5
+C. Lỗi ở dòng 3
+D. Lỗi ở dòng 2
+ANSWER: D
+Không thể gán giá trị cho các biến kiểu final
+Đoạn lệnh nào sẽ đưa ra lỗi biên dịch?    Chọn một câu trả lời
+A. class A { public A(int x) {} }
+B. class A {} class B extends A { B() {}}
+C. Class A { A() {}} class B { public B() {} }
+D. class Z { public Z(int) {} } class A extends Z { }
+ANSWER: D
+Tham số truyền cho hàm tạo của lớp Z chưa xác định tên nên sinh lỗi.
+Câu 1: Nếu 2 đối tượng bằng nhau trong cùng một mảng và mảng đó được sắp xếp, các phần tử bằng nhau không thể thay đối thứ tự của chúng?    Câu 2: Chỉ số mảng bắt đầu từ 1    Chọn một câu trả lời
+A. Cả hai câu đều đúng
+B. Cả hai câu đều sai
+C. Câu 1 đúng, câu 2 sai
+D. Câu 2 đúng, câu 1 sai
+ANSWER: B
+mảng truy xuất phần tử theo chỉ số của nó, nếu 2 phần tử có giá trị giống nhau thì cũng sẽ nằm ở vị trí khác nhau, do dó không thể thay đổi thứ tự của chúng được.
+Đoạn lệnh nào sẽ đưa ra lỗi biên dịch?    Chọn một câu trả lời
+A. class A { public A(int x) {} }
+B. class A {} class B extends A { B() {}}
+C. class A { A() {}} class B { public B() {} }
+D. class Z { public Z(int) {} } class A extends Z { }
+ANSWER: D
+Tham số truyền cho hàm tạo của lớp Z chưa xác định tên nên sinh lỗi.
+Đâu là một khai báo lớp kế thừa từ hai giao điện đúng?    Chọn một câu trả lời
+A. interface Summable {} interface Eatable {} class Math implements Summable;Eatable{}
+B. interface Summable {} interface Eatable {} class Math implements Summable and Eatable{}
+C. interface Summable {} interface Eatable {} class Math: Summable,Eatable{}
+D. interface Summable {} interface Eatable {} class Math implements Summable,Eatable{}
+ANSWER: D
+Một lớp triển khai interface thì từ khóa implements được dùng.
+String[][] str = {"lap", "trinh", "java"};    System.out.println(str[1][1]);       Cho khai báo mảng sau. Lệnh trên in ra cái gì?
+A. trinh
+B. java
+C. Lỗi biên dịch ở dòng 1
+D. Không in ra gì
+ANSWER: B
+Lỗi ở dòng lệnh 1, sai cú pháp khai báo mảng 2 chiều
+Phương thức nào của class String trả về index của chuỗi ký tự con xuất hiện đầu  tiên trong chuỗi ký tự char "
+A. concat()
+B. charAt()
+C. indexOf()
+D. Không có đáp án đúng.
+ANSWER: C
+
+Phương thức nào dùng để tìm kiếm một chuỗi trong một chuỗi khác trong class  String của Java?
+A. lastIndexOf()
+B. substring()
+C. toString()
+D. Không có đáp án đúng
+ANSWER: A
+
+Trong Java, kiểu dữ liệu nào là một địa chỉ của đối tượng hoặc một mảng được  tạo ra trong bộ nhớ?
+A. Kiểu primitive
+B. Kiểu reference
+C. Kiểu format
+D. Không có đáp án đúng.
+ANSWER: B
+
+Lệnh result = condition ? value1 : value2 có nghĩa gì?
+A. Nếu condition là true thì result = value2, nếu condition là false thì result = value1
+B. Nếu condition là true thì result = value1, nếu condition là false thì result = value2
+C. Không có lệnh này
+D. Nếu condition là true thì result sẽ đảo giá trị của value1 và value2
+ANSWER: B
+
+String[] students = new String[10];  String studentName = “Peter Parker”;  students[0] = studentName;  studentName = null;       Có bao nhiêu đổi tham chiếu của đối tượng mảng và biến tồn tại sau khi thực hiện khối  lệnh?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: B
+
+Lệnh if CONDITION { Khối lệnh } có tác dụng gì?
+A. Nếu CONDITION đúng thì thực hiện Khối lệnh, nếu sai thì bỏ qua
+B. Nếu CONDITION sai thì thực hiện Khối lệnh, nếu đúng thì bỏ qua
+C. Tất cả đều sai.
+D. Không có đáp án đúng
+ANSWER: A
+
+Lệnh if CONDITION {Khối lệnh 1} else {Khối lệnh 2} có tác dụng gì?
+A. Nếu CONDITION đúng thì thực hiện Khối lệnh 1, nếu sai thì thực hiện Khối lệnh 2
+B. Nếu CONDITION sai thì thực hiện Khối lệnh 1, nếu đúng thì thực hiện Khối lệnh 2
+C. Nếu CONDITION sai thì thực hiện Khối lệnh 1, nếu đúng thì bỏ qua.
+D. Nếu CONDITION đúng thì thực hiện Khối lệnh 2, nếu sai thì bỏ qua
+ANSWER: A
+
+Để kiểm tra 2 chuỗi có bằng nhau hay không, sử dụng phương thức nào?
+A. string1== string2
+B. string1 = string2
+C. string1.equals(string2)
+D. string1.equal(string2)
+ANSWER: C
+
+Lệnh charAt(n) có tác dụng gì?
+A. Tìm kiếm ký tự thứ n
+B. Trả về ký tự thứ n-1
+C. Trả về ký tự thứ n
+D. Trả về ký tự có vị trí chỉ mục n
+ANSWER: D
+
+String greetings = “Hello”;  char letter = greetings.charAt(0);       Lệnh sau trả về kết quả là bao nhiêu?
+A. H
+B. e
+C. I
+D. o
+ANSWER: A
+
+Trong Javascript sự kiện OnUnload thực hiện khi nào?
+A. Khi bắt đầu chương trình chạy
+B. Khi click chuột
+C. Khi kết thúc một chương trình
+D. Khi di chuyển chuột qua
+ANSWER: C
+
+Trong Javascript sự kiện Onblur thực hiện khi nào?
+A. Khi một đối tượng trong form mất focus
+B. Khi một đối tượng trong form có focus
+C. Khi di chuyển con chuột qua form
+D. Khi click chuột vào nút lệnh
+ANSWER: A
+
+Trong Javascript sự kiện OnMouseOver thực hiện khi nào?
+A. Khi một đối tượng trong form mất focus
+B. Khi một đối tượng trong form có focus
+C. Khi di chuyển con chuột qua một đối tượng trong form
+D. Khi click chuột vào nút lệnh
+ANSWER: C
+
+Trong Javascript sự kiện Onclick xảy ra khi nào?
+A. Khi một đối tượng trong form mất focus
+B. Khi một đối tượng trong form có focus
+C. Khi click chuột vào một đối tượng trong form
+D. Khi click chuột vào nút lệnh
+ANSWER: D
+
+Trong Javascript sự kiện Onchange thực hiện khi nào?
+A. Khi một đối tượng trong form mất focus
+B. Khi một đối tượng trong form có focus
+C. Xảy ra khi giá trị của một trường trong form được người dùng thay đổi
+D. Khi click chuột vào nút lệnh
+ANSWER: C
+
+Thẻ <textarea ></texterea> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu 1 dòng
+B. Tạo một ô password
+C. Tạo một textbox cho phép nhập liệu nhiều dòng
+D. Tất cả các ý trên
+ANSWER: C
+
+Lệnh lặp for có dạng như thế nào?
+A. for ( biến = Giá trị đầu; Điều kiện; Giá trị tăng)
+B. for ( biến = Giá trị đầu; Giá trị tăng; điều kiện)
+C. for ( biến = Điều kiện; Giá trị tăng; Giá trị cuối)
+D. Tất cả các dạng trên
+ANSWER: B
+
+Vòng lặp While là dạng vòng lặp?
+A. Không xác định và xét điều kiện rồi mới lặp
+B. Không xác định và lặp rồi mới xét điều kiện
+C. Cả hai dạng trên
+D. Không tồn tại dạng nào ở trên
+ANSWER: A
+
+Lệnh break kết hợp với vòng for dùng để?
+A. Ngưng vòng for nếu gặp lệnh này
+B. Không có ý nghĩa trong vòng lặp
+C. Nhảy đến một tập lệnh khác
+D. Không thể kết hợp được
+ANSWER: A
+
+Hàm prompt(…) trong JavaScript dùng để làm gì?
+A. Hiển thị thông báo nhập thông tin
+B. Hiển thị một thông báo Yes, No
+C. Không phương án nào đúng
+D. Cả hai dạng trên
+ANSWER: A
+
+Trong JavaScript hàm parseInt() dùng để làm gì?
+A. Chuyển một chuỗi thành số
+B. Chuyển một chuỗi thành số thực
+C. Chuyển một số nguyên thành một chuỗi
+D. Chuyển một chuỗi thành số nguyên
+ANSWER: D
+
+Cho các khai báo sau:    1: byte [] array1, array2[];    2: byte array3 [][];    3: byte[][] array4;    Nếu các mảng trên đều được khởi tạo thì lệnh nào sau sẽ gặp lỗi?    Chọn một câu trả lời
+A. array2 = array1;
+B. array2[0] = array3[0];
+C. array2 = array4;
+D. array1=array2;
+ANSWER: C
+Không thể gán mảng một chiều cho mảng 2 chiều được
+public abstract class Test {     public abstract void methodA();     public abstract void methodB()     {     System.out.printIn("Hello");     }    }       Làm thế nào để đoạn mã trên biên dịch thành công?
+A. Cài đặt cụ thể phần thân cho phương thức methodA()
+B. Thay thế từ khóa public ở dòng 2 thành private
+C. Xóa từ khóa abstract ở dòng 4
+D. Xóa từ khóa abstract ở dòng 2
+ANSWER: C
+Đáp án “Xóa từ khóa abstract ở dòng 4” là đúng vì khi xóa từ khóa abstract thì phương thức methodB() sẽ trở thành phương thức thông thường, có phần thân.
+Một lớp kế thừa từ lớp abstract thì từ khóa nào sau đây được sử dụng để cài đặt các phương thức của lớp kế thừa này?    Chọn một câu trả lời
+A. static
+B. public
+C. private
+D. abstract
+ANSWER: D
+một lớp kế thừa từ lớp abstract sẽ phải cài đặt tất cả các phương thức abstract trong lớp mà nó kế thừa.
+Mô hình tiến trình phần mềm tiến hóa:
+A. Bản chất lặp
+B. Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm
+C. Nói chung không tạo ra những sản phẩm bỏ đi
+D. Tất cả các mục
+ANSWER: D
+
+Để xây dựng mô hình hệ thống, kỹ sư phải quan tâm tới một trong những nhân tố hạn chế sau:
+A. Những giả định và những ràng buộc
+B. Ngân sách và phí tổn
+C. Những đối tượng và những hoạt động
+D. Lịch biểu và các mốc sự kiện
+ANSWER: A
+
+Trong kỹ thuật tiến trình nghiệp vụ, ba kiến trúc khác nhau được kiểm tra:
+A. Hạ tầng kỹ thuật, dữ liệu, ứng dụng
+B. Hạ tầng tài chánh, tổ chức và truyền thông
+C. Cấu trúc báo cáo, cơ sở dữ liệu, mạng
+D. Cấu trúc dữ liệu, yêu cầu, hệ thống
+ANSWER: A
+
+Đặc tả hệ thống mô tả:
+A. Chức năng và hành vi của hệ thống dựa vào máy tính
+B. Việc thi hành của mỗi thành phần hệ thống được chỉ
+C. Chi tiết giải thuật và cấu trúc hệ thống
+D. Thời gian đòi hỏi cho việc giả lập hệ thống
+ANSWER: A
+
+Sử dụng bảng lần vết giúp:
+A. Debug chương trình dựa theo việc phát hiện lỗi thời gian thực
+B. Xác định việc biểu diễn những sự thi hành giải thuật
+C. Xác định, điều khiển và theo vết những thay đổi yêu cầu
+D. Không có mục nào
+ANSWER: C
+
+Tác vụ nào không được biểu diễn như là một phần của phân tích yêu cầu phần mềm?
+A. Định giá và tổng hợp
+B. Mô hình hóa và thừa nhận vấn đề
+C. Lập kế hoạch và lịch biểu
+D. Đặc tả và xem xét
+ANSWER: C
+
+Cấu trúc thông tin biểu diển tổ chức nội của:
+A. Những cấu trúc dữ liệu dùng để biểu diễn loại dữ liệu
+B. Mô hình bố trí nhân viên dự án
+C. Mô hình truyền thông dự án
+D. Những dữ liệu khác nhau và những mục điều khiển
+ANSWER: D
+
+Khung nhìn (view) nào được quan tâm đầu tiên trong phân tich yêu cầu phần mềm:
+A. actor view
+B. data view
+C. essential view
+D. implementation view
+ANSWER: C
+
+Mục nào không là một mục đích cho việc xây dựng một mô hình phân tích:
+A. Xác định một tập những yêu cầu phần mềm
+B. Mô tả yêu cầu khách hàng
+C. Phát triển một giải pháp tóm tắt cho vấn đề
+D. Thiết lập một nền tảng cho thiết kế phần mềm
+ANSWER: C
+
+Biểu đồ dịch chuyển trạng thái:
+A. Đưa ra hình ảnh về các đối tượng dữ liệu
+B. Đưa ra hình ảnh chức năng biến đổi luồng dữ liệu
+C. Chỉ ra hình ảnh dữ liệu được biến đổi như thế nào bởi hệ thống
+D. Chỉ ra những tƣơng tác của hệ thống đối với sự kiện bên ngoài
+ANSWER: D
+
+Mô hình thiết kế không quan tâm tới:
+A. Kiến trúc
+B. Dữ liệu
+C. Giao diện
+D. Phạm vi dự án
+ANSWER: D
+
+Một đặc trưng của thiết kế tốt là:
+A. Cho thấy sự liên kết mạnh giữa các module
+B. Thực hiện tất cả yêu cầu trong phân tích
+C. Bao gồm những test case cho tất cả thành phần
+D. Kết hợp mã nguồn nhằm mục đích mô tả
+ANSWER: B
+
+Loại mô hình nào không được có trong kiến trúc phần mềm:
+A. Dữ liệu
+B. Động
+C. Xử lý
+D. Cấu trúc
+ANSWER: A
+
+Cấp bậc điều khiển thể hiện:
+A. Thứ tự quyết định
+B. Việc tổ chức của các module
+C. Sự lặp lại của những hoạt động
+D. Sự tuần tự của các tiến trình
+ANSWER: B
+
+Mục đích của tham chiếu chéo những yêu cầu (ma trận) trong tài liệu thiết kế là nhằm:
+A. Cho phép người quản lý theo dõi năng suất của nhóm thiết kế
+B. Xác minh là tất cả các yêu cầu đã được xem xét trong thiết kế
+C. Chỉ ra chi phí kết hợp với mỗi yêu cầu
+D. Cung cấp cho việc thực thi tên của những nhà thiết kế cho mỗi yêu cầu
+ANSWER: B
+
+Khi một luồng tổng thể trong một đoạn của biểu đồ luồng dữ liệu có tính trình tự cao và theo sau những những đường thẳng sẽ thể hiện:
+A. Liên kết thấp
+B. Module hóa tốt
+C. Luồng giao dịch (transaction)
+D. Luồng biến đổi (transform)
+ANSWER: D
+
+Một bổ sung cần thiết nhằm biến đổi hay ánh xạ giao dịch để tạo một thiết kế kiến trúc đầy đủ là:
+A. Sơ đồ quan hệ - thực thể
+B. Từ điển dữ liệu
+C. Mô tả việc xử lý cho mỗi module
+D. Những Test-case cho mỗi module
+ANSWER: C
+
+Những hoạt động khung nào thường không kết hợp với những quá trình thiết kế giao diện người dùng:
+A. Ước lượng giá
+B. Xây dựng giao diện
+C. Định trị giao diện
+D. Phân tích người dùng và tác vụ
+ANSWER: A
+
+Ngôn ngữ thiết kế chương trình (PDL) thường là một:
+A. Sự kết hợp giữa cấu trúc lập trình và văn bản tường thuật
+B. Ngôn ngữ lập trình truyền thống theo luật riêng của nó
+C. Ngôn ngữ phát triển phần mềm có thể đọc bởi máy
+D. Một cách hữu dụng để biểu diễn kiến trúc phần mềm
+ANSWER: A
+
+Kiểm thử Black-box cố gắng tìm ra những lỗi:
+A. Chức năng không đầy đủ hay không đúng
+B. Những lỗi giao diện
+C. Những lỗi thực thi
+D. Tất cả mục trên
+ANSWER: D
+
+Trong tích hợp module, gom cụm (cluster) được dùng trong:
+A. Tích hợp từ dưới lên
+B. Tích hợp big-bang
+C. Tích hợp từ trên xuống
+D. Tích hợp tăng vòng
+ANSWER: A
+
+Trong độ đo hiệu quả khử lỗi DRE, số lỗi tiềm tàng là:
+A. Tất cả đều sai
+B. Số lỗi do khách hàng phát hiện
+C. Toàn bộ lỗi được phát hiện sau đó
+D. Toàn bộ lỗi chưa phát hiện
+ANSWER: C
+
+Tài liệu nào sau đây sẽ được tạo ra trong pha thiết kế hệ thống?
+A. Kế hoạch kiểm thử
+B. Mã lệnh
+C. Thiết kế chi tiết
+D. Lập kế hoạch
+ANSWER: C
+
+Những độ đo phức tạp vòng (cyclomatic complexity metric) cung cấp cho người thiết kế thống tin về số
+A. Chu kỳ trong chương trình
+B. Số lỗi trong chương trình
+C. Những đường logic độc lập trong chương trình
+D. Những phát biểu của chương trình
+ANSWER: C
+
+Kỹ sư phần mềm không cần?
+A. Kiến thức về phân tích thiết kế hệ thống
+B. Kiến thức về cơ sở dữ liệu
+C. Lập trình thành thạo bằng một ngôn ngữ lập trình
+D. Kinh nghiệm quản lý dự án phần mềm
+ANSWER: C
+
+Tính khả thi của phần mềm dựa vào các yếu tố sau:
+A. Nghiệp vụ và tiếp thị
+B. Phạm vi, ràng buộc và thị trường
+C. Công nghệ, tiền bạc, thời gian và tài nguyên
+D. Kỹ năng và năng lực của nhà phát triển
+ANSWER: C
+
+Phần mềm quản lý tài chính của một công ty là:
+A. Phần mềm nghiệp vụ (Business software)
+B. Phần mềm hệ thống (System software)
+C. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+D. Phần mềm thời gian thực (Real time software)
+ANSWER: A
+
+Phần mềm quản lý tài chính của một công ty là:
+A. Phần mềm nghiệp vụ (Business software)
+B. Phần mềm hệ thống (System software)
+C. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+D. Phần mềm thời gian thực (Real time software)
+ANSWER: A
+
+2 hình thức dùng mô tả yêu cầu là:
+A. Yêu cầu người dùng và yêu cầu hệ thống
+B. Yêu cầu chức năng và yêu cầu phi chức năng
+C. Yêu cầu chủ động và yêu cầu thụ động
+D. Yêu cầu cụ thể và yêu cầu trừu tượng
+ANSWER: A
+
+Tính chất nào không cần thiết cho phân tích dữ liệu ?
+A. Cấu trúc dữ liệu
+B. Đầy đủ
+C. Bảo mật
+D. Độ lớn
+ANSWER: C
+
+Phân tích yêu cầu bao gồm 3 hoạt động theo đúng thứ tự ?
+A. Làm tài liệu yêu cầu, làm rõ yêu cầu, xem xét yêu cầu
+B. Làm rõ yêu cầu, xem xét yêu cầu, làm tài liệu yêu cầu
+C. Xem xét yêu cầu, làm tài liệu yêu cầu, làm rõ yêu cầu
+D. Làm rõ yêu cầu, làm tài liệu yêu cầu, xem xét yêu cầu
+ANSWER: B
+
+Hoạt động sau đây thuộc loại bảo trì nào “Làm cho hệ thống tốt hơn, nhanh hơn, nhỏ hơn, tài liệu đầy đủ hơn”:
+A. Bảo trì sửa lỗi (Corrective maintenance)
+B. Bảo trì thích nghi (Adaptive maintenance)
+C. Bảo trì hoàn chỉnh (Perfective maintenance)
+D. Bảo trì phòng tránh (Preventive maintenance)
+ANSWER: C
+
+Hoạt động sau đây thuộc loại bảo trì nào “Phát hiện sớm và sửa sai các khuyết điểm vừa mới phát hiện trước khi chúng trở thành các khuyết điểm chính”:
+A. Bảo trì sửa lỗi (Corrective maintenance)
+B. Bảo trì thích nghi (Adaptive maintenance)
+C. Bảo trì hoàn chỉnh (Perfective maintenance)
+D. Bảo trì phòng tránh (Preventive maintenance)
+ANSWER: A
+
+Dạng kiểm thử nào sau đây không thuộc kiểm thử hộp đen:
+A. Kiểm thử điều kiện (Condition testing)
+B. Phân tích giá trị biên (boundary value analysis)
+C. Kiểm thử chuyển đổi trạng thái (State Transition Testing)
+D. Đoán lỗi (Error Guessing)
+ANSWER: A
+
+Yêu cầu nào là yêu cầu chức năng?
+A. Cảnh báo người dùng khi dung lượng trống trên đĩa còn 20%
+B. Thực hiện thao tác thêm, xem, xóa, sửa dữ liệu nghiệp vụ
+C. Cảnh báo ngày hệ thống bị sai
+D. Yêu cầu chỉnh lại ngày giờ hệ thống mỗi khi làm việc
+ANSWER: B
+
+Kỹ thuật gì nên dùng cho kiểm thử đơn vị:
+A. Kỹ thuật hộp trắng
+B. Kỹ thuật hộp đen
+C. Cả hai kỹ thuật hộp đen và trắng
+D. Kỹ thuật hồi quy (regression)
+ANSWER: A
+
+SRS là viết tắt của:
+A. Software Requirement Specification
+B. System Requirement Specification
+C. Studying Requirement Specification
+D. Solve Requirement Specification
+ANSWER: A
+
+Nguyên tắc kiểm thử nào sau đây là sai:
+A. Phải lên kế hoạch kiểm thử sớm ngay trong giai đoạn phân tích hệ thống
+B. Có thể thực hiện kiểm thử được toàn bộ mọi trường hợp có thể có của hệ thống
+C. Để hiệu quả, kiểm thử nên được thực hiện bởi một đội kiểm thử
+D. Tuân theo nguyên tắc Pareto
+ANSWER: B
+
+Phát biểu nào sau đây là không đúng khi nói đến quá trình thu thập yêu cầu:
+A. Yêu cầu rất khó phát hiện
+B. Yêu cầu rất dễ bị thay đổi
+C. Yêu cầu phải luôn thống nhất
+D. Yêu cầu luôn được biết một cách chính xác
+ANSWER: D
+
+Trong lược đồ use case sau, phát biểu nào là sai?
+A. “Kiểm tra ngân quỹ chiến dịch” là use case cơ bản
+B. “Kiểm tra ngân quỹ chiến dịch” là use case mở rộng được khởi động từ use case "In tóm tắt chiến dịch"
+C. “In tóm tắt chiến dịch” là use case cơ bản
+D. Tất cả đều sai
+ANSWER: A
+
+Chọn lựa nào sau đây mô tả một yêu cầu phi chức năng?
+A. Hệ thống phải có khả năng lưu trữ ban đầu là 500MB dữ liệu, mỗi năm tăng lên 100MB
+B. Hệ thống phải phát sinh ra một báo cáo về tất cả các chiến dịch quảng cáo cho một khách hàng cụ thể
+C. Hệ thống phải cho phép những người sử dụng nhập vào chi tiết các khách hàng
+D. Tất cả các Câu đều đúng
+ANSWER: A
+
+Kết quả của giai đoạn thu thập yêu cầu là:
+A. Bảng ước tính chi phí dự án
+B. Tài liệu đặc tả yêu cầu phần mềm
+C. Lược đồ ngữ cảnh
+D. Lược đồ Use case và các được đồ khác
+ANSWER: B
+
+Ví dụ nào sau đây không phải là yêu cầu phi chức năng?
+A. Phân chia ổ đĩa dữ liệu
+B. Các yêu cầu xử lý
+C. Nội dung của các báo cáo in ra theo yêu cầu của hệ thống
+D. Tất cả các mục
+ANSWER: C
+
+Chọn lựa nào sau đây mô tả một yêu cầu chức năng?
+A. Hệ thống phải có khả năng trả lời tất cả các truy vấn trong 5 giây
+B. Các người sử dụng của hệ thống sẽ gây ra ít lỗi hơn 50% so với hệ thống hiện tại
+C. Hệ thống phải cho phép những người sử dụng nhập vào các chi tiết của các chiến dịch quảng cáo
+D. Hàng tháng, báo cáo phải nộp lên giám đốc trước ngày 5 của tháng sau đó
+ANSWER: C
+
+Ai là người viết tài liệu SRS?
+A. Người quản lý dự án
+B. Phân tích viên
+C. Lập trình viên
+D. Khách hàng
+ANSWER: B
+
+Mô hình phát triển phần mềm dựa trên mẫu thử (prototype) là:
+A. Một phương pháp thích hợp được sử dụng khi các yêu cầu đã được xác định rõ ràng
+B. Phương pháp tốt nhất được sử dụng trong các dự án có nhiều thành viên
+C. Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng
+D. Một mô hình rất rủi ro, khó đưa ra được một sản phẩm tốt
+ANSWER: C
+
+Các đặc tính của mô hình tiến hóa:
+A. Thường dùng prototype
+B. Bản chất lặp
+C. Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm
+D. Tất cả các mục
+ANSWER: D
+
+Phát biểu nào là hợp lý nhất khi nói về mô hình phát triển phần mềm tuần tự tuyến tính:
+A. Một mô hình cũ phổ biến mà bây giờ hiếm khi dùng nữa
+B. Hướng tốt nhất để dùng cho những dự án với những nhóm phát triển lớn
+C. Một hướng hợp lý khi những yêu cầu được xác định rõ
+D. Một hướng tốt khi cần tạo nhanh một chương trình thực thi
+ANSWER: C
+
+Độ lớn (Volume) trong phân tích yêu cầu là:
+A. Là số lượng máy tính chạy phần mềm
+B. Là số lượng dữ liệu phát sinh trong một chu kỳ nào đó
+C. Là số lượng các nghiệp vụ hệ thống phải tiến hành trong một chu kỳ nào đó
+D. Là số lượng người làm việc với phần mềm
+ANSWER: C
+
+Sơ đồ nào sau đây không cần thiết trong phân tích yêu cầu?
+A. Use Case
+B. Entity Relationship Diagram
+C. State Transition Diagram
+D. Activity Diagram
+ANSWER: D
+
+Có bao nhiêu giai đoạn trong phân tích yêu cầu?
+A. 3
+B. 4
+C. 5
+D. 6
+ANSWER: C
+
+Có bao nhiêu nguyên lý đặc tả yêu cầu?
+A. 3
+B. 5
+C. 7
+D. 8
+ANSWER: D
+
+Độ đo mức độ bảo trì:
+A. Số vấn đề giải quyết trong tháng /tổng số vấn đề phát sinh trong tháng
+B. Số lần bảo trì vượt quá tiêu chuẩn thời gian /tổng số lần bảo trì
+C. Số lần bảo trì sai sót /tổng số lần bảo trì
+D. Thời gian trung trung bình của một lần bảo trì
+ANSWER: A
+
+Phát biểu nào là sai khi nói về bản chất của phần mềm:
+A. Có thể là sản phẩm theo đơn đặt hàng
+B. Là một sản phẩm công nghiệp
+C. Là sản phẩm có thể thực thi
+D. Không thực sự là sản phẩm
+ANSWER: D
+
+Kỹ thuật thu thập yêu cầu cầu nào cần đến sự nhất trí của số đông?
+A. Prototype
+B. Facilitated Workshops
+C. Observation
+D. Questionnaires & Surveys
+ANSWER: B
+
+Mục nào không dùng cho đặc tả yêu cầu:
+A. Đặc tả cú pháp
+B. Đặc tả đối tượng
+C. Đặc tả chức năng
+D. Đặc tả kỹ thuật
+ANSWER: D
+
+Use-cases là một kịch bản mà mô tả:
+A. Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước
+B. Những công cụ CASE sẽ được dùng như thế nào để xây dựng hệ thống
+C. Kế hoạch xây dựng cho sản phẩm phần mềm
+D. Những test-case cho sản phẩm phần mềm
+ANSWER: A
+
+Loại hình đặc tả nào không có?
+A. Đặc tả hình thức
+B. Đặc tả phi hình thức
+C. Đặc tả toán học
+D. Đặc tả hỗn hợp
+ANSWER: C
+
+Xác nhận yêu cầu (Requirements Validation) được tiến hành bởi:
+A. Phân tích viên và lập trình viên
+B. Phân tích viên và khách hàng
+C. Phân tích viên và các bên có liên quan
+D. Phân tích viên và người dùng
+ANSWER: C
+
+Khi xác nhận yêu cầu, cần phải làm sáng tỏ các từ nào sau đây:
+A. “một số”, “đôi khi”, “thường”, “thông thường”, “bình thường”, “phần lớn”, “đa số”
+B. Danh từ là số nhiều hay số ít
+C. Tính từ chỉ trạng thái
+D. Động từ ở hình thức chủ động hay bị động
+ANSWER: A
+
+Use-cases là một kịch bản mà mô tả :
+A. Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước
+B. Những công cụ CASE sẽ được dùng như thế nào để xây dựng hệ thống
+C. Kế hoạch xây dựng cho sản phẩm phần mềm
+D. Những test-case cho sản phẩm phần mềm
+ANSWER: A
+
+Chỉ phát biểu sai, để đạt được độ đo PUM thấp:
+A. Cải tiến quy trình
+B. Giảm lỗi giá
+C. Gia tăng số bản bán được
+D. Giảm thời gian sửa lỗi
+ANSWER: D
+
+Khẳng định nào là đúng về đoạn code dưới đây?    f = open('test.txt', 'r', encoding = 'utf-8')  f.read()
+A. Chương trình này đọc nội dung của file test.txt.
+B. Nếu test.txt có xuống dòng, hàm read() sẽ trả về kí hiệu bắt đầu dòng mới là ‘\ n’.
+C. Bạn có thể truyền một tham số kiểu integer cho read()
+D. Tất cả các đáp án trên đều đúng.
+ANSWER: D
+
+Đoạn code sau thực hiện yêu cầu gì?    try:  # đoạn code có thể gây ra lỗi  pass  except(TypeError, ZeroDivisionError):   print("Python Quiz")
+A. In ra ' Python Quiz ' nếu có ngoại lệ xảy ra (không quan trọng là ngoại lệ gì).
+B. In ra ' Python Quiz ' nếu không có ngoại lệ xảy ra.
+C. In ra ' Python Quiz ' nếu một trong hai ngoại lệ TypeError và ZeroDivisionError xảy ra.
+D. Chỉ in ra ' Python Quiz ' khi cả hai ngoại lệ TypeError và ZeroDivisionError cùng xảy ra
+ANSWER: C
+
+Ngoại lệ nào xảy ra khi phát hiện thấy lỗi không thuộc bất kỳ danh mục nào khác?
+A. ReferenceError
+B. SystemError
+C. RuntimeError
+D. LookupError
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    def myfunc():   try:   print('Monday')  finally:  print('Tuesday')  myfunc()
+A. Tuesday
+B. Monday Tuesday
+C. Tuesday Monday
+D. Monday
+ANSWER: B
+
+Đâu là output của đoạn code dưới đây?    mylist=[1, 5, 9, int('0')]  print(sum(mylist))
+A. 16
+B. 15
+C. 63
+D. Không có đáp án đúng.
+ANSWER: B
+
+Kết quả của chương trình được in ra là:    mylist=['a', 'aa', 'aaa', 'b', 'bb', 'bbb']  print(mylist[:-1])
+A. [a, aa, aaa, b, bb]
+B. ['a', 'aa', 'aaa', 'b', 'bb']
+C. ['a', 'aa', 'aaa', 'b', 'bb', 'bbb']
+D. Error
+ANSWER: B
+
+Theo dõi đoạn code dưới đây và chọn đáp án đúng nhất:    a = [1, 4, 20, 2, 5]  x = a[0]  for i in a:   if i > x:   x = i  print x
+A. x là giá trị trung bình của list.
+B. x là giá trị nhỏ nhất của list.
+C. x là giá trị lớn nhất của list.
+D. x là tổng giá trị các số trong list.
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    for i in range(10):   if i == 5:   break  else :   print(i)  else :   print("Here")
+A. 0 1 2 3 4 Here
+B. 0 1 2 3 4 5 Here
+C. 0 1 2 3 4
+D. 1 2 3 4 5
+ANSWER: C
+
+Kết quả của chương trình được in ra màn hình là?    string = "my name is x"  for i in string:   print (i, end=", ")
+A. m, y, , n, a, m, e, , i, s, , x,
+B. m, y, , n, a, m, e, , i, s, , x
+C. my, name, is, x,
+D. Error
+ANSWER: A
+
+Theo dõi đoạn code dưới đây và chọn đáp án đúng nhất:    i = 0  x = 0  while i < 10:   if i % 2 == 0:   x += 1   i += 1    x = _____.
+A. 3
+B. 4
+C. 5
+D. 0
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    def f(value):   while True:   value = (yield value)    a = f(10)  print(next(a))  print(next(a))  print(a.send(20))
+A. 10 10
+B. 10 10 20
+C. 10 None 20
+D. 10 None None
+ANSWER: C
+
+Kết quả của chương trình được in ra màn hình là?    x = 1  y = "2"  z = 3    sum = 0  for i in (x, y, z):   if isinstance(i, int):   sum += i  print(sum)
+A. 2
+B. 3
+C. 4
+D. 6
+ANSWER: C
+
+Kết quả của biểu thức sau là gì?    min(max(False,-3,-4), 2,7)
+A. 2
+B. False
+C. -3
+D. -4
+ANSWER: B
+
+Kết quả của biểu thức sau là gì?    chr(‘97’)  chr(97)
+A. a Error
+B. ‘a’ a
+C. Error a
+D. Error Error
+ANSWER: C
+
+Kết quả của hàm sau là gì?    complex(1+2j)
+A. Error
+B. 1
+C. 2j
+D. 1+2j
+ANSWER: D
+
+Đâu là kết quả của hàm complex() trong những đáp án dưới đây?
+A. 0j
+B. 0+0j
+C. 0
+D. Error
+ANSWER: A
+
+Hàm divmod(a,b) trong đó 'a' và 'b' là những số nguyên được diễn giải là:
+A. (a%b, a//b)
+B. (a//b, a%b)
+C. (a//b, a*b)
+D. (a/b, a%b)
+ANSWER: B
+
+Biểu thức complex(‘2-3j’) là hợp lệ còn complex(‘2 – 3j’) sai cú pháp của hàm complex(). Khẳng định sau đây đúng hay sai?
+A. Đúng
+B. Sai
+ANSWER: A
+
+Kết quả của hàm hiển thị dưới đây là gì?    list(enumerate([2, 3]))
+A. Error
+B. [(1, 2), (2, 3)]
+C. [(0, 2), (1, 3)]
+D. [(2, 3)]
+ANSWER: C
+
+Kết quả của hàm hiển thị dưới đây là gì?    x=3  eval('x^2')
+A. Error
+B. 1
+C. 9
+D. 6
+ANSWER: B
+
+Kết quả của biểu thức sau là gì?    hex(15)
+A. f
+B. 0xF
+C. 0Xf
+D. 0xf
+ANSWER: D
+
+Output của chương trình dưới đây là gì?    def say(message, times = 1):   print(message * times)  say('Hello')  say('World', 5)
+A. Hello WorldWorldWorldWorldWorld
+B. Hello World 5
+C. Hello World,World,World,World,World
+D. Hello HelloHelloHelloHelloHello
+ANSWER: A
+
+Đâu là yếu tố được gọi ra khi hàm được khai báo trong một class?
+A. Module
+B. Class
+C. Method
+D. Một hàm khác
+ANSWER: C
+
+Chọn đáp án đúng khi nói về hàm id() trong Python?
+A. Id() trả về định danh một đối tượng.
+B. Mỗi đối tượng không chỉ có một id duy nhất.
+C. Cả hai phương án trên đều đúng.
+D. Không có đáp án đúng.
+ANSWER: A

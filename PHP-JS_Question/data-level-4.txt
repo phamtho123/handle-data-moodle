@@ -1,0 +1,1018 @@
+
+Kết quả đoạn code sau là gì? <?php $x = array(  1,  3,  2,  3,  7,  8,  9,  7,  3 ); $y = array_count_values($x); echo $y[8]; ?>
+A. 43
+B. 1
+C. 8
+D. 6
+ANSWER: B
+
+Cú pháp php gần giống nhất với
+A. Perl and C
+B. VBScript
+C. JavaScript
+D. Java
+ANSWER: A
+
+PHP có thể chạy bằng IIS trong windows
+A. True
+B. False
+ANSWER: A
+
+Trong PHP 5, MySQL được mặc định enable
+A. True
+B. False
+ANSWER: A
+
+Có cách nào submit form mà không cần button submit không?
+A. Yes
+B. No
+ANSWER: A
+
+Kết quả của script là gì? <?php define("x", "5"); $x = x + 10; echo x; ?>
+A. Error
+B. 15
+C. 10
+D. 5
+ANSWER: D
+
+<?php $str = "3dollars"; $a = 20; $a += $str; print ($a); ?>   Đoạn script sau đây cho ra kết quả gì?
+A. 23 dollars
+B. 203 dollars
+C. 320 dollars
+D. 23
+ANSWER: D
+
+<?php function zz(&$x) {  $x = $x + 5; } $x = 10; zz($x); echo $x; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. 5
+B. 0
+C. 15
+D. 10
+ANSWER: C
+
+<?php $data = "98.8degrees"; (double)$data; (int)$data; (string)$string; echo $data; ?>   Đoạn code sau đây cho ra kết quả gì?
+A. 98
+B. 98.8
+C. 98.8 degrees
+D. degrees
+ANSWER: C
+
+Để comment 1 dòng trong php, ngoài dấu // thì còn có dấu #, đúng hay sai?
+A. Đúng
+B. Sai
+ANSWER: A
+
+<?php $a = "clue"; $a .= "get"; echo "$a"; ?>   Kết quả của đoạn code dưới đây là?
+A. get
+B. true
+C. false
+D. clueget
+ANSWER: D
+
+<?php $a = 5; $b = 5; echo ($a === $b); ?>   Kết quả của đoạn code dưới đây là?
+A. 5 === 5
+B. Error
+C. 1
+D. False
+ANSWER: C
+
+<?php $team = "arsenal"; switch ($team) {  case "manu":  echo "I love man u";  case "arsenal":  echo "I love arsenal";  case "manc":  echo "I love manc"; } ?>   Kết quả của đoạn code dưới đây là?
+A. I love arsenal
+B. Error
+C. I love arsenalI love manc
+D. I love arsenalI love mancI love manu
+ANSWER: C
+
+<?php function calc($price, $tax = "") {  $total = $price + ($price * $tax);  echo "$total"; } calc(42); ?>   Kết quả của đoạn code dưới đây là?
+A. Error
+B. 0
+C. 42
+D. 84
+ANSWER: C
+
+<?php $op2 = "blabla"; function foo($op1) {  echo $op1;  echo $op2; } foo("hello"); ?>   Kết quả của đoạn code dưới đây là?
+A. helloblabla
+B. Error
+C. hello
+D. helloblablablabla
+ANSWER: C
+
+<?php function foo($msg) {  echo "$msg"; } $var1 = "foo"; $var1("will this work"); ?>   Kết quả của đoạn code dưới đây là?
+A. Error.
+B. $msg
+C. 0
+D. will this work
+ANSWER: D
+
+<?php $fruits = array(  "apple",  "mango",  "peach",  "pear",  "orange" ); $subset = array_slice($fruits, 2); print_r($subset); ?>   Kết quả của đoạn code dưới đây là?
+A. Array ( [0] => peach )
+B. Array ( [0] => apple [1] => mango [2] => peach )
+C. Array ( [0] => apple [1] => mango )
+D. Array ( [0] => peach [1] => pear [2] => orange )
+ANSWER: D
+
+<?php $number = array(  "4",  "hello",  2 ); echo (array_sum($number)); ?>   Kết quả của đoạn code dưới đây là?
+A. 4hello2
+B. 4
+C. 2
+D. 6
+ANSWER: D
+
+<?php $a = array(  12,  5,  2 ); echo (array_product($a)); ?>   Kết quả của đoạn code dưới đây là?
+A. 024
+B. 120
+C. 010
+D. 060
+ANSWER: B
+
+<?php $people = array(  "Peter",  "Susan",  "Edmund",  "Lucy" ); echo pos($people); ?>   Kết quả của đoạn code dưới đây là?
+A. Lucy
+B. Peter
+C. Susan
+D. Edmund
+ANSWER: B
+
+<?php function 2myfunc() {  echo "Hello World"; } 2myfunc(); ?>   Kết quả của đoạn code dưới đây là?
+A. Hello World
+B. Không có kết quả
+C. Có lỗi xảy ra
+D. Tất cả đều sai
+ANSWER: C
+
+<?php $x = 0; if ($x) print "hi"; else print "how are u"; ?>   Kết quả của đoạn code dưới đây là?
+A. how are u
+B. hi
+C. Error
+D. No output
+ANSWER: A
+
+Từ khóa sau đây không được hỗ trợ bởi PHP
+A. friendly
+B. final
+C. public
+D. static
+ANSWER: A
+
+Điều nào là đúng về phương thức dựng (Constructors) trong PHP: i) PHP 4 giới thiệu phương thức dựng ii) Phương thức dựng chấp nhận tham số truyền vào iii) Trong phương thức dựng có thể gọi đến các phương thức khác. iv) Trong phương thức dựng có thể gọi đến các phương thức dựng khác
+A. ii) và iii) đúng
+B. Tất cả các câu trên đều đúng
+C. Tất cả các câu trên đều sai
+D. ii), iii) và iv) đúng
+ANSWER: B
+
+<?php class Example {  public $name;  function Sample()  {  echo "This is an example";  } } ?>   Trong đoạn code dưới đây, …… là một thuộc tính
+A. echo “This is an example”;
+B. public $name;
+C. class Example
+D. function sample()
+ANSWER: B
+
+<?php $a = 5; $b = 12; $c = 10; $d = 7; $e = ($a * $b) + $c * $d / $a; print ($e); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 74
+B. 154
+C. 26
+D. 130
+ANSWER: A
+
+<?php for ($x = 1;$x <= 2;$x++) {  for ($y = 1;$y <= 3;$y++)  {  if ($x == $y) continue;  print ("x = $x y = $y");  } } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. x = 2 y = 3
+B. x = 1 y = 1
+C. x = 2 y = 2
+D. x = 3 y = 3
+ANSWER: A
+
+<?php function modvalue() {  $a = 20;  $b = 4;  $c = $a % $b;  print ($c); } modvalue(); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 4
+B. 0
+C. 20
+D. 5
+ANSWER: B
+
+<?php $a = 5; $b = 12; $c = 10; $d = 7; $e = ($a * $b) + $c * $d / $a; print ($e); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 154
+B. 74
+C. 130
+D. 26
+ANSWER: B
+
+<?php function b($a = 4) {  $a = $a / 2;  return $a; } $a = 10; b($a); echo $a; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 5
+B. 10
+C. 2
+D. Có lỗi xảy ra
+ANSWER: B
+
+<?php $a; for ($a = 1;$a <= 9;$a++) {  if ($a == 5) continue;  print ($a); } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. 12345
+B. 56789
+C. 12346789
+D. 123456789
+ANSWER: C
+
+<?php $array = array(  "a1" => 'x',  "a2" => 'e',  "a3" => 'z' ); asort($array); foreach ($array as $keys => $values) {  print "$keys = $values"; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. a2 = e a1 = x a3 = z
+B. a1 = e a2 = x a3 = z
+C. 0 = e 1 =x 2 = z
+D. Có lỗi xảy ra
+ANSWER: A
+
+<?php $array = array(  "a1" => x,  "a2" => e,  "a3" => z ); ksort($array); foreach ($array as $keys => $values) {  print "$keys = $values "; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. a1 = x a2 = e a3 = z
+B. a1 = e a2 = x a3 = z
+C. 0 = e 1 = x 2 = z
+D. Có lỗi xảy ra
+ANSWER: A
+
+<?php $array1 = array(  "a",  "b",  "c",  "d",  "e",  "f" ); $array2 = array_slice($array1, -3); foreach ($array2 as $val) {  print "$val "; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. b c d
+B. a b c
+C. d e f
+D. c d e
+ANSWER: C
+
+<?php $string1 = "ab"; $string2 = "cd"; $string1 = $string1 . $string2; $string3 = "abc"; $string1 .= $string3; echo $string1; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. cdabcab
+B. abc
+C. cdabc
+D. abcdabc
+ANSWER: D
+
+<?php $a = "hi,world"; $b = array_map("strtoupper", explode(",", $a)); foreach ($b as $value) {  print "$value"; } ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì ?
+A. hiworld
+B. HI,WORLD
+C. The script will throw an error.
+D. Có lỗi xảy ra
+ANSWER: A
+
+<?php session_start(); if (!array_key_exists('counter', $_SESSION)) {  $_SESSION['counter'] = 0; } else {  $_SESSION['counter']++; } session_regenerate_id(); echo $_SESSION['counter']; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì (đối với cùng một người dùng)
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: B
+
+Trong DomDocument sử dụng phương thức nào để thêm node vào một node nào đó cho trước
+A. insertBefore
+B. insertFirst
+C. insertStart
+D. insert
+ANSWER: A
+
+<?php class A { }; class B1 extends A { }; class_alias('A', 'B2'); $b1 = new B1; echo get_class($b1); $b2 = new B2; echo get_class($b2); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. B1A
+B. B2A
+C. B1B2
+D. It will throw an error.
+ANSWER: A
+
+<?php $str = "It's \"good\""; echo strlen(addslashes($str)); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 12
+B. 13
+C. 14
+D. 15
+ANSWER: C
+
+<?php $foo = 'bar'; echo '$foo\'' . "$foo\'"; ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. bar'$foo\'
+B. bar'$foo\'
+C. $foo'bar
+D. $foobar
+ANSWER: A
+
+<?php $a = 0.5; $b = 0.1; $c = 16; echo sprintf('%01.2lf %.1lf 0x%x', $a, $b, $c); ?>   Xem đoạn mã lệnh sau đây. Sau khi thực hiện đoạn mã trên kết quả hiển thị sẽ là gì?
+A. 0.50.1 0x10
+B. 0.50 0.1 0x16
+C. 0.50 0.1 0x10
+D. 0.5 0.1 0x16
+ANSWER: C
+
+Cho bảng user gồm các cột id, firstname, lastname, email và age. Sử dụng cụm nào trong câu SQL để in ra tên đầy đủ của một user (fullname = firstname + khoảng trắng + lastname
+A. concat(firstname, “ “,lastname)
+B. concat(lastname, “ “,firstname)
+C. join(firstname, “ “,lastname)
+D. join (lastname, “ “,firstname)
+ANSWER: A
+
+let i = 0; const arr = new Array(5); arr.forEach(() => i++); console.log(i);   Kết quả của đoạn code sau là:
+A. 0
+B. 1
+C. 4
+D. 5
+ANSWER: A
+
+const arr = [1, 2, 3]; const a = arr.reduce(  (acc, el, i) => ({ ...acc, [el]: i }),  {} ); const b = {}; for (let i = 0; i < arr.length; i++) {  b[arr[i]] = i; }   Hai cách a và b dưới đây đều trả về một object có cùng thuộc tính và giá trị. Theo bạn thì cách nào tối ưu hơn?
+A. a
+B. b
+ANSWER: B
+
+let a = new Date('2019,1,1').toLocaleDateString(); let b = new Date(2019, 1, 1).toLocaleDateString(); console.log(a, b);   Kết quả đoạn code sau là?
+A. 1/1/2019 2/1/2019
+B. 1/1/2019 1/1/2019
+ANSWER: A
+
+console.log(fetch);   Kết quả của câu lệnh sau:
+A. The fetch function
+B. A reference error
+C. It depends
+ANSWER: C
+
+const a = 0.1; const b = 0.2; const c = 0.3; console.log(a + b === c);   Cho đoạn code sau, kết quả là:
+A. True
+B. False
+ANSWER: B
+
+Để trình bày một đoạn văn bản trong tài liệu HTML ta dùng thẻ:
+A. <HR>
+B. <P>
+C. <BR>
+D. <PRE>
+ANSWER: B
+
+Để xác định trình tự nhận tiêu điểm của phần tử thông qua bàn phím ta sử dụng thuộc tính:
+A. Focus
+B. Accesskey
+C. Tabindex
+D. Id
+ANSWER: C
+
+Theo mặc định, dreamweaver hiển thị table tới khoảng cách cellpadding và cell spacing là:
+A. 0,0
+B. 1,2
+C. 2,1
+D. 1,1
+ANSWER: D
+
+Đâu là tag tạo ra liên kết (links) trong web
+A. <a url="http://www.w3schools.com">w3schools.com</a>
+B. <a>http://www.w3schools.com</a>
+C. <a href="http://www.w3schools.com">w3schools</a>
+D. <a name="http://www.w3schools.com">w3schools.com</a>
+ANSWER: C
+
+Đâu là tag tạo ra liên kết đến email?
+A. <a href="xxx@yyy">
+B. <a href="mailto:xxx@yyy">
+C. <mail>xxx@yyy</mail>
+D. <mail href="xxx@yyy">
+ANSWER: B
+
+Để định nghĩa khoảng trống giữa các cạnh (viền) của phần tử và nội dung, bạn sử dụng thuộc tính padding, có thể gán giá trị âm cho thuộc tính này không?
+A. Yes
+B. No
+ANSWER: A
+
+Để liên kết đến một thẻ neo(anchor), bạn phải sử dụng ký tự nào dưới đây trong thuộc tính href
+A. #
+B. &
+C. *
+D. @
+ANSWER: A
+
+Biểu thức 15<<2 thực thi dich chuyển sang trái 2 bit (00001111 dịch 2 thành 00111100) Vậy kết quả sẽ là bao nhiêu?
+A. 120
+B. 60
+C. 30
+D. 80
+ANSWER: B
+
+Thuộc tính method của form chỉ ra phương thức mà dữ liệu sẽ được chuyển tới Server. Nếu giá trị là _______, dữ liệu trên form sẽ được gửi như một khối dữ liệu. Nếu Giá trị là _______ thì trình duyệt sẽ gửi dữ liệu bằng cách tạo một truy vấn bao gồm Url, tên các điều khiển và các giá trị của các điều khiển trên form.
+A. Post/get
+B. Get/post
+C. Post/none
+D. Get/none
+ANSWER: A
+
+<style type="text/css"> #test {color:limegreen;font-family:fantasy;font-size:x-large} .abc {color:limegreen;font-family:arial;font-size:x-large} h1 {color:red;font-family:arial;font-size:x-large} </style>
+A. Class selector
+B. Id selector
+C. Tag selector
+D. None of these
+ANSWER: B
+
+Làm thế nào để thêm hình ảnh xuất hiện trên đường viền cho các phần tử trong CSS3?
+A. border: url(image.png);
+B. border-variable: image url(image.png);
+C. border-image: url(border.png) 30 30 round;
+D. Không thêm được hình ảnh xuất hiện trên đường viền
+ANSWER: C
+
+Làm cách nào để thêm bóng (shadow) cho đoạn text bằng CSS3?
+A. font: shadowed 5px 5px 5px grey;
+B. font-shadow: 5px 5px 5px grey;
+C. text-shadow: 5px 5px 5px grey;
+D. shadow: text 5px 5px 5px grey;
+ANSWER: C
+
+Làm thế nào để xoay phần tử trong CSS3?
+A. object-rotation: 30deg;
+B. transform: rotate(30deg);
+C. rotate-object: 30deg;
+D. transform: rotate-30deg-clockwise;
+ANSWER: B
+
+int i = 0;    do {     flag = false;     System.out.print(i++);     flag = i < 10;     continue;    } while (( flag ) ? true: false);       Kết quả in ra của đoạn mã trên là gì?
+A. 000000000
+B. 0123456789
+C. Lỗi biên dịch
+D. Đoạn mã thực thi nhưng không in ra kết quả gì
+ANSWER: B
+Vì: Khi thực thi chương trình vòng lặp do/while sẽ chạy biến i từ 0 đến 9
+public class Person {   protected String name;   protected int age;   public static void main(String[] args) {   Person p = new Person();   p.name = "Tom";   System.out.println(p.name);   }  }       Đoạn mã sau có lỗi biên dịch gì? Chọn một câu trả lời
+A. Không có lỗi biên dịch.
+B. name has protected access.
+C. age has protected access.
+D. name has public access.
+ANSWER: A
+hàm main ở trong cùng lớp Person, nên có thể truy xuất tới tất cả các trường của Person.
+public class Main {     public static void main(String[] args) {     String names[] = {   "John",   "Anna",   "Peter",   "Victor",   "David"   };     System.out.println(names[2]);     }    }       Chương trình sau in ra màn hình xâu nào? Chọn một câu trả lời
+A. Có lỗi biên dịch: use new keyword to create object
+B. Peter
+C. Anna
+D. Victor
+ANSWER: B
+Vì: Lệnh System.out.println(names[2]);sẽ in ra phần tử đứng thứ 3 trong mảng names (chỉ số mảng từ 0 => in ra Peter)
+class Student {    }    public class Man extends Student {     public static void main(String[] args) {     Man m = new Student();     }    }       Đoạn mã sau có lỗi biên dịch nào?. Chọn một câu trả lời
+A. Không có lỗi biên dịch.
+B. Có lỗi biên dịch: Incompatible type, required Man, found Student.
+C. Có lỗi biên dịch:Incompatible type, required Student, found Man.
+D. Do not use extends to make subclass..
+ANSWER: B
+Vì: m thuộc kiểu Man, nên có thể chứa pointer tới đối tượng của lớp Man. Không chứa được pointer tới đối tượng của lớp Student.
+public class Person {   protected String name;   protected int age;   public static void main(String[] args) {   Person p = new Person();   p.name = "Tom";   System.out.println(p.name);   }  }       Đoạn mã sau có lỗi biên dịch gì? Chọn một câu trả lời
+A. Không có lỗi biên dịch.
+B. name has protected access.
+C. age has protected access.
+D. name has public access.
+ANSWER: A
+Vì: hàm main ở trong cùng lớp Person, nên có thể truy xuất tới tất cả các trường của Person.
+public class Person {   private String name;   protected int age;   public static void main(String[] args) {   Person p = new Person();   p.name = "Tom";   System.out.println(p.name);   }  }       Đoạn mã sau có lỗi biên dịch gì?
+A. Không có lỗi biên dịch
+B. name has private access.
+C. age has protected access.
+D. name has public access.
+ANSWER: A
+
+Trong các khai báo sau đâu là khai báo không hợp lệ?    Chọn một câu trả lời
+A. int a1[][] = new int[][3];
+B. int a2[][] = new int[2][3];
+C. int a3[][] = new int[2][];
+D. int a4[][] = {{}, {}, {}};
+ANSWER: A
+
+public class Main {     public static void main(String[] args) {     String names[] = {   "John",   "Anna",   "Peter",   "Victor",   "David"   };     System.out.println(names[2]);     }    }       Chương trình sau in ra màn hình xâu nào? Chọn một câu trả lời
+A. Có lỗi biên dịch: use new keyword to create object
+B. Peter
+C. Anna
+D. Victor
+ANSWER: B
+
+String s = "cabcab";    StringTokenizer sten = new StringTokenizer(s, "ab");    int x = sten.countTokens();  System.out.println(x);       Trong đoạn mã trên x nhận giá trị bao nhiêu?
+A. 0
+B. 1
+C. 2
+D. 3
+ANSWER: C
+Đối tượng StringTokenizer chia chuỗi "cabcab" thành các token theo chuỗi "ab" thì được 2 token là cab, cab.
+Khai báo lớp Student trong package java.class sau có lỗi biên dịch hay không, nếu có thì là lỗi gì?    package java.class;    class Student {}    Chọn một câu trả lời
+A. Có lỗi biên dịch incorrect package
+B. Có lỗi biên dịch vì Student is empty
+C. Không có lỗi biên dịch
+D. Có lỗi biên dịch package must be java
+ANSWER: A
+Tên của package không thể trùng với từ khóa class. Một lớp có thể không có khai báo gì.Tên package chỉ cần là một định danh đúng.
+char[] greet = new char[10];  greet = “Hello”;  k = greet.length();  System.out.print(k);        Khối lệnh sau có kết quả bao nhiêu khi thực hiện?
+A. 4
+B. 5
+C. 6
+D. Lỗi biên dịch
+ANSWER: D
+
+switch (thu) {  case 2:   System.out.println(“Van, Toan”);   break;  case 3:   System.out.println(“Hoa, Ly”);   break;  default:   System.out.println(“Ngay nghi”);   break;  }       Khối lệnh dưới sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 1?
+A. Van, Toan
+B. Hoa, Ly
+C. Ngay nghi
+D. Không có đáp án đúng
+ANSWER: C
+
+switch (thu) {  case 2:   System.out.println(“Van, Toan”);   break;  case 3:   System.out.println(“Hoa, Ly”);   break;  default:   System.out.println(“Ngay nghi”);   break;  }       Khối lệnh dưới sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 2?
+A. Van, Toan
+B. Hoa, Ly
+C. Ngay nghi
+D. Không có đáp án đúng
+ANSWER: A
+
+switch (thu) {  case 2:   System.out.println(“Van, Toan”);   break;  case 3:   System.out.println(“Hoa, Ly”);   break;  default:   System.out.println(“Ngay nghi”);   break;  }       Khối lệnh dưới sẽ cho kết quả là bao nhiêu nếu ta nhập thu = 3?
+A. Van, Toan
+B. Hoa, Ly
+C. Ngay nghi
+D. Không có đáp án đúng
+ANSWER: B
+
+enum mausac {   DEN,   LAM,   LUC,   TRANG  };  mausac color;  char * t;  switch (color) {  case 0:   t = “Mau trang”;   break;  case 1:   t = “Mau den”;   break;  case 2:   t = “Mau lam”;   break;  case 3:   t = “Mau luc”;   break;  default:   t = “Khong co trong danh sach mau”;   break;  }  System.out.println(t);       Nếu cho color = DEN thì đoạn lệnh dưới in kết quả là bao nhiêu?
+A. Mau trang.
+B. Mau den.
+C. Mau luc.
+D. Khong co trong danh sach mau.
+ANSWER: A
+
+Khi thực hiện khối lệnh trên sẽ cho kết quả là bao nhiêu?    int s = 0;  for (int i = 0; i < 10; i++)  s += i;  System.out.println(s);
+A. 45
+B. 0
+C. 55
+D. Không có kết quả đúng
+ANSWER: A
+
+class Student {     public int getAge() {     return 10;     }    }    public class Man extends Student {     public int getAge(int added) {     return super.getAge() + added;     }     public static void main(String[] args) {     Man s = new Man();     System.out.println(s.getAge());   System.out.println(s.getAge());     }    }       Hãy cho biết kết quả khi chạy đoạn chương trình sau?
+A. 10 11
+B. 10 10
+C. 11 11
+D. Không in gì và báo lỗi
+ANSWER: B
+Lệnh đầu tiên trong hàm main() sẽ sinh ra đối tượng s từ lớp Man.Lệnh thứ 2 của hàm main sẽ gọi phương thức getAge() của đối tượng s, tuy nhiên s kế thừa từ lớp Student do đó sẽ triệu gọi phương thức getAge của lớp Student => in ra 10. Lệnh thứ 3 của hàm main() sẽ gọi phương thức getAge() của đối tượng s => gọi đến phương thức getAge()
+class Student {     protected String name;    }    public class Man extends Student {     public static void main(String[] args) {     Man m = new Man();     m.name = "John";     }    }       Đoạn mã sau có lỗi biên dịch nào sau?
+A. name has protected access in Student.
+B. Không có lỗi biên dịch
+C. class Man has no attribute name.
+D. class Man has no attribute or method name.
+ANSWER: B
+Thuộc tính name ở Student là protected, nên không lớp con Man được thừa kế.
+class Person {     protected String name;     public int age;    };    public class Main {     public static void main(String[] args) {     Person p = new Person();     p.name = "Tom";     }    }       Đoạn mã sau có lỗi biên dịch gì?
+A. Không có lỗi biên dịch.
+B. name has protected access.
+C. age has protected access.
+D. name has public access.
+ANSWER: B
+name là thành phần protected do đó không thể truy xuất từ bên ngoài lớp (chỉ có thể truy xuất từ bên trong lớp và các lớp con).
+public class Person {   protected String name;   protected int age;   public static void main(String[] args) {   Person p = new Person();   p.name = "Tom";   System.out.println(p.name);   }  }       Đoạn mã sau có lỗi biên dịch gì?
+A. Không có lỗi biên dịch.
+B. name has protected access.
+C. age has protected access.
+D. name has public access.
+ANSWER: A
+Hàm main ở trong cùng lớp Person, nên có thể truy xuất tới tất cả các trường của Person.
+package java.school;    public class Student {}    --    package java.test;    public class Main {     public static void main(String[] args) {     java.school.Student s = new java.school.Student();     }    }       Cho hai lớp Student và Main như sau. Khi biên dịch lớp Main có lỗi biên dịch không? Nếu có là lỗi nào?
+A. Có lỗi biên dịch: can not find symbol test.Student
+B. Không có lỗi biên dịch.
+C. Có lỗi biên dịch: Add import java.school.Student
+D. Có lỗi biên dịch: can not find constructor Student() for Student.
+ANSWER: A
+Lớp Student không ở package java.test mà ở java.school, và bạn không import vào gói java.test, nhưng khi dùng bạn đã chỉ rõ lớp ở package java.school.Student. Nên trình biên dịch hiểu.
+package java.school;    public class Student {}    --    package java.test;    public class Main {     public static void main(String[] args) {     Student s = new Student();     }    }       Khi biên dịch lớp Main có lỗi biên dịch không? Nếu có là lỗi nào?
+A. Có lỗi biên dịch: can not find symbol test.Student
+B. Không có lỗi biên dịch.
+C. Có lỗi biên dịch: Add import java.school.Student
+D. Có lỗi biên dịch: can not find constructor Student() for Student.
+ANSWER: A
+-Lớp Student không ở package java.test mà ở java.school, mà bạn lại không import vào gói java.test, nên trình biên dịch tìm lớp Student ở cùng package java.test, nhưng không có.-Add import java.school.Student là một gợi ý
+public class Delta {     static boolean foo(char c) {     System.out.print(c);     return true;     }     public static void main(String[] argv) {     int i = 0;     for (foo(‘A’);     foo(‘B’) && (i < 2); foo(‘C’)) {     i++;     foo(‘D’);   12.   }     }    }       Kết quả in ra của đoạn mã trên là gì?
+A. ABDCBDCB
+B. ABCDABCD
+C. Lỗi biên dịch
+D. Chương trình không lỗi, nhưng khi chạy sẽ sinh lỗi
+ANSWER: A
+Bắt đầu vòng lặp sẽ gọi foo(‘A’) => In ra chữ A Thực hiện lệnh foo(‘B’) && i<2 => in ra B Thực hiện foo(‘D’) => in ra D Thực hiện foo(‘C’) => in ra C. Tiếp theo tăng i lên 1 và thực hiện lần lượt các lệnh foo(‘B’), foo(‘D’), foo(‘C’) => in ra BDC. Và cuối cùng tăng i=2 rồi thực hiện lệnh foo(‘B’)&i<2 => in ra B và kết thúc vòng lặp
+final int ARRAY_SIZE = 5;    ARRAY_SIZE = 10;    System.out.println("size = " + ARRAY_SIZE);       Lệnh sau in ra cái gì?
+A. size = 10
+B. size = 5
+C. Lỗi ở dòng 3
+D. Lỗi ở dòng 2
+ANSWER: D
+Không thể gán giá trị cho các biến kiểu final
+class Student {}    public class Man extends Student {     public boolean isMan() {     return true;     }    }       Đoạn mã sau có lỗi biên dịch KHÔNG? Nếu có là lỗi nào sau?
+A. Không có lỗi biên dịch.
+B. Có lỗi biên dịch:class Student is empty.
+C. Có lỗi biên dịch:class Man has no constructor.
+D. Có lỗi biên dịch:class Student is empty, class Man has no constructor.
+ANSWER: A
+Chúng ta có thể khai báo các lớp không có thuộc tính và phương thức trống(empty).
+class Student {     String sayHello() {     return "Student";     }    }    public class Man extends Student {     protected String sayHello() {     return "man";     }     public static void main(String[] args) {     Student s = new Man();     System.out.println(s.sayHello());     }    }       Đoạn mã sau có lỗi biên dịch KHÔNG? Nêu KHÔNG thì in ra màn hình kết quả nào?
+A. Có lỗi biên dịch.
+B. Student
+C. Man
+D. Student Man
+ANSWER: A
+phương thức sayHello() có mức truy xuất ở lớp Student là default, nhưng ở lớp con(Man) lại có mức truy xuất yếu hơn(Không cho phép điều này).
+Class Student    {     Public String name;    }       G/s đã khai báo lớp Student như sau. Đâu là cách tạo lớp Man là lớp con của Student?
+A. public class Man extends Student{ }
+B. public class Man extend Student{ }
+C. public class Man :Student{ }
+D. public class Man => Student{ }
+ANSWER: A
+Theo cú pháp khai báo lớp kế thừa trong java, từ khóa extends được dùng để mô tả một lớp là lớp con của lớp khác.
+class Super {     public float getNum() {   return 3.0f;   }    }    public class Sub extends Super {    }       Phương thức nào đưa vào dòng 6 sẽ sinh lỗi?
+A. public getNum() { }
+B. public float getNum(double d) { }
+C. public float getNum() { return 4.0f; }
+D. public double getNum(float d) { return 4.0d; }
+ANSWER: A
+Phương thức này chưa xác định kiểu dữ liệu trả về.
+class Student {     public String sayHello() {     return "Student";     }    }    public class Man extends Student {     public String sayHello() {     return super.sayHello();     }     public static void main(String[] args) {     Student m = new Student();     System.out.println(m.sayHello());     }    }       Đoạn mã sau in ra màn hình xâu ký tự nào sau:
+A. Student
+B. Man
+C. Student Man
+D. Man Student
+ANSWER: B
+s là đối tượng của Student, nên phương thức được gọi là của Student.
+StringBuffer s = new StringBuffer("hello how are you?");    int x = s.charAt(6);    System.out.println(x);       Trong đoạn mã trên x nhận giá trị bao nhiêu?
+A. 102
+B. 104
+C. h
+D. Lỗi biên dịch
+ANSWER: B
+s.charAt(6) truy xuất phần tử thứ 7 là kí tự 0, trong mã asscii thì kí tự 0 là 104.
+public class SomeWrong {   public static void main(String[] args) {   Rectangle myRect;   myRect.width = 40;   myRect.height = 50;   System.out.println(“Dien tich hinh chu nhat: “ + myRect.area());   }  }       Cho khối lệnh sau,giả thiết lớp Rectangle đ được định nghĩa và không sai. Khi chạy, chương trình báo lỗi là do:
+A. Chưa khởi tạo biến myRect
+B. Không có phương thức xử lý
+C. Không có từ khóa static
+D. Chương trình không sai
+ANSWER: A
+
+String expletive = “Expletive”;  String PG13 = “deleted”;  String message = expletive.substring(1,3) + PG13;       Biến message sau đây có kết quả gì?
+A. xpl deleted
+B. Exp edeleted
+C. ple deleted
+D. xpldeleted
+ANSWER: D
+
+int age = 13;  String message = “PG” + age;       Câu lệnh sau in ra kết quả gì?
+A. PG13
+B. PG 13
+C. PG age
+D. PGage
+ANSWER: A
+
+double a, b;  if (a == 0)  if (b != 0) System.out.println(“Phuong trinh vo nghiem”);  else System.out.println(“Phuong trinh co vo so nghiem”);  else System.out.println(-b/a);       Khối lệnh sau ra kết quả là bao nhiêu với a = 5, b = 8?
+A. Phuong trinh vo nghiem
+B. Phuong trinh co vo so nghiem
+C. -1.6
+D. Lỗi biên dịch
+ANSWER: C
+
+double a,  b;  if (a == 0) if (b != 0) System.out.println(“Phuong trinh vo nghiem”);  else System.out.println(“Phuong trinh co vo so nghiem”);  else System.out.println( - b / a);       Khối lệnh sau ra kết quả là bao nhiêu với a = 0, b = 8?
+A. Phuong trinh vo nghiem
+B. Phuong trinh co vo so nghiem
+C. -1.6
+D. Lỗi biên dịch
+ANSWER: A
+
+Vòng lặp (Do.. while) là dạng vòng lặp?
+A. Không xác định và xét điều kiện rồi mới lặp
+B. Không xác định và lặp rồi mới xét điều kiện
+C. Cả hai dạng trên
+D. Không có dạng nào
+ANSWER: B
+
+public class foo {     public static void main(String[] args) {     String s;     System.out.println("s=" + s);     }    }       Kết quả in ra là gì?
+A. s=NULL
+B. s=null
+C. Lỗi sẽ đưa ra dòng 3
+D. Lỗi sẽ đưa ra dòng 4
+ANSWER: D
+lỗi sẽ sinh ra ở dòng 4 yêu cầu biến s phải được khởi tạo thì mới được in ra giá trị.
+public class Main {     public static void main(String[] args) {     String names[] = {   "John",   "Anna",   "Peter",   "Victor",   "David"   };     System.out.println(names.length);     }    }       Chương trình sau in ra màn hình số mấy? Chọn một câu trả lời
+A. 4
+B. 5
+C. 6
+D. 7
+ANSWER: B
+Lệnh System.out.println(names.length); sẽ in ra chiều dài thực của mảng names (=5)
+class Super {    public float getNum() { return 3.0f; }    }    public class Sub extends Super {    }       Phương thức nào đưa vào dòng 6 sẽ sinh lỗi?    Chọn một câu trả lời
+A. public getNum() { }
+B. public float getNum(double d) { }
+C. public float getNum() { return 4.0f; }
+D. public double getNum(float d) { return 4.0d; }
+ANSWER: A
+Phương thức này chưa xác định kiểu dữ liệu trả về.
+Kết quả sau khi biên dịch mã: class A { public static void main(String[] args) {A a = new B();}} class B extends A{}
+A. Compiler error
+B. Runtime Exception
+C. No error
+ANSWER: C
+
+Mô hình phát triển phần mềm xoắn ốc:
+A. Kết thúc với việc xuất xưởng sản phẩm phần mềm
+B. Nhiều hỗn độn hơn với mô hình gia tăng
+C. Bao gồm việc đánh giá những rủi ro phần mềm trong mỗi vòng lặp
+D. Tất cả điều trên
+ANSWER: C
+
+Những thành phần kiến trúc trong kỹ thuật sản phẩm là:
+A. Dữ liệu, phần cứng, phần mềm, con người
+B. Dữ liệu, tài liệu, phần cứng, phần mềm
+C. Dữ liệu, phần cứng, phần mềm, thủ tục
+D. Tài liệu, phần cứng, con người, thủ tục
+ANSWER: A
+
+Đích của kỹ thuật đặc tả ứng dụng thuận tiện (FAST - facilitated application specification techniques) là nhờ người phát triển và khách hàng?
+A. Xây dựng một nguyên mẫu nhanh chóng
+B. Học công việc lẫn nhau
+C. Làm việc với nhau để phát triển một tập những yêu cầu ban đầu
+D. Làm việc với nhau để phát triển những đặc tả phần mềm kỹ thuật
+ANSWER: C
+
+Use-cases là một kịch bản mà mô tả:
+A. Phần mềm thực hiện nhƣ thế nào khi đƣợc dùng trong một tình huống cho trước
+B. Những công cụ CASE sẽ được dùng như thế nào để xây dựng hệ thống
+C. Kế hoạch xây dựng cho sản phẩm phần mềm
+D. Những test-case cho sản phẩm phần mềm
+ANSWER: A
+
+Loại mô hình nào được tạo ra trong phân tích yêu cầu phần mềm:
+A. Chức năng và hành vi
+B. Giải thuật và cấu trúc dữ liệu
+C. Kiến trúc và cấu trúc
+D. Tính tin cậy và tính sử dụng
+ANSWER: A
+
+Những mục nào không là nguyên tắc cho việc biểu diễn yêu cầu:
+A. Biểu đồ phải thu hẹp về số và toàn vẹn trong sử dụng
+B. Hình thức và nội dung biểu diễn thích hợp với nội dung
+C. Những biểu diễn phải có thể xem xét lại
+D. Dùng không hơn 7 màu dƣơng và 2 màu âm trong biểu đồ
+ANSWER: D
+
+Mục nào không là đặc trưng chung trong các phương pháp thiết kế:
+A. Quản lý cấu hình
+B. Ký hiệu thành phần chức năng
+C. Nguyên tắc đánh giá chất lượng
+D. Heuristic tinh chế
+ANSWER: A
+
+Đặc trưng nào là đúng cho kho dữ liệu, không phải là cơ sở dữ liệu đặc trưng:
+A. Hướng mức nghiệp vụ và kích thước lớn
+B. Thông tin đúng và hợp thời
+C. Tích hợp và không thường thay đổi
+D. Tất cả những mục trên
+ANSWER: C
+
+Trong phương pháp phân tích kiến trúc, mô tả mẫu kiến trúc thường dùng khung nhìn:
+A. Dòng dữ liệu
+B. Module
+C. Tiến trình
+D. Tất cả các mục trên
+ANSWER: B
+
+Những nguyên lý thiết kế giao diện cho phép người dùng ít phải nhớ:
+A. Xác định những shortcut trực quan
+B. Biểu lộ thông tin theo cách diễn tiến
+C. Thiết lập những trường hợp mặc định có ý nghĩa
+D. Tất cả những mục trên
+ANSWER: D
+
+Kiểm thử lặp là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case:
+A. Dựa vào kiểm thử đường cơ bản
+B. Thử thách điều kiện logic trong module phần mềm
+C. Chọn những đường dẫn kiểm tra dựa vào những vị trí và dùng những biến
+D. Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+ANSWER: D
+
+Kiểm thử tích hợp bottom-up có những thuận lợi chính:
+A. Những điểm quyết định chính được kiểm thử sớm
+B. Không có những driver cần được viết
+C. Không có những stub (nhánh) cần phải viết
+D. Không đòi hỏi kiểm thử hồi quy (regression)
+ANSWER: C
+
+Trong nhận diện rủi ro, việc không đáp ứng về lịch biểu thuộc loại rủi ro:
+A. Về con người
+B. Về ước lượng
+C. Về yêu cầu
+D. Về tổ chức
+ANSWER: B
+
+Tiêu chuẩn ISO để hướng dẫn thực hiện cho lĩnh vực phần mềm là:
+A. ISO 9001
+B. Tất cả đều sai
+C. ISO 15288
+D. ISO 9000-3
+ANSWER: D
+
+Những gì làm cho khó đưa ra những yêu cầu:
+A. Hiểu rõ những yêu cầu người dùng
+B. Sự thay đổi
+C. Tất cả các mục
+D. Phạm vi, giới hạn
+ANSWER: C
+
+Trong phát triển phần mềm, yếu tố nào quan trọng nhất?
+A. Con người
+B. Quy trình
+C. Sản phầm
+D. Thời gian
+ANSWER: A
+
+Loại phần mềm gì là 1 tập hợp các chương trình để cung cấp dịch vụ cho các chương trình khác:
+A. Phần mềm hệ thống (System software)
+B. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+C. Phần mềm thời gian thực (Real time software)
+D. Phần mềm nghiệp vụ (Business software)
+ANSWER: C
+
+Điều nào là đặc trưng của một thiết kế phần mềm tốt?
+A. Thể hiện kết nối mạnh mẽ giữa các mô-đun của nó
+B. Thực hiện tất cả các yêu cầu trong mô hình phân tích
+C. Bao gồm các trường hợp thử nghiệm cho tất cả các thành phần
+D. Cung cấp một bức tranh hoàn chỉnh của phần mềm
+ANSWER: B
+
+Khi phần mềm bị lỗi, một trong những cách để khắc phục là “dùng miếng vá khẩn cấp (patching)”. Biện pháp này có tác dụng phụ gì?
+A. Tăng độ phức tạp của chương trình
+B. Tạo hiệu quả “ripple effect”
+C. Tăng độ bảo mật cho chương trình
+D. Tất cả các chọn lựa
+ANSWER: D
+
+Làm rõ yêu cầu (Eliciting requirements) là:
+A. Giao tiếp với khách hàng và người sử dụng để xác định các yêu cầu của họ
+B. Các yêu cầu được ghi nhận lại theo nhiều hình thức
+C. Các yêu cầu được tổng hợp lại theo nhiều hình thức
+D. Xem các yêu cầu có ở tình trạng không rõ ràng?
+ANSWER: A
+
+Dạng kiểm thử nào sau đây không thuộc kiểm thử hộp trắng:
+A. Kiểm thử điều kiện (Condition testing)
+B. Kiểm thử dòng dữ liệu ( Data flow testing)
+C. Kiểm thử vòng lặp (Loop testing)
+D. Phân hoạch lớp tương đương (equivalent class partition)
+ANSWER: C
+
+Yêu cầu nào sau đây không phải là yêu cầu chức năng:
+A. Bảo mật
+B. Các chi tiết về dữ liệu mà được tổ chức trong hệ thống
+C. Những mô tả về qui trình mà hệ thống được yêu cầu xử lý
+D. Các báo cáo kết xuất
+ANSWER: A
+
+Kết quả cuối cùng của giai đoạn xác định và phân tích yêu cầu là:
+A. Tài liệu SRS
+B. Sơ đồ DFD
+C. Sơ đồ Use case
+D. Sơ đồ ERD
+ANSWER: A
+
+Mục nào sau đây không bao gồm trong tài liệu SRS?
+A. Yêu cầu chức năng
+B. Yêu cầu phi chức năng
+C. Mục tiêu thực hiện
+D. Hướng dẫn sử dụng
+ANSWER: D
+
+Loại hình đặc tả nào được dùng phổ biến trong tài liệu SRS?
+A. Đặc tả cấu trúc dữ liệu
+B. Đặc tả chức năng
+C. Đặc tả bằng sơ đồ
+D. Đặc tả đối tượng
+ANSWER: C
+
+Mức độ một module kết nối với các module khác chỉ tới:
+A. Tính liên kết (coupling)
+B. Tính kết dính (cohesion)
+C. Chỉ đến chi phí tích hợp
+D. Chỉ đến chi phí phát triển
+ANSWER: A
+
+Phát biểu nào sau đây là sai khi nói về thiết kế?
+A. Thiết kế không là code, code không là thiết kế
+B. Thiết kế phải được đánh giá chất lượng khi nó đang được tạo không phải khi nó có vấn đề
+C. Mô hình thiết kế cung cấp chi tiết về kiến trúc (architecture), Giao diện (interfaces) và thành phần (component) cần thiết để cài đặt phần mềm
+D. Thiết kế phải chỉ ra được hệ thống thực thi như thế nào, các yêu cầu được hiện thực hóa ra sao
+ANSWER: D
+
+Mô tả nào sau đây có mức trừu tượng cao nhất:
+A. Kiến trúc hệ thống
+B. Chi tiết các thành phần
+C. Các bảng dữ liệu và ràng buộc
+D. Mô tả một chức năng phần mềm
+ANSWER: A
+
+Có bao nhiêu đặc trưng khi xem xét phân tich yêu cầu khả thi?
+A. 2
+B. 3
+C. 4
+D. 5
+ANSWER: B
+
+Dạng kiểm thử nào dùng kỹ thuật hộp trắng (white box test):
+A. Kiểm thử hồi quy (regression test)
+B. Kiểm thử nghiệm thu (acceptance test)
+C. Kiểm thử hệ thống (system test)
+D. Tất cả đều đúng
+ANSWER: A
+
+Xét đường độc lập cơ bản, nếu có 7 node phân nhánh thì ta có số đường thực thi cơ bản độc lập là:
+A. 6
+B. 7
+C. 8
+D. 9
+ANSWER: C
+
+Mô hình tiến trình phần mềm tiến hóa :
+A. Bản chất lặp
+B. Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm
+C. Nói chung không tạo ra những sản phẩm bỏ đi
+D. Tất cả các mục
+ANSWER: D
+
+Kết quả của chương trình dưới đây là:    class Point:   def __init__(self, x = 0, y = 0):   self.x = x  self.y = y  def __sub__(self, other):   x = self.x + other.x  y = self.y + other.y  return Point(x, y)  p1 = Point(3, 4)  p2 = Point(1, 2)  result = p1 - p2  print(result.x, result.y)
+A. 2 2
+B. 4 6
+C. 0 0
+D. 1 1
+ANSWER: B
+
+Khẳng định nào là đúng về chương trình dưới đây?    class A:   def __init__(self):   self.a = 1  self.__b = 1  def getY(self):   return self.__b    obj = A()  obj.a = 45  print(obj.a)
+A. Chương trình có lỗi xảy ra vì ' __b ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.
+B. Chương trình chạy bình thường và kết quả được in ra là 1.
+C. Chương trình có lỗi xảy ra vì ' a ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.
+D. Chương trình chạy bình thường và kết quả được in ra là 45.
+ANSWER: D
+
+Khẳng định nào là đúng về chương trình dưới đây?    class A:   def __init__(self):   self.x = 1  self.__y = 1  def getY(self):   return self.__y    a = A()  a.x = 45  print(a.x)
+A. Chương trình có lỗi xảy ra vì ' x ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.
+B. Chương trình chạy bình thường và kết quả được in ra là 1.
+C. Chương trình có lỗi xảy ra vì ' __y ' là thuộc tính private, không thể truy cập được từ bên ngoài lớp.
+D. Chương trình chạy bình thường và kết quả được in ra là 45.
+ANSWER: D
+
+Vòng lặp nào trả về kết quả dưới đây?    11111  22222  33333  44444  55555
+A. for i in range(1, 6): print(i, i, i, i, i)
+B. for i in range(1, 5): print(str(i) * 5)
+C. for i in range(1, 6): print(str(i) * 5)
+D. for i in range(0, 5): print(str(i) * 5)
+ANSWER: C
+
+Điền phần còn thiếu trong đoạn code để được out dưới đây:    55555  44444  33333  22222  11111  for i in range(5, 0, ____ ):   print(str(i) * 5)
+A. 0
+B. None
+C. 1
+D. -1
+ANSWER: D
+
+Đâu là kết quả của đoạn code dưới đây?    myList = [1, 5, 5, 5, 5, 1]  max = myList[0]  indexOfMax = 0  for i in range(1, len(myList)):   if myList[i] > max:   max = myList[i]   indexOfMax = i  print(indexOfMax)
+A. 0
+B. 4
+C. 1
+D. 5
+ANSWER: C
+
+Kết quả nào là output của đoạn code dưới đây?    x = True  y = False  z = False    if not x or y:   print(1)  elif not x or not y and z:   print(2)  elif not x or y or not y and x:   print(3)  else :   print(4)
+A. 2
+B. None
+C. 1
+D. 3
+ANSWER: D
+
+Output của hàm sau là gì? Lưu ý: số lượng khoảng trắng trước số đó là 5.    float(' -12345\n')
+A. -12345.0 (5 khoảng trắng trước số)
+B. -12345.0
+C. Error
+D. -12345.000000000…. (số thập phân vô hạn)
+ANSWER: B
+
+Kết quả của hàm hiển thị dưới đây là gì?    ord(65)  ord(‘A’)
+A. A 65
+B. Error 65
+C. A Error
+D. Error Error
+ANSWER: B
+
+Kết quả của hàm sau là gì?    float(‘-infinity’)  float(‘inf’)
+A. –inf inf
+B. –infinity inf
+C. Error Error
+D. Error Junk value
+ANSWER: A
+
+Output của chương trình dưới đây là gì?    def printMax(a, b):   if a > b:   print(a, 'is maximum')  elif a == b:   print(a, 'is equal to', b)  else :   print(b, 'is maximum')  printMax(3, 4)
+A. 3
+B. 4
+C. 4 is maximum
+D. Không có đáp án
+ANSWER: C
+
+Output của chương trình dưới đây là gì?    x = 50  def func(x):   print('Giá trị của x là', x)  x = 2  print('Giá trị của x được thay đổi thành', x)  func(x)  print('Giá trị hiện tại của x là', x)
+A. Giá trị hiện tại của x là 50
+B. Giá trị hiện tại của x là 100
+C. Giá trị hiện tại của x là 2
+D. Không có đáp án đúng
+ANSWER: A
+
+Output của chương trình dưới đây là gì?    x = 50  def func():   global x  print('Giá trị của x là', x)  x = 2  print('Giá trị của x được thay đổi thành', x)  func()  print('Giá trị hiện tại của x là', x)
+A. Giá trị của x là 50 Giá trị của x được thay đổi thành 2 Giá trị hiện tại của x là 50
+B. Giá trị của x là 50 Giá trị của x được thay đổi thành 2 Giá trị hiện tại của x là 2
+C. Giá trị của x là 50 Giá trị của x được thay đổi thành 50 Giá trị hiện tại của x là 50
+D. Không có đáp án đúng
+ANSWER: B
+
+Output của chương trình dưới đây là gì?    def func(a, b = 5, c = 10):   print('a bằng', a, 'và b bằng', b, 'và c bằng', c)  func(3, 7)  func(25, c = 24)  func(c = 50, a = 100)
+A. a bằng 7 và b bằng 3 và c bằng 10 a bằng 25 và b bằng 5 và c bằng 24 a bằng 5 và b bằng 100 và c bằng 50
+B. a bằng 3 và b bằng 7 và c bằng 10 a bằng 5 và b bằng 25 và c bằng 24 a bằng 50 và b bằng 100 và c bằng 5
+C. a bằng 3 và b bằng 7 và c bằng 10 a bằng 25 và b bằng 5 và c bằng 24 a bằng 100 và b bằng 5 và c bằng 50
+D. Không có đáp án đúng
+ANSWER: C
+
+Output của chương trình dưới đây là gì?    def maximum(x, y):   if x > y:   return x  elif x == y:   return 'Các số bằng nhau'  else :   return y  print(maximum(2, 3))
+A. 2
+B. 3
+C. Các số bằng nhau
+D. Không có đáp án
+ANSWER: B

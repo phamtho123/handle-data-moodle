@@ -1,0 +1,322 @@
+
+public class Test {     public static int switchIt(int x)     {     int j = 1;     switch (x) {     case 1:   j++;     case 2:   j++;     case 3:   j++;     case 4:   j++;     default:   j++;     }     return j + x;     }     public static void main(String[] args) {     System.out.println("value = " + switchIt(4));     }    }       Kết quả in ra của đoạn mã bên dưới là gì? Chọn một câu trả lời
+A. value = 3
+B. value = 4
+C. value = 5
+D. value = 7
+ANSWER: D
+
+class A {     int x = 10;     public void calTotal(A a) {     a.x = 12;     System.out.println(a.x);     }    }       Khi thực hiện lệnh:    A a = new A();    a.calTotal(a);    Giá trị của x sau khi thực hiện lệnh trên sẽ cho kết quả gì?
+A. 10
+B. 12
+C. 22
+D. 24
+ANSWER: B
+
+class Student {     public String sayHello() {     return "Student";     }    }    public class Man extends Student {     public int sayHello() {     return 0;     }    }       Đoạn mã sau có lỗi biên dịch nào? Chọn một câu trả lời
+A. Có lỗi biên dịch:sayHello() in Man cannot override sayHello() in Student return type int is not compatible with java.lang.String
+B. Không có lỗi biên dịch.
+C. Có lỗi biên dịch:sayHello() in Man cannot override sayHello() in Student because it is final
+D. Có lỗi biên dịch:sayHello() in Man and in Student has the same access modifier
+ANSWER: A
+
+public class Person {   protected String name;   protected int age;   public static void main(String[] args) {   Person p = new Person();   p.name = "Tom";   System.out.println(p.name);   }  }       Đoạn mã sau có lỗi biên dịch gì? Chọn một câu trả lời
+A. Không có lỗi biên dịch.
+B. name has protected access.
+C. age has protected access.
+D. name has public access.
+ANSWER: A
+
+class A {     int x = 10;     public void calTotal(A a) {     a.x = 12;     System.out.println(a.x);     }    }       Giá trị của x sau khi thực hiện lệnh trên sẽ cho kết quả gì?    Khi thực hiện lệnh:    A a = new A();    a.calTotal(a);
+A. 10
+B. 12
+C. 22
+D. 44
+ANSWER: B
+
+class Person {     protected String name;     public int age;    };    public class Main {     public static void main(String[] args) {     Person p = new Person();     p.name = "Tom";     }    }       Đoạn mã sau có lỗi biên dịch gì?
+A. Không có lỗi biên dịch.
+B. name has protected access.
+C. age has protected access.
+D. name has public access.
+ANSWER: B
+
+class Student {     public String sayHello() {     return "Student";     }    }    public class Man extends Student {     public String sayHello() {     return "man";     }     public static void main(String[] args) {     Man m = new Student();     System.out.println(m.sayHello());     }    }       Đoạn mã sau có lỗi biên dịch nào?
+A. Có lỗi biên dịch:Incompatible type, requiered Man, found Student.
+B. Không có lỗi biên dịch. In ra màn hình "man"
+C. Có lỗi biên dịch:access modified of sayHello in Student and Man are different
+D. Không có lỗi biên dịch. In ra màn hình "student"
+ANSWER: A
+
+class Student {     public int getAge() {     return 10;     }    }    public class Man extends Student {     protected int getAge(int added) {     return super.getAge() + added;     }    }       Đoạn mã sau có lỗi biên dịch nào?
+A. Không có lỗi biên dịch.
+B. Có lỗi biên dịch: getAge() has in Man can not have weaker same access modifier than in Student.
+C. Có lỗi biên dịch:call to super, must be the first in constructor in class Man.
+D. Có lỗi biên dịch: getAge() in Student and Man can not have the same access arguments.
+ANSWER: A
+
+package pac02;    public class ClassA {     public int xA;     public String yA;    }    ---------    package pac01;    import pac02.ClassA;    public class Test {     public static void main(String[] args) {     ClassA a = new ClassA();     a.xA = 12;     a.yA = "Hello";     System.out.println("a.xA = " + a.xA + "; a.yA = " + a.yA);     }    }       Chương trình sẽ in ra kết quả gì khi thực thi đoạn mã sau?
+A. Lỗi biên dịch dòng 2.5, 2.6, 2.7
+B. Lỗi biên dịch dòng 2.5
+C. Lỗi biên dịch dòng 2.6, 2.7
+D. a.xA = 12; a.yA = Hello
+ANSWER: D
+
+Khối lệnh thực hiện chuyện gì?    int[] mang = new int[10];  int s = 0;  int j = 0;  for (int i: mang) {   i = ++j;   s += i;  }  System.out.println(“S = “ + s);
+A. Nhập dữ liệu cho mang nguyên.
+B. Tính tổng mảng nguyên.
+C. Nhập dữ liệu và tính tổng mảng nguyên.
+D. Tất cả đều sai.
+ANSWER: C
+
+class A {     final public int method1(int a, int b) {   return 0;   }    }    class B extends A {     public int method1(int a, int b) {   return 1;   }    }    public class Test {     public static void main(Strings args[]) {     B b;     System.out.println("x = " + b.method1(0, 1));     }    }       Chương trình sẽ in ra cái gì?
+A. x = 0
+B. x = 1
+C. Lỗi biên dịch
+D. x=10
+ANSWER: C
+
+class Student {     public String name;    }    public class Man extends Student {     private String name;    }       Đoạn mã sau có lỗi biên dịch nào?
+A. Có lỗi biên dịch:name has private access in Man.
+B. Không có lỗi biên dịch.
+C. Có lỗi biên dịch:for name access modifier in Man for name is weaker in Student.
+D. Có lỗi biên dịch:name has public access in Student.
+ANSWER: B
+
+class Student {     private String name;    }    public class Man extends Student {     private String name;     public static void main(String[] args) {     Student m = new Student();     m.name = "Peter";     }    }       Đoạn mã sau có kết quả như thế nào?
+A. Có lỗi biên dịch:name has private access in Student.
+B. Không có lỗi biên dịch.
+C. In ra chữ “student”
+D. In ra chữ “Peter”
+ANSWER: A
+
+public class Person {   private String name;   protected int age;   public static void main(String[] args) {   Person p = new Person();   p.name = "Tom";   System.out.println(p.name);   }  }       Đoạn mã sau có lỗi biên dịch gì?
+A. Không có lỗi biên dịch.
+B. name has private access.
+C. age has protected access.
+D. name has public access.
+ANSWER: A
+
+package pac02;    public class ClassA {     protected int xA;     public String yA;    }    ---------    package pac01;    import pac02.ClassA;    public class Test {     public static void main(String[] args) {     ClassA a = new ClassA();     a.xA = 12;     a.yA = "Hello";     System.out.println("a.xA = " + a.xA + "; a.yA = " + a.yA);     }    }       Chương trình sẽ in ra kết quả gì khi thực thi đoạn mã sau?
+A. Lỗi biên dịch dòng 2.7
+B. Lỗi biên dịch dòng 2.5
+C. Lỗi biên dịch dòng 2.5, 2.7
+D. a.xA = 12; a.yA = Hello
+ANSWER: D
+
+public class Person {     private String name;     private int age;     public static void main(String[] args) {     Person p = new Person();     p.name = "Tom";     System.out.println(p.name);     }    }       Đoạn mã sau có lỗi biên dịch gì?
+A. Không có lỗi biên dịch.
+B. name has private access.
+C. \ge has private access.
+D. name has public access.
+ANSWER: A
+
+public class Main {     public static void main(String[] args) {     String names[] = {   "John",   "Anna",   "Peter",   "Victor",   "David"   };     names = new String[5];     System.out.println(names[2]);     }    }       Chương trình sau in ra mà hình xâu nào?
+A. Có lỗi biên dịch: use new keyword to create object
+B. Peter
+C. Anna
+D. null
+ANSWER: D
+
+StringBuffer s = new StringBuffer("hello how are you how?");    int x = s.indexOf("ow");    System.out.println(x);       Trong đoạn mã trên x nhận giá trị bao nhiêu?
+A. 7
+B. 6
+C. 5
+D. Lỗi biên dịch
+ANSWER: A
+
+class Student {     public int getAge() {     return 10;     }    }    public class Man extends Student {     public int getAge(int added) {     return super.getAge() + added;     }     public static void main(String[] args) {     Man s = new Man();     System.out.println(s.getAge());   System.out.println(s.getAge());     }    }       Hãy cho biết kết quả khi chạy đoạn chương trình sau?
+A. 10 11
+B. 10 10
+C. 11 11
+D. Không in gì và báo lỗi
+ANSWER: B
+
+class BreakDemo {   public static void main(String[] args) {   int[] arrayOfInts = {   32,   87,   3,   589,   12,   1076,   2000,   8,   622,   127   };   int searchFor = 12;   int i;   boolean fountIt = false;   for (i = 0; i < arrayOfInts.length; i++) {   if (arrayOfInts[i] == searchFor) {   fountIt = true;   break;   }   }   if (fountIt) {   System.out.println(“Found“ + searchFor + “at index“ + i);   } else System.out.println(searchFor + “not in the array”);   }  }       Chương trình trên sai ở dòng nào?
+A. 2 và 6
+B. 3 và 11, 15
+C. 5, 7, 9
+D. Chương trình không sai
+ANSWER: D
+
+class BreakDemo {   public static void main(String[] args) {   int[] arrayOfInts = {   32,   87,   3,   589,   12,   1076,   2000,   8,   622,   127   };   int searchFor = 12;   int i;   boolean fountIt = false;–Môn Java cơsở14   Trang 14   Ket - noi.com diễnđàn công nghệ,   giáo dục   for (i = 0; i < arrayOfInts.length; i++) {   if (arrayOfInts[i] == searchFor) {   fountIt = true;   break;   }   }   if (fountIt) {   System.out.println(“Found“ + searchFor + “at index“ + i);   } else System.out.println(searchFor + “not in the array”);   }  }       Chương trình thực hiện công việc gì?
+A. Tìm 1 phần tử trong mảng.
+B. So sánh các phần tử mảng với nhau.
+C. Tính tổng mảng.
+D. Tất cả đáp án đều sai.
+ANSWER: A
+
+class ContinueDemo {   public static void main(String[] args) {   String searchMe = “peter piper picked a peck of pickled peppers”;   int max = searchMe.length();   int numPs = 0;   for (int i = 0; i < max; i++) {   if (searchMe.charAt(i) != 'p') continue;   numPs++;   }   System.out.println(“Found“ + numPs + “p 's in the string.”);  }  }'       Chương trình sau thực hiện công việc gì?
+A. Đếm chữ cái p trong chuỗi ký tự
+B. Tìm xem chữ p có đứng trước chữ i trong chuỗi hay không
+C. Tìm kiếm chữ cái p trong chuỗi
+D. Cả 3 đáp án đều sai.
+ANSWER: A
+
+class ContinueDemo {   public static void main(String[] args) {   String searchMe = “peter piper picked a peck of pickled pepers”;   int max = searchMe.length();   int numPs = 0;   for (int i = 0; i < max; i++) {   if (searchMe.charAt(i) != 'p') continue;   numPs++;   }   System.out.println(“Found“ + numPs + “p 's in the string.”);  }  }'       Chương trình sau ra kết quả là gì?
+A. Found 9 p's in the string.
+B. Found 8 p's in the string.
+C. Found 10 p's in the string.
+D. Không có đáp án đúng.
+ANSWER: B
+
+double a, b;  if (a == 0)  if (b != 0) System.out.println(“Phuong trinh vo nghiem”);  else System.out.println(“Phuong trinh co vo so nghiem”);  else System.out.println(-b/a);       Khối lệnh sau ra kết quả là bao nhiêu với a = 0, b = 0?
+A. Phuong trinh vo nghiem
+B. Phuong trinh co vo so nghiem
+C. -1.6
+D. Lỗi biên dịch
+ANSWER: B
+
+int i = 1,  j = 10;    do {     if (i++>--j) {     continue;     }    } while ( i < 5 );    System.out.println("i = " + i + "and j = " + j);       Kết quả in ra của đoạn mã trên là gì?
+A. i = 6 and j = 6
+B. i = 5 and j = 5
+C. i = 6 and j = 5
+D. i = 5 and j = 6
+ANSWER: D
+
+public class Test {     public static void main(string args[]) {     int i = 0;     while (true) {     if (i == 4) break;     ++i;     System.out.println(i);     }     }  }       Giá trị cuối cùng của i tại dòng 7 là bao nhiêu?
+A. 0
+B. Lỗi biên dịch
+C. 4
+D. 5
+ANSWER: C
+
+public class Foo {    public static void main(String[] args) {    try {    return;    } finally {    System.out.println( "Finally" );    }    }    }  Kết quả in ra của đoạn mã trên là gì?    Chọn một câu trả lời
+A. Finally
+B. Lỗi biên dịch
+C. Đoạn mã thực thi nhưng không in ra kết quả
+D. Lỗi sinh ra trong quá trình chạy.
+ANSWER: A
+
+Câu hỏi không được kỹ sư phần mềm hiện nay quan tâm nữa:
+A. Tại sao chi phí phần cứng máy tính quá cao?
+B. Tại sao phần mềm mất một thời gian dài để hoàn tất?
+C. Tại sao người ta tốn nhiếu chi phí để phát triển một mẩu phần mềm?
+D. Tại sao những lỗi phần mềm không được loại bỏ trong sản phẩm trước khi xuất xưởng
+ANSWER: A
+
+Mô hình phát triển phần mềm lặp lại tăng thêm:
+A. Một hướng hợp lý khi yêu cầu được xác định rõ
+B. Một hướng tốt khi cần tạo nhanh một sản phẩm thực thi lõi
+C. Một hướng tốt nhất dùng cho những dự án có những nhóm phát triển lớn
+D. Một mô hình cách mạng không nhưng không được dùng cho sản phẩm thương mại
+ANSWER: B
+
+Ai là người không thích hợp để tham dự vào nhóm FAST (facilitated application specification techniques):
+A. Kỹ sư phần cứng và phần mềm
+B. Đại diện nhà sản xuất
+C. Đại diện thị trường
+D. Nhân viên tài chánh cao cấp
+ANSWER: D
+
+Những yêu cầu nào được quan tâm suốt QFD (quality function deployment):
+A. exciting requirements
+B. expected requirement
+C. normal requirements
+D. technology requirements
+ANSWER: D
+
+Phân tích giá trị được dẫn ra như là một phần của QFD (quality function deployment) nhằm xác định:
+A. Chi phí của hoạt động đảm bảo chất lượng của dự án
+B. Chi phí quan hệ của những yêu cầu qua việc triển khai chức năng, tác vụ và thông tin
+C. Độ ưu tiên quan hệ của những yêu cầu qua việc triển khai chức năng, tác vụ và thông tin
+D. Kích thước của bản ý kiến khách hàng
+ANSWER: C
+
+Trong ngữ cảnh của phân tích yêu cầu, hai loại phân tách vấn đề là:
+A. bottom-up và top-down
+B. horizontal and vertical
+C. subordinate và superordinate
+D. Không có mục nào
+ANSWER: B
+
+Tạo nguyên mẫu tiến hóa thường thích được dùng hơn tạo nguyên mẫu bỏ đi bởi vì:
+A. Cho phép tái sử dụng nguyên mẫu đầu
+B. Không đòi hỏi làm việc nhiều với khách hàng
+C. Dễ dành thực hiện nhanh
+D. Nhiều tin cậy hơn
+ANSWER: A
+
+Loại trừu tượng nào được dùng trong thiết kế phần mềm:
+A. Điều khiển
+B. Dữ liệu
+C. Thủ tục
+D. Tất cả mục trên
+ANSWER: D
+
+Khi luồng thông tin trong một đoạn của sơ đồ luồng dữ liệu thể hiện bằng một mục đơn mà bẩy một luồng dữ liệu khác theo một trong nhiều đường sẽ thể hiện:
+A. Liên kết thấp
+B. Module hóa tốt
+C. Luồng giao dịch (transaction)
+D. Luồng biến đổi (transform)
+ANSWER: C
+
+Mô hình nào đưa ra hình ảnh tiền sử (profile) người dùng cuối của hệ thống dựa vào máy tính:
+A. Mô hình thiết kế
+B. Mô hình người dùng
+C. Mô hình của người dùng
+D. Mô hình nhận thức hệ thống
+ANSWER: B
+
+Trong mô hình phân tích thành phần dựa vào kịch bản (Scenario based element) được dùng cho:
+A. Thiết kế kiến trúc
+B.Thiết kế thành phần
+C. Thiết kế giao diện
+D. Thiết kế dữ liệu/class
+ANSWER: C
+
+Trong mô hình CMM (Software Capability Maturity Model) có mấy mức độ trưởng thành:
+A. 5 mức độ
+B. 4 mức độ
+C. 6 mức độ
+D. 3 mức độ
+ANSWER: A
+
+Theo Boris Beizer, thiết kế Testcase cần theo ràng buộc (contraint):
+A. Theo một cách thức đầy đủ
+B. Tất cả đều đúng
+C. Nỗ lực và thời gian là tối thiểu
+D. Nhằm khám phá lỗi
+ANSWER: B
+
+Những thành phần kiến trúc trong kỹ thuật sản phẩm là:
+A. Dữ liệu, phần cứng, phần mềm, con người
+B. Dữ liệu, tài liệu, phần cứng, phần mềm
+C. Dữ liệu, phần cứng, phần mềm, thủ tục
+D. Tài liệu, phần cứng, con người, thủ tục
+ANSWER: A
+
+Phần mềm quản lý sinh viên của 1 trường là:
+A. Phần mềm hệ thống (System software)
+B. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+C. Phần mềm thời gian thực (Real time software)
+D. Phần mềm nghiệp vụ (Business software)
+ANSWER: D
+
+Theo thống kê từ những thách thức đối với công nghệ phần mềm thì lỗi nhiều nhất là do:
+A. Kiểm tra và bảo trì
+B. Phân tích yêu cầu
+C. Thiết kế
+D. Viết Code
+ANSWER: B
+
+Nguyên lý Pareto được áp dụng trong kiểm thử được phát biểu như sau:
+A. 80% lỗi trong chương trình thường do 20% bug gây ra
+B. 20% lỗi trong chương trình thường do 80% bug gây ra
+C. Chi phí sửa lỗi ở giai đoạn thu nhận yêu cầu chỉ bằng 1/5 chi phí sửa lỗi ở giai đoạn cuối
+D. 60% lỗi được tìm thấy trong giai đoạn kiển thử đơn vị
+ANSWER: A
+
+Mật độ lỗi (defect density) dùng để đo lường:
+A. Chất lượng sản phẩm cuối
+B. Dự án phần mềm
+C. Quá trình sản xuất
+D. Chất lượng bảo trì
+ANSWER: A
+
+Kỹ thuật thu thập yêu cầu nào cần đến chuyên gia?
+A. Interview
+B. Observation
+C. Expert
+D. Delphi
+ANSWER: C

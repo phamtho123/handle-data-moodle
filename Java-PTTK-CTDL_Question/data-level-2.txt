@@ -1,0 +1,511 @@
+
+Trong câu lệnh sau: public static void main(String[] agrs) thì phần tử agrs[0] chứa giá trị gì?
+A. Tên của chương trình
+B. Số lượng tham số
+C. Tham số đầu tiên của danh sách tham số
+D. Không câu nào đúng
+ANSWER: C
+
+Phương thức next() của lớp Scanner dùng để làm gì?
+A. Nhập một số nguyên
+B. Nhập một ký tự
+C. Nhập một chuỗi
+D. Không có phương thức này
+ANSWER: C
+
+Gói nào trong java chứa lớp Scanner dùng để nhập dữ liệu từ bàn phím?
+A. java.net
+B. java.io
+C. java.util
+D. java.awt
+ANSWER: A
+
+G/s đã định nghĩa lớp XX với một phương thức thông thường là Display, sau đó sinh ra đối tượng objX từ lớp XX. Để gọi phương thức Display ta sử dụng cú pháp nào?
+A. XX.Display;
+B. XX.Display();
+C. objX.Display();
+D. Display();
+ANSWER: C
+
+Đâu KHÔNG phải là thành phần trong cấu trúc của lớp trong java.
+A. Tên lớp
+B. Thuộc tính
+C. Phương thức
+D. Biến
+ANSWER: D
+
+Hàm tạo được sử dụng để hủy đối tượng
+A. Cả hai câu đều đúng
+B. Cả hai câu đều sai
+C. Câu 1 đúng, câu 2 sai
+D. Câu 2 đúng, câu 1 sai
+ANSWER: C
+
+Với giá trị nào của x, biểu thức sau trả về giá trị true(x thuộc kiểu int).    x%3==0
+A. 2
+B. 7
+C. 4
+D. 9
+ANSWER: D
+
+Đâu là khai báo biến hợp lệ?
+A. theOne
+B. the One
+C. 1the_One
+D. $the One
+ANSWER: A
+
+Trong các khai báo sau đâu là khai báo không hợp lệ?    Chọn một câu trả lời
+A. int a1[][] = new int[][3];
+B. int a2[][] = new int[2][3];
+C. int a3[][] = new int[2][];
+D. int a4[][] = {{}, {}, {}}
+ANSWER: A
+
+Java Virtual Machine là gì?
+A. Là một thành phần của Java platform dùng để đọc mã bytecode trong file .class
+B. Là chương trình biên dịch của java dùng để biên dịch file nguồn java thành mã bytecode.
+C. Là chương trình chạy cho java
+D. Tất cả các đáp án đều đúng
+ANSWER: A
+
+Thứ tự các từ khóa public và static khi khai bao như thế nào?
+A. public đứng trước static
+B. static đứng trước public
+C. Thứ tự bất kỳ nhưng thông thường public đứng trước
+D. Tất cả đều sai.
+ANSWER: C
+
+Câu lệnh khai báo chuẩn cho cách main như thế nào?
+A. public static void main(String[] a) {}
+B. public static int main(String args) {}
+C. public static main(String[] args) {}
+D. public static final void main(String[] args) {}
+ANSWER: A
+
+Câu nào sau đây là sai?
+A. /** chú thích */
+B. /* chú thích */
+C. /* chú thích
+D. // chú thích
+ANSWER: C
+
+Đối tượng trong phần mềm là gì?
+A. Là một bó phần mềm gồm các hành vi và trạng thái có liên quan với nhau.
+B. Là vật thể xác định của thế giới thực.
+C. Là vật thể gồm hành vi và trạng thái.
+D. Là các đối tượng được biểu diễn trong phần mềm gồm có 2 thuộc tính trường dữ liệu và các cách xử lý dữ liệu.
+ANSWER: D
+
+Khai báo lớp nào dưới đây là đúng?
+A. public class default {}
+B. protected inner class engine {}
+C. final class outer {}
+D. Tất cả đều sai.
+ANSWER: C
+
+Cách đặt tên nào sau đây là sai?
+A. 2word
+B. *word
+C. main
+D. Tất cả đều sai.
+ANSWER: D
+
+Một lớp trong Java có thể có bao nhiêu lớp cha?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: A
+
+Một lớp trong Java có bao nhiêu lớp con?
+A. 2
+B. 3
+C. 4
+D. Vô số
+ANSWER: D
+
+Chọn câu trả lời đúng nhất. Interface là gì?
+A. Là lớp chứa các cách rỗng có liên quan với nhau.
+B. Là một kiểu tham chiếu, tương tự như class, chỉ có thể chứa hằng giá trị, khai báo cách và kiểu lồng.
+C. Là một cách thực hiện của lớp khác.
+D. Là lớp nối giữa lớp cơ sở và lớp cha.
+ANSWER: B
+
+Có bao nhiêu loại biến trong Java?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: D
+
+Khái niệm cách start()?
+A. Mọi cách thực hiện tác vụ sau khi khởi tạo phải chèn lên cách start. start() bắt đầu việc thực thi của applet.
+B. Là cách bắt đầu của applet và chạy song song với applet.
+C. cách khởi tạo của applet và chạy song song với applet.
+D. Tất cả đều sai.
+ANSWER: A
+
+Trong các kiểu giá trị số thực đặc biệt dưới đây, kiểu nào là đúng?
+A. Dương vô cực
+B. Âm vô cực
+C. NaN
+D. Cả 3 giá trị trên
+ANSWER: D
+
+Phát biểu nào sau đây là đúng:    Chọn một câu trả lời
+A. Mảng có thể lưu giữ các phần tử thuộc nhiều kiểu dữ liệu khác nhau
+B. Chỉ số của mảng có thể sử dụng kiểu số thực (float, double)
+C. Biểu thức array.length được sử dụng để trả về số phần tử trong mảng
+D. Một phần tử của mảng không thể truyền vào trong một phương thức.
+ANSWER: C
+
+Phát biểu sau nào là SAI
+A. Mảng có kích thước không đổi trong toàn bộ chương trình
+B. Mảng là cấu trúc dữ liệu có khả năng lưu trữ nhiều thành phần (phần tử) dữ liệu với kiểu khác nhau
+C. Mảng N phần tử được đánh chỉ số từ 0 đến N - 1
+D. Chỉ số mảng bắt đầu bằng 0
+ANSWER: B
+
+class Student {}    public class Man extends Student {    }       Đoạn mã sau có lỗi biên dịch không? Nếu có là lỗi nào sau?
+A. Không có lỗi biên dịch.
+B. Có lỗi biên dịch:class Student is empty.
+C. Có lỗi biên dịch:class Man is empty.
+D. Có lỗi biên dịch:class Student is empty, class Man is empty.
+ANSWER: A
+
+Đâu là một khai báo interface đúng?    Chọn một câu trả lời
+A. public interface MyInterface {}
+B. public interface MyInterface { default int x; }
+C. public interface MyInterface { protected int sum(int x, int y); }
+D. public interface MyInterface { private int sum(int x, int y); }
+ANSWER: A
+
+Để đảo giá trị của một biến boolean, ta dùng toán tử nào?
+A. !
+B. >>
+C. <<
+D. >>>
+ANSWER: A
+
+Thẻ <input type=”Submit” dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nút lệnh dùng để gửi tin trong form đi
+C. Tạo một nút lệnh dùng để xóa thông tin trong form
+D. Tất cả các ý trên
+ANSWER: B
+
+Thẻ <input type=”Radio” …> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nhóm đối tượng chọn nhưng chọn duy nhất
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+ANSWER: B
+
+Thẻ <input type=”checkbox” …> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nhóm đối tượng chọn được nhiều đối tượng
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả ý trên
+ANSWER: B
+
+Thẻ <input type=”button” …> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một nút lệnh lên trên form
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả ý kiến trên
+ANSWER: B
+
+Hàm alert() dùng để làm gì?
+A. Dùng để hiện một thông điệp
+B. Dùng để hiện một thông báo nhập
+C. Dùng để chuyển đổi số sang chữ
+D. Tất cả các dạng trên
+ANSWER: A
+
+Thẻ <Frameset rows > </frameset>
+A. Dùng để chia trang web ra nhiều phần theo cột
+B. Dùng để chia trang web ra nhiều phần theo dòng
+C. Tất cả dạng trên
+D. Không có ý nào ở trên
+ANSWER: B
+
+Thẻ <Frame src=” duong dan ”>
+A. Dùng để chèn ảnh
+B. Dùng để lấy dữ liệu từ một trang khác
+C. Tất cả dạng trên
+D. Không có ý nào trong các ý trên
+ANSWER: B
+
+Thực hiện kiểm tra nếu biến “i” không bằng 5, câu lệnh nào là đúng?
+A. if (i != 5)
+B. if i <> 5
+C. if i =! 5 then
+D. if (i <> 5)
+ANSWER: A
+
+Cách viết câu lệnh IF nào sau đây là đúng?
+A. if (i == 5)
+B. if i == 5 then
+C. if i = 5 then
+D. if i = 5
+ANSWER: A
+
+Có mấy cách để truyền tham số vào cho một phương thức?    Chọn một câu trả lời
+A. 2
+B. 1
+C. 3
+D. 4
+ANSWER: A
+
+Mô hình phát triển dựa vào thành phần:
+A. Chỉ phù hợp cho thiết kế phần cứng máy tính
+B. Không thể hỗ trợ phát triển những thành phần sử dụng lại
+C. Dựa vào những kỹ thuật hỗ trợ đối tượng
+D. Không định chi phí hiệu quả bằng những độ đo phần mềm có thể định lượng
+ANSWER: C
+
+Thành phần nào của kỹ thuật tiến trình nghiệp vụ là trách nhiệm của kỹ sư phần mềm:
+A. Phân tích phạm vi nghiệp vụ
+B. Thiết kế hệ thống nghiệp vụ
+C. Kế hoạch sản phẩm
+D. Kế hoạch chiến lược thông tin
+ANSWER: B
+
+Cách tốt nhất để đưa tới việc xem xét việc đánh giá yêu cầu là:
+A. Kiểm tra lỗi mô hình hệ thống
+B. Nhờ khách hàng kiểm tra yêu cầu
+C. Gởi họ tới đội thiết kế và xem họ có sự quan tâm nào không
+D. Dùng danh sách các câu hỏi kiểm tra để kiểm tra mỗi yêu cầu
+ANSWER: D
+
+Mẫu mô hình hệ thống chứa thành phần?
+A. Input
+B. Output
+C. Giao diện người dùng
+D. Tất cả mục trên
+ANSWER: D
+
+Dòng thông tin biểu diễn cách thức mà dữ liệu và điều khiển:
+A. Quan hệ với một dữ liệu và điều khiển khác
+B. Biến đổi khi mỗi lần dịch chuyển qua hệ thống
+C. Sẽ được thực thi trong thiết kế cuối cùng
+D. Không có mục nào
+ANSWER: B
+
+Sơ đồ luồng dữ liệu:
+A. Đưa ra hình ảnh quan hệ giữa các đối tượng dữ liệu
+B. Đưa ra hình ảnh những chức năng biến đổi luồng dữ liệu
+C. Chỉ ra những quyết định logic chính khi chúng xuất hiện
+D. Chỉ ra sự tương tác của hệ thống với sự kiện bên ngoài
+ANSWER: B
+
+Sự quan trọng của thiết kế phần mềm có thể được tóm tắt bằng từ đơn:
+A. Accuracy
+B. Complexity
+C. Efficiency
+D. Quality
+ANSWER: D
+
+Thủ tục phần mềm tập trung vào:
+A. Cấp bậc điều khiển trong một cảm nhận trừu tượng hơn
+B. Xử lý chi tiết của mỗi module riêng biệt
+C. Xử lý chi tiết của mỗi tập module
+D. Quan hệ giữa điều khiển và thủ tục
+ANSWER: B
+
+Nguyên nhân của việc sinh lỗi do thiết kế mức thành phần trước khi thiết kế dữ liệu là:
+A. Thiết kế thành phần thì phụ thuộc vào ngôn ngữ còn thiết kế dữ liệu thì không
+B. Thiết kế dữ liệu thì dễ thực hiện hơn
+C. Thiết kế dữ liệu thì khó thực hiện
+D. Cấu trúc dữ liệu thường ảnh hưởng tới cách thức mà thíết kế thành phần phải theo
+ANSWER: D
+
+Mục nào không là một phần của kiến trúc phần mềm:
+A. Chi tiết giải thuật
+B. Cơ sở dữ liệu
+C. Thiết kế dữ liệu
+D. Cấu trúc chương trình
+ANSWER: A
+
+Mẫu kiến trúc nhấn mạnh tới những thành phần:
+A. Ràng buộc
+B. Tập hợp những thành phần
+C. Mô hình ngữ nghĩa
+D. Tất cả những mục
+ANSWER: D
+
+Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào:
+A. Tính truy cập và tính tin cậy của hệ thống
+B. Dữ liệu và điều khiển của hệ thống
+C. Tính chức năng của hệ thống
+D. Những chi tiết thực thi của hệ thống
+ANSWER: B
+
+Những nguyên lý thiết kế giao diện nào không cho phép người dùng còn điều khiển tương tác với máy tính:
+A. Cho phép được gián đoạn
+B. Cho phép tương tác có thể undo
+C. Che dấu những bản chất kỹ thuật với những người dùng thường
+D. Chỉ cung cấp một cách thức xác định cứng khi hoàn thành tác vụ
+ANSWER: D
+
+Sự toàn vẹn (consistency) giao diện ngầm định:
+A. Những kỹ thuật input giữ tương tự suốt ứng dụng
+B. Mỗi ứng dụng phải có look and feel riêng biệt
+C. Cách thức điều hướng (navigational) nhạy với ngữ cảnh
+D. Câu a và b
+ANSWER: D
+
+Mô hình nào đưa ra hình ảnh look and feel cho giao diện người dùng cùng những thông tin hỗ trợ:
+A. Mô hình thiết kế
+B. Mô hình người dùng
+C. Mô hình hình ảnh hệ thống
+D. Mô hình nhận thức hệ thống
+ANSWER: C
+
+Hướng tiếp cận nào để những phân tích tác vụ của người dùng trong thiết kế giao diện người dùng:
+A. Người dùng cho biết những ưa thích qua bản câu hỏi
+B. Dựa vào ý kiến của những lập trình viên có kinh nghiệm
+C. Nghiên cứu những hệ thống tự động liên quan
+D. Quan sát thao tác ngƣời dùng
+ANSWER: D
+
+Những vấn đề thiết kế chung nổi trội lên trong hầu hết giao diện người dùng:
+A. Kết nối tiền sử người dùng (profile) và shortcut chức năng
+B. Xử lý lỗi và thời gian đáp ứng của hệ thống
+C. Quyết định hiển thị hình ảnh và thiết kế icon
+D. Không có mục nào
+ANSWER: B
+
+Những độ đo phức tạp vòng (cyclomatic complexity metric) cung cấp cho người thiết kế thống tin về số
+A. Chu kỳ trong chương trình
+B. Số lỗi trong chương trình
+C. Những đường logic độc lập trong chương trình
+D. Những phát biểu của chương trình
+ANSWER: C
+
+Kiểm thử điều kiện là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case:
+A. Dựa vào kiểm thử đường cơ bản
+B. Thử thách điều kiện logic trong module phần mềm
+C. Chọn những đường dẫn kiểm tra dựa vào những vị trí và dùng những biến
+D. Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+ANSWER: B
+
+Kiểm thử luồng dữ liệu là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case:
+A. Dựa vào kiểm thử đường cơ bản
+B. Thử thách điều kiện logic trong module phần mềm
+C. Chọn những đƣờng dẫn kiểm tra dựa vào những vị trí và dùng những biến
+D. Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+ANSWER: C
+
+Lý do tốt nhất cho việc dùng nhóm kiểm tra phần mềm độc lập là:
+A. Những người phát triển phần mềm không cần làm bất kỳ kiểm thử nào
+B. Những người lạ sẽ kiểm phần mềm rất chặt
+C. Những người kiểm thử không được dính dáng tới dự án cho đến khi kiểm thử bắt đầu
+D. Mâu thuẩn về quyền lợi giữa những ngƣời phát triển và những ngƣời kiểm thử sẽ giảm
+ANSWER: D
+
+Kiểm thử tích hợp Top-down có thuận lợi chính là:
+A. Những module mức thấp không bao giờ cần kiểm thử
+B. Những điểm quyết định chính được kiểm thử sớm
+C. Không có những stub cần phải viết
+D. Không có mục nào
+ANSWER: B
+
+Hướng debug là gì?
+A. Backtracking
+B. Brute force
+C. Sự loại trừ nguyên nhân
+D. Tất cả các mục
+ANSWER: D
+
+Trong biểu diễn lịch biểu dự án Critical path là đường:
+A. Là một đường duy nhất
+B. Có thời gian ngắn nhất
+C. Có thời gian dài nhất
+D. Tất cả đều đúng phụ thuộc vào dự án
+ANSWER: C
+
+Theo chiến thuật kiểm nghiệm phổ biến, kiểm nghiệm tính năng tương quan với:
+A. Phân tích toàn bộ hệ thống
+B. Thiết kế
+C. Phân tích yêu cầu
+D. Mã hóa
+ANSWER: C
+
+Sự toàn vẹn (consistency) giao diện ngầm định :
+A. Những kỹ thuật input giữ tương tự suốt ứng dụng
+B. . Mỗi ứng dụng phải có look and feel riêng biệt
+C. Cách thức điều hướng (navigational) nhạy với ngữ cảnh
+D. Câu a và b
+ANSWER: D
+
+Mục nào liên quan tới phân tích người dùng:
+A. Mô hình hệ thống của người dùng
+B. Trong tình huống đặc trưng thì người dùng thực hiện công việc gì?
+C. Những feedback từ việc đánh giá của người dùng
+D. Nếu người dùng xảy ra lỗi thì hậu quả như thế nào?
+ANSWER: D
+
+Tiêu chuẩn ISO-14598 đưa ra:
+A. Đưa ra quy trình đánh giá tính an toàn cho sản phẩm phần mềm
+B. Đưa ra quy trình đánh giá hiệu quả của phần mềm
+C. Đưa ra quy trình đánh giá chất lượng cho sản phẩm phần mềm
+D. Đưa ra quy trình đánh giá tính khả dụng cho sản phẩm phần mềm
+ANSWER: C
+
+IEEE 830-1993 là một khuyến nghị tiêu chuẩn cho?
+A. Software requirement specification
+B. Software design
+C. Testing
+D. Coding
+ANSWER: A
+
+Phần mềm dự báo thời tiết thu thập các số liệu về nhiệt độ, độ ẩm, … xử lý tính toán để cho ra các dự báo thời tiết là 1 ví dụ của loại phần mềm:
+A. Phần mềm hệ thống (System software)
+B. Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)
+C. Phần mềm thời gian thực (Real time software)
+D. Phần mềm nghiệp vụ (Business software)
+ANSWER: C
+
+Theo một báo cáo của IBM, "31% các dự án bị hủy bỏ trước khi chúng được hoàn thành, 53% vượt dự toán trung bình 189% và cứ mỗi 100 dự án, có 94 dự án khởi động lại". Lý do nào cho số liệu thống kê trên?
+A. Thiếu đào tạo đầy đủ về công nghệ phần mềm
+B. Thiếu đạo đức phần mềm và sự hiểu biết
+C. Quản lý các vấn đề trong công ty
+D. Ảnh hưởng của sự suy thoái kinh tế
+ANSWER: A
+
+Mối quan tâm chính của công nghệ phần mềm là gì?
+A. Sản xuất phần cứng
+B. Sản xuất phần mềm
+C. Cấu hình mạng
+D. Phần mềm có thể dùng lại
+ANSWER: B
+
+Yêu cầu có thể chia ra thành các lọai nào sau đây?
+A. Chức năng, phi chức năng, yêu cầu hệ thống
+B. Chức năng, phi chức năng
+C. Chức năng, phi chức năng, yêu cầu miền ứng dụng
+D. Chức năng, phi chức năng, yêu cầu nghiệp vụ
+ANSWER: B
+
+ 
+A. Có định hướng thời gian
+B. Có giá trị pháp lý
+C. Tính mô tả trừu tượng
+D. Có thể mô tả bằng toán học
+ANSWER: A
+
+CASE là từ viết tắt của:
+A. Cost Aided Software Engineering
+B. Computer Aided Software Engineering
+C. Control Aided Software Engineering
+D. Computer Analyzing Software Engineering
+ANSWER: B
+
+Mục nào không dùng cho đặc tả yêu cầu:
+A. Đặc tả thao tác
+B. Đặc tả mô hình
+C. Đặc tả bằng sơ đồ
+D. Đặc tả thuật toán
+ANSWER: B
