@@ -489,13 +489,6 @@ C. Chức năng, phi chức năng, yêu cầu miền ứng dụng
 D. Chức năng, phi chức năng, yêu cầu nghiệp vụ
 ANSWER: B
 
- 
-A. Có định hướng thời gian
-B. Có giá trị pháp lý
-C. Tính mô tả trừu tượng
-D. Có thể mô tả bằng toán học
-ANSWER: A
-
 CASE là từ viết tắt của:
 A. Cost Aided Software Engineering
 B. Computer Aided Software Engineering

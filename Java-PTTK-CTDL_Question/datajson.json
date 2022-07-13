@@ -164,7 +164,7 @@
   "Question": "\nLựa chọn đáp án phù hợp:    (a) byte (1) 256    (b) char (2) 5000    (c)int (3) 4899.99    (d) short (4)126    (e) double (5) 'F'\n",
   "Option A": "A. a-4, b-5, c-2, d-1, e-3\n",
   "Option B": "B. a-1, b-2, c-2, d-1, e-3\n",
-  "Option C": ". a-1, b-5, c-4, d-4, e-3\n",
+  "Option C": "C. a-1, b-5, c-4, d-4, e-3\n",
   "Option D": "D. a-5, b-4, c-1, d-2, e-3\n",
   "Answer": "ANSWER: A\n",
   "Level": "3"
@@ -3197,16 +3197,6 @@
   "Option D": "D. Khả thi về chất lượng\n",
   "Answer": "ANSWER: D\n",
   "Level": "1"
- },
- {
-  "STT": 321,
-  "Question": "\n \n",
-  "Option A": "A. Có định hướng thời gian\n",
-  "Option B": "B. Có giá trị pháp lý\n",
-  "Option C": "C. Tính mô tả trừu tượng\n",
-  "Option D": "D. Có thể mô tả bằng toán học\n",
-  "Answer": "ANSWER: A\n",
-  "Level": "2"
  },
  {
   "STT": 322,

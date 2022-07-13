@@ -30,7 +30,7 @@ ANSWER: D
 Lựa chọn đáp án phù hợp:    (a) byte (1) 256    (b) char (2) 5000    (c)int (3) 4899.99    (d) short (4)126    (e) double (5) 'F'
 A. a-4, b-5, c-2, d-1, e-3
 B. a-1, b-2, c-2, d-1, e-3
-. a-1, b-5, c-4, d-4, e-3
+C. a-1, b-5, c-4, d-4, e-3
 D. a-5, b-4, c-1, d-2, e-3
 ANSWER: A
 
